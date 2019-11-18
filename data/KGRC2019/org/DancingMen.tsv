@@ -1,0 +1,1197 @@
+ID	Property	原文	英訳	絶対時間	Type
+1	対象文	踊る人形が紙に書かれていた	Dancing dolls A are drawn on paper		
+1	情報源				
+1	hasPredicate	書かれていた	beDrawn		
+1	Who	踊る人形	Dancing dolls A		Object
+1	On	紙	paper		Object
+2	対象文	キュービットは文字の意味を知りたい	Qubit wants to know the meaning of Dancing dolls A		
+2	情報源				
+2	hasPredicate	知りたい	notKnow		
+2	What	文字の意味	Meaning of Dancing dolls A		Object
+2	Who	キュービット	Qubit		Person
+3	対象文	キュービットの背は高い	Qubit is tall		
+3	情報源				
+3	hasProperty	高い	tall		
+3	Who	キュービット	Qubit		Person
+4	対象文	キュービットは紳士である	Qubit is a gentleman		
+4	情報源				
+4	hasProperty	紳士である	gentle		
+4	Who	キュービット	Qubit		Person
+5	対象文	人形が紙の上で踊っている	Dolls are dancing on paper		
+5	情報源				
+5	hasPredicate	踊っている 	beDancing		
+5	Who	人形	dolls		Object
+5	On	紙	paper		Object
+6	対象文	エルシィは文字を見た	Elsie see Dancing dolls A		
+6	情報源				
+6	hasPredicate	見た	see		
+6	What	文字	Dancing dolls A		Object
+6	Who	エルシィ	Elsie		Person
+6	then	7	7		
+7	対象文	そして，エルシィは卒倒した	Elsie falls		
+7	情報源				
+7	hasPredicate	卒倒した	fall		
+7	Who	エルシィ	Elsie		Person
+8	対象文	踊る人形aが鉛筆で描かれていた	Dancing dolls A are drawn with a pencil		
+8	情報源				
+8	hasPredicate	描かれていた	beDrawn		
+8	Who	踊る人形a	Dancing dolls A		Object
+8	How	鉛筆	pencil		Object
+9	対象文	キュービットは昨年，結婚した	Qubit get married last year		
+9	情報源				
+9	hasPredicate	結婚した	getMarried		
+9	Whom	エルシィ	Elsie		Person
+9	Who	キュービット	Qubit		Person
+9	When	昨年	last year	1902-07-30T10	
+10	対象文	キュービットはノーフォーク州の旧家である	Qubit is a old family in Norfolk		
+10	情報源				
+10	hasPredicate	である	equalTo		
+10	Where	ノーフォーク州	Norfolk		Place
+10	What	旧家	old family		Object
+10	Who	キュービット	Qubit		Person
+11	対象文	エルシィはアメリカ人である	Elsie is American		
+11	情報源				
+11	hasProperty	アメリカ人である	American		
+11	Who	エルシィ	Elsie		Person
+13	対象文	キュービットとエルシィはノーフォーク州に住んでいる	Qubit and Elsie live in Norfolk		
+13	情報源				
+13	hasPredicate	住んでいる	live		
+13	Who	エルシィ	Elsie		Person
+13	Where	ノーフォーク州	Norfolk		Place
+13	Who	キュービット	Qubit		Person
+14	対象文	キュービットはエルシィの過去を知らない	Qubit does not know Elsie's past		
+14	情報源				
+14	hasPredicate	知らない	notKnow		
+14	What	エルシィの過去	Past of Elsie		Object
+14	Who	キュービット	Qubit		Person
+15	対象文	キュービットは以下を言った	Qubit say the followings		
+15	情報源				
+15	hasPredicate	言った	say		
+15	What	16,17,18	16, 17, 18		
+15	Who	キュービット	Qubit		Person
+16	対象文	エルシィは真面目である	Elsie is serious		
+16	情報源	キュービットの発言	Remark by Qubit		
+16	hasProperty	真面目である	serious		
+16	Who	エルシィ	Elsie		Person
+17	対象文	エルシィは嫌な思い出を持つ	Elsie has bad memories		
+17	情報源	キュービットの発言	Remark by Qubit		
+17	hasPredicate	持つ	have		
+17	What	嫌な思い出	Bad memories		Object
+17	Who	エルシィ	Elsie		Person
+18	対象文	エルシィは思い出を言わない	Elsie does not say memories		
+18	情報源	キュービットの発言	Remark by Qubit		
+18	hasPredicate	言わない	notSay		
+18	Who	エルシィ	Elsie		Person
+18	What	思い出	Past of Elsie		Object
+19	対象文	キュービットは6月の末に災いの兆しを見た	Qubit see signs of the evil at the end of June		
+19	情報源				
+19	hasPredicate	見た	see		
+19	Who	キュービット	Qubit		Person
+19	What	災いの兆し	Signs of evil		Object
+19	When	6月末	end of June	1903-06-30T10	
+20	対象文	エルシィはアメリカの手紙を受け取った	Elsie receives Letter Z from US		
+20	情報源				
+20	hasPredicate	受け取った	receive		
+20	Who	エルシィ	Elsie		Person
+20	What	手紙	Letter Z		Object
+20	From	アメリカ	America		Place
+20	When	6月末	end of June	1903-06-30T10	
+21	対象文	手紙はアメリカの消印を持っていた	The Letter Z has an American postmark		
+21	情報源				
+21	hasPredicate	持っていた	have		
+21	What	アメリカの消印	American postmark		Object
+21	Who	手紙	Letter Z		Object
+22	対象文	エルシィの顔は真っ青だった	Elsie's face turns blue		
+22	情報源				
+22	hasProperty	真っ青だった	blue		
+22	Who	エルシィの顔	face of Elsie		Object
+23	対象文	エルシィは手紙を読んだ	Elsie read the Letter Z		
+23	情報源				
+23	hasPredicate	読んだ	read		
+23	Who	エルシィ	Elsie		Person
+23	What	手紙	Letter Z		Object
+23	then	24	24		
+24	対象文	エルシィは暖炉に手紙を入れた	Elsie put the Letter Z in the fireplace		
+24	情報源				
+24	hasPredicate	入れた	put		
+24	Who	エルシィ	Elsie		Person
+24	To	暖炉	fireplace		Object
+24	What	手紙	Letter Z		Object
+24	then	25	25		
+25	対象文	エルシィは黙っている	Elsie shuts up		
+25	情報源				
+25	hasPredicate	黙っている	shutUp		
+25	Who	エルシィ	Elsie		Person
+26	対象文	キュービットは約束に従った	Qubit follows the promise		
+26	情報源				
+26	hasPredicate	従った	follow		
+26	What	約束	promise		Object
+26	Who	キュービット	Qubit		Person
+26	then	27	27		
+27	対象文	キュービットは黙っている	Qubit shuts up		
+27	情報源				
+27	hasPredicate	黙っている	shutUp		
+27	Who	キュービット	Qubit		Person
+28	対象文	キュービットは先週の火曜日、ガラス窓に踊る人形を見た	Qubit see Dancing dolls in a glass window last Tuesday		
+28	情報源				
+28	hasPredicate	見た	see		
+28	What	踊る人形	Dancing dolls		Object
+28	Where	ガラス窓	Glass window		Object
+28	Who	キュービット	Qubit		Person
+28	When	先週火曜日	last Tuesday	1903-07-23T10	
+29	対象文	キュービットは以下を思った	Qubit thinks of the following		
+29	情報源				
+29	hasPredicate	思った	think		
+29	What	30	30		
+29	Who	キュービット	Qubit		Person
+30	対象文	馬番の少年が踊る人形を描いた	The horse boy draws Dancing dolls		
+30	情報源	キュービットの考え	Idea of Qubit		
+30	hasPredicate	描いた	draw		
+30	What	踊る人形	Dancing dolls		Object
+30	Who	馬番の少年	Horse boy		Person
+31	対象文	馬番の少年は以下を言った	The horse boy says the following		
+31	情報源				
+31	hasPredicate	言った	say		
+31	What	32	32		
+31	Who	馬番の少年	Horse boy		Person
+32	対象文	馬番の少年は踊る人形を知らない	The horse boy does not know Dancing dolls		
+32	情報源	馬番の少年の発言	Remark by horse boy		
+32	hasPredicate	知らない	notKnow		
+32	What	踊る人形	Dancing dolls		Object
+32	Who	馬番の少年	Horse boy		Person
+33	対象文	踊る人形は夜に描かれた	Dancing dolls are drawn at night		
+33	情報源				
+33	hasPredicate	描かれた	beDrawn		
+33	Who	踊る人形	Dancing dolls		Object
+33	When	夜	night	1903-07-23T02	
+34	対象文	キュービットは昨日の朝、庭の日時計の上に踊る人形を見た	Qubit see Dancing dolls on a sundial in the garden yesterday morning		
+34	情報源				
+34	hasPredicate	見た	see		
+34	What	踊る人形	Dancing dolls		Object
+34	Who	キュービット	Qubit		Person
+34	On	庭の日時計	Garden sundial		Object
+34	When	昨日の朝	yesterday morning	1903-07-29T08	
+35	対象文	キュービットはエルシィに踊る人形を見せた	Qubit shows Elsie Dancing dolls		
+35	情報源				
+35	hasPredicate	見せた	show		
+35	What	踊る人形	Dancing dolls		Object
+35	Whom	エルシィ	Elsie		Person
+35	Who	キュービット	Qubit		Person
+35	then	36	36		
+36	対象文	エルシィは卒倒した	Elsie falls		
+36	情報源				
+36	hasPredicate	卒倒した	fall		
+36	Who	エルシィ	Elsie		Person
+37	対象文	キュービットはホームズに手紙を書いた	Qubit sends the Letter X to Holmes		
+37	情報源				
+37	hasPredicate	書いた	send		
+37	Whom	ホームズ	Holmes		Person
+37	What	手紙	Letter X		Object
+37	Who	キュービット	Qubit		Person
+37	At the same time	38	38		
+37	When			1903-07-29T10	
+38	対象文	キュービットは踊る人形をホームズに送った	Qubit sends a dancing doll to Holmes		
+38	情報源				
+38	hasPredicate	送った	sent		
+38	What	踊る人形	Dancing dolls		Object
+38	Whom	ホームズ	Holmes		Person
+38	Who	キュービット	Qubit		Person
+39	対象文	キュービットはエルシィに過去の話を強要しなかった	Qubit does not force Elsie to talk about the past		
+39	情報源				
+39	hasPredicate	強要しなかった	notForce		
+39	Whom	エルシィ	Elsie		Person
+39	What	過去の話	Past of Elsie		Object
+39	Who	キュービット	Qubit		Person
+40	対象文	新顔が近所で現れた	New face appears in the neighborhood		
+40	情報源				
+40	hasPredicate	現れた	appear		
+40	Where	近所	Neighborhood		Place
+40	Who	新顔	New_face		Person
+40	When			1903-06-29T10	
+41	対象文	ホームズはキュービットに以下を頼んだ	Holmes asks Qubit the following		
+41	情報源				
+41	hasPredicate	頼んだ	ask		
+41	What	42	42	1903-07-30T14	
+41	Who	ホームズ	Holmes		Person
+41	Whom	キュービット	Qubit		Person
+42	対象文	キュービットは踊る人形を写し取る	Qubit copies Dancing dolls		
+42	情報源	ホームズの発言	Remark by Holmes		
+42	hasPredicate	写し取る	copy		
+42	What	踊る人形	Dancing dolls		Object
+42	Who	キュービット	Qubit		Person
+43	対象文	今朝，ホームズはキュービットから電報を受け取った	Holmes receives a telegram from Qubit this morning		
+43	情報源				
+43	hasPredicate	受け取った	receive		
+43	Who	ホームズ	Holmes		Person
+43	From	キュービット	Qubit		Person
+43	What	電報	telegram		Object
+43	When	今朝	this morning	1903-08-03T10	
+43	then	44	44		
+44	対象文	キュービットは駅からやってきた	Qubit comes from the station		
+44	情報源				
+44	hasPredicate	やってきた	come		
+44	Who	キュービット	Qubit		Person
+44	From	駅	station		Place
+44	When			1903-08-03T10	
+44	then	45	45		
+45	対象文	キュービットはホームズを訪ねた	Qubit visits Holmes		
+45	情報源				
+45	hasPredicate	訪ねた	come		
+45	Who	キュービット	Qubit		Person
+45	To	ホームズ	Holmes		Person
+45	When			1903-08-03T10	
+46	対象文	キュービットは翌朝に踊る人形Bを見た	Qubit see Dancing dolls B the next morning		
+46	情報源				
+46	hasPredicate	見た	see		
+46	What	踊る人形b	Dancing dolls B		Object
+46	When	翌朝	next morning	1903-07-31T08	
+46	Who	キュービット	Qubit		Person
+47	対象文	踊る人形Bは物置の扉の上にチョークで描かれていた	Dancing dolls B are drawn with chalk on the door of the storeroom		
+47	情報源				
+47	hasPredicate	描かれていた	beDrawn		
+47	Who	踊る人形b	Dancing dolls B		Object
+47	On	物置の扉	Storage door		Object
+47	How	チョーク	Chalk		Object
+47	then	49	49		
+49	対象文	2日後の朝、踊る人形cが描かれていた	Two days later, Dancing dolls C are drawn in the morning		
+49	情報源				
+49	hasPredicate	描かれていた	beDrawn		
+49	Who	踊る人形c	Dancing dolls C		Object
+49	When	2日後の朝	morning after 2 days	1903-08-01T08	
+49	then	50	50		
+50	対象文	3日後、紙の上に踊る人形Cが描かれていた	Three days later, Dancing dolls C are drawn on paper		
+50	情報源				
+50	hasPredicate	描かれていた	beDrawn		
+50	Who	踊る人形c	Dancing dolls C		Object
+50	On	紙	paper		Object
+50	When	3日後の朝	3 days later	1903-08-02T08	
+51	対象文	踊る人形Cは日時計の小石に立てかけてあった	Dancing dolls C are standing on the pebbles of a sundial		
+51	情報源				
+51	hasPredicate	立てかけてあった	stand		
+51	Who	踊る人形c	Dancing dolls C		Object
+51	Where	日時計の小石	Pebble of sundial		Object
+52	対象文	キュービットは午前2時頃、窓際に腰かけていた	Qubit sits by the window around 2 am		
+52	情報源				
+52	hasPredicate	腰かけていた	sit		
+52	Who	キュービット	Qubit		Person
+52	Where	窓際	window		Object
+52	When	午前2時頃	2:00	1903-08-03T02	
+52	At the same time	53	53		
+53	対象文	午前2時頃、外は月明かりだけである	Around 2 am, outside is moonlighted		
+53	情報源				
+53	hasProperty	月明かりだけである	moonlighted		
+53	Who	外	outside		Place
+53	When	午前2時頃	2:00	1903-08-03T02	
+54	対象文	エルシィはガウンを着ていた	Elsie wears a gown		
+54	情報源				
+54	hasPredicate	着ていた	wear		
+54	Who	エルシィ	Elsie		Person
+54	What	ガウン	gown		Object
+55	対象文	エルシィはキュービットに以下を言った	Elsie says the following to Qubit		
+55	情報源				
+55	hasPredicate	言った	say		
+55	What	56	56		
+55	Who	エルシィ	Elsie		Person
+55	Whom	キュービット	Qubit		Person
+56	対象文	キュービットは寝室に帰る	Qubit returns to bedroom		
+56	情報源	エルシィの発言	Remark by Elsie		
+56	hasPredicate	帰る	return		
+56	Where	寝室	Bedroom		Place
+56	Who	キュービット	Qubit		Person
+57	対象文	物置の影で何かが動いた	Something moves in the shadow of the storeroom		
+57	情報源				
+57	hasPredicate	動いた	move		
+57	Where	物置の影	Shadow of storeroom		Object
+57	Who	何か	something		Object
+58	対象文	キュービットは拳銃を持った	Qubit holds a handgun		
+58	情報源				
+58	hasPredicate	持った	take		
+58	What	拳銃	Handgun		Object
+58	Who	キュービット	Qubit		Person
+58	then	59	59		
+59	対象文	エルシィはキュービットを止めた	Elsie stops Qubit		
+59	情報源				
+59	hasPredicate	止めた	stop		
+59	Who	エルシィ	Elsie		Person
+59	What	キュービット	Qubit		Person
+61	対象文	翌朝、物置の扉の上に踊る人形Dが描かれていた	The next morning, Dancing dolls D are drawn on the door of the storeroom		
+61	情報源				
+61	hasPredicate	描かれていた	beDrawn		
+61	Who	踊る人形d	Dancing dolls D		Object
+61	When	翌朝	the next morning	1903-08-03T08	
+61	On	物置の扉	door of storeroom		Object
+62	対象文	踊る人形Dは板2に描かれていた	Dancing dolls D are drawn on the Board 2		
+62	情報源				
+62	hasPredicate	描かれていた	beDrawn		
+62	Where	板2	Board 2		Object
+62	Who	踊る人形D	Dancing dolls D		Object
+62a	対象文	踊る人形Cは板1に描かれていた	Dancing dolls C are drawn on the Board 1		
+62a	情報源				
+62a	hasPredicate	描かれていた	beDrawn		
+62a	Where	板1	Board 1		Object
+62a	Who	踊る人形C	Dancing dolls C		Object
+62b	対象文	板1と板2は異なる	The Board 1 is different with the Board 2		
+62b	情報源				
+62b	hasPredicate	異なる	notEqualTo		
+62b	Who	板1	Board 1		
+62b	What	板2	Board 2		
+63	対象文	キュービットは以下を言った	Qubit says the followng		
+63	情報源				
+63	hasPredicate	言った	say		
+63	What	64	64		
+63	Who	キュービット	Qubit		Person
+64	対象文	エルシィは守るためにキュービットを抑えた	Elsie stops Qubits to protect		
+64	情報源	キュービットの発言	Remark by Qubit		
+64	hasPredicate	抑えた	stop		
+64	Who	エルシィ	Elsie		Person
+64	Why	守る	protect of Qubit		
+64	What	キュービット	Qubit		Person
+65	対象文	ホームズはキュービットに以下を言った	Holmes says the following to Qubit		
+65	情報源				
+65	hasPredicate	言った	say		
+65	What	66	66		
+65	Who	ホームズ	Holmes		Person
+65	Whom	キュービット	Qubit		Person
+66	対象文	キュービットは今日中に帰宅する	Qubit returns home today		
+66	情報源	ホームズの発言	Remark by Holmes		
+66	hasPredicate	帰宅する	return		
+66	Who	キュービット	Qubit		Person
+66	To	キュービットの家	home of Qubit		Place
+66	When	今日	today	1903-08-03T12	
+67	対象文	ホームズは踊る人形を調べた	Holmes examines Dancing dolls		
+67	情報源				
+67	hasPredicate	調べた	examine		
+67	What	踊る人形	Dancing dolls		Object
+67	Who	ホームズ	Holmes		Person
+68	対象文	ホームズは喜んだ	Holmes is happy		
+68	情報源				
+68	hasPredicate	喜んだ	beHappy		
+68	Who	ホームズ	Holmes		Person
+68	At the same time	69	69		
+69	対象文	ホームズは部屋を歩き回った	Holmes walks around the room		
+69	情報源				
+69	hasPredicate	歩き回った	walk		
+69	Who	ホームズ	Holmes		Person
+69	Where	部屋	room		Place
+69	then	70	70		
+70	対象文	ホームズはシカゴに電報を打った	Holmes send telegraph to Cicago		
+70	情報源				
+70	hasPredicate	打った	send		
+70	To	シカゴ	Chicago		Place
+70	Who	ホームズ	Holmes		Person
+70	What	電報	telegram		Object
+70	When			1903-08-04T12	
+71	対象文	2日目の夕べ、ホームズはキュービットから手紙を受け取った	On the second evening, Holmes receives the Letter Y from Qubit		
+71	情報源				
+71	hasPredicate	受け取った	receive		
+71	Who	ホームズ	Holmes		Person
+71	From	キュービット	Qubit		Person
+71	What	手紙	Letter Y		Object
+71	When	2日目の夕べ	evening of the second day	1903-08-05T17	
+72	対象文	2日目の朝、日時計の上に踊る人形eが描かれていた	In the morning of the second day, Dancing doll E are drawn on the sundial		
+72	情報源				
+72	hasPredicate	描かれていた	beDrawn		
+72	Who	踊る人形E	Dancing dolls E		Object
+72	On	日時計	Sundial		Object
+72	When	2日目の朝	the second morning	1903-08-05T08	
+73	対象文	ホームズは踊る人形Eを見た	Holmes sees Dancing dolls E		
+73	情報源				
+73	hasPredicate	見た	see		
+73	What	踊る人形e	Dancing dolls E		Object
+73	Who	ホームズ	Holmes		Person
+73	then	74	74		
+74	対象文	ホームズは驚いた	Holmes is surprised		
+74	情報源				
+74	hasPredicate	驚いた	beSurprised		
+74	Who	ホームズ	Holmes		Person
+76	対象文	ホームズとワトソンは北ウォールシャムで下車した	Holmes and Watson come to North Walsham		
+76	情報源				
+76	hasPredicate	下車した	come		
+76	Who	ホームズ	Holmes		Person
+76	Where	北ウォールシャム	North Walsham		Place
+76	Who	ワトソン	Watson		Person
+76	When			1903-08-06T12	
+77	対象文	マーティン警部がノリッジから北ウォールシャムを訪れた	Martin visits North Walsham from Norwich		
+77	情報源				
+77	hasPredicate	訪れた	come		
+77	Who	マーティン警部	Martin		Person
+77	To	北ウォールシャム	North Walsham		Place
+77	From	ノリッジ	Norwich		Place
+77	When			1903-08-06T12	
+78	対象文	キュービットとエルシィは撃たれた	Qubit and Elsie are shoot		
+78	情報源				
+78	hasPredicate	撃たれた	beShoot		
+78	Who	エルシィ	Elsie		Person
+78	Who	キュービット	Qubit		Person
+78	When			1903-08-06T03	
+79	対象文	女中は以下を言った	Maid says the followngs		
+79	情報源				
+79	hasPredicate	言った	say		
+79	What	80	80, 81		
+79	Who	女中	Maid		Person
+79	When			1903-08-06T14	
+80	対象文	エルシィがキュービットを撃った	Elsie shoots Qubit		
+80	情報源	女中の発言	Remark by Maid		
+80	hasPredicate	撃った	shoot		
+80	Who	エルシィ	Elsie		Person
+80	What	キュービット	Qubit		Person
+80	then	81	81		
+81	対象文	エルシィは自分を撃った	Elsie shoots herself		
+81	情報源				
+81	hasPredicate	撃った	shoot		
+81	Who	エルシィ	Elsie		Person
+81	What	エルシィ	Elsie		Person
+82	対象文	マーティン警部は小柄な男である	Martin is small		
+82	情報源				
+82	hasProperty	小柄である	small		
+82	Who	マーティン警部	Martin		Person
+84	対象文	マーティン警部はノーフォークの警察である	Martin is the police of Norfolk		
+84	情報源				
+84	hasPredicate	である	belongTo		
+84	Who	マーティン警部	Martin		Person
+84	Where	ノーフォーク	Norfolk		Place
+84	What	警察	police		Object
+86	対象文	マーティン警部は物分かりが良い	Martin is well understood		
+86	情報源				
+86	hasProperty	物分かり良い	wellUnderstood		
+86	Who	マーティン警部	Martin		Person
+87	対象文	マーティン警部はホームズに捜査を許した	Martin permits Holmes to investigate		
+87	情報源				
+87	hasPredicate	許した	permit		
+87	Whom	ホームズ	Holmes		Person
+87	What	捜査	investigation		Object
+87	Who	マーティン警部	Martin		Person
+87	When			1903-08-06T14	
+88	対象文	地元の医者が以下を言った	A local doctor say the followings		
+88	情報源				
+88	hasPredicate	降りてきた	say		
+88	What	89, 90, 91	89, 90, 91		
+88	Who	地元の医者	Local doctor		Person
+88	When			1903-08-06T14	
+89	対象文	エルシィは死んでいない	Elsie is not dead		
+89	情報源	地元の医者の発言	Remark by Local_doctor		
+89	hasProperty	死んでいない	notDead		
+89	Who	エルシィ	Elsie	1903-08-06T14	Person
+90	対象文	地元の医者は所見を述べない	The local doctor does not give a finding		
+90	情報源				
+90	hasPredicate	述べない	notSay		
+90	What	所見	findings	1903-08-06T14	Object
+90	Who	地元の医者	Local doctor		Person
+91	対象文	キュービットは心臓を撃ち抜かれている	Qubit is shot through the heart		
+91	情報源	地元の医者の発言	Remark by Local_doctor		
+91	hasPredicate	撃ち抜かれている	beShot		
+91	What	心臓	heart	1903-08-06T14	Object
+91	Who	キュービット	Qubit		Person
+92	対象文	拳銃はキュービットとエルシィの間に落ちていた	Handgun falls between Qubit and Elsie		
+92	情報源				
+92	hasPredicate	落ちていた	exist		
+92	Who	拳銃	Handgun		Object
+92	MiddleOf	エルシィとキュービット	Elsie and Qubit		Place
+92	When			1903-08-06T14	
+93	対象文	地元の医者は4時に訪れた	A local doctor visited at 4 am		
+93	情報源				
+93	hasPredicate	訪れた	visit		
+93	Who	地元の医者	Local doctor		Person
+93	When	4時	4:00	1903-08-06T04	
+94	対象文	女中が地元の医者を呼んだ	Maid called a local doctor		
+94	情報源				
+94	hasPredicate	呼んだ	call		
+94	What	地元の医者	Local doctor		Person
+94	Who	女中	Maid		Person
+94	When			1903-08-06T04	
+95	対象文	女中が第一発見者である	Maid is the first finders		
+95	情報源				
+95	hasPredicate	第一発見者である	find		
+95	Whom	おかみ	Elsie		Person
+95	Who	女中	Maid		Person
+95	When			1903-08-06T04	
+96	対象文	女中は銃声で起きた	Maid get up with gunfire		
+96	情報源				
+96	hasPredicate	起きた	wake		
+96	Why	銃声	gunfire		Object
+96	Who	女中	Maid		Person
+96	When			1903-08-06T04	
+97	対象文	銃声の1分後に再度、銃声が聞こえた	One minute after the gunshoot, Maid hears the gunshoot again		
+97	情報源				
+97	hasPredicate	聞こえた	hear		
+97	What	銃声	gunfire		Object
+97	Who	女中	Maid		Person
+97	How	わずかな時間	a short time		
+97	When	銃声の1分後	One minute after gunfire	1903-08-06T04:01	
+97	then	100	100		
+100	対象文	女中は書斎に行った	Maid come to the study room		
+100	情報源				
+100	hasPredicate	行った	come		
+100	Who	女中	Maid		Person
+100	To	書斎	study room		Object
+100	When			1903-08-06T04:02	
+100	because	97	97		
+101	対象文	書斎の扉が開いていた	The door of the study room opens		
+101	情報源				
+101	hasPredicate	開いていた	open		
+101	Who	書斎の扉	Door of study room		Object
+101	When			1903-08-06T04:02	
+102	対象文	ローソクが卓上にともっていた	A candle is on the desk		
+102	情報源				
+102	hasPredicate	ともっていた	exist		
+102	Who	ローソク	Candle		Object
+102	On	卓	Desk		Object
+102	When			1903-08-06T04:02	
+103	対象文	キュービットが部屋の真ん中に倒れていた	Qubit falls in the middle of the room		
+103	情報源				
+103	hasPredicate	倒れていた	fall		
+103	Who	キュービット	Qubit		Person
+103	MiddleOf	部屋	room		Place
+103	When			1903-08-06T04:02	
+104	対象文	キュービットは死んでいた	Qubit is dead		
+104	情報源				
+104	hasPredicate	死んでいた	beDead		
+104	Who	キュービット	Qubit		Person
+104	When			1903-08-06T04:02	
+105	対象文	エルシィが窓のそばでうずくまっていた	Elsie sits by the window		
+105	情報源				
+105	hasPredicate	うずくまっていた	sit		
+105	Who	エルシィ	Elsie		Person
+105	NextTo	窓	window		Object
+105	When			1903-08-06T04:02	
+106	対象文	エルシィは怪我を負っていた	Elsie gets hurt		
+106	情報源				
+106	hasPredicate	怪我を負っていた	getHurt		
+106	Who	エルシィ	Elsie		Person
+106	When			1903-08-06T04:02	
+107	対象文	部屋と廊下に煙が充満していた	The room and the corridor are full of smoke		
+107	情報源				
+107	hasPredicate	充満していた	beFull		
+107	Where	廊下	Corridor		Place
+107	Who	煙	smoke		Object
+107	Where	部屋	Study room		Place
+107	When			1903-08-06T04:02	
+108	対象文	部屋と廊下は火薬のにおいを持つ	Rooms and corridors have the smell of gunpowder		
+108	情報源				
+108	hasPredicate	持つ	have		
+108	Where	廊下	Corridor		Place
+108	Who	火薬のにおい	Smell of gunfire		Object
+108	Where	部屋	Study room		Place
+108	When			1903-08-06T04:02	
+109	対象文	部屋の窓は閉められていた	The window of the room is closed		
+109	情報源				
+109	hasPredicate	閉められていた	beClosed		
+109	Who	部屋の窓	Window of study room		Object
+109	When			1903-08-06T04:02	
+110	対象文	部屋の窓は内側から鍵がかけられていた	The window of the room is locked from the inside		
+110	情報源				
+110	hasPredicate	鍵がかけられていた	beLocked		
+110	Who	部屋の窓	Window of study room		Object
+110	From	内側	Inside		Place
+110	When			1903-08-06T04:02	
+111	対象文	エルシィは普段着だった	Elsie wears casual wear		
+111	情報源				
+111	hasPredicate	着ていた	wear		
+111	What	普段着	casual wear		Object
+111	Who	エルシィ	Elsie		Person
+111	When			1903-08-06T04:02	
+112	対象文	キュービットは寝間着だった	Qubit wears nightwear		
+112	情報源				
+112	hasPredicate	着ていた	wear		
+112	What	寝間着	nightwear		Object
+112	Who	キュービット	Qubit		Person
+112	When			1903-08-06T04:02	
+113	対象文	書斎は動かされていなかった	The study room is not moved		
+113	情報源				
+113	hasPredicate	動かされていなかった	notMoved		
+113	Who	書斎	Study room		Place
+113	When			1903-08-06T04:02	
+114	対象文	扉は内側から鍵がかけられていた	The door is locked from the inside		
+114	情報源				
+114	hasPredicate	鍵がかけられていた	beLocked		
+114	Who	扉	Door of study room		Object
+114	From	内側	Inside		Place
+114	When			1903-08-06T04:02	
+115	対象文	女中が自分たちの部屋を出た	The maid leaves their room		
+115	情報源				
+115	hasPredicate	出た	go		
+115	Who	女中	Maid		Person
+115	From	自分たちの部屋	Maid room		Place
+115	When			1903-08-06T04:02	
+116	対象文	女中は火薬のにおいを嗅いだ	The maid feels the smell of gunpowder		
+116	情報源				
+116	hasPredicate	嗅いだ	feel		
+115	Who	女中	Maid		Person
+116	What	火薬のにおい	Smell of gunfire		Object
+116	When			1903-08-06T04:02	
+116	At the same time	115	115		
+117	対象文	書斎は小さい部屋である	The study room is small		
+117	情報源				
+117	hasProperty	小さい	small		
+117	Who	書斎	Study room		Place
+118	対象文	書斎の三方には本棚がある	There are bookshelves on three sides of the study room		
+118	情報源				
+118	hasPredicate	ある	exist		
+118	Who	本棚	Bookshelf		Object
+118	Where	書斎の三方	three sides of study room		Place
+119	対象文	机は窓に向かって置かれている	The desk is placed against the window		
+119	情報源				
+119	hasPredicate	置かれている	exist		
+119	Who	机	Desk		Object
+119	Opposite	窓	window of study room		Object
+120	対象文	窓からは庭が見える	the garden can be seen from the window		
+120	情報源				
+120	hasPredicate	見える	beSeen		
+120	Who	庭	garden		Place
+120	From	窓	window of study room		Object
+121	対象文	キュービットは部屋を横切るように倒れていた	The qubit is falling across the study room		
+121	情報源				
+121	hasPredicate	倒れていた	fall		
+121	Who	キュービット	Qubit		Person
+121	MiddleOf	部屋	study room		Place
+121	When			1903-08-06T14	
+122	対象文	キュービットの着衣は乱れていた	The qubit's clothes were disordered		
+122	情報源				
+122	hasPredicate	乱れていた	beMoved		
+122	Who	キュービットの着衣	nightwear of Qubit		Object
+122	When			1903-08-06T14	
+123	対象文	キュービットは正面から心臓を撃たれた	Qubit shoot his heart from the front		
+123	情報源				
+123	hasPredicate	撃たれた	beShot		
+123	What	心臓	heart		Object
+123	From	前	front		Place
+123	Who	キュービット	Qubit		Person
+123	When			1903-08-06T14	
+124	対象文	窓枠の下に銃弾の痕跡があった	There were traces of bullets under the window frame		
+124	情報源				
+124	hasPredicate	あった	exist		
+124	Who	銃弾の痕跡	Traces of bullets		Object
+124	Under	窓枠	frame of window of study room		Object
+124	When			1903-08-06T14	
+126	対象文	発砲されたとき、部屋の扉と窓は開いていた	The door and window of the room are open when fired		
+126	情報源				
+126	hasPredicate	開いていた	open		
+126	Who	部屋の扉	Door of study room		Object
+126	Who	窓	window of study room		Object
+126	When	発砲	gunfire	1903-08-06T03	
+127	対象文	わずかな時間、部屋の扉と窓が開いていた	The door and the window of the room are open for a short time		
+127	情報源				
+127	hasPredicate	開いていた	open		
+127	Who	部屋の扉	Door of study room		Object
+127	Who	窓	window of study room		Object
+127	How	わずかな時間	a short time		
+127	because	129	129		
+129	対象文	ローソクの流れ跡がない	There is no flow of candles		
+129	情報源				
+129	hasPredicate	ない	notExist		
+129	Who	ローソクの流れ跡	Traces of candles		Object
+130	対象文	事件当時、窓は開いていた	At the time of the incident, the window is open		
+130	情報源				
+130	hasPredicate	開いていた	open		
+130	Who	窓	window		Object
+130	When	事件当時	gunfire	1903-08-06T03	
+131	対象文	現場には第三者がいた	There is a third party at the site		
+131	情報源				
+131	hasPredicate	いた	exist		
+131	Who	第三者	someone		Person
+131	Where	現場	Study room		Place
+131	When			1903-08-06T03	
+132	対象文	第三者は屋外から部屋に発砲した	someone fires into the room from the outside		
+132	情報源				
+132	hasPredicate	発砲した	shoot		
+132	Who	第三者	someone		Person
+132	To	部屋	room		Place
+132	From	屋外	garden		Place
+132	When			1903-08-06T03	
+133	対象文	キュービットは第三者を撃った	Qubit shoots a third party		
+133	情報源				
+133	hasPredicate	撃った	shoot		
+133	Who	キュービット	Qubit		Person
+133	What	第三者	someone		Person
+133	When			1903-08-06T03	
+133	then	134	134		
+134	対象文	弾が窓枠に当たった	A bullet hits the window frame		
+134	情報源				
+134	hasPredicate	当たった	shoot		
+134	Who	弾	Bullet		Object
+134	Where	窓枠	Window frame of study room		Object
+134	When			1903-08-06T03	
+135	対象文	書斎の机にハンドバッグがあった	There is a handbag on the desk of the study		
+135	情報源				
+135	hasPredicate	あった	exist		
+135	Who	ハンドバッグ	handbag		Object
+135	On	書斎の机	desk of study room		Object
+135	When			1903-08-06T14	
+136	対象文	ハンドバッグには紙幣が入っていた	Banknote is in the handbag		
+136	情報源				
+136	hasPredicate	入っていた	exist		
+136	Who	紙幣	banknote		Object
+136	Where	ハンドバッグ	handbag		Object
+136	When			1903-08-06T14	
+137	対象文	窓枠は室内から裂けていた	The window frame bursts from the room		
+137	情報源				
+137	hasPredicate	裂けていた	burst		
+137	Who	窓枠	Window frame of study room		Object
+138	From	室内	study room		Place
+138	When			1903-08-06T14	
+140	対象文	書斎の窓の下には花壇がある	Under the window of the study there is a flower bed		
+140	情報源				
+140	hasPredicate	ある	exist		
+140	Who	花壇	flower bed		Object
+140	Under	書斎の窓	window of study room		Object
+141	対象文	花壇には、男性の足跡がついていた	The flower bed has male footprints		
+141	情報源				
+141	hasPredicate	ついていた	have		
+141	Where	花壇	flower bed		Object
+141	Who	男性の足跡	male footprints		Object
+141	When			1903-08-06T14	
+142	対象文	花壇にて、ホームズは真鍮の筒を拾った	At the flower bed, Holmes picks up a brass tube		
+142	情報源				
+142	hasPredicate	拾った	find		
+142	Where	花壇	flower bed		Object
+142	Who	ホームズ	Holmes		Person
+142	What	真鍮の筒	tube of bullet		Object
+142	When			1903-08-06T14	
+143	対象文	エルリッジが東ラストン方面の数マイル先にある	Elridge is a few miles ahead of East Ruston		
+143	情報源				
+143	hasPredicate	いる	exist		
+143	Where	東ラストン	East Ruston		Place
+143	Who	エルリッジ	Elridge		Place
+144	対象文	ホームズは馬番の少年に以下を頼んだ	Holmes asks the horse boy for the following		
+144	情報源				
+144	hasPredicate	頼んだ	ask		
+144	What	145	145		
+144	Who	ホームズ	Holmes		Person
+144	Whom	馬番の少年	Horse boy		Person
+144	When			1903-08-06T15	
+145	対象文	馬番の少年は書き付けをエルリッジ農場へ持っていく	The horse boy takes notes to Elridge		
+145	情報源	ホームズの発言	Remark by Holmes		
+145	hasPredicate	持っていく	take		
+145	Who	馬番の少年	Horse boy		Person
+146	What	書き付け	note		Object
+146	To	エルリッジ農場	Elridge		Place
+147	対象文	踊る人形は子供のいたずらに似せた暗号である	Dancing dolls is a cipher that mimics children's mischief		
+147	情報源				
+147	hasPredicate	である	equalTo		
+147	What	暗号	cipher		Object
+147	Who	踊る人形	Dancing dolls		Object
+147	How	子供のいたずらに似せた	similar to mischief		
+148	対象文	人形は文字の代用である	Doll is a substitute for characters		
+148	情報源				
+148	hasPredicate	である	equalTo		
+148	What	文字	character		Object
+148	Who	記号	Doll		Object
+149	対象文	踊る人形は暗号の規則で解くことができる	Dancing dolls can be solved by the rules of cryptography		
+149	情報源				
+149	hasProperty	解くことができる	understandable		
+149	Who	踊る人形	Dancing dolls		Object
+149	How	規則に沿って	cryptography		
+151	対象文	踊る人形fは"E"である	Doll F is "E"		
+151	情報源				
+151	hasPredicate	である	equalTo		
+151	Who	踊る人形f	Dancing dolls F		Object
+151	What	"E"	"E"		Object
+151	because	152,153	152,153		
+152	対象文	"E"はアルファベットにおいて最も使われている	"E" is most used in the alphabet		
+152	情報源				
+152	hasPredicate	使われている	appear		
+152	Where	アルファベット	Alphabet		Object
+152	How	最も	most often		
+152	Who	"E"	"E"		Object
+153	対象文	踊る人形Aは踊る人形Fを4回持つ	Dancing dolls A contains Dancing Dolls F four times		
+153	情報源				
+153	hasPredicate	含む	have		
+153	Who	踊る人形A	Dancing dolls A		Object
+153	What	踊る人形F	Dancing dolls F		Object
+153	How	4回	four times		
+154	対象文	旗は文字を区切る	Flag separates characters		
+154	情報源				
+154	hasPredicate	区切る	split		
+154	What	文字	character		Object
+154	Who	旗	flag		Object
+156	対象文	踊る人形Dは2番目と4番目にEを持つ	Dancing dolls D has "E" in the second and fourth position		
+156	情報源				
+156	hasPredicate	持つ	have		
+156	Who	踊る人形d	Dancing dolls D		Object
+156	What	"E"	"E"		Object
+156	Where	4番目	the fourth position		Place
+156	Where	2番目	the second position		Place
+158	対象文	踊る人形Dはネヴァーかもしれない	Dancing dolls D may be "NEVER"		
+158	情報源	ホームズの考え	Idea of Holmes		
+158	hasPredicate	かもしれない	equalTo		
+158	Who	踊る人形D	Dancing dolls D		Object
+158	What	"NEVER"	"NEVER"		Object
+158	because	154,156	154,156		
+159	対象文	踊る人形Gは"N"、"V"、"R"である	Dancing dolls G is "N", "V", and "R"		
+159	情報源				
+159	hasPredicate	である	equalTo		
+159	Who	踊る人形G	Dancing dolls G		Object
+159	What	"N"	"N"		Object
+159	What	"R"	"R"		Object
+159	What	"V"	"V"		Object
+159	because	158	158		
+160	対象文	踊る人形Xは両端にEを持つ	The Dancing dolls X has E at both ends		
+160	情報源				
+160	hasPredicate	持つ	have		
+160	Who	踊る人形X	Dancing dolls X		Object
+160	What	"E"	"E"		Object
+160	Left	踊る人形X	Dancing dolls X		Object
+160	Right	踊る人形X	Dancing dolls X		Object
+161	対象文	踊る人形Xは中に三文字を持つ	The Dancing dolls X has three characters in it		
+161	情報源				
+161	hasPredicate	持つ	have		
+161	Who	踊る人形X	Dancing dolls X		Object
+161	What	三文字	three characters		Object
+161	MiddleOf	踊る人形X	Dancing dolls X		Object
+162	対象文	踊る人形の末尾に3回、踊る人形Xが現れている	The Dancing dolls X appears three times at the end of Dancing dolls		
+162	情報源				
+162	hasPredicate	現れている	appear		
+162	Who	踊る人形X	Dancing dolls X		Object
+162	Where	踊る人形の末尾	the end of Dancing dolls		Place
+162	How	3回	3 times		
+164	対象文	ホームズは以下を言った	Holmes says the following		
+164	情報源				
+164	hasPredicate	言った	say		
+164	What	165,166	165,166		
+164	Who	ホームズ	Holmes		Person
+165	対象文	踊る人形Xは"L"、"S"、"I"を含む	The Dancing dolls X includes "L", "S", and "I"		
+165	情報源	ホームズの発言	Remark by Holmes		
+165	hasPredicate	含む	include		
+165	Who	踊る人形X	Dancing dolls X		Object
+165	What	"L"	"L"		Object
+165	What	"S"	"S"		Object
+165	What	"I"	"I"		Object
+165	because	160,161,162	160,161,162		
+166	対象文	踊る人形Xは"ELSIE"である	The Dancing dolls X is "ELSIE"		
+166	情報源	ホームズの発言	Remark by Holmes		
+166	hasPredicate	である	equalTo		
+166	Who	踊る人形X	Dancing dolls X		Object
+166	What	"ELSIE"	"ELSIE"		Object
+166	because	165	165		
+167	対象文	踊る人形Yは"COME"である	The Dancing dolls Y  is "COME"		
+167	情報源				
+167	hasPredicate	である	equalTo		
+167	What	"COME"	"COME"		Object
+167	Who	踊る人形Y	Dancing dolls Y		Object
+167	because	167a	167a		
+167a	対象文	踊る人形Yは"E"を最後に持つ	The Dancing dolls Y has "E" at the end		
+167a	hasPredicate	持つ	have		
+167a	Who	踊る人形Y	Dancing dolls Y		
+167a	What	"E"	"E"		
+167a	Where	最後	the final position of Dancing dolls Y		
+168	対象文	踊る人形Yは"C"、"O"、"M"を含む	The Dancing dolls Y includes "C", "O", and "M"		
+168	情報源				
+168	hasPredicate	含む	include		
+168	Who	踊る人形Y	Dancing dolls Y		Object
+168	What	"C"	"C"		Object
+168	What	"O"	"O"		Object
+168	What	"M"	"M"		Object
+168	because	167	167		
+169	対象文	文章Hは短い	The Sentence H is short		
+169	hasProperty	短い	beShort		
+169	Who	文章H	Sentence H		
+169a	対象文	文章Hは文字C1を三回持つ	The Sentece H has charactor C1 three times		
+169a	hasPredicate	持つ	have		
+169a	Who	文章H	Sentence H		
+169a	What	文字C1	Charactor C1		
+169a	How	三回	three times		
+169b	対象文	文章Hは，"?M ?ERE ??E SL?NE?"である	The Sentence H is "?M ?ERE ??E SL?NE?"		
+169a	hasPredicate	である	equalTo		
+169a	Who	文章H	Sentence H		
+169a	What	"?M ?ERE ??E SL?NE?"	"?M ?ERE ??E SL?NE?"		
+170	対象文	文章Hの最初の位置にある文字C1はAである	The character C1 at the first position of Sentence H is A		
+170	情報源				
+170	hasPredicate	である	equalTo		
+170	What	"A"	"A"		Object
+170	Who	文字C1	Charactor C1		Object
+170	Where	文章Hの最初の位置	the first position of Sentence H		Object
+170	because	169	169,169a, 169b		
+171	対象文	文章Hの2つ目の単語の最初の文字C2はHである	The character C2 at the first position of the second word of Sentence H is H		
+171	情報源				
+171	hasPredicate	である	equalTo		
+171	What	"H"	"H"		Object
+171	Who	文字C2	Character C2		Object
+171	Where	文章Hの2つ目の位置	first position of the second word of Sentence H		Object
+172	対象文	文章Hは"Am Here Abe Slaney"を意味する	The Sentence H means "Am Here Abe Slaney"		
+172	情報源				
+172	hasPredicate	意味する	equalTo		
+172	What	"Am Here Abe Slaney"	"Am Here Abe Slaney"		Object
+172	Who	文章H	Sentence H		Object
+172	because	170, 171	170, 171		
+173	対象文	文章Iは"At Elridge"を指す	The Sentence I points to "At Elridge"		
+173	情報源				
+173	hasPredicate	指す	equalTo		
+173	What	"At Elridge"	"At Elridge"		Object
+173	Who	文章I	Sentence I		Object
+173	because	173a, 173c	173a, 173c		
+173a	対象文	文章Iは意味が通じる	The Sentence I becomes meaningful		
+173a	hasProperty	意味が通じる	The meaningful		
+173a	Who	文章I	Sentence I		
+173a	When	173b	173b		
+173b	対象文	文章Iが"T"と"G"を持つ	The Sentence I has "T" and "G"		
+173b	hasPredicate	持つ	have		
+173b	Who	文章I	Sentence I		
+173b	What	"T" AND "G"	"T" AND "G"		
+173c	対象文	文章Iは"A? ELRI?ES"である	The Sentence I is "A? ELRI?ES"		
+173c	hasPredicate	である	equalTo		
+173c	Who	文章I	Sentence I		
+173c	What	"A? ELRI?ES"	"A? ELRI?ES"		
+174	対象文	エイブ・スレイニはアメリカ人である	Abe_Slaney is American		
+174	情報源				
+174	hasProperty	アメリカ人である	American		
+174	Who	エイブ・スレイニ	Abe_Slaney		Person
+174	because	21	21		
+177	対象文	ホームズはウィルスンに電報を打った	Holmes telegraphs to Willson		
+177	情報源				
+177	hasPredicate	打った	send		
+177	Who	ホームズ	Holmes		Person
+177	What	電報	telegram		Object
+177	Whom	ウィルスン	Willson		Person
+178	対象文	ウィルスンはニューヨークの警察である	Willson is a police in New York		
+178	情報源				
+178	hasPredicate	警察である	belongTo		
+178	Where	ニューヨーク	New York		Place
+178	What	警察	police		Object
+178	Who	ウィルスン	Willson		Person
+179	対象文	エイブ・スレイニはシカゴの悪党である	Abe_Slaney is a gang in Chicago		
+179	情報源				
+179	hasPredicate	である	equalTo		
+179	Who	エイブ・スレイニ	Abe_Slaney		Person
+179	Where	シカゴ	Chicago		Place
+179	What	悪党	gang		Object
+180	対象文	エイブ・スレイニはエルシィに以下を送った	Abe_Slaney send the following to Elsie		
+180	情報源				
+180	hasPredicate	送った	send		
+180	What	181	181		
+180	Who	エイブ・スレイニ	Abe_Slaney		Person
+180	Whom	エルシィ	Elsie		Person
+181	対象文	エルシィは神に会う覚悟が必要である	Elsie needs to be ready to meet God		
+181	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+181	hasPredicate	必要である	need		
+181	Who	エルシィ	Elsie		Person
+181	What	神に合う覚悟	prayer		Object
+183	対象文	エイブ・スレイニの伝言は説得から脅しに変わった	The message of Abe_Slaney changes from persuasion to threat		
+183	情報源				
+183	hasPredicate	変わった	change		
+183	Who	エイブ・スレイニの伝言	Message of Abe_Slaney		Object
+183	From	説得	Persuasion		
+183	To	脅し	Threat		
+184	対象文	ホームズとワトソンはノーフォークへ駆けつけた	Holmes and Watson rush to Norfolk		
+184	情報源				
+184	hasPredicate	駆けつけた	come		
+184	Who	ホームズ	Holmes		Person
+184	Who	ワトソン	Watson		Person
+184	To	ノーフォーク	Norfolk		Place
+184	because	183	183		
+185	対象文	ホームズはエイブ・スレイニに手紙で以下を言った	Holmes talks the following to Abe_Slaney in the Letter L		
+185	情報源				
+185	hasPredicate	言った	say		
+185	What	186	186		
+185	Whom	エイブ・スレイニ	Abe_Slaney		Person
+185	How	手紙	Letter L		Object
+185	Who	ホームズ	Holmes		Person
+185	When			1903-08-06T15	
+186	対象文	エイブ・スレイニはキュービット宅に来る	Abe_Slaney comes to Qubit's home		
+186	情報源	ホームズの発言	Remark by Holmes		
+186	hasPredicate	来る	come		
+186	Who	エイブ・スレイニ	Abe_Slaney		Person
+186	To	キュービット宅	home of Qubit		Place
+186	When			1903-08-06T16	
+188	対象文	エイブ・スレイニはキュービット宅に入った	Abe_Slaney enters Qubit's home		
+188	情報源				
+188	hasPredicate	入った	enter		
+188	Who	エイブ・スレイニ	Abe_Slaney		Person
+188	To	キュービット宅	home of Qubit		Place
+188	When			1903-08-06T16	
+189	対象文	ホームズはエイブ・スレイニに拳銃を向けた	Holmes pointed a gun at Abe_Slaney		
+189	情報源				
+189	hasPredicate	向けた	point		
+189	What	拳銃	Handgun		Object
+189	To	エイブ・スレイニ	Abe_Slaney		Person
+189	Who	ホームズ	Holmes		Person
+189	When			1903-08-06T16	
+190	対象文	マーティン警部はエイブ・スレイニに手錠をはめた	Martin handcuffs Abe_Slaney		
+190	情報源				
+190	hasPredicate	はめた	put		
+190	Whom	エイブ・スレイニ	Abe_Slaney		Person
+190	What	手錠	handcuffs		Object
+190	Who	マーティン警部	Martin		Person
+190	When			1903-08-06T16	
+191	対象文	エイブ・スレイニは以下を言った	Abe_Slaney says the following		
+191	情報源				
+191	hasPredicate	言った	say		
+191	What	192,194,195,198,199,200,201,203,204,205,206,207,208,209,210,211,213,216,218,219,220,222,224,225,226,227	192,194,195,198,199,200,201,203,204,205,206,207,208,209,210,211,213,216,218,219,220,222,224,225,226,227		
+191	Who	エイブ・スレイニ	Abe_Slaney		Person
+191	When			1903-08-06T16	
+192	対象文	エイブ・スレイニはキュービットを撃った	Ave Sureini shoot Qubit		
+192	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+192	hasPredicate	撃った	shoot		
+192	Who	エイブ・スレイニ	Abe_Slaney		Person
+192	What	キュービット	Qubit		Person
+194	対象文	エイブ・スレイニはエルシィの優先権を持つ	Abe_Slaney claims Elsie's priority		
+194	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+194	hasPredicate	持つ	have		
+194	Who	エイブ・スレイニ	Abe_Slaney		Person
+194	What	エルシィの優先権	priority of Elsie		Object
+195	対象文	エルシィはエイブ・スレイニから逃げた	Elsie escapes from Abe_Slaney		
+195	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+195	hasPredicate	逃げる	escape		
+195	Who	エルシィ	Elsie		Person
+195	From	エイブ・スレイニ	Abe_Slaney		Person
+198	対象文	エイブ・スレイニはエルシィにつきまとった	Abe_Slaney follows Elsie		
+198	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+198	hasPredicate	つきまとった	follow		
+198	Who	エイブ・スレイニ	Abe_Slaney		Person
+198	What	エルシィ	Elsie		Person
+199	対象文	エイブ・スレイニはキュービットを殺した	Abe_Slaney kills Qubit		
+199	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+199	hasPredicate	殺した	kill		
+199	Who	エイブ・スレイニ	Abe_Slaney		Person
+199	What	キュービット	Qubit		Person
+199	then	200	200		
+200	対象文	エイブ・スレイニはエルシィを自殺に追いやった	Abe_Slaney forces Elsie to commit suicide		
+200	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+200	hasPredicate	追いやった	force		
+200	Who	エイブ・スレイニ	Abe_Slaney		Person
+200	Whom	エルシィ	Elsie		Person
+200	What	自殺	suicide		
+201	対象文	エルシィとエイブ・スレイニは幼なじみだった	Elsie and Abe_Slaney are childhood friends		
+201	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+201	hasProperty	幼なじみだった	beChildhood		
+201	Who	エイブ・スレイニ	Abe_Slaney		Person
+201	Who	エルシィ	Elsie		Person
+203	対象文	エルシィの父親は悪党のボスだった	Elsie's father is a gang boss		
+203	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+203	hasPredicate	だった	equalTo		
+203	What	悪党のボス	boss of gang		Object
+203	Who	エルシィの父親	father of Elsie		Person
+204	対象文	エルシィはエイブ・スレイニの正体に気付いた	Elsie notices Abe_Slaney's identity		
+204	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+204	hasPredicate	気付いた	find		
+204	Who	エルシィ	Elsie		Person
+204	What	エイブ・スレイニの正体	Identity of Abe_Slaney		Object
+205	対象文	エルシィはロンドンへ逃げた	Elsie flees to London		
+205	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+205	hasPredicate	逃げた	go		
+205	Who	エルシィ	Elsie		Person
+205	To	ロンドン	London		Place
+205	because	204	204		
+206	対象文	エルシィとエイブ・スレイニは婚約していた	Elsie and Abe_Slaney are engaged		
+206	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+206	hasPredicate	婚約していた	beEngaged		
+206	Who	エイブ・スレイニ	Abe_Slaney		Person
+206	Who	エルシィ	Elsie		Person
+207	対象文	エイブ・スレイニはエルシィに手紙を出した	Abe_Slaney writes the Letter Z to Elsie		
+207	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+207	hasPredicate	出した	send		
+207	Who	エイブ・スレイニ	Abe_Slaney		Person
+207	Whom	エルシィ	Elsie		Person
+207	What	手紙	Letter Z		Object
+207	then	208	208		
+208	対象文	エルシィは返事をしなかった	Elsie does not reply to the Letter Z		
+208	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+208	hasPredicate	しなかった	notSend		
+208	Whom	エイブ・スレイニ	Abe_Slaney		Person
+208	Who	エルシィ	Elsie		Person
+208	What	返事	Letter Z		Object
+209	対象文	エイブ・スレイニはノーフォーク州を訪れた	Abe_Slaney visits Norfolk		
+209	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+209	hasPredicate	訪れた	come		
+209	Who	エイブ・スレイニ	Abe_Slaney		Person
+209	To	ノーフォーク州	Norfolk		Place
+209	because	208	208		
+209	then	210	210		
+210	対象文	エイブ・スレイニは踊る人形を描いた	Abe_Slaney paints dancing dolls		
+210	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+210	hasPredicate	描いた	draw		
+210	Who	エイブ・スレイニ	Abe_Slaney		Person
+210	What	踊る人形	Dancing dolls		Object
+211	対象文	エイブスレイニは一か月前にエルリッジ農場の地下室に泊まり始めた	Abe_Slaney begins to stay in the basement of Elridge Farm a month ago		
+211	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+211	hasPredicate	泊まり始めた	stay		
+211	Who	エイブスレイニ	Abe_Slaney		Person
+211	Where	エルリッジ農場の地下室	Elridge		Place
+211	When	一か月前	one month ago	1903-06-29T10	
+213	対象文	エルシィはエイブ・スレイニに以下を言った	Elsie talks the following to Abe_Slaney		
+213	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+213	hasPredicate	言った	say		
+213	What	215	215		
+213	Whom	エイブ・スレイニ	Abe_Slaney		Person
+213	Who	エルシィ	Elsie		Person
+215	対象文	エルシィが午前三時に窓に出る	Elsie comes out of the window at 3 am		
+215	情報源	エルシィの発言	Remark by Elsie		
+215	hasPredicate	出る	go		
+215	Who	エルシィ	Elsie		Person
+215	From	窓	window of study room		Object
+215	When	午前三時	3:00	1903-08-06T03	
+215	then	216	216		
+216	対象文	エルシィはエイブ・スレイニに以下を話す	Elsie speaks the following to Abe_Slaney		
+216	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+216	hasPredicate	話す	say		
+216	What	217	217		
+216	Whom	エイブ・スレイニ	Abe_Slaney		Person
+216	Who	エルシィ	Elsie		Person
+216	When			1903-08-06T03	
+217	対象文	エイブ・スレイニが立ち去る	Abe_Slaney leaves		
+217	情報源	エルシィの発言	Remark by Elsie		
+217	hasPredicate	立ち去る	leave		
+217	Who	エイブ・スレイニ	Abe_Slaney		Person
+218	対象文	エルシィはエイブ・スレイニにお金を渡す	Elsie hands money to Abe_Slaney		
+218	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+218	hasPredicate	渡す	give		
+218	Whom	エイブ・スレイニ	Abe_Slaney		Person
+218	Who	エルシィ	Elsie		Person
+218	What	お金	money		Object
+218	When			1903-08-06T03	
+218	then	219	219		
+219	対象文	エイブ・スレイニは怒った	Abe_Slaney get angry		
+219	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+219	hasPredicate	怒った	getAngry		
+219	Who	エイブ・スレイニ	Abe_Slaney		Person
+219	then	220	220		
+220	対象文	エイブ・スレイニはエルシィを窓から引きずり落そうとした	Abe_Slaney tries to pull Elsie from the window		
+220	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+220	hasPredicate	引きずり落そうとした	pull		
+220	Who	エイブ・スレイニ	Abe_Slaney		Person
+220	What	エルシィ	Elsie		Person
+220	From	窓	window of study room		Object
+220	then	222	222		
+222	対象文	キュービットはエイブ・スレイニを撃った	Qubit shoot Abe_Slaney		
+222	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+222	hasPredicate	撃った	shoot		
+222	What	エイブ・スレイニ	Abe_Slaney		Person
+222	Who	キュービット	Qubit		Person
+222	then	224	224		
+224	対象文	キュービットの弾はエイブ・スレイニを外れた	Qubit's bullet goes out of Abe_Slaney		
+224	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+224	hasPredicate	外れた	notHit		
+224	What	エイブ・スレイニ	Abe_Slaney		Person
+224	Who	キュービットの弾	bullet of Qubit		Object
+224	then	225	225		
+225	対象文	エイブ・スレイニはキュービットを撃った	Abe_Slaney shoot Kubit		
+225	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+225	hasPredicate	撃った	shoot		
+225	Who	エイブ・スレイニ	Abe_Slaney		Person
+225	What	キュービット	Qubit		Person
+225	then	226	226		
+226	対象文	キュービットは倒れた	Qubit falls		
+226	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+226	hasPredicate	倒れた	fall		
+226	Who	キュービット	Qubit		Person
+226	then	227	227		
+227	対象文	エイブ・スレイニは窓を閉める	Abe_Slaney closes the window		
+227	情報源	エイブ・スレイニの発言	Remark by Abe_Slaney		
+227	hasPredicate	閉める	close		
+227	Who	エイブ・スレイニ	Abe_Slaney		Person
+227	What	窓	window of study room		Object
+229	対象文	踊る人形Jはすぐに来いである	Dancing dolls J is come soon at once		
+229	情報源				
+229	hasPredicate	である	equalTo		
+229	What	"Come soon at once"	"Come soon at once"		Object
+229	Who	踊る人形J	Dancing dolls J		Object
+230	対象文	エイブ・スレイニは以下を思っていた	Abe_Slaney thinks of the following		
+230	情報源				
+230	hasPredicate	思っていた	think		
+230	What	231	231		
+230	Who	エイブ・スレイニ	Abe_Slaney		Person
+230	When			1903-08-06T15	
+231	対象文	エルシィが踊る人形を書いた	Elsie writes Dancing dolls J		
+231	情報源	エイブ・スレイニの考え	Idea of Abe_Slaney		
+231	hasPredicate	書いた	write		
+231	What	踊る人形	Dancing dolls J		Object
+231	Who	エルシィ	Elsie		Person

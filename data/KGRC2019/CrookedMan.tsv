@@ -1,0 +1,1887 @@
+ID	Property	原文	英訳	絶対時間	Type
+1	対象文	23時45分に、ホームズはワトソンを訪れた	At 23:45, Holmes visited Watson.		
+1	情報源		
+1	hasPredicate	訪れた	visit		
+1	When	23時45分	23:45	1887-07-08T23:45:00		
+1	Who	ホームズ	Holmes		Person		
+1	What	ワトソン	Watson		Person		
+1	then	2	2		
+2	対象文	ホームズはワトソンに以下を頼んだ	Holmes asked Watson.		
+2	情報源		
+2	hasPredicate	頼んだ	visit		
+2	Who	ホームズ	Holmes		Person		
+2	Whom	ワトソン	Watson		Person		
+2	What	3	3		
+3	対象文	ワトソンはホームズについていく	"		
+Watson will follow Holmes."		
+3	情報源		
+3	hasPredicate	ついていく	follow		
+3	Who	ワトソン	Watson		Person		
+3	What	ホームズ	Holmes		Person		
+4	対象文	木曜日11時10分に、ホームズとワトソンは、ウォータールーからオールダショットへ行く	On Thursday at 11:10, Holmes and Watson go from Waterloo to Aldershot.		
+4	情報源		
+4	hasPredicate	行く	go		
+4	Who	ホームズとワトソン	Holmes AND Watson		Person		
+4	From	ウォータールー	Waterloo		Place		
+4	To	オールダショット	Aldershot		Place		
+4	When	木曜日11時10分	On Thursday at 11:10	1887-07-09T11:10:00		
+5	対象文	ホームズは以下を調べている	Holmes is examining.		
+5	情報源		
+5	hasPredicate	調べている	examine		
+5	Who	ホームズ	Holmes		Person		
+5	What	6	6		
+6	対象文	バークリが殺された	Berkeley was killed.		
+6	情報源		
+6	hasPredicate	殺された	beKilled		
+6	Who	バークリ	Berkeley		Person		
+7	対象文	バークリはオールダショットのロイヤル・マロウズに所属している	Berkeley belongs to the Royal Mallows of Aldershot.		
+7	情報源		
+7	hasPredicate	所属している	belongTo		#ORG:hasPredicate:belong
+7	Who	バークリ	Berkeley		Person		
+7	What	ロイヤル・マロウズ	Royal Mallows		Object		
+7	Where	オールダショット	Aldershot		Place		
+8	対象文	月曜日に、事件は起こった	The incident happened on Monday.		
+8	情報源		
+8	hasPredicate	起こった	happen		
+8	Who	事件	incident		Object		
+8	When	月曜日	Monday	1887-07-06		
+9	対象文	ロイヤル・マロウズはアイルランド連隊の一つである	Royal Mallows is one of the Irish regiments.		
+9	情報源		
+9	hasPredicate	equalTo	equalTo		
+9	What	アイルランド連隊の一つ	one of the Irish regiments		Object		
+9	Who	ロイヤル・マロウズ	Royal Mallows		Object		
+10	対象文	月曜日の夜まで、バークリはロイヤル・マロウズを率いていた	Berkeley led the Royal Mallows until Monday evening.		
+10	情報源		
+10	hasPredicate	率いていた	lead		
+10	Who	バークリ	Berkeley		Person		
+10	What	ロイヤル・マロウズ	Royal Mallows		Object		
+10	When	月曜日の夜まで	Monday evening	1887-07-06T20		
+11	対象文	バークリは歴戦の勇者だった	Berkeley was a brave hero.		
+11	情報源		
+11	hasPredicate	equalTo	equalTo		
+11	What	勇者	hero		Person		
+11	Who	バークリ	Berkeley		Person		
+12	対象文	バークリは初めは一兵卒だった	Berkeley was a soldier at first.		
+12	情報源		
+12	hasPredicate	一兵卒だった	soldier		Person		
+12	Who	バークリ	Berkeley		Person		
+12	When	first	first	1856-07-06		
+12	then	13	13		
+13	対象文	バークリは、大反乱の活躍によって将校階級に昇進した	Berkeley was promoted to a senior rank by the Indian Rebellion.		
+13	情報源		
+13	hasPredicate	昇進した	promote		
+13	Who	バークリ	Berkeley		Person		
+13	From	一兵卒	solider		Object		
+13	To	将校階級	senior rank		Object		
+13	Why	大反乱の活躍	Indian Rebellion		Object		
+13	When	大反乱	Indian Rebellion	1860-07-06		
+14	対象文	バークリとナンシィは結婚した	Berkeley and Nancy got married.		
+14	情報源		
+14	hasPredicate	結婚した	getMarried		#ORG:hasPredicate:marry
+14	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+14	at the same time	15	15		
+15	対象文	その時、バークリは軍曹だった	At that time, Berkeley was a sergeant.		
+15	情報源		
+15	hasPredicate	equalTo	equalTo		
+15	Who	バークリ	Berkeley		Person		
+15	What	軍曹	sergeant		Person		
+15	When	その時	at that time	1859-07-06		
+16	対象文	ナンシィはロイヤル・マロウズの元軍旗軍曹の娘である	Nancy is the daughter of former sergeant of armies of Royal Mallows.		
+16	情報源		
+16	hasPredicate	equalTo	equalTo		
+16	Who	ナンシィ	Nancy		Person		
+16	What	元軍旗軍曹の娘	daughter of former sergeant of armies		Object		
+16	Where	ロイヤル・マロウズ	Royal Mallows		Object		
+17	対象文	バークリとナンシィは人付き合いをできなかった	Berkeley and Nancy could not get along.		
+17	情報源		
+17	hasProperty	人付き合いをできなかった	notSociable		
+17	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+18	対象文	ナンシィはロイヤル・マロウズの人気者である	Nancy is popular with Royal Mallows.		
+18	情報源		
+18	hasProperty	人気者である	popular		
+18	Who	ナンシィ	Nancy		Person		
+18	Where	ロイヤル・マロウズ	Royal Mallows		Object		
+19	対象文	ナンシィは美人である	Nancy is a beauty.		
+19	情報源		
+19	hasProperty	美人である	beautiful		#ORG:hasProperty:beauty
+19	Who	ナンシィ	Nancy		Person		
+20	対象文	30年以上、ナンシィは美人である	For over 30 years, Nansy is a beauty.		
+20	情報源		
+20	hasProperty	美人である	beautiful		#ORG:hasProperty:beauty
+20	Who	ナンシィ	Nancy		Person		
+20	When	30年以上	over 30 years		
+20	begin			1856-07-06		
+21	対象文	バークリは幸福であった	Berkeley was happy.		
+21	情報源		
+21	hasProperty	幸福	happy		
+21	Who	バークリ	Berkeley		Person		
+22	対象文	マーフィは以下を言った	Murphy said the following		
+22	情報源		
+22	hasPredicate	言った	tell		
+22	Who	マーフィ	Murphy		Person		
+22	Whom	ホームズ	Holmes		Person		
+22	Time			1887-07-08		
+22	What	23,24,25,26,27,28	23,24,25,26,27,28		
+23	対象文	バークリとナンシィは、言い争わなかった	Barkeley and Nancy did not argue.		
+23	情報源	22	22		
+23	hasPredicate	言い争わなかった	notArgue		
+23	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+24	対象文	バークリはナンシィを情熱的に愛していた	Berkeley had loved passionately the Nancy.		
+24	情報源	22	22		
+24	hasPredicate	愛していた	love		
+24	Who	バークリ	Berkeley		Person		
+24	Whom	ナンシィ	Nancy		Person		
+24	How	情熱的に	passionately		
+25	対象文	ナンシィはバークリを情熱的には愛していなかった	Nancy is passionate the Berkeley did not love.		
+25	情報源	22	22		
+25	hasPredicate	愛していなかった	notLove		
+25	Who	ナンシィ	Nancy		Person		
+25	Whom	バークリ	Berkeley		Person		
+25	How	情熱的に	passionately		
+26	対象文	ナンシィとバークリはロイヤル・マロウズの中で中年夫婦の理想像であった	Nancy and Berkeley was the ideal image of a middle-aged couple in the Royal Mallows.		
+26	情報源	22	22		
+26	hasPredicate	equalsTo	ideal image of middle-aged couple		Object		
+26	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+26	Where	ロイヤル・マロウズの中	Royal Mallows		Object		
+27	対象文	バークリは変わった性格である	Berkeley is the unusual character.		
+27	情報源	22	22		
+27	hasProperty	変わっている	unusual		
+27	Who	バークリの性格	character of Berkeley		Object		
+28	対象文	バークリは快活な老兵である	Berkeley is a light-hearted old soldier.		
+28	情報源	22	22		
+28	hasPredicate	equalTo	equalTo		
+28	Who	バークリ	Berkeley		Person		
+28	What	老兵	old soldier		Person		
+29	対象文	バークリはたまに凶暴になる	Berkeley sometimes become violent.		
+29	情報源		
+29	hasProperty	凶暴になる	violent		
+29	Who	バークリ	Berkeley		Person		
+29	When	たまに	sometimes		
+30	対象文	バークリはたまに執念深くなる	Berkeley is sometimes obsessive.		
+30	情報源		
+30	hasProperty	執念深くなる	obsessive		
+30	Who	バークリ	Berkeley		Person		
+30	When	たまに	sometimes		
+31	対象文	バークリはナンシィに凶暴にならない	Berkeley won't go bad at Nancy.		
+31	情報源		
+31	hasProperty	凶暴にならない	notViolent		
+31	Who	バークリ	Berkeley		Person		
+31	Whom	ナンシィ	Nancy		Person		
+32	対象文	バークリはナンシィに執念深くない	Berkeley is not obsessive to Nancy.		
+32	情報源		
+32	hasProperty	執念深くない	notObsessive		
+32	Who	バークリ	Berkeley		Person		
+32	Whom	ナンシィ	Nancy		Person		
+33	対象文	何日間も、バークリは気が滅入る	Berkeley feels down for many days.		
+33	情報源		
+33	hasPredicate	気が滅入る	feelDown		#ORG:hasPredicate:feel down
+33	Who	バークリ	Berkeley		Person		
+33	When	何日間	many days		
+34	対象文	バークリは迷信を信じている	Berkeley believe in superstition.		
+34	情報源		
+34	hasPredicate	信じている	believe		
+34	Who	バークリ	Berkeley		Person		
+34	What	迷信	superstition		Object		
+35	対象文	バークリは以下を嫌がる	Berkeley dislike the following.		
+35	情報源		
+35	hasPredicate	嫌がる	notLike		
+35	Who	バークリ	Berkeley		Person		
+35	What	36	36		
+36	対象文	夜に、バークリは一人である	At night, Berkeley is one person.		
+36	情報源		
+36	hasProperty	一人である	alone		
+36	When	夜に	night		
+36	Who	バークリ	Berkeley		Person		
+37	対象文	バークリは、雄々しい性格となよなよした性格	Berkeley has a supple personality and heroic personality.		
+37	情報源		
+37	hasProperty	雄々しい性格となよなよした性格	heroic personallity AND supple personality		
+37	Who	バークリ	Berkeley		Person		
+39	対象文	ロイヤル・マロウズ第一大隊はオールダショットに駐留している	The first battalion Royal Mallows are stationed in Aldershot.		
+39	情報源		
+39	hasPredicate	駐留している	station		
+39	Who	ロイヤル・マロウズ第一大隊	first battalion of Royal MAllows		Object		
+39	Where	オールダショット	Aldershot		Place		
+40	対象文	バークリは家を借りていた	Berkeley had rented a house.		
+40	情報源		
+40	hasPredicate	借りていた	rent		
+40	Who	バークリ	Berkeley		Person		
+40	What	家	house		Object		
+41	対象文	バークリの家の名前はラシーンである	The name of the house of Berkeley is a Rasheen.		
+41	情報源		
+41	hasPredicate	equalTo		
+41	Who	バークリの家の名前	name of house of Berkeley		Object		
+41	What	ラシーン	Rasheen		Place		
+42	対象文	ラシーンは庭に囲まれている	Rasheen is surrounded by garden.		
+42	情報源		
+42	hasPredicate	囲まれている	beSurrounded		
+42	Who	ラシーン	Rasheen		Place		
+42	What	庭	gardern		Place		
+43	対象文	ラシーンは北部キャンプから0.5マイルに位置している	Rasheen is located 0.5 miles from the northern camp.		
+43	情報源		
+43	hasPredicate	位置している	beLocated		
+43	Who	ラシーン	Rasheen		Place		
+43	Where	北部キャンプから0.5マイル	0.5 miles from the northern camp		Place		
+44	対象文	ラシーンは大通りから30ヤード以内に位置している	Rasheen is located within 30 yards from the main street.		
+44	情報源		
+44	hasPredicate	位置している	beLocated		
+44	Who	ラシーン	Rasheen		Place		
+44	Where	大通りから30ヤード以内	30 yards from the main street		Place		
+45	対象文	御者とジェインと料理人とバークリとナンシィがラシーンに住んでいる	Coachman and Jane and cooking people and Berkeley and Nancy live in Rasheen.		
+45	情報源		
+45	hasPredicate	住んでいる	live		
+45	Who	バークリとナンシィと御者とジェインと料理人	Berkeley AND Nancy AND coachman AND Jane AND cook		Person		
+45	Where	ラシーン	Rasheen		Place		
+46	対象文	バークリは子どもをもっていない	Berkeley do not have a child.		
+46	情報源		
+46	hasPredicate	もっていない	notHave		
+46	Who	バークリ	Berkeley		Person		
+46	What	子ども	child		Person		
+47	対象文	バークリは滅多に客を泊まらせない	Berkeley is rarely not stay overnight guests.		
+47	情報源		
+47	hasPredicate	持たない	have		
+47	Who	バークリ	Berkeley		Person		
+47	How	ほとんど	rarely		
+47	What	客	guest		Person		
+48	対象文	事件はラシーンで月曜日21時から22時の間に起こった	The incident happened in the 22 o'clock from Monday 21 o'clock in Rasheen.		
+48	情報源		
+48	hasPredicate	起こった	happen		
+48	Who	事件	incident		Object		
+48	Where	ラシーン	Rasheen		Place		
+48	When	月曜日21時から22時の間に	22 o'clock from Monday 21 o'clock	1887-07-06T21:00:00		
+49	対象文	ナンシィは聖ジョージ組合の設立に関わっていた	Nancy had been involved in the establishment of St. George union.		
+49	情報源		
+49	hasPredicate	関わっていた	involve		
+49	Who	ナンシィ	Nancy		Person		
+49	What	聖ジョージ組合の設立に	St. George union		Object		
+50	対象文	ナンシィは聖ジョージ組合の会合に出席した	Nancy attended the meeting of the St. George's union.		
+50	情報源		
+50	hasPredicate	出席した	attend		
+50	Who	ナンシィ	Nancy		Person		
+50	What	聖ジョージ組合の会合	meeting of the St. George union		Object		
+51	対象文	御者は以下を聞いた	Coachman heard the following.		
+51	情報源		
+51	hasPredicate	聞いた	hear		
+51	Who	御者	coachman		Person		
+51	What	52	52		
+52	対象文	ナンシィは会合から早く帰る	Nancy is go home early from the meeting.		
+52	情報源	51		
+52	hasPredicate	行く	go		
+52	To	家	home		Object		
+52	Who	ナンシィ	Nancy		Person		
+52	From	会合	meeting of the St. George union		Object		
+52	How	早く	early		
+53	対象文	モリソンは若い女性である	Morrison is a young woman.		
+53	情報源		
+53	hasProperty	若い女性である	young woman		
+53	Who	モリソン	Morrison		Person		
+54	対象文	モリソンはラシーンの隣に住んでいる	Morrison lives next to the Rasheen.		
+54	情報源		
+54	hasPredicate	住んでいる	live		
+54	Who	モリソン	Morrison		Person		
+54	NextTo	ラシーン	Rasheen		Place		
+55	対象文	ナンシィとモリソンは一緒に聖ジョージ組合の会合に行った	Nancy and Morrison went to the meeting of the St. George union together.		
+55	情報源		
+55	hasPredicate	行った	go		
+55	Who	ナンシィ	Nancy		Person		
+55	Who	モリソン	Morrison		Person		
+55	How	一緒に	together		
+55	Where	聖ジョージ組合の会合	meeting of the St. George union		Object		
+56	対象文	聖ジョージ組合の会合は月曜日の20時に開始した	Meeting of the St. George union was started at Monday 20.		
+56	情報源		
+56	hasPredicate	開始した	start		
+56	Who	聖ジョージ組合の会合	meeting of the St. George union		Object		
+56	When	月曜日20時	20 am on Monday	1887-07-06T20:00:00		
+57	対象文	聖ジョージ組合の会合は月曜日の20時40分に終了した	Meeting of the St. George union was completed in 20 hours 40 minutes Monday.		
+57	情報源		
+57	hasPredicate	終了した	end		
+57	Who	聖ジョージ組合の会合	meeting of the St. George union		Object		
+57	When	月曜日20時40分	20:40 on Monday	1887-07-06T20:40:00		
+58	対象文	ナンシィは月曜日の21時15分にラシーンに帰った	Nancy went back to Rasheen at 21:15 on Monday.		
+58	情報源		
+58	hasPredicate	着く	arrive		
+58	Who	ナンシィ	Nancy		Person		
+58	Where	ラシーン	Rasheen		Place		
+58	When	月曜日21時15分	21:15 on Monday	1887-07-06T21:15:00		
+59	対象文	モリソンは月曜日の21時15分にラシーンの前にいた	Morrison was in front of the Rasheen to 21 o'clock 15 minutes Monday.		
+59	情報源		
+59	hasPredicate	いる	exist		
+59	Who	モリソン	Morrison		Person		
+59	Where	ラシーンの前	in front of Rasheen		Place		
+59	When	月曜日21時15分	21:15 on Monday	1887-07-06T21:15:00		
+60	対象文	ラシーンは居間の部屋を一つもつ	Living room is one in Rasheen.		
+60	情報源		
+60	hasPredicate	持つ	have		
+60	Who	ラシーン	Rasheen		Place		
+60	What	居間	living room		Place		
+60	How	一つ	one		
+61	対象文	居間の部屋は大通りに面している	Living room of the rooms are facing the main street.		
+61	情報源		
+61	hasPredicate	面している	face		
+61	Who	居間の部屋	living room		Place		
+61	What	大通り	main street		Place		
+62	対象文	居間の部屋は大きなガラスの扉をもっている	Living room of the room has a door of the large glass.		
+62	情報源		
+62	hasPredicate	もっている	have		
+62	Who	居間の部屋	living room		Place		
+62	What	大きなガラスの扉	door of the large galass		Object		
+63	対象文	住人は居間の部屋から庭に出れる	Residents will be out in the garden from the living room of the room.		
+63	情報源		
+63	hasPredicate	行ける	canGo		
+63	Who	住人	resident		Person		
+63	To	庭	garden		Place		
+63	From	居間の部屋	living room		Place		
+65	対象文	庭の広さは30ヤード	Garden has a size of 30 yards.		
+65	情報源		
+65	hasPredicate	equalTo	equalTo		
+65	Who	庭の広さ	size of Garden		Object		
+65	What	30ヤード	30 yards		Object		
+66	対象文	庭と大通りは塀で分けられている	Garden and main street are separated by fence.		
+66	情報源		
+66	hasProperty	分けられている	separated		#ORG:hasPredicate:beSeparated
+66	Who	庭	garden		Place		
+66	Who	大通り	main stree		Place		
+66	How	塀	wall		
+67	対象文	塀は鉄柵を持つ	Fence with the iron fence.		
+67	情報源		
+67	hasPredicate	持つ	have		
+67	Who	塀	wall		Object		
+67	What	鉄柵	iron fence		Object		
+68	対象文	塀は低い	Fence is low.		
+68	情報源		
+68	hasProperty	低い	low		
+68	Who	塀	wall		Object		
+69	対象文	ナンシィは21時15分に居間の部屋にいた	Nancy was in the living room of the room in 15 minutes at 21.		
+69	情報源		
+69	hasPredicate	いた	exist		
+69	Who	ナンシィ	Nancy		Person		
+69	When	21:15	21:15	1887-07-06T21:15:00		
+69	Where	居間の部屋	living room		Place		
+70	対象文	居間の部屋は滅多に夜に使われない	Living room of the room is not rarely used at night.		
+70	情報源		
+70	hasPredicate	使われない	notBeUsed		
+70	Who	居間の部屋	living room		Place		
+70	How	ほとんど	usually		
+70	When	夜	night		
+71	対象文	居間の部屋は21時15分に日よけをしていなかった	Living room of the room did not have a sunshade to 15 minutes at 21.		
+71	情報源		
+71	hasPredicate	持たない	notHave		
+71	What	日よけ	sunshade		
+71	Who	居間の部屋	living room		Place		
+71	When	21:15	21:15	1887-07-06T21:15:00		
+72	対象文	ナンシィは居間の部屋のランプをつけた	Nancy turned on the lamp in the living room of the room.		
+72	情報源		
+72	hasPredicate	つけた	turnOn		#ORG:hasPredicate:turn on
+72	Who	ナンシィ	Nancy		Person		
+72	What	居間の部屋のランプ	lamp of living room		Object		
+73	対象文	ジェインはナンシィに紅茶を頼まれた	Jane was asked a tea Nancy.		
+73	情報源		
+73	hasPredicate	頼まれた	beAsked		
+73	Who	ジェイン	Jane		Person		
+73	Whom	ナンシィ	Nancy		Person		
+73	What	紅茶	tea		Object		
+74	対象文	上記は習慣ではない	The above is not a habit.		
+74	情報源		
+74	hasProperty	習慣ではない	notHabit		
+74	Who	73	73		
+75	対象文	バークリは食堂にいた	Berkeley was in the dining room.		
+75	情報源		
+75	hasPredicate	いた	exist		
+75	Who	バークリ	Berkeley		Person		
+75	Where	食堂	dining room		Place		
+76	対象文	御者は以下を見た	Coachman saw the following.		
+76	情報源		
+76	hasPredicate	見た	see		
+76	Who	御者	coachman		Person		
+76	What	77	77		
+77	対象文	バークリは居間の部屋でナンシィに会った	Berkeley met Nancy in the living room of the room.		
+77	情報源	76		
+77	hasPredicate	会った	meet		
+77	Who	バークリ	Berkeley		Person		
+77	Where	居間の部屋	living room		Place		
+77	Whom	ナンシィ	Nancy		Person		
+78	対象文	バークリは居間の部屋で死んだ	Berkeley died in the living room of the room.		
+78	情報源		
+78	hasPredicate	死んだ	die		
+78	Who	バークリ	Berkeley		Person		
+78	Where	居間の部屋	living room		Place		
+79	対象文	ジェインは21時25分に居間の部屋に紅茶を持って行った	Jane took tea in the living room of the room in 25 minutes at 21.		
+79	情報源		
+79	hasPredicate	持って行った	take		
+79	Who	ジェイン	Jane		Person		
+79	When	21:25	21:25	1887-07-06T21:25:00		
+79	To	居間の部屋	living room		Place		
+79	What	紅茶	tea		Object		
+80	対象文	ジェインは以下を聞いた	Jane heard the following.		
+80	情報源		
+80	hasPredicate	聞いた	hear		
+80	Who	ジェイン	Jane		Person		
+80	What	81	81		
+81	対象文	バークリとナンシィが居間の部屋で言い争っていた	Berkeley and Nancy had been arguing in the living room of the room.		
+81	情報源	80		
+81	hasPredicate	言い争っていた	argue		
+81	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+81	Where	居間の部屋	living room		Place		
+82	対象文	バークリとナンシィは居間の部屋のドアノックに反応しなかった	Berkeley and Nancy did not respond to knocking on the room door in the living room.		
+82	情報源		
+82	hasPredicate	反応しなかった	notRespond		
+82	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+82	What	ドアノック	knocking		Object		
+82	Where	居間の部屋	living room		Place		
+83	対象文	居間の部屋は鍵がかかっていた	Living room of the room was locked.		
+83	情報源		
+83	hasProperty	鍵がかかっていた	locked		#ORG:hasPredicate:beLocked
+83	Who	居間の部屋	living room		Place		
+84	対象文	ジェインは料理番を呼んだ	Jane called the cook.		
+84	情報源		
+84	hasPredicate	呼んだ	call		
+84	Who	ジェイン	Jane		Person		
+84	What	料理番	cook		Person		
+85	対象文	ジェインと料理番と御者は以下を聞いた	Jane and the cook and the coachman heard the following.		
+85	情報源		
+85	hasPredicate	聞いた	hear		
+85	Who	ジェインと料理番と御者	Jane AND cook AND coachman		Person		
+85	What	86,87,88,89	86,87,88,89		
+86	対象文	バークリとナンシィは言い争っていた	Berkeley and Nancy had been arguing.		
+86	情報源		
+86	hasPredicate	言い争っていた	argue		
+86	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+87	対象文	ナンシィは何度も卑怯者と叫んだ	Nancy cried the cowards many times.		
+87	情報源		
+87	hasPredicate	叫んだ	shout		
+87	Who	ナンシィ	Nancy		Person		
+87	How	何度も	many times		
+87	What	卑怯者	coward		Person		
+88	対象文	バークリは叫んだ	Berkeley shouted.		
+88	情報源		
+88	hasPredicate	叫んだ	shout		
+88	Who	バークリ	Berkeley		Person		
+89	対象文	ナンシィは悲鳴をあげた	Nancy screamed.		
+89	情報源		
+89	hasPredicate	悲鳴あげた	scream		
+89	Who	ナンシィ	Nancy		Person		
+90	対象文	御者は居間の部屋の大きなガラスの扉へ行った	Coachman went to the door of the large glass in the living room of the room.		
+90	情報源		
+90	hasPredicate	行った	go		
+90	Who	御者	coachman		Person		
+90	To	居間の部屋の大きなガラスの扉	large glass door of living room		Object		
+91	対象文	大きなガラスの扉は開いていた	Door of the large glass was open.		
+91	情報源		
+91	hasPredicate	開いていた	open		
+91	Who	大きなガラスの扉	large glass door of living room		Object		
+92	対象文	御者は居間の部屋に入った	Coachman entered the room in the living room.		
+92	情報源		
+92	hasPredicate	入った	enter		
+92	Who	御者	coachman		Person		
+92	Where	居間の部屋	living room		Place		
+93	対象文	御者は以下を見た	Coachman saw the following.		
+93	情報源		
+93	hasPredicate	見た	see		
+93	Who	御者	coachman		Person		
+93	What	94,95	95,95		
+94	対象文	ナンシィは気を失っていた	Nancy had fainted.		
+94	情報源		
+94	hasPredicate	気を失っていた	faint		
+94	Who	ナンシィ	Nancy		Person		
+95	対象文	バークリは炉格子の近くで死んでいた	Berkeley was dead in the vicinity of the furnace lattice.		
+95	情報源		
+95	hasPredicate	死んでいた	die		
+95	Who	バークリ	Berkeley		Person		
+95	Near	炉格子	furnace lattice		Object		
+96	対象文	居間の部屋の鍵は部屋になかった	There was no room key in the living room.		
+96	情報源		
+96	hasPredicate	なかった	notExist		
+96	Who	居間の部屋の鍵	key of living room		Object		
+96	Where	居間の部屋	living room		Place		
+97	対象文	御者は警察と医者を呼んだ	Coachman have called the police and a doctor.		
+97	情報源		
+97	hasPredicate	呼んだ	call		
+97	Who	御者	coachman		Person		
+97	What	警察と医者	police AND doctor		Person		
+98	対象文	警察は以下を思った	The police thought the following.		
+98	情報源		
+98	hasPredicate	思った	think		
+98	Who	警察	police		Person		
+98	What	99	99		
+99	対象文	ナンシィは犯人に近い	Nancy is close to criminal.		
+99	情報源	98		
+99	hasProperty	近い	close		
+99	Who	ナンシィ	Nancy		Person		
+99	What	犯人	criminal		Person		
+100	対象文	ナンシィは気を失っていた	Nancy had fainted.		
+100	情報源		
+100	hasPredicate	気を失っていた	faint		
+100	Who	ナンシィ	Nancy		Person		
+101	対象文	ナンシィは自室へ移された	Nancy was transferred to his room.		
+101	情報源		
+101	hasPredicate	移された	beMoved		
+101	Who	ナンシィ	Nancy		Person		
+101	To	ナンシィの部屋	room of Nancy		Place		
+102	対象文	バークリは鈍器によって殺された	Berkeley was killed by blunt weapons		
+102	情報源		
+102	hasPredicate	殺された	beKilled		
+102	Who	バークリ	Berkeley		Person		
+102	How	鈍器によって	blunt weapon		
+103	対象文	バークリは後頭部に2インチの裂傷を負っていた	Berkeley had suffered a two-inch laceration to the back of the head.		
+103	情報源		
+103	hasPredicate	持っていた	have		
+103	Who	バークリ	Berkeley		Person		
+103	Where	バークリの後頭部	back of head of Berkeley		Object		
+103	What	2インチの裂傷	2-inch tear		Object		
+104	対象文	警察は以下を思った	The police thought the following.		
+104	情報源		
+104	hasPredicate	思った	think		
+104	Who	警察	police		Person		
+104	What	105	105		
+105	対象文	バークリは木彫りの棍棒で殺された	Berkeley was killed by a wooden carving stick.		
+105	情報源	104		
+105	hasPredicate	殺された	beKilled		
+105	Who	バークリ	Berkeley		Person		
+105	How	棍棒で	stick		
+106	対象文	バークリは出先で武器を収集していた	Berkeley had collected the weapons on the go.		
+106	情報源		
+106	hasPredicate	収集していた	collect		
+106	Who	バークリ	Berkeley		Person		
+106	What	武器	weapon		Object		
+107	対象文	警察は以下を思った	The police thought the following.		
+107	情報源		
+107	hasPredicate	思った	think		
+107	Who	警察	police		Person		
+107	What	108	108		
+108	対象文	木彫りの棍棒はバークリが収集した	Wood carving of the club is Berkeley has collected.		
+108	情報源	警察の考え	Idea of police		
+108	hasPredicate	収集した	collect		
+108	What	棍棒	stick		Object		
+108	Who	バークリ	Berkeley		Person		
+109	対象文	ジェインと御者と料理番は木彫りの棍棒を知らなかった	Jane and the coachman and the cook did not know the wood carving of the club.		
+109	情報源		
+109	hasPredicate	知らなかった	notKnow		
+109	Who	ジェインと御者と料理番	Jane AND coachman AND cook		Person		
+109	What	木彫りの棍棒	stick		Object		
+110	対象文	ジェインと御者と料理番は木彫りの棍棒を見落としている	Jane and the coachman and the cook have overlooked a wood carving of the club.		
+110	情報源		
+110	hasPredicate	見落としている	overlook		
+110	Who	ジェインと御者と料理番	Jane AND coachman AND cook		Person		
+110	What	棍棒	stick		Object		
+111	対象文	バークリとナンシィは鍵を持っていなかった	Berkeley and Nancy did not have the key.		
+111	情報源		
+111	hasPredicate	持っていなかった	notHave		
+111	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+111	What	鍵	key of living room		Object		
+112	対象文	ジェインは以下を聞いた	Jane heard the following.		
+112	情報源		
+112	hasPredicate	聞いた	hear		
+112	Who	ジェイン	Jane		Person		
+112	What	113	113		
+113	対象文	ナンシィは2度、デイヴィドと言った	Nancy said David twice.		
+113	情報源	ジェインの発言	Remark by Jane		
+113	hasPredicate	言った	say		
+113	Who	ナンシィ	Nancy		Person		
+113	How	2度	twice		
+113	What	デイヴィド	David		Person		
+114	対象文	警察と御者とジェインと料理番は以下を見た	Police and coachman and Jane and cook saw the following.		
+114	情報源		
+114	hasPredicate	見た	see		
+114	Who	警察と御者とジェインと料理番	police AND coachman AND Jane AND cook		Person		
+114	What	115	115		
+115	対象文	バークリの顔は極度に歪んでいた	Face of Berkeley was distorted in extreme.		
+115	情報源		
+115	hasPredicate	歪んでいた	distort		
+115	Who	バークリの顔	face of Berkeley		Object		
+115	How	極度に	extreme		
+117	対象文	ホームズは以下を思った	Holmes thought the following.		
+117	情報源		
+117	hasPredicate	思った	think		
+117	Who	ホームズ	Holmes		Person		
+117	What	118	118		
+118	対象文	ナンシィは犯人としての矛盾を持たない	Nancy does not have a conflict of as criminal.		
+118	情報源	ホームズの考え	Idea of Holmes		
+118	hasPredicate	矛盾しない	notContradict		
+118	Who	ナンシィ	Nancy		Person		
+118	What	犯人	criminal		Person		
+119	対象文	ナンシィは情報を話せなかった	Nancy could not speak information.		
+119	情報源		
+119	hasPredicate	話せなかった	cannotSpeak		
+119	Who	ナンシィ	Nancy		Person		
+119	What	情報	information		Object		
+121	対象文	一時的に、ナンシィは心神喪失であった	Temporarily, Nancy was a loss of mind		
+121	情報源		
+121	hasProperty	心神喪失であった	criminal irresponsibility		
+121	Who	ナンシィ	Nancy		Person		
+121	When	一時的	temporarily		
+122	対象文	警察は以下を言った	Police said the following:.		
+122	情報源		
+122	hasPredicate	言った	say		
+122	Who	警察	police		Person		
+122	What	123	123		
+123	対象文	モリソンは以下をわからない	Morrison do not know the following:.		
+123	情報源	警察の発言	Remark by police		
+123	hasPredicate	わからない	notUnderstand		
+123	Who	モリソン	Morrison		Person		
+123	What	124	124		
+124	対象文	ナンシィは月曜日の21時15分に不機嫌であった	Nancy was grumpy at 21:15 on Monday.		
+124	情報源		
+124	hasProperty	不機嫌であった	bad mood		
+124	Who	ナンシィ	Nancy		Person		
+124	When	月曜日21時15分	21:15 on Monday	1887-07-06T21:15:00		
+125	対象文	ホームズは以下を思った	Holmes thought the following.		
+125	情報源		
+125	hasPredicate	思った	think		
+125	Who	ホームズ	Holmes		Person		
+125	What	126	126		
+126	対象文	以下は事件の重要な事象である	It is an important event of the incident the following.		
+126	情報源	125	125		
+126	hasPredicate	equalTo	equalTo		
+126	Who	127,128,129	127,128,129		
+126	What	事件の重要な事象	important event of incident		Object		
+127	対象文	居間の部屋の鍵は誰かに持ち去られた	The key to living room of the room was taken away to someone.		
+127	情報源		
+127	hasPredicate	持ち去られた	take		
+127	Who	居間の部屋の鍵	key of living room		Object		
+127	Whom	誰か	someone		Person		
+128	対象文	バークリとナンシィは居間の部屋の鍵を持ち出せない	Berkeley and Nancy can not take out the room room key.		
+128	情報源		
+128	hasPredicate	持ち出せない	cannotTake		
+128	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+128	What	居間の部屋の鍵	key of living room		Object		
+129	対象文	第三者は居間の部屋に窓から入った	Third party entered from the window to the room in the living room.		
+129	情報源		
+129	hasPredicate	入った	enter		
+129	Who	誰か	someone		Person		
+129	To	居間の部屋	living room		Place		
+129	From	窓	window of living room		Object		
+130	対象文	ホームズは男と獣の足跡を見つけた	Holmes found the footprints of man and beast.		
+130	情報源		
+130	hasPredicate	見つけた	find		
+130	Who	ホームズ	Holmes		Person		
+130	What	男の足跡と獣の足跡	footprint of man AND footprint of beast		Object		
+131	対象文	男は庭から居間の部屋に入った	The man entered from the garden to the living room of the room.		
+131	情報源		
+131	hasPredicate	入った	enter		
+131	Who	男	man		Person		
+131	From	庭	garden		Place		
+131	To	居間の部屋	living room		Place		
+133	対象文	男は庭を走った	The man ran the garden.		
+133	情報源		
+133	hasPredicate	走った	run		
+133	Who	男	man		Person		
+133	Where	庭	garden		Place		
+134	対象文	獣は5つの肉球をもっていた	Beast had five paws.		
+134	情報源		
+134	hasPredicate	もっていた	have		
+134	Who	獣	beast		Animal		
+134	What	5つの肉球	5 paws		Object		
+135	対象文	獣は長い爪をもっていた	Beast had the long claws.		
+135	情報源		
+135	hasPredicate	もっていた	have		
+135	Who	獣	beast		Animal		
+135	What	長い爪	long claws		Object		
+136	対象文	獣は15インチの前足と後ろ足の間の長さをもっている	Beast has a length between forefoot and hind 15-inch.		
+136	情報源		
+136	hasPredicate	もっている	have		
+136	Who	獣	beast		Animal		
+136	What	15インチの前足と後ろ足の間の長さ	15-inch body		Object		
+137	対象文	獣の全長は2フィートである	The total length of the beast is a 2 ft.		
+137	情報源		
+137	hasPredicate	equalTo	equalTo		
+137	Who	獣の全長	total length of beast		Object		
+137	What	2フィート	2 feet		Object		
+138	対象文	獣の歩幅は3インチである	Stride of the beast is a 3 inches.		
+138	情報源		
+138	hasPredicate	equalTo	equalTo		
+138	Who	獣の歩幅	stride of beast		Object		
+138	What	3インチ	3 inches		Object		
+139	対象文	獣は長い胴体をもっている	Beast has a long torso.		
+139	情報源		
+139	hasPredicate	もっている	have		
+139	Who	獣	beast		Animal		
+139	What	長い胴体	long torso		Object		
+140	対象文	獣は短い足をもっている	Beast has a short leg.		
+140	情報源		
+140	hasPredicate	もっている	have		
+140	Who	獣	beast		Animal		
+140	What	短い足	short leg		Object		
+141	対象文	獣は窓掛けへ上ることができる	Beast is able to climb to the curtain.		
+141	情報源		
+141	hasPredicate	上ることができる	canClimb		
+141	Who	獣	beast		Animal		
+141	Where	窓掛け	curtain		Object		
+143	対象文	獣は肉食である	Beast is a carnivorous.		
+143	情報源		
+143	hasProperty	肉食である	carnivorous		
+143	Who	獣	beast		Animal		
+144	対象文	獣は鳥を捕まえようとした	Beast tried to catch the bird.		
+144	情報源		
+144	hasPredicate	捕まえようとした	try_to_catch		
+144	Who	獣	beast		Animal		
+144	What	鳥	bird		Animal		
+145	対象文	獣は鼬や貂の種類の獣である	Beast is a kind of beast of weasel and marten.		
+145	情報源		
+145	hasProperty	である		
+145	Who	獣	beast		Animal		
+145	What	鼬や貂	weasel OR marten		Animal		
+146	対象文	獣は鼬や貂より大きい	Beast is greater than the weasel and Sandiaojiao.		
+146	情報源		
+146	hasProperty	より大きい	larger than		
+146	Who	獣	beast		Animal		
+146	What	鼬や貂	weasel OR marten		Animal		
+147	対象文	獣は事件に関係しているかもしれない	Beast might be related to the incident.		
+147	情報源	ホームズの考え	Idea of Holmes		
+147	hasPredicate	関係している	relate		
+147	Who	獣	beast		Animal		
+147	What	事件	incident		Object		
+148	対象文	ホームズは以下を思った	Holmes thought the following.		
+148	情報源		
+148	hasPredicate	思った	think		
+148	Who	ホームズ	Holmes		Person		
+148	What	149	149		
+149	対象文	男は大通りからナンシィとバークリの言い争いを見ていた	The man was watching the bickering of Nancy and Berkeley from the main street.		
+149	情報源		
+149	hasPredicate	見ていた	see		
+149	Who	男	man		Person		
+149	Where	大通り	main street		Place		
+149	What	86	86		
+151	対象文	男は小動物と一緒にいた	The man was with small animals.		
+151	情報源		
+151	hasPredicate	いた	exist		#ORG:hasPredicate:is
+151	Who	男	man		Person		
+151	Who	小動物	beast		Animal		
+151	How	一緒に	together		
+152	対象文	ホームズは以下を思った	Holmes thought the following.		
+152	情報源		
+152	hasPredicate	思った	think		
+152	Who	ホームズ	Holmes		Person		
+152	What	153,155,156	153,155,156		
+153	対象文	男はバークリを殺したかもしれない	The man might have killed Berkeley.		
+153	情報源	ホームズの考え	Idea of Holmes		
+153	hasPredicate	殺したかもしれない	kill		
+153	Who	男	man		Person		
+153	Whom	バークリ	Berkeley		Person		
+155	対象文	バークリは男に恐怖して卒倒した	Berkeley fainted with fear to the man.		
+155	情報源	ホームズの考え	Idea of Holmes		
+155	hasPredicate	卒倒した	faint		
+155	Who	バークリ	Berkeley		Person		
+155	Why	男に恐怖して	fear		
+156	対象文	バークリは頭を炉格子に打ったかもしれない	Berkeley might have hit his head on the furnace grid.		
+156	情報源	ホームズの考え	Idea of Holmes		
+156	hasPredicate	打ったかもしれない	hit		
+156	Who	バークリ	Berkeley		Person		
+156	What	頭を	head of Berkeley		Object		
+156	Whom	炉格子に	furnace lattice		Object		
+157	対象文	男は居間の部屋の鍵を持って行った	The man took the key to the living room of the room.		
+157	情報源		
+157	hasPredicate	持って行った	take		
+157	Who	男	man		Person		
+157	What	居間の部屋の鍵	key of living room		Object		
+158	対象文	月曜日19時30分に、ナンシィは不機嫌ではなかった	Monday 19:30, Nancy was not grumpy.		
+158	情報源		
+158	hasProperty	不機嫌ではなかった	not bad mood		
+158	Who	ナンシィ	Nancy		Person		
+158	When	月曜日19時30分	19:30 on Monday	1887-07-06T19:30:00		
+159	対象文	月曜日19時30分に、ナンシィとバークリは仲良かった	Monday 19:30, Nancy and Berkeley was Nakayoka'.		
+159	情報源		
+159	hasProperty	仲良かった	close		
+159	Who	バークリとナンシィ	Berkeley AND Nancy		Person		
+159	When	月曜日19時30分	19:30 on Monday		
+160	対象文	月曜日21時15分に、ナンシィはバークリを非難した	Monday 15 pm 21, Nancy accused Berkeley.		
+160	情報源		
+160	hasPredicate	非難した	accuse		
+160	Who	ナンシィ	Nancy		Person		
+160	Whom	バークリ	Berkeley		Person		
+160	When	月曜日21時15分	21:15 on Monday	1887-07-06T21:15:00		
+161	対象文	月曜日19時30分から21時の間に、ナンシィはバークリを嫌いになった	From 19:30 to 21:00 on Monday, Nancy came to hate the Berkeley.		
+161	情報源		
+161	hasPredicate	嫌いになった	hate		
+161	Who	ナンシィ	Nancy		Person		
+161	What	バークリ	Berkeley		Person		
+161	When	月曜日19時30分から21時の間	From 19:30 to 21:00 on Monday		
+161	Begin			1887-07-06T19:30:00		
+161	End			1887-07-06T21:00:00		
+162	対象文	月曜日19時30分から21時の間に、モリソンとナンシィは一緒にいた	Monday 19 at 30 minutes to 21 o'clock, Morrison and Nancy were together.		
+162	情報源		
+162	hasPredicate	いた	exist		
+162	Who	モリソンとナンシィ	Morrison AND Nancy		Person		
+162	How	一緒に	together		
+162	When	月曜日19時30分から21時の間	From 19:30 to 21:00 on Monday		
+162	Begin			1887-07-06T19:30:00		
+162	End			1887-07-06T21:00:00		
+163	対象文	モリソンはナンシィの不機嫌の原因を知っている	Morrison knows the moody cause of Nancy.		
+163	情報源		
+163	hasPredicate	知っている	know		
+163	Who	モリソン	Morrison		Person		
+163	What	ナンシィの不機嫌の原因	cause of 161		
+164	対象文	ホームズは以下を思った	Holmes thought the following.		
+164	情報源		
+164	hasPredicate	思った	think		
+164	Who	ホームズ	Holmes		Person		
+164	What	165	165		
+165	対象文	バークリとモリソンは恋愛関係を持たない	Berkeley and Morrison do not have a love relationship.		
+165	情報源	ホームズの考え	Idea of Holmes		
+165	hasPredicate	持たない	notHave		
+165	Who	バークリとモリソン	Berkeley AND Morrison		Person		
+165	What	恋愛関係	love relationship		Object		
+166	対象文	モリソンは細身である	Morrison is a slender.		
+166	情報源		
+166	hasProperty	細身である	slender		
+166	Who	モリソン	Morrison		Person		
+167	対象文	モリソンはブロンドの髪を持っている	Morrison has a hair of blonde.		
+167	情報源		
+167	hasProperty	ブロンド	blonde		
+167	Who	モリソンの髪	hair of Morrison		Object		
+168	対象文	モリソンは頭いい	Morrison is smart.		
+168	情報源		
+168	hasProperty	頭いい	smart		
+168	Who	モリソン	Morrison		Person		
+169	対象文	モリソンは常識を持つ	Morrison has the common sense.		
+169	情報源		
+169	hasPredicate	持つ	have		
+169	Who	モリソン	Morrison		Person		
+169	What	常識	common sense		Object		
+170	対象文	ホームズはモリソンから話を聞いた	Holmes heard the story from Morrison.		
+170	情報源		
+170	hasPredicate	聞いた	hear		
+170	Who	ホームズ	Holmes		Person		
+170	Whom	モリソン	Morison		Person		
+170	What	話	story		Object		
+171	対象文	モリソンは以下を言った	Morrison said the following:.		
+171	情報源		
+171	hasPredicate	言った	say		
+171	Who	モリソン	Morison		Person		
+171	What	172,173,174,175,177,178,179,180,182,183,184,185,186,187,188,189,191,192,193,194,195,196,197,198,199,200,202,205,207,208,209,210,211	172,173,174,175,177,178,179,180,182,183,184,185,186,187,188,189,191,192,193,194,195,196,197,198,199,200,202,205,207,208,209,210,211		
+172	対象文	モリソンはナンシィを助けたい	Morrison want to help Nancy.		
+172	情報源	モリソンの発言	Remark by Morrison		
+172	hasPredicate	助けたい	wantToHelp		#ORG:hasPredicate:want to help
+172	Who	モリソン	Morrison		Person		
+172	What	ナンシィ	Nancy		Person		
+173	対象文	聖ジョージ組合の会合はワット街の教会で行われた	Meeting of the St. George union took place in Watts Street Church.		
+173	情報源	モリソンの発言	Remark by Morrison		
+173	hasPredicate	行われた	takePlace		#ORG:hasPredicate:take place
+173	Who	聖ジョージ組合の会合	meeting of the St. George union		Object		
+173	Where	ワット街の教会	Watts Street Church		Place		
+174	対象文	モリソンとナンシィは21時15分前にラシーンについた	Morrison and Nancy went to Rasheen before 15 pm on 21.		
+174	情報源	モリソンの発言	Remark by Morrison		
+174	hasPredicate	ついた	arrive		
+174	Who	モリソンとナンシィ	Morrison AND Nancy		Person		
+174	When	20:45	20:45		
+174	Where	ラシーン	Rasheen		Place		
+175	対象文	モリソンとナンシィはワット街からハドソン街を通ってラシーンへ行った	Morrison and Nancy went to Rasheen through the Hudson Street from Watts Street.		
+175	情報源	モリソンの発言	Remark by Morrison		
+175	hasPredicate	行った	go		
+175	Who	モリソンとナンシィ	Morrison AND Nancy		Person		
+175	From	ハドソン街	Hudson Street		Place		
+175	From	ワット街	Watts Street		Place		
+175	To	ラシーン	Rasheen		Place		
+177	対象文	ハドソン街は静かな通りである	Hudson Street is a quiet street.		
+177	情報源	モリソンの発言	Remark by Morrison		
+177	hasProperty	静か	quiet		
+177	Who	ハドソン街	Hudson Street		Place		
+178	対象文	モリソンとナンシィはハドソン街でヘンリに会った	Morrison and Nancy met Henry Hudson Street.		
+178	情報源	モリソンの発言	Remark by Morrison		
+178	hasPredicate	会った	meet		
+178	Who	モリソンとナンシィ	Morrison AND Nancy		Person		
+178	Whom	ヘンリ	Henry		Person		
+178	Where	ハドソン街	Hudson Street		Place		
+179	対象文	ヘンリは猫背である	Henry is a stoop.		
+179	情報源	モリソンの発言	Remark by Morrison		
+179	hasProperty	猫背	stoop		
+179	Who	ヘンリ	Henry		Person		
+180	対象文	ヘンリは箱を持っている	Henry has a box.		
+180	情報源	モリソンの発言	Remark by Morrison		
+180	hasPredicate	持っている	have		
+180	Who	ヘンリ	Henry		Person		
+180	What	箱	box		Object		
+181	対象文	ヘンリはうつむいていた	Henry was looking down.		
+181	情報源	モリソンの発言	Remark by Morrison		
+181	hasPredicate	うつむいていた	lookDown		
+181	Who	ヘンリ	Henry		Person		
+182	対象文	ヘンリは膝をまげていた	Henry was bending the knee.		
+182	情報源	モリソンの発言	Remark by Morrison		
+182	hasPredicate	まげていた	bend		
+182	Who	ヘンリ	Henry		Person		
+182	What	膝	knee of Henry		Object		
+183	対象文	ヘンリは「ナンシィ!」と叫んだ	Henry cried Nancy.		
+183	情報源	モリソンの発言	Remark by Morrison		
+183	hasPredicate	叫んだ	shout		
+183	Who	ヘンリ	Henry		Person		
+183	What	「ナンシィ」	"Nancy!"		
+184	対象文	ナンシィは真っ青だった	Nancy was a deep blue.		
+184	情報源	モリソンの発言	Remark by Morrison		
+184	hasProperty	真っ青だった	turnPale		
+184	Who	ナンシィ	Nancy		Person		
+185	対象文	ナンシィは倒れそうになった	Nancy became ramshackle.		
+185	情報源	モリソンの発言	Remark by Morrison		
+185	hasPredicate	倒れ	fall		
+185	Who	ナンシィ	Nancy		Person		
+185	How	そうになった	almost		
+186	対象文	ヘンリはナンシィを支えた	Henry has supported the Nancy.		
+186	情報源	モリソンの発言	Remark by Morrison		
+186	hasPredicate	支えた	support		
+186	Who	ヘンリ	Henry		Person		
+186	What	ナンシィ	Nancy		Person		
+187	対象文	ナンシィとヘンリは仲良く話した	Nancy and Henry told friends.		
+187	情報源	モリソンの発言	Remark by Morrison		
+187	hasPredicate	話した	talk		
+187	Who	ナンシィ	Nancy		Person		
+187	Who	ヘンリ	Henry		Person		
+187	How	仲良く	friendly		
+188	対象文	ナンシィの声が震えていた	Voice of Nancy had been trembling.		
+188	情報源	モリソンの発言	Remark by Morrison		
+188	hasProperty	震えていた	shaky		
+188	Who	ナンシィの声	voice of Nancy		Object		
+189	対象文	ナンシィは以下を思っていた	Nancy was wondering the following:.		
+189	情報源	モリソンの発言	Remark by Morrison		
+189	hasPredicate	思っていた	think		
+189	Who	ナンシィ	Nancy		Person		
+189	What	190	190		
+190	対象文	ヘンリは30年前に死んだ	Henry died 30 years ago.		
+190	情報源	ナンシィの考え	Idea of Nancy		
+190	hasPredicate	死んだ	die		
+190	Who	ヘンリ	Henry		Person		
+190	When	30年前	30 years ago		
+191	対象文	モリソンはヘンリが恐ろしい	Morrison is horrible Henry.		
+191	情報源	モリソンの発言	Remark by Morrison		
+191	hasPredicate	恐ろしい	scare		
+191	Who	モリソン	Morrison		Person		
+191	What	ヘンリ	Henry		Person		
+192	対象文	ヘンリの顔は黒い	Face of Henry is black.		
+192	情報源	モリソンの発言	Remark by Morrison		
+192	hasProperty	黒い	black		
+192	Who	ヘンリの顔	face of Henry		Object		
+193	対象文	ヘンリの目はぎらぎらしている	The eyes of Henry is to scintillate.		
+193	情報源	モリソンの発言	Remark by Morrison		
+193	hasProperty	ぎらぎらしている	glaringly		
+193	Who	ヘンリの目	eye of Henry		Object		
+194	対象文	ヘンリの髪は白い	Hair of Henry White.		
+194	情報源	モリソンの発言	Remark by Morrison		
+194	hasProperty	白い	white		
+194	Who	ヘンリの髪	Hair of Henry		Object		
+195	対象文	ヘンリの顔はしわを持つ	Face of Henry has wrinkles.		
+195	情報源	モリソンの発言	Remark by Morrison		
+195	hasPredicate	持つ	have		
+195	Who	ヘンリの顔	face of Henry		Object		
+195	What	しわ	wrinkle		Object		
+196	対象文	ナンシィとヘンリは二人で数分間話した	Nancy and Henry spoke for several minutes with two people.		
+196	情報源	モリソンの発言	Remark by Morrison		
+196	hasPredicate	話した	talk		
+196	Who	ナンシィとヘンリ	Nancy AND Henry		Person		
+196	When	数分間	several minutes		
+196	then	198	198		
+196	at the same time	197	197		
+197	対象文	モリソンは数分間待っていた	Morrison was waiting for a few minutes.		
+197	情報源	モリソンの発言	Remark by Morrison		
+197	hasPredicate	待っていた	wait		
+197	Who	モリソン	Morrison		Person		
+197	When	数分間	several minutes		
+198	対象文	ナンシィは怒った	Nancy got angry.		
+198	情報源	モリソンの発言	Remark by Morrison		
+198	hasProperty	怒った	angry		
+198	Who	ナンシィ	Nancy		Person		
+198	then	200	200		
+198	at the same time	199	199		
+199	対象文	ヘンリは怒った	Henry was angry.		
+199	情報源	モリソンの発言	Remark by Morrison		
+199	hasProperty	怒った	angry		
+199	Who	ヘンリ	Henry		Person		
+200	対象文	ナンシィはモリソンに以下を頼んだ	Nancy asked the following to Morrison.		
+200	情報源	モリソンの発言	Remark by Morrison		
+200	hasPredicate	頼んだ	ask		
+200	Who	ナンシィ	Nancy		Person		
+200	Whom	モリソン	Morrison		Person		
+200	What	201	201		
+201	対象文	モリソンは誰にもヘンリのことを言わない	Morrison do not say that of Henry to anyone.		
+201	情報源		
+201	hasPredicate	言わない	notTell		
+201	Who	モリソン	Morrison		Person		
+201	Whom	誰にも	anyone		Person		
+201	What	ヘンリのこと	about Henry		Object		
+202	対象文	ナンシィは以下を言った	Nancy said the following:.		
+202	情報源	モリソンの発言	Remark by Morrison		
+202	hasPredicate	言った	say		
+202	Who	ナンシィ	Nancy		Person		
+202	What	203,204	203,204		
+203	対象文	ナンシィとヘンリは昔なじみである	Nancy and Henry are old friends.		
+203	情報源	ナンシィの発言	Remark by Nancy		
+203	hasProperty	昔なじみである	old friend		
+203	Who	ナンシィとヘンリ	Nancy AND Henry		Person		
+204	対象文	ヘンリは落ちぶれた	Henry came down.		
+204	情報源	ナンシィの発言	Remark by Nancy		
+204	hasPredicate	落ちぶれた	comeDown		#ORG:hasPredicate:come down
+204	Who	ヘンリ	Herny		Person		
+205	対象文	モリソンはナンシィに以下を誓った	Morrison vowed following the Nancy.		
+205	情報源	モリソンの発言	Remark by Morrison		
+205	hasPredicate	誓った	swear		
+205	Who	モリソン	Morrison		Person		
+205	Whom	ナンシィ	Nancy		Person		
+205	What	206	206		
+206	対象文	モリソンは誰にもヘンリのことを言わない	Morrison does not say that of Henry to anyone.		
+206	情報源	モリソンの発言	Remark by Morrison		
+206	hasPredicate	言わない	notSay		
+206	Who	モリソン	Morrison		Person		
+206	Whom	誰にも	anyone		Person		
+206	What	ヘンリのこと	about Henry		Object		
+207	対象文	ナンシィはモリソンに接吻した	Nancy was kissed Morrison.		
+207	情報源	モリソンの発言	Remark by Morrison		
+207	hasPredicate	接吻した	kiss		
+207	Who	ナンシィ	Nancy		Person		
+207	Whom	モリソン	Morrison		Person		
+208	対象文	月曜日21時15分から、モリソンはナンシィに会っていない	Monday minutes to 21 o'clock 15, Morrison is not met Nancy.		
+208	情報源	モリソンの発言	Remark by Morrison		
+208	hasPredicate	会っていない	notMeet		
+208	Who	モリソン	Morrison		Person		
+208	Whom	ナンシィ	Nancy		Person		
+208	When	月曜日21時15分から	1887-07-06T21:15:00 ~		
+209	対象文	モリソンは警察に嘘を言った	Morrison told a lie to the police.		
+209	情報源	モリソンの発言	Remark by Morrison		
+209	hasPredicate	言った	tell		
+209	Who	モリソン	Morrison		Person		
+209	Whom	警察	police		Person		
+209	What	嘘	lie		Object		
+210	対象文	モリソンはホームズに真実を言った	Morrison told the truth to Holmes.		
+210	情報源	モリソンの発言	Remark by Morrison		
+210	hasPredicate	言った	tell		
+210	Who	モリソン	Morrison		Person		
+210	Whom	ホームズ	Holmes		Person		
+210	What	真実	truth		Object		
+210	because	211	211		
+211	対象文	モリソンはナンシィを助けたい	Morrison want to help Nancy.		
+211	情報源	モリソンの発言	Remark by Morrison		
+211	hasPredicate	助けたい	wantToHelp		#ORG:hasPredicate:want to help
+211	Who	モリソン	Morrison		Person		
+211	Whom	ナンシィ	Nancy		Person		
+212	対象文	ホームズは水曜日の夜にヘンリの家を見つけた	Holmes found a home of Henry on Wednesday night.		
+212	情報源		
+212	hasPredicate	見つけた	find		
+212	Who	ホームズ	Holmes		Person		
+212	What	ヘンリの家	house of Henry		Place		
+212	When	水曜日の夜	Wednesday night	1887-07-08T21:00:00		
+213	対象文	ヘンリは金曜日からハドソン街の下宿に住んでいる	Henry has been living in Hudson Town's lodging since Friday		
+213	情報源		
+213	hasPredicate	住んでいる	live		
+213	Who	ヘンリ	Henry		Person		
+213	Where	ハドソン街の下宿	lodge of Hudson street		Place		
+213	When	金曜日	Friday		
+214	対象文	大家の女は以下を言った	Woman of the landlord said the following:.		
+214	情報源		
+214	hasPredicate	言った	tell		
+214	Who	大家の女	owner of lodge of Hudson street		Person		
+214	What	215,216,217,218,220,221,222,223,224	215,216,217,218,220,221,222,223,224		
+215	対象文	ヘンリは手品師と芸人をしている	Henry is a magician and entertainer.		
+215	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+215	hasProperty	手品師と芸人	magician AND entertainer		
+215	Who	ヘンリ	Henry		Person		
+216	対象文	ヘンリは兵士の食堂で余興をする	Henry is a sideshow at the soldiers of the dining room.		
+216	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+216	hasPredicate	する	do		
+216	Who	ヘンリ	Henry		Person		
+216	Where	兵士の食堂	dining room of lodge		Place		
+216	What	余興	performance		Object		
+217	対象文	ヘンリは獣を飼っている	Henry keeps a beast.		
+217	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+217	hasPredicate	飼っている	keep		
+217	Who	ヘンリ	Henry		Person		
+217	What	獣	beast		Animal		
+218	対象文	大家の女は獣を見ていない	Woman of the landlord have not seen the beast.		
+218	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+218	hasPredicate	見ていない	notSee		
+218	Who	大家の女	owner of lodge of Hudson street		Person		
+218	What	獣	beast		Animal		
+220	対象文	ヘンリは箱に獣を入れている	Henry has put the beast in a box.		
+220	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+220	hasPredicate	入れている	put		
+220	Who	ヘンリ	Henry		Person		
+220	To	箱	box		Object		
+220	What	獣	beast		Animal		
+221	対象文	ヘンリは手品の時に獣を使う	Henry use the beast at the time of magic.		
+221	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+221	hasPredicate	使う	use		
+221	Who	ヘンリ	Henry		Person		
+221	What	獣	beast		Animal		
+221	When	手品の時	magic		
+222	対象文	ヘンリの身体は曲がっている	Henry's body is bent.		
+222	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+222	hasProperty	曲がっている	bent		
+222	Who	ヘンリの身体	body of Henry		Object		
+223	対象文	ヘンリは時々、変な言葉を話す	Henry sometimes, speaking a strange word.		
+223	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+223	hasPredicate	話す	speak		
+223	Who	ヘンリ	Henry		Person		
+223	What	変な言葉	strange word		Object		
+223	When	時々	sometimes		
+224	対象文	ヘンリは月曜日の夜と火曜日の夜に寝室で唸ったり泣いたりしていた	Henry had been crying or growled in the bedroom on the night of Monday night and Tuesday.		
+224	情報源	大家の女の発言	Remark by owner of lodge of Hudson street		
+224	hasPredicate	唸ったり泣いたりしていた	cry		
+224	Who	ヘンリ	Henry		Person		
+224	Where	寝室	bedroom		Place		
+224	When	月曜日の夜と火曜日の夜	Monday night AND Tuesday night	1887-07-06T21:00:00		
+224	When	月曜日の夜と火曜日の夜	Monday night AND Tuesday night	1887-07-07T21:00:00		
+226	対象文	ヘンリは大家の女にインドのルピーを渡した	Henry handed the Indian rupee to the woman of the landlord.		
+226	情報源		
+226	hasPredicate	渡した	give		
+226	Who	ヘンリ	Henry		Person		
+226	Whom	大家の女	owner of lodge of Hudson street		Person		
+226	What	インドのルピー	Indian rupee		Object		
+227	対象文	ホームズは以下を思った	Holmes thought the following.		
+227	情報源		
+227	hasPredicate	思った	think		
+227	Who	ホームズ	Holmes		Person		
+227	What	228,229,231,232,233	228,229,231,232,233		
+228	対象文	ヘンリはモリソンとナンシィに付いていった	Henry went with Morrison and Nancy.		
+228	情報源	ホームズの考え	Idea of Holmes		
+228	hasPredicate	付いていった	follow		
+228	Who	ヘンリ	Henry		Person		
+228	Whom	モリソンとナンシィ	Morrison AND Nancy		Person		
+229	対象文	ヘンリは大通りでナンシィとバークリの言い争いを見た	Henry saw the bickering of Nancy and Berkeley in the main street.		
+229	情報源	ホームズの考え	Idea of Holmes		
+229	hasPredicate	見た	see		
+229	Who	ヘンリ	Henry		Person		
+229	Where	大通り	main street		Place		
+229	What	81	81		
+231	対象文	ヘンリは居間の部屋へ入った	Henry went to the living room of the room.		
+231	情報源	ホームズの考え	Idea of Holmes		
+231	hasPredicate	入った	enter		
+231	Who	ヘンリ	Henry		Person		
+231	To	居間の部屋	living room		Place		
+232	対象文	ヘンリは獣を箱で運んできた	Henry've been carrying a beast in the box.		
+232	情報源	ホームズの考え	Idea of Holmes		
+232	hasPredicate	運んできた	carry		
+232	Who	ヘンリ	Henry		Person		
+232	What	獣	beast		Animal		
+232	How	箱で	box		
+233	対象文	獣が逃げた	Beast ran away.		
+233	情報源	ホームズの考え	Idea of Holmes		
+233	hasPredicate	逃げた	escape		#ORG:hasPredicate:flee
+233	Who	獣	beast		Animal		
+234	対象文	ホームズはヘンリから話を聞く	Holmes hear from Henry.		
+234	情報源		
+234	hasPredicate	聞く	hear		
+234	Who	ホームズ	Holmes		Person		
+234	Whom	ヘンリ	Henry		Person		
+234	What	話	story		Object		
+235	対象文	ワトソンはヘンリとホームズの立会人になる	Watson is the witness of Henry Holmes.		
+235	情報源		
+235	hasPredicate	なる	become		
+235	Who	ワトソン	Watson		Person		
+235	What	ヘンリとホームズの立会人	witness of Henry AND witness of Holmes		Person		
+236	対象文	シンプソンはベイカー街少年団の一人である	Simpson is one of the Baker Street Boy Scouts.		
+236	情報源		
+236	hasProperty	少年団の一人	boy scout		Person		
+236	Who	シンプソン	Simpson		Person		
+236	Where	ベイカー街	Baker Street		Place		
+237	対象文	ホームズはシンプソンにヘンリを監視させた	Holmes let simpson to monitor Henri.		
+237	情報源		
+237	hasPredicate	させた	let		
+237	Who	ホームズ	Holmes		Person		
+237	Whom	シンプソン	Simpson		Person		
+237	What	ヘンリを監視すること	monitoring Henri		Object		
+238	対象文	ホームズは木曜日にハドソン街でシンプソンに会う	Holmes meet in Simpson Hudson Street on Thursday.		
+238	情報源		
+238	hasPredicate	会う	meet		
+238	Who	ホームズ	Holmes		Person		
+238	Whom	シンプソン	Simpson		Person		
+238	Where	ハドソン街	Hudson street		Place		
+238	When	木曜日	Thursday	1887-07-09		
+239	対象文	ホームズとワトソンは木曜日にハドソン街についた	Holmes and Watson went to Hudson Street on Thursday.		
+239	情報源		
+239	hasPredicate	ついた	go		
+239	Who	ホームズとワトソン	Holmes AND Watson		Person		
+239	Where	ハドソン街	Hudson street		Place		
+239	When	木曜日	Thursday	1887-07-09		
+240	対象文	ホームズとワトソンはヘンリに会った	Holmes and Watson met Henry.		
+240	情報源		
+240	hasPredicate	会った	meet		
+240	Who	ホームズとワトソン	Holmes AND Watson		Person		
+240	Whom	ヘンリ	Henry		Person		
+241	対象文	ヘンリは暖かな気候の中、暖炉にあたっていた	Henry is in the warm climate, it had been hit in fireplace.		
+241	情報源		
+241	hasPredicate	あたっていた	warm		
+241	Who	ヘンリ	Henry		Person		
+241	Where	暖炉に	fireplace		Object		
+242	対象文	ヘンリの部屋は蒸し暑い	Henry of the room is hot and humid.		
+242	情報源		
+242	hasProperty	蒸し暑い	humid		
+242	Who	ヘンリの部屋	room of Henry		Place		
+243	対象文	ヘンリは椅子に座っていた	Henry was sitting in a chair.		
+243	情報源		
+243	hasPredicate	座っていた	sit		
+243	Who	ヘンリ	Henry		Person		
+243	On	椅子に	chair		Object		
+244	対象文	ヘンリは全身を丸めていた	Henry had rounded the whole body.		
+244	情報源		
+244	hasPredicate	丸めていた	round		
+244	Who	ヘンリ	Henry		Person		
+244	What	全身	whole body		Object		
+245	対象文	ヘンリの顔はしわが多かった	Face of Henry wrinkles there were many.		
+245	情報源		
+245	hasPredicate	多かった	have		
+245	Who	ヘンリの顔	face of Henry		Object		
+245	What	しわ	wrinkle		Object		
+246	対象文	ヘンリの顔は汚れていた	Face of Henry was dirty.		
+246	情報源		
+246	hasProperty	汚れていた	dirty		
+246	Who	ヘンリの顔	face of Henry		Object		
+247	対象文	ヘンリは昔は美男であった	Henry In the old days was a handsome man.		
+247	情報源		
+247	hasProperty	美男であった	handsome		#ORG:hasProperty:handsome man
+247	Who	ヘンリ	Henry		Person		
+247	When	昔	old days		
+248	対象文	ヘンリは気難しい	Henry is grumpy.		
+248	情報源		
+248	hasProperty	気難しい	grumpy		
+248	Who	ヘンリ	Henry		Person		
+249	対象文	ヘンリはホームズとワトソンに怯えていた	Henry was frightened to Holmes and Watson.		
+249	情報源		
+249	hasPredicate	怯えていた	scare		
+249	Who	ヘンリ	Henry		Person		
+249	Whom	ホームズとワトソン	Holmes AND Watson		Person		
+250	対象文	ホームズはヘンリに愛想よく話しかけた	Holmes spoke agreeable Henry.		
+250	情報源		
+250	hasPredicate	話しかけた	speak		
+250	Who	ホームズ	Holmes		Person		
+250	Whom	ヘンリ			Person		
+250	How	愛想よく	agreeable		
+251	対象文	ホームズは以下をヘンリに伝えた	Holmes told the following to Henry.		
+251	情報源		
+251	hasPredicate	伝えた	tell		
+251	Who	ホームズ	Holmes		Person		
+251	What	252	252		
+251	Whom	ヘンリ	Henry		Person		
+252	対象文	ナンシィは事件の犯人と疑われている	Nancy are suspected of criminal incidents.		
+252	情報源	ホームズの発言	Remark by Holmes		
+252	hasPredicate	疑われている	beSuspected		
+252	Who	ナンシィ	Nancy		Person		
+252	What	事件の犯人	criminal of incident		Person		
+253	対象文	ヘンリは震えた	Henry was trembling.		
+253	情報源		
+253	hasProperty	震えた	shiver		
+253	Who	ヘンリ	Henry		Person		
+254	対象文	ホームズは以下をヘンリに伝えた	Holmes told the following to Henry.		
+254	情報源		
+254	hasPredicate	伝えた	tell		
+254	Who	ホームズ	Holmes		Person		
+254	What	255	255		
+254	Whom	ヘンリ	Henry		Person		
+255	対象文	ナンシィは逮捕される	Nancy is arrested.		
+255	情報源	ホームズの発言	Remark by Holmes		
+255	hasPredicate	逮捕される	beArrested		
+255	Who	ナンシィ	Nancy		Person		
+256	対象文	ヘンリは以下を言った	Henry said the following:.		
+256	情報源		
+256	hasPredicate	言った	tell		
+256	Who	ヘンリ	Henry		Person		
+256	What	257,258,259,260,262,263,264,265,266,267,268,269,270,271,272,273,275,276,277,279,280,281,282,283,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,302,303,304,306,307		
+257	対象文	ナンシィは犯人ではない	Nancy is not a criminal.		
+257	情報源	ヘンリの発言	Remark by Henry		
+257	hasProperty	犯人ではない	notCriminal		
+257	Who	ナンシィ	Nancy		Person		
+258	対象文	ヘンリは犯人ではない	Henry is not a criminal.		
+258	情報源	ヘンリの発言	Remark by Henry		
+258	hasProperty	犯人ではない	notCriminal		
+258	Who	ヘンリ	Henry		Person		
+259	対象文	バークリは贖罪のために自殺した	Berkeley was suicide for the sake of penance.		
+259	情報源	ヘンリの発言	Remark by Henry		
+259	hasPredicate	自殺した	commitSuicide		
+259	Who	バークリ	Berkeley		Person		
+259	Why	贖罪のため	atonement		
+260	対象文	ヘンリはバークリ殺害の動機を持っていた	Henry had a motive for killing Berkeley.		
+260	情報源	ヘンリの発言	Remark by Henry		
+260	hasPredicate	持っていた	have		
+260	Who	ヘンリ	Henry		Person		
+260	What	バークリ殺害の動機	motive of killing Berkeley		Object		
+262	対象文	ヘンリは30年前、ロイヤル・マロウズの第一大隊で一番の美男だった	Henry is 30 years ago, it was the most handsome in the first battalion of the Royal Mallows.		
+262	情報源	ヘンリの発言	Remark by Henry		
+262	hasProperty	一番の美男だった	handsome		
+262	Who	ヘンリ	Henry		Person		
+262	Where	ロイヤル・マロウズの第一大隊	first battalion of Royal Mallows		Object		
+262	When	30年前	30 years ago	1857-07-09		
+263	対象文	ロイヤル・マロウズの第一大隊は30年前にインドのブーテーにいた	The first battalion of the Royal Mallows was Bute Nii of India 30 years ago.		
+263	情報源	ヘンリの発言	Remark by Henry		
+263	hasPredicate	いた	exist		
+263	Who	ロイヤル・マロウズの第一大隊	first battalion of Royal Mallows		Object		
+263	Where	インドの兵営	barrack of India		Place		
+263	at the same time	264	264		
+263	When	30年前	30 years ago	1857-07-09		
+264	対象文	バークリとヘンリはロイヤル・マロウズの第一大隊の中隊で軍曹だった	Berkeley and Henry was a sergeant in the company of the first battalion of the Royal Mallows.		
+264	情報源	ヘンリの発言	Remark by Henry		
+264	hasProperty	軍曹だった	sergeant		
+264	Who	バークリとヘンリ	Berkeley AND Henry		Person		
+264	Where	ロイヤル・マロウズの第一大隊の中隊	company of first battalion of Royal Mallows		Object		
+264	at the same time	265	265		
+265	対象文	ナンシィはロイヤル・マロウズの第一大隊で一番の美女だった	Nancy was the most beautiful woman in the first battalion of the Royal Mallows.		
+265	情報源	ヘンリの発言	Remark by Henry		
+265	hasProperty	一番の美女だった	beautiful		
+265	Who	ナンシィ	Nancy		Person		
+265	Where	ロイヤル・マロウズの第一大隊	first battalion of Royal Mallows		Object		
+265	at the same time	267	267		
+266	対象文	ナンシィは軍旗軍曹の娘だった	Nancy was the daughter of ensign sergeant.		
+266	情報源	ヘンリの発言	Remark by Henry		
+266	hasPredicate	equalTo	equalTo		
+266	Who	ナンシィ	Nancy		Person		
+266	What	軍旗軍曹の娘	daughter of ensign sergeant		Person		
+267	対象文	バークリとヘンリはナンシィを愛していた	Berkeley and Henry loved the Nancy.		
+267	情報源	ヘンリの発言	Remark by Henry		
+267	hasPredicate	愛していた	love		
+267	Who	バークリとヘンリ	Berkeley AND Henry		Person		
+267	Whom	ナンシィ	Nancy		Person		
+267	at the same time	268	268	1857-07-09		
+268	対象文	ナンシィはヘンリを愛していた	Nancy had loved Henry.		
+268	情報源	ヘンリの発言	Remark by Henry		
+268	hasPredicate	愛していた	love		
+268	Who	ナンシィ	Nancy		Person		
+268	What	ヘンリ	Henry		Person		
+268	at the same time	269	269	1857-07-09		
+269	対象文	ナンシィとバークリは結婚を決められていた	Nancy and Berkeley had been decided to get married.		
+269	情報源	ヘンリの発言	Remark by Henry		
+269	hasProperty	決められていた	decided		#ORG:hasPredicate:beDecided
+269	Who	ナンシィとバークリ	Nancy AND Berkeley		Person		
+269	What	結婚	marriage		Object		
+269	Whom	ナンシィの父	father of Nancy		Person		
+269	at the same time	270	270	1857-07-09		
+270	対象文	ヘンリは無鉄砲だった	Henry was reckless.		
+270	情報源	ヘンリの発言	Remark by Henry		
+270	hasProperty	無鉄砲だった	reckless		
+270	Who	ヘンリ	Henry		Person		
+270	at the same time	271	271	1857-07-09		
+271	対象文	バークリは教養を持っていた	Berkeley had a liberal arts.		
+271	情報源	ヘンリの発言	Remark by Henry		
+271	hasProperty	教養がある	wellEducated		#ORG:hasProperty:well‐educated
+271	Who	バークリ	Berkeley		Person		
+271	at the same time	272	272	1857-07-09		
+272	対象文	バークリは出世できた	Berkeley was able to get ahead.		
+272	情報源	ヘンリの発言	Remark by Henry		
+272	hasPredicate	出世できた	canGetAhead		
+272	Who	バークリ	Berkeley		Person		
+272	Because	271	271		
+273	対象文	ヘンリは大反乱まで以下を思っていた	Henry was wondering the following to a Indian Rebellion.		
+273	情報源	ヘンリの発言	Remark by Henry		
+273	hasPredicate	思っていた	think		
+273	Who	ヘンリ	Henry		Person		
+273	When	大反乱まで	Indian Rebellion	1857-06-09		
+273	What	274	274		
+274	対象文	ヘンリはナンシィと結婚できる	Henry can marry Nancy.		
+274	情報源	ヘンリの考え	Idea of Henry		
+274	hasPredicate	結婚できる	canMarry		
+274	Who	ヘンリ	Henry		Person		
+274	Whom	ナンシィ	Nancy		Person		
+275	対象文	ロイヤル・マロウズの第一大隊と文民はブーテーに籠城した	The first battalion and a civilian of the Royal Mallows was siege to Bute.		
+275	情報源	ヘンリの発言	Remark by Henry		
+275	hasPredicate	籠城した	beBesieged		
+275	Who	ロイヤル・マロウズの第一大隊	first battalion of Royal Mallows		Object		
+275	Who	文民	civilian		Person		
+275	Where	兵営	barrack		Place		
+275	Time			1857-07-09		
+275	then	276	276		
+276	対象文	ロイヤル・マロウズの第一大隊と文民は一万人の凶暴な逆徒達に囲まれていた	The first battalion and a civilian of the Royal Mallows had been surrounded by the ferocious Gyakuto our one million people.		
+276	情報源	ヘンリの発言	Remark by Henry		
+276	hasPredicate	囲まれていた	beSurrounded		
+276	Who	ロイヤル・マロウズの第一大隊	first battalion of Royal Mallows		Object		
+276	Who	文民	civilian		Person		
+276	Whom	一万人の凶暴な逆徒達	10000 rebels		Person		
+276	then	277	277		
+277	対象文	ヘンリは以下を申し出た	Henry was offered the following.		
+277	情報源	ヘンリの発言	Remark by Henry		
+277	hasPredicate	申し出た	offer		
+277	Who	ヘンリ	Henry		Person		
+277	What	278	278		
+277	then	279	279		
+278	対象文	ヘンリが外と連絡を取る	To contact Henry is an outer.		
+278	情報源	ヘンリの発言	Remark by Henry		
+278	hasPredicate	連絡を取る	contact		
+278	Who	ヘンリ	Henry		Person		
+278	Whom	外と	outside		Place		
+279	対象文	バークリはヘンリに抜け道を教えた	Berkeley taught Henri about the way around.		
+279	情報源	ヘンリの発言	Remark by Henry		
+279	hasPredicate	教えた	tell		
+279	Who	バークリ	Berkeley		
+279	Whom	ヘンリ	Henry		Person		
+279	What	抜け道	bypath		Place		
+279	then	280	280		
+280	対象文	ヘンリは外へ出た	Henry went out to the outside.		
+280	情報源	ヘンリの発言	Remark by Henry		
+280	hasPredicate	出た	go		
+280	Who	ヘンリ	Henry		Person		
+280	To	外へ	outside		Place		
+280	From	兵営	barrack		Place		
+280	How	抜け道	bypath		
+280	then	281	281		
+281	対象文	ヘンリは抜け道で逆徒達に待ち伏せられていた	Henry had been ambushed in Gyakuto us with loophole.		
+281	情報源	ヘンリの発言	Remark by Henry		
+281	hasPredicate	待ち伏せられていた	beAmbushed		
+281	Who	ヘンリ	Henry		Person		
+281	Where	抜け道で	bypath		Place		
+281	Whom	逆徒達	rebels		Person		
+281	then	282	282		
+281	why	284	284		
+282	対象文	ヘンリは逆徒達に捕まった	Henry was caught in Gyakuto us.		
+282	情報源	ヘンリの発言	Remark by Henry		
+282	hasPredicate	捕まった	beCaught		
+282	Who	ヘンリ	Henry		Person		
+282	Whom	逆徒達	rebels		Person		
+282	then	286	286		
+283	対象文	ヘンリは以下を聞いた	Henry heard the following.		
+283	情報源	ヘンリの発言	Remark by Henry		
+283	hasPredicate	聞いた	hear		
+283	Who	ヘンリ	Henry		Person		
+283	What	284	284		
+284	対象文	バークリがヘンリを逆徒達へ売った	Berkeley was selling Henry to Gyakuto us.		
+284	情報源	ヘンリの発言	Remark by Henry		
+284	hasPredicate	売った	sell		
+284	Who	バークリ	Berkeley		Person		
+284	What	ヘンリ	Henry		Person		
+284	Whom	逆徒達	rebels		Person		
+285	対象文	ロイヤル・マロウズの第一大隊と文民は助かった	The first battalion and a civilian of the Royal Mallows was survived.		
+285	情報源	ヘンリの発言	Remark by Henry		
+285	hasPredicate	助かった	beSaved		
+285	Who	ロイヤル・マロウズの第一大隊	first battalion of Royal Mallows		Object		
+285	Who	文民	civilian		Person		
+285	at the same time	286	286		
+286	対象文	ヘンリは逆徒達に連れていかれた	Henry was taken to Gyakuto us.		
+286	情報源	ヘンリの発言	Remark by Henry		
+286	hasPredicate	連れていかれた	beTaken		
+286	Who	ヘンリ	Henry		Person		
+286	Whom	逆徒達	rebels		Person		
+286	then	287	287		
+287	対象文	ヘンリは逆徒達に拷問をされた	Henry was tortured to Gyakuto us.		
+287	情報源	ヘンリの発言	Remark by Henry		
+287	hasPredicate	拷問された	beTortured		
+287	Who	ヘンリ	Henry		Person		
+287	Whom	逆徒達	rebels		Person		
+287	then	288	288		
+288	対象文	ヘンリの体は曲がった	Henry's body was bent.		
+288	情報源	ヘンリの発言	Remark by Henry		
+288	hasPredicate	曲がった	beBent		
+288	Who	ヘンリの体	Henry		Object		
+288	Why	287	287		
+288	then	289	289		
+289	対象文	ヘンリは逆徒達にネパールへ連れていかれた	Henry made their way brought to Nepal to Gyakuto us.		
+289	情報源	ヘンリの発言	Remark by Henry		
+289	hasPredicate	連れていかれた	beTaken		
+289	Who	ヘンリ	Henry		Person		
+289	Whom	逆徒達	rebels		Person		
+289	To	ネパール	Nepal		Place		
+289	then	290	290		
+290	対象文	ヘンリは逆徒達にダージリンの先へ連れていかれた	Henry made their way brought to Darjeeling earlier Gyakuto us.		
+290	情報源	ヘンリの発言	Remark by Henry		
+290	hasPredicate	連れていかれた	beTaken		
+290	Who	ヘンリ	Henry		Person		
+290	Whom	逆徒達	rebels		Person		
+290	To	ダージリンの先	end of Darjeeling		Place		
+290	From	ネパール	Nepal		Place		
+290	then	291	291		
+291	対象文	逆徒達は山の民に殺された	Gyakuto who was killed the people of the mountain.		
+291	情報源	ヘンリの発言	Remark by Henry		
+291	hasPredicate	殺された	beKilled		
+291	Who	逆徒達	rebels		Person		
+291	Whom	山の民	dwellers of mountain		Person		
+291	then	292	292		
+292	対象文	ヘンリは山の民の奴隷になった	Henry became a slave of the mountain people.		
+292	情報源	ヘンリの発言	Remark by Henry		
+292	hasPredicate	なった	become		
+292	Who	ヘンリ	Henry		Person		
+292	What	山の民の奴隷	slave of dwellers of mountain		Person		
+292	then	293	293		
+293	対象文	ヘンリは山の民から逃げた	Henry fled from the mountain of the people.		
+293	情報源	ヘンリの発言	Remark by Henry		
+293	hasPredicate	逃げた	escape		#ORG:hasPredicate:flee
+293	Who	ヘンリ	Henry		Person		
+293	What	山の民	dwelleers of mountain		Person		
+293	then	294	294		
+294	対象文	ヘンリはアフガンに行った	Henry went to Afghanistan.		
+294	情報源	ヘンリの発言	Remark by Henry		
+294	hasPredicate	行った	go		
+294	Who	ヘンリ	Henry		Person		
+294	To	アフガン	Afghanistan		Place		
+294	then	295	295		
+295	対象文	数年間、ヘンリはアフガンを放浪した	Several years, Henry was wandering the Afghan.		
+295	情報源	ヘンリの発言	Remark by Henry		
+295	hasPredicate	放浪した	wander		
+295	Who	ヘンリ	Henry		Person		
+295	Where	アフガン	Afghanistan		Place		
+295	When	数年間	several years		
+296	then	296	296		
+296	対象文	ヘンリはパンジャブへ行った	Henry went to Punjab.		
+296	情報源	ヘンリの発言	Remark by Henry		
+296	hasPredicate	行った	go		
+296	Who	ヘンリ	Henry		Person		
+296	To	パンジャブ	Punjab		Place		
+296	then	297	297		
+297	対象文	ヘンリはパンジャブで暮らした	Henry lived in Punjab.		
+297	情報源	ヘンリの発言	Remark by Henry		
+297	hasPredicate	暮らした	live		
+297	Who	ヘンリ	Henry		Person		
+297	Where	パンジャブ	Punjab		Place		
+297	at the same time	298	298		
+298	対象文	ヘンリは手品でお金を稼いだ	Henry earned money in the magic.		
+298	情報源	ヘンリの発言	Remark by Henry		
+298	hasPredicate	稼いだ	earn		
+298	Who	ヘンリ	Henry		Person		
+298	How	手品で	magic		
+298	What	お金	money		Object		
+299	対象文	ヘンリは以下を願った	Henry was hope the following.		
+299	情報源	ヘンリの発言	Remark by Henry		
+299	hasPredicate	願った	hope		
+299	Who	ヘンリ	Henry		Person		
+299	What	300	300		
+300	対象文	ナンシィとヘンリの昔なじみは以下を思っている	Mukashinajimi of Nancy and Henry thinks the following.		
+300	情報源	299	299		
+300	hasPredicate	思っている	think		
+300	Who	ナンシィとヘンリの昔なじみ	Nancy AND old friends of Henry		Person		
+300	What	301	301		
+301	対象文	ヘンリが死んだ	Henry died.		
+301	情報源	300	300		
+301	hasPredicate	死んだ	die		
+301	Who	ヘンリ	Henry		Person		
+302	対象文	ヘンリはバークリに復讐したくない	Henry does not want to take revenge on Berkeley.		
+302	情報源	256	256		
+302	hasPredicate	復讐したくない	notWantToRevenge		#ORG:hasPredicate:notWant to revenge
+302	Who	ヘンリ	Henry		Person		
+302	Whom	バークリ	Berkeley		Person		
+303	対象文	ヘンリはイングランドに帰りたかった	Henry wanted to return to England.		
+303	情報源	256	256		
+303	hasPredicate	帰りたかった	wantToReturn		#ORG:hasPredicate:want to return
+303	Who	ヘンリ	Henry		Person		
+303	Where	イングランド	England		Place		
+304	対象文	ヘンリはハドソン街に行った	Henry went to Hudson Street.		
+304	情報源	256	256		
+304	hasPredicate	行った	go		
+304	Who	ヘンリ	Henry		Person		
+304	To	ハドソン街	Hudson street		Place		
+306	対象文	ヘンリは手品を兵士に見せる	Henry is shown to the soldier magic tricks.		
+306	情報源	256	256		
+306	hasPredicate	見せる	show		
+306	Who	ヘンリ	Henry		Person		
+306	Whom	兵士	soldier		Person		
+306	What	手品	magic		Object		
+306	then	307	307		
+307	対象文	それで、ヘンリはお金を稼ぐ	So, Henry make money.		
+307	情報源	256	256		
+307	hasPredicate	稼ぐ	earn		
+307	Who	ヘンリ	Henry		Person		
+307	What	お金	money		Object		
+309	対象文	ホームズは以下を言った	Holmes said the following:.		
+309	情報源		
+309	hasPredicate	言った	say		
+309	Who	ホームズ	Holmes		Person		
+309	What	310,311,312,313,315,318,320,321,322,324,325,327,328,329,331,332,333,334,335,336,337	310,311,312,313,315,318,320,321,322,324,325,327,328,329,331,332,333,334,335,336,337		
+310	対象文	ナンシィとヘンリは話をした	Nancy and Henry talked.		
+310	情報源	ホームズの発言	Remark by Holmes		
+310	hasPredicate	話をした	talk		
+310	Who	ナンシィ	Nancy		Person		
+310	Whom	ヘンリ	Henry		Person		
+310	then	311	311		
+311	対象文	ナンシィとヘンリはバークリの行為に気づいた	Nancy and Henry noticed the act of Berkeley.		
+311	情報源	ホームズの発言	Remark by Holmes		
+311	hasPredicate	気づいた	understand		
+311	Who	ナンシィとヘンリ	Nancy AND Henry		Person		
+311	What	284	284		
+312	対象文	ヘンリはナンシィに付いていった	Henry went with the Nancy.		
+312	情報源	ホームズの発言	Remark by Holmes		
+312	hasPredicate	付いていった	follow		
+312	Who	ヘンリ	Henry		Person		
+312	Whom	ナンシィ	Nancy		Person		
+312	then	313	313		
+313	対象文	ヘンリは大通りからナンシィとバークリの言い争いを見た	Henry saw the bickering of Nancy and Berkeley from the main street.		
+313	情報源	ホームズの発言	Remark by Holmes		
+313	hasPredicate	見た	see		
+313	Who	ヘンリ	Henry		Person		
+313	Where	大通りから	main street		Place		
+313	What	86	86		
+313	then	315	315		
+315	対象文	ヘンリは以下を見た	Henry saw the following.		
+315	情報源	ホームズの発言	Remark by Holmes		
+315	hasPredicate	見た	see		
+315	Who	ヘンリ	Henry		Person		
+315	What	316	316		
+315	then	318	318		
+316	対象文	ナンシィは以下を非難した	Nancy condemned the following.		
+316	情報源	ホームズの発言	Remark by Holmes		
+316	hasPredicate	非難した	blame		
+316	Who	ナンシィ	Nancy		Person		
+316	What	317	317		
+317	対象文	バークリは逆徒にヘンリを売った	Berkeley has sold Henry to Gyakuto.		
+317	情報源	ホームズの発言	Remark by Holmes		
+317	hasPredicate	売った	sell		
+317	Who	バークリ	Berkeley		Person		
+317	Whom	逆徒	rebels		Person		
+317	What	ヘンリ	Henry		Person		
+317	When	1857年7月9日	1857-07-09	1857-07-09		
+318	対象文	ヘンリはナンシィとバークリの言い争いを止めようとした	Henry tried to stop the bickering of Nancy and Berkeley.		
+318	情報源	ホームズの発言	Remark by Holmes		
+318	hasPredicate	止めようとした	tryToStop		#ORG:hasPredicate:try to stop
+318	Who	ヘンリ	Henry		Person		
+318	What	ナンシィとバークリの言い争い	86		Object		
+318	then	320	320		
+320	対象文	ヘンリは居間の部屋に入った	Henry entered the room in the living room.		
+320	情報源	ホームズの発言	Remark by Holmes		
+320	hasPredicate	入った	enter		
+320	Who	ヘンリ	Henry		Person		
+320	Where	居間の部屋	living room		Place		
+321	対象文	バークリはヘンリを見た	Berkeley saw Henry.		
+321	情報源	ホームズの発言	Remark by Holmes		
+321	hasPredicate	見た	see		
+321	Who	バークリ	Berkeley		Person		
+321	What	ヘンリ	Henry		Person		
+321	then	322	322		
+322	対象文	バークリは自殺した	Berkeley was suicide.		
+322	情報源	ホームズの発言	Remark by Holmes		
+322	hasPredicate	殺した	kill		
+322	Who	バークリ	Berkeley		Person		
+322	then	324	324		
+322	Whom	バークリ	Berkeley		Person		
+324	対象文	ナンシィは気絶した	Nancy fainted.		
+324	情報源	ホームズの発言	Remark by Holmes		
+324	hasPredicate	気絶した	faint		
+324	Who	ナンシィ	Nancy		Person		
+325	対象文	ヘンリは以下を思った	Henry thought the following.		
+325	情報源	ホームズの発言	Remark by Holmes		
+325	hasPredicate	思った	think		
+325	Who	ヘンリ	Henry		Person		
+325	What	326	326		
+326	対象文	ヘンリは助けを呼ぶ	Henry is call for help.		
+326	情報源	ヘンリの考え	Idea of Henry		
+326	hasPredicate	呼ぶ	call		
+326	Who	ヘンリ	Henry		Person		
+326	What	助け	help		
+327	対象文	ヘンリはナンシィから居間の部屋の鍵を取った	Henry took the key to the living room of the room from Nancy.		
+327	情報源	ホームズの発言	Remark by Holmes		
+327	hasPredicate	取った	take		
+327	Who	ヘンリ	Henry		Person		
+327	Whom	ナンシィ	Nancy		Person		
+327	What	居間の部屋の鍵	key of living room		Object		
+327	However	328	328		
+328	対象文	ヘンリは助けを呼ばなかった	Henry was not called for help.		
+328	情報源	ホームズの発言	Remark by Holmes		
+328	hasPredicate	呼ばなかった	notCall		
+328	Who	ヘンリ	Henry		Person		
+328	What	助け	help		Object		
+328	Why	329	329		
+329	対象文	ヘンリは以下を恐れた	Henry was afraid the following.		
+329	情報源	ホームズの発言	Remark by Holmes		
+329	hasPredicate	恐れた	afraid		
+329	Who	ヘンリ	Henry		Person		
+329	What	330	330		
+330	対象文	ヘンリは犯人と思われる	Henry seems to be the culprit.		
+330	情報源	ヘンリの考え	Idea of Henry		
+330	hasPredicate	疑われる	beSuspected		
+330	Who	ヘンリ	Henry		Person		
+330	What	犯人	criminal		Person		
+331	対象文	ヘンリはヘンリの秘密を明かしたくなかった	Henry did not want to reveal the secrets of Henry.		
+331	情報源	ホームズの発言	Remark by Holmes		
+331	hasPredicate	明かしたくなかった	notWantToReveal		#ORG:hasPredicate:not want to reveal
+331	Who	ヘンリ	Henry		Person		
+331	What	ヘンリの秘密	secret of Henry		Object		
+332	対象文	ヘンリは鍵を持って逃げた	Henry fled with a key.		
+332	情報源	ホームズの発言	Remark by Holmes		
+332	hasPredicate	逃げた	escape		#ORG:hasPredicate:flee
+332	Who	ヘンリ	Henry		Person		
+332	How	鍵を持って	with key		
+333	対象文	ヘンリはテディを抑えた	Henry was suppressed Teddy.		
+333	情報源	ホームズの発言	Remark by Holmes		
+333	hasPredicate	抑えた	suppress		
+333	Who	ヘンリ	Henry		Person		
+333	What	テディ	Teddy		Animal		
+333	then	334	334		
+334	対象文	ヘンリは杖を落とした	Henry dropped his cane.		
+334	情報源	ホームズの発言	Remark by Holmes		
+334	hasPredicate	落とした	drop		
+334	Who	ヘンリ	Henry		Person		
+334	What	杖	stick		Object		
+334	then	335	335		
+335	対象文	テディは窓掛けに上った	Teddy went up to windowing.		
+335	情報源	ホームズの発言	Remark by Holmes		
+335	hasPredicate	上った	climb		
+335	Who	テディ	Teddy		Animal		
+335	To	窓掛け	curtain		Object		
+335	then	336	336		
+336	対象文	ヘンリはテディを箱へ入れた	Henry was put Teddy into the box.		
+336	情報源	ホームズの発言	Remark by Holmes		
+336	hasPredicate	入れた	putInto		#ORG:hasPredicate:put into
+336	Who	ヘンリ	Henry		Person		
+336	What	テディ	Teddy		Animal		
+336	Where	箱へ	box		Object		
+336	then	337	337		
+337	対象文	ヘンリは居間の部屋から離れた	Henry was away from the living room of the room.		
+337	情報源	ホームズの発言	Remark by Holmes		
+337	hasPredicate	離れた	leave		
+337	Who	ヘンリ	Henry		Person		
+337	Where	居間の部屋	living room		Place		
+338	対象文	ホームズはヘンリにテディについて尋ねた	Holmes was asked about Teddy to Henry.		
+338	情報源		
+338	hasPredicate	尋ねた	ask		
+338	Who	ホームズ	Holmes		Person		
+338	Whom	ヘンリ	Henry		Person		
+338	What	テディについて	Teddy		Animal		
+339	対象文	ヘンリは檻から獣を出した	Henry put the beast out of the cage.		
+339	情報源		
+339	hasPredicate	出した	putOut		#ORG:hasPredicate:put out
+339	Who	ヘンリ	Henry		Person		
+339	From	檻	cage		Object		
+339	What	獣	beast		Animal		
+340	対象文	獣は赤茶の毛を持っている	Beast has the hair of red tea.		
+340	情報源		
+340	hasProperty	reddish brown	reddish brown		
+340	Who	獣の毛	hair of beast		Object		
+341	対象文	獣は細い	Beast is thin.		
+341	情報源		
+341	hasProperty	細い	thin		
+341	Who	獣	beast		Animal		
+342	対象文	獣はしなやかである	Beast is a supple.		
+342	情報源		
+342	hasProperty	しなやかである	supple		
+342	Who	獣	beast		Animal		
+343	対象文	獣はオコジョの足を持っている	Beast has a foot of ermine.		
+343	情報源		
+343	hasPredicate	持っている	have		
+343	Who	獣	beast		Animal		
+343	What	オコジョの足	foot of ermine		Object		
+344	対象文	獣は長細い鼻を持っている	Beast has a long thin nose.		
+344	情報源		
+344	hasProperty	長細い	long		
+344	Who	獣の鼻	nose of beast		Object		
+345	対象文	獣は真っ赤な目を持っている	Beast has a bright red eyes.		
+345	情報源		
+345	hasProperty	真っ赤な目	red		
+345	Who	獣の目	eye of beast		Object		
+346	対象文	ホームズは以下を言った	Holmes said the following:.		
+346	情報源		
+346	hasPredicate	言った	say		
+346	Who	ホームズ	Holmes		Person		
+346	What	347	357		
+347	対象文	獣はマングースである	Beast is a mongoose.		
+347	情報源	ホームズの発言	Remark by Holmes		
+347	hasPredicate	equalTo	equalTo		
+347	Who	獣	beast		Animal		
+347	What	マングース	mongoose		Animal		
+348	対象文	ヘンリは以下を言った	Henry said the following:.		
+348	情報源		
+348	hasPredicate	言った	say		
+348	Who	ヘンリ	Henry		Person		
+348	What	349	349		
+349	対象文	マングースはイクヌーモンとも呼ばれる	Mongoose is also referred to as a Ikunumon.		
+349	情報源	ヘンリの発言	Remark by Henry		
+349	hasPredicate	equalTo	equalTo		
+349	Who	マングース	mongoose		Animal		
+349	What	イクヌーモン	ichneumon		Animal		
+350	対象文	ヘンリは獣をヘビトリと呼んでいる	Henry is calling the Hebitori the beast.		
+350	情報源		
+350	hasPredicate	呼んでいる	call		
+350	Who	ヘンリ	Henry		Person		
+350	What	獣	beast		Animal		
+350	What	ヘビトリ	snake killer		Animal		
+351	対象文	獣はテディである	Beast is a Teddy.		
+351	情報源		
+351	hasPredicate	equalTo	equalTo		
+351	Who	獣	beast		Animal		
+351	What	Teddy	Teddy		Animal		
+352	対象文	テディはコブラを捕まえる	Teddy catch a cobra.		
+352	情報源		
+352	hasPredicate	捕まえる	hunt		
+352	Who	テディ	Teddy		Animal		
+352	What	コブラ	cobra		Animal		
+353	対象文	毎晩、テディは牙のないコブラを捕まえている	Every night, Teddy has caught the cobra no fangs.		
+353	情報源		
+353	hasPredicate	捕まえている	hunt		
+353	When	毎晩	every night		
+353	Who	テディ	Teddy		Animal		
+353	What	牙のないコブラ	cobra		Animal		
+355	対象文	毎晩、テディは兵士たちを喜ばせている	Every night, and Teddy delight soldiers.		
+355	情報源		
+355	hasPredicate	喜ばせている	please		
+355	When	毎晩	every night		
+355	Who	テディ	Teddy		Animal		
+355	What	兵士たち	soldiers		Person		
+356	対象文	以下の時に、ヘンリはホームズを助ける	At the time of the following, Henry will help Holmes.		
+356	情報源		
+356	hasPredicate	助ける	help		
+356	Who	ヘンリ	Henry		Person		
+356	What	ホームズ	Holmes		Person		
+356	if	357	357		
+357	対象文	ナンシィは逮捕される	Nancy is arrested.		
+357	情報源		
+357	hasPredicate	逮捕される	beArrested		
+357	Who	ナンシィ	Nancy		Person		
+358	対象文	バークリは卑劣な行いをした	Berkeley was a despicable deeds.		
+358	情報源		
+358	hasPredicate	卑劣な行いをした	playFoul		#ORG:hasPredicate:play foul
+358	Who	バークリ	Berkeley		Person		
+359	対象文	ヘンリは以下を知った	Henry was aware of the following.		
+359	情報源		
+359	hasPredicate	知った	know		
+359	Who	ヘンリ	Henry		Person		
+359	What	360	360		
+360	対象文	30年間、バークリは罪悪感に苦しんだ	30 years, Berkeley suffered guilt.		
+360	情報源		
+360	hasPredicate	苦しんだ	suffer		
+360	Who	バークリ	Berkeley		Person		
+360	What	罪悪感	guilt		Object		
+360	When	30年間	30 years		
+361	対象文	ヘンリは満足している	Henry is happy.		
+361	情報源		
+361	hasProperty	満足している	happy		
+361	Who	ヘンリ	Henry		Person		
+361	Why	359	359		
+362	対象文	マーフィはハドソン街を歩いている	Murphy is walking down the Hudson Street.		
+362	情報源		
+362	hasPredicate	歩いている	walk		
+362	Who	マーフィ	Murphy		Person		
+362	Where	ハドソン街	Hudson street		Place		
+363	対象文	ホームズはマーフィに水曜日以降の事件の進展を聞きに行った	Holmes went to listen to the progress of the subsequent incident Wednesday Murphy.		
+363	情報源		
+363	hasPredicate	聞きに行った	ask		
+363	Who	ホームズ	Holmes		Person		
+363	Whom	マーフィ	Murphy		Person		
+363	Why	事件の進展	progress of incedent		Object		
+363	When	水曜日以降	1887-07-08 ~		
+364	対象文	ホームズとワトソンはマーフィに追いついた	Holmes and Watson caught up with Murphy.		
+364	情報源		
+364	hasPredicate	追いついた	catch		
+364	Who	ホームズとワトソン	Holmes AND Watson		Person		
+364	Whom	マーフィ	Murphy		Person		
+365	対象文	マーフィは以下を言った	Murphy said the following:.		
+365	情報源		
+365	hasPredicate	言った	say		
+365	Who	マーフィ	Murphy		Person		
+365	What	366	366		
+366	対象文	バークリは卒中で死んだ	Berkeley died of stroke.		
+366	情報源	マーフィの発言	Remark by Murphy		
+366	hasPredicate	死んだ	die		
+366	Who	バークリ	Berkeley		Person		
+366	Why	卒中で	apoplexia		Object		
+367	対象文	ワトソンはホームズにデイヴィドについて尋ねた	Watson was asked about Davide to Holmes.		
+367	情報源		
+367	hasPredicate	尋ねた	ask		
+367	Who	ワトソン	Watson		Person		
+367	Whom	ホームズ	Holmes		Person		
+367	What	デイヴィド	Davide		Person		
+368	対象文	ホームズは以下を言った	Holmes said the following:.		
+368	情報源		
+368	hasPredicate	言った	say		
+368	Who	ホームズ	Holmes		Person		
+368	What	369,370,371,372,373	369,370,371,372,373		
+369	対象文	デイヴィドは旧約聖書において、ダビデである	Davide in the Old Testament, is David.		
+369	情報源	ホームズの発言	Remark by Holmes		
+369	hasPredicate	equalTo	equalTo		
+369	Who	デイヴィド	Davide		Person		
+369	What	ダビデ	David		Person		
+369	Where	旧約聖書	Old Testament		Object		
+370	対象文	時々、デイヴィドは罪を犯す	Sometimes, Davide is sin.		
+370	情報源	ホームズの発言	Remark by Holmes		
+370	hasPredicate	犯す	commit		
+370	Who	デイヴィド	Davide		Person		
+370	How	時々	sometimes		
+370	What	罪	crime		Object		
+371	対象文	デイヴィドとバークリは同じ種類の罪を犯した	Davide and Berkeley had committed the same type of crime.		
+371	情報源	ホームズの発言	Remark by Holmes		
+371	hasPredicate	犯した	commit		
+371	Who	デイヴィド	Davide		Person		
+371	Who	バークリ	Berkeley		Person		
+371	What	同じ種類の罪	same type of crime		Object		
+372	対象文	デイヴィドの罪はウリヤとバト・シェバの挿話でわかる	Davide of sin is seen in episodes of Uriah and Bathsheba.		
+372	情報源	ホームズの発言	Remark by Holmes		
+372	hasPredicate	わかる	exist		
+372	Who	デイヴィドの罪	crime of Davide		Object		
+372	Where	ウリヤとバト・シェバの挿話	episode of Uriah and Bathsheba		Object		
+373	対象文	ウリヤとバト・シェバの挿話はサムエル前書か後書にある	Episodes of Uriah and Bathsheba is in the Postscript written before Samuel.		
+373	情報源	ホームズの発言	Remark by Holmes		
+373	hasPredicate	ある	exist		
+373	Who	ウリヤとバト・シェバの挿話	episode of Uriah and Bathsheba		Object		
+373	What	サムエル前書	preface of Samuel		Object		
+373	What	サムエル後書	postscript of Samuel		Object		

@@ -1,0 +1,2569 @@
+ID	Property	原文	英訳	絶対時間	Type	RDF用コメント	修正コメント	修正作業		
+1	対象文	1897年早春、ホームズとワトソンはポルデュー湾のコテージにいた	In the early spring of 1897, Holmes and Watson were in a cottage in the Pordeux Bay					少し作業例を入れましたので，それらに倣って全体を見直してください（川村）		
+1	情報源		
+1	hasPredicate	いた	stay		
+1	Who	ホームズ	Holmes		Person			"と"トル		
+1	Who	ワトソン	Watson		Person					参考：Propertyの種類		
+1	Where	ポルデュー湾のコテージ	a cottage in the Pordeux Bay		Place		「に」は不要			対象文		
+1	When	1897年早春	Early spring of 1897	1897-03-01T07						情報源		
+2	対象文	ラウンドヘイは中年男だ	Roundhay is a middle age man							hasPredicate|hasProperty		
+2	情報源									Why（なぜ）		
+2	hasProperty	中年男だ	Middle-aged man							What（何を）		
+2	Who	ラウンドヘイ	Roundhay		Person		Roundhay？			How（どのように）		
+3	対象文	ラウンドヘイは社交的だ	Roundhay is sociable							When（いつ）		
+3	情報源									Where（どこで）		
+3	hasProperty	社交的だ	Sociable							From（どこから）		
+3	Who	ラウンドヘイ	Roundhay							To（どこへ）		
+4	対象文	ラウンドヘイは愛想がよい	Roundhay is friendly							On		
+4	情報源									Under		
+4	hasProperty	愛想がよい	friendly							Left		
+4	Who	ラウンドヘイ	Roundhay							Right		
+5	対象文	ラウンドヘイは民間伝承の知識を持つ	Roundhay has the knowledge of folklore							Near		
+5	情報源									NextTo		
+5	hasPredicate	持つ	Have							MiddleOf		
+5	Who	ラウンドヘイ	Roundhay							Opposite		
+5	What	民間伝承の知識	Knowledge of folklore							then（値はID）		
+6	対象文	モーティマーは財産を持っていた	Mortimer had possessions							if（値はID）		
+6	情報源									because（値はID）		
+6	hasPredicate	持つ	Have							therefore（値はID）		
+6	Who	モーティマー	Mortimer							at the same time（値はID）		
+6	What	財産	property							otherwise（値はID）		
+7	対象文	モーティマーはラウンドヘイから牧師館の部屋を借りていた	Mortimer had rented a chaplain's room from Roundhay		
+7	情報源		
+7	hasPredicate	借りていた	rent		
+7	Who	モーティマー	Mortimer		
+7	From	ラウンドヘイ	Roundhay					From		
+7	What	牧師館の部屋	Room		
+7	therefore	8	8		
+8	対象文	そのため、ラウンドヘイはお金をもらっていた	Therefore, Roundhay was getting money					7にtherefore: 8を入れる		
+8	情報源		
+8	hasPredicate	もらっていた	get		
+8	Who	ラウンドヘイ	Roundhay		
+8	What	お金	money		
+8	From	モーティマー	Mortimer		
+9	対象文	3月16日朝食直後に、ラウンドヘイとモーティマーがポルデュー湾のコテージに来た	Roundhay and Mortimer came to the Pordeux Bay cottages just after breakfast on March 16		
+9	情報源		
+9	hasPredicate	来た	Came		
+9	Who	ラウンドヘイ	Roundhay		
+9	Who	モーティマー	Mortimer		
+9	Where	ポルデュー湾のコテージに	In a cottage in the Pordeux Bay				「に」は不要		
+9	When	3月16日朝食直後	Immediately after breakfast on March 16	1897-03-16T08			絶対時間の追加？		
+10	対象文	ラウンドヘイは動揺していた	Roundhay was upset		
+10	情報源		
+10	hasPredicate	動揺していた	upset		
+10	Who	ラウンドヘイ	Roundhay		
+11	対象文	ラウンドヘイは以下を言った	Roundhay said the following		
+11	情報源		
+11	hasPredicate	言った	say		
+11	Who	ラウンドヘイ	Roundhay		
+11	What	12,13,14	12, 13, 14					以下や上記は文番号に変える（複数の場合あり）．対応する文に情報源を入れる		
+12	対象文	昨日の夜に、事件が起きた	An incident happened yesterday night		
+12	情報源	ラウンドヘイの発言	Remark by Roundhay					ラウンドヘイの発言		
+12	hasPredicate	起きた	woke up		
+12	Who	事件	Incident		
+12	When	昨日の夜	Yesterday night	1897-03-15T20		
+13	対象文	事件は異常だ	The incident is unusual		
+13	情報源	ラウンドヘイの発言	Remark by Roundhay					ラウンドヘイの発言		
+13	hasProperty	異常だ	abnormal		
+13	Who	事件	Incident		
+14	対象文	事件は悲劇的だ	The incident is tragic		
+14	情報源	ラウンドヘイの発言	Remark by Roundhay					ラウンドヘイの発言		
+14	hasPredicate	悲劇的だ	It is tragic		
+14	Who	事件	Incident		
+15	対象文	ラウンドヘイとモーティマーは落ち着かなかった	Roundhay and Mortimer were not comfortable		
+15	情報源		
+15	hasPredicate	落ち着かなかった	I was not calm		
+15	Who	ラウンドヘイ	Roundhay		
+15	Who	モーティマー	Mortimer		
+16	対象文	モーティマーはラウンドヘイに以下を尋ねた	Mortimer asked Roundhey:		
+16	情報源		
+16	hasPredicate	尋ねた	Asked		
+16	Who	モーティマー	Mortimer		
+16	Whom	ラウンドヘイ	Roundhay					Whomに変更		
+16	What	17	17		
+17	対象文	モーティマーが話をする	Mortimer talks		
+17	情報源	モーティマーの質問	Mortimer's question				「私がお話しましょうか、それとも？」と、モーティマー・トリジェニスはラウンドヘイ牧師に尋ねた。／モーティマーの発言 , Remark by Mortimer		
+17	hasPredicate	する	Do		
+17	Who	モーティマー	Mortimer		
+17	What	話	Talk		
+18	対象文	ホームズは以下を言った	Holmes said the following		
+18	情報源		
+18	hasPredicate	言った	say		
+18	Who	ホームズ	Holmes		
+18	What	19	19		
+19	対象文	モーティマーが第一発見者だった	Mortimer was the first finder		
+19	情報源	ホームズの発言	Remark by Holmes				Remark by Holmes		
+19	hasProperty	第一発見者だった	the first discoverer		
+19	Who	モーティマー	Mortimer		
+20	対象文	ラウンドヘイに話を勧めた	I recommended talk to Roundhay		
+20	情報源		
+20	hasPredicate	勧めた	Recommended				WhoにHolmesを追加？		
+20	Whom	ラウンドヘイ	Roundhay		
+20	What	話	Talk		
+21	対象文	ラウンドヘイは以下を言った	Roundhay said the following		
+21	情報源		
+21	hasPredicate	言った	Said		
+21	Who	ラウンドヘイ	Roundhay		
+21	What	22-56	22-56				ハイフンによる範囲指定の場合のRDF変換スクリプト対応が必要のようです		
+22	対象文	オーウェンとジョージとブレンダはモーティマーの家族である	Owen, George, and Brenda are Mortimer's families		
+22	情報源	ラウンドヘイの発言	Remark by Roundhay				Remark by Roundhay		
+22	hasPredicate	モーティマーの家族である	It is a family of Mortimer		
+22	Who	ジョージ	George					"と"トル		
+22	Who	ブレンダ	Brenda		
+22	Who	オーウェン	Owen					"と"トル		
+23	対象文	トリジェニス家はトリダニック・ワーサにある	The Trigenis are in Toridanic Wasa		
+23	情報源	ラウンドヘイの発言	Remark by Roundhay		
+23	hasPredicate	ある	is there		
+23	Who	トリジェニス家	Trigenis House		
+23	Where	トリダニック・ワーサ	Toridnik Wasa		
+24	対象文	10時過ぎで、モーティマーはトリジェニス家から帰った	After 10 o'clock, Mortimer came home from Trigenis.		
+24	情報源	ラウンドヘイの発言	Remark by Roundhay		
+24	hasPredicate	帰った	Went back		
+24	When	10時過ぎ	Past 10 o'clock		
+24	Who	モーティマー	Mortimer		
+24	From	トリジェニス家	Trigenis House					From		
+25	対象文	10時過ぎで、オーウェンとジョージとブレンダはカードゲームをしていた	After 10 o'clock, Owen, George and Brenda were playing card games		
+25	情報源	ラウンドヘイの発言	Remark by Roundhay		
+25	hasPredicate	していた	Was		
+25	Who	ジョージ	George		
+25	Who	ブレンダ	Brenda		
+25	Who	オーウェン	Owen		
+25	When	10時過ぎ	Past 10 o'clock		
+25	What	カードゲーム	Card game				at the same time 26?		
+26	対象文	10時過ぎで、オーウェンとジョージとブレンダは元気だった	After 10 o'clock Owen, George and Brenda were fine		
+26	情報源	ラウンドヘイの発言	Remark by Roundhay		
+26	hasPredicate	元気だった	How have you been		
+26	Who	ジョージ	George		
+26	Who	ブレンダ	Brenda		
+26	Who	オーウェン	Owen		
+26	When	10時過ぎ	Past 10 o'clock		
+27	対象文	今朝、モーティマーは早起きをした	Mortimer got up early this morning		
+27	情報源	ラウンドヘイの発言	Remark by Roundhay		
+27	hasPredicate	した	did		
+27	Who	モーティマー	Mortimer		
+27	What	早起き	Get up early		
+27	When	今朝	this morning		
+27	then	28	28		
+28	対象文	朝食前に、モーティマーはトリダニック・ワーサ方面へ散歩にいった	Before breakfast, Mortimer went for a walk in the direction of Toridanic Wasa		
+28	情報源	ラウンドヘイの発言	Remark by Roundhay		
+28	hasPredicate	散歩していた	I was taking a walk		
+28	When	朝食前	Before breakfast		
+28	Who	モーティマー	Mortimer		
+28	To	トリダニック・ワーサ方面	Towards Toridan Wasa				「トリダニック・ワーサ」と「トリダニック・ワーサ方面」は区別すべき？		
+28	then	29	29		
+29	対象文	モーティマーはドクター・リチャードの四輪馬車に追いつかれた	Mortimer was caught up by Dr. Richard's four-wheeled carriage		
+29	情報源	ラウンドヘイの発言	Remark by Roundhay		
+29	hasPredicate	追いつかれた	Caught up		
+29	Who	モーティマー	Mortimer		
+29	Whom	ドクター・リチャード	Doctor Richard		
+29	How	四輪馬車	Four-wheeled carriage		
+29	then	30	30		
+30	対象文	モーティマーはドクター・リチャードに会った	Mortimer met Dr. Richard		
+30	情報源	ラウンドヘイの発言	Remark by Roundhay		
+30	hasPredicate	会った	met		
+30	Who	モーティマー	Mortimer		
+30	What	ドクター・リチャード	Doctor Richard		
+31	対象文	ドクター・リチャードは緊急連絡を受けた	Doctor Richard got an emergency call		
+31	情報源	ラウンドヘイの発言	Remark by Roundhay		
+31	hasPredicate	受けた	Received		
+31	Who	ドクター・リチャード	Doctor Richard		
+31	What	緊急連絡	Emergency call		
+32	対象文	モーティマーとドクター・リチャードはトリダニック・ワーサに向かった	Mortimer and Dr. Richard headed for Toridanic Wasa		
+32	情報源	ラウンドヘイの発言	Remark by Roundhay		
+32	hasPredicate	向かった	Headed		
+32	Who	モーティマー	Mortimer		
+32	Who	ドクター・リチャード	Doctor Richard		
+32	To	トリダニック・ワーサ	Toridnik Wasa		
+33	対象文	モーティマーとドクター・リチャードはトリダニック・ワーサに到着した	Mortimer and Dr. Richard arrived at Toridanic Wortha		
+33	情報源	ラウンドヘイの発言	Remark by Roundhay		
+33	hasPredicate	到着した	Arrived		
+33	Who	モーティマーと	With Mortimer				"「と」は不要		
+英訳も変更"		
+33	Who	ドクター・リチャード	Doctor Richard		
+33	Where	トリダニック・ワーサ	Toridnik Wasa		
+34	対象文	トリジェニス家は異常だった	Trigenis was unusual		
+34	情報源	ラウンドヘイの発言	Remark by Roundhay		
+34	hasProperty	異常だった	It was abnormal		
+34	Who	トリジェニス家	Trigenis House		
+35	対象文	オーウェンとジョージとブレンダはテーブルに座っていた	Owen and George and Brenda sat at a table		
+35	情報源	ラウンドヘイの発言	Remark by Roundhay		
+35	hasPredicate	座っていた	Sat		
+35	Who	ジョージ	George		
+35	Who	ブレンダ	Brenda		
+35	Who	オーウェン	Owen		
+35	Where	テーブル	table			どこのテーブルか区別すべき？		
+36	対象文	カードがテーブルの上にあった	The card was on the table		
+36	情報源	ラウンドヘイの発言	Remark by Roundhay		
+36	hasPredicate	あった	there were		
+36	Who	カード	card		
+36	On	テーブル	table					On		
+37	対象文	蝋燭は燃え尽きていた	The candle was burned out		
+37	情報源	ラウンドヘイの発言	Remark by Roundhay		
+37	hasPredicate	燃え尽きていた	Burned out		
+37	Who	蝋燭	candle		
+38	対象文	ブレンダは椅子にもたれていた	Brenda was leaning on a chair		
+38	情報源	ラウンドヘイの発言	Remark by Roundhay		
+38	hasPredicate	もたれていた	I was leaning		
+38	Who	ブレンダ	Brenda		
+38	Where	椅子	Chair				at the same time 37? あるいは絶対時間で対応？		
+39	対象文	ブレンダは死んでいた	Brenda was dead		
+39	情報源	ラウンドヘイの発言	Remark by Roundhay		
+39	hasPredicate	死んでいた	It was dead		
+39	Who	ブレンダ	Brenda				at the same time 37?		
+40	対象文	ブレンダは硬直していた	Brenda was stiff		
+40	情報源	ラウンドヘイの発言	Remark by Roundhay		
+40	hasPredicate	硬直していた	I was stiff		
+40	Who	ブレンダ	Brenda				at the same time 37?		
+41	対象文	オーウェンとジョージはブレンダの両脇に座っていた	Owen and George sat on both sides of Brenda		
+41	情報源	ラウンドヘイの発言	Remark by Roundhay		
+41	hasPredicate	座っていた	Sat		
+41	Who	オーウェン	Owen		
+41	Who	ジョージ	George		
+41	Where	ブレンダの両脇	Brenda's both sides				at the same time 37?		
+42	対象文	オーウェンとジョージは馬鹿笑いしていた	Owen and George were laughing		
+42	情報源	ラウンドヘイの発言	Remark by Roundhay		
+42	hasPredicate	馬鹿笑いしていた	I was laughing		
+42	Who	オーウェン	Owen		
+42	Who	ジョージ	George				at the same time 37?		
+43	対象文	オーウェンとジョージは喚いていた	Owen and George were summoning		
+43	情報源	ラウンドヘイの発言	Remark by Roundhay		
+43	hasPredicate	喚いていた	I was calling		
+43	Who	オーウェン	Owen		
+43	Who	ジョージ	George				at the same time 37?		
+44	対象文	オーウェンとジョージは歌っていた	Owen and George were singing		
+44	情報源	ラウンドヘイの発言	Remark by Roundhay		
+44	hasPredicate	歌っていた	I was singing		
+44	Who	オーウェン	Owen		
+44	Who	ジョージ	George				at the same time 37?		
+45	対象文	オーウェンとジョージの神経は損なわれていた	Owen and George's nerve was damaged		
+45	情報源	ラウンドヘイの発言	Remark by Roundhay		
+45	hasPredicate	損なわれていた	It was damaged		
+45	Who	オーウェン	Owen		
+45	Who	ジョージ	George		
+45	What	神経	Nerve				at the same time 37?		
+46	対象文	オーウェンとジョージとブレンダは恐怖の表情を持っていた	Owen and George and Brenda had a look of fear		
+46	情報源	ラウンドヘイの発言	Remark by Roundhay		
+46	hasPredicate	していた	Was		
+46	Who	ジョージ	George		
+46	Who	ブレンダ	Brenda		
+46	Who	オーウェン	Owen		
+46	What	恐怖の表情	Expression of fear				at the same time 37?		
+47	対象文	家には、ポーターがいた	There was a porter at home		
+47	情報源	ラウンドヘイの発言	Remark by Roundhay		
+47	hasPredicate	いた	It was		
+47	Who	ポーター	Porter		
+47	Where	家	House				トリジェニス家にしては？		
+48	対象文	ポーターはコックである	The porter is a cook		
+48	情報源	ラウンドヘイの発言	Remark by Roundhay		
+48	hasProperty	コックである	Be a cook		
+48	Who	ポーター	Porter		
+49	対象文	ポーターは家政婦である	Porter is a housekeeper		
+49	情報源	ラウンドヘイの発言	Remark by Roundhay		
+49	hasProperty	家政婦である	I am a housekeeper		
+49	Who	ポーター	Porter		
+50	対象文	ポーターは以下を言った	The porter said		
+50	情報源	ラウンドヘイの発言	Remark by Roundhay		
+50	hasPredicate	言った	Said		
+50	Who	ポーター	Porter		
+50	What	51,52	51, 52		
+51	対象文	昨晩、ポーターは熟睡していた	The porter had a deep sleep last night		
+51	情報源	ポーターの発言	Porter's statement				Remark by Porter		
+51	hasPredicate	熟睡していた	I was in deep sleep		
+51	When	昨晩	Last night		
+51	Who	ポーター	Porter		
+52	対象文	昨晩、ポーターは何も聞こえなかった	Last night, the porter did not hear anything		
+52	情報源	ポーターの発言	Porter's statement		
+52	hasPredicate	聞こえなかった	I did not hear		
+52	When	昨晩	Last night		
+52	Who	ポーター	Porter		
+52	What	何も	nothing		
+53	対象文	オーウェンとジョージとブレンダは何も盗まれなかった	Owen, George, and Brenda didn't steal anything		
+53	情報源	ラウンドヘイの発言	Remark by Roundhay		
+53	hasPredicate	盗まれなかった	I was not stolen		
+53	Who	ジョージ	George		
+53	Who	ブレンダ	Brenda		
+53	Who	オーウェン	Owen		
+53	What	何も	nothing		
+54	対象文	トリジェニス家は荒らされなかった	The Trigenis family was not ruined		
+54	情報源	ラウンドヘイの発言	Remark by Roundhay		
+54	hasPredicate	荒らされなかった	It was not ruined		
+54	Who	トリジェニス家	Trigenis House		
+55	対象文	ラウンドヘイはブレンダの死の理由を分からない	Roundhay does not know the reason for Brenda's death		
+55	情報源	ラウンドヘイの発言	Remark by Roundhay		
+55	hasPredicate	分からない	I do not understand		
+55	Who	ラウンドヘイ	Roundhay		
+55	What	ブレンダの死の理由	The reason for Brenda's death		
+56	対象文	ラウンドヘイはオーウェンとジョージの狂気の理由をわからない	Roundhay does not know the reason for Owen and George's madness		
+56	情報源	ラウンドヘイの発言	Remark by Roundhay		
+56	hasPredicate	わからない	do not know		
+56	Who	ラウンドヘイ	Roundhay		
+56	What	オーウェンとジョージの狂気の理由	Owen and George's reason for the madness				42,43,44,45,46?		
+57	対象文	ホームズは以下を思った	Holmes thought the following		
+57	情報源		
+57	hasPredicate	思った	thought				think? 他も過去形あり		
+57	Who	ホームズ	Holmes		
+57	What	58	58		
+58	対象文	事件は異常な性質を持つ	Incidents have an unusual nature		
+58	情報源	ホームズの考え	Holmes's thoughts				Idea of Holmes		
+58	hasPredicate	持つ	Have		
+58	Who	事件	Incident		
+58	What	異常な性質	Unusual nature		
+59	対象文	ラウンドヘイは以下を言った	Roundhay said the following		
+59	情報源		
+59	hasPredicate	言った	Said		
+59	Who	ラウンドヘイ	Roundhay		
+59	What	60-65	60-65				60,61,62,63,64,65		
+60	対象文	ラウンドヘイはトリジェニス家にいかなかった	Roundhaye did not go to Trigenis		
+60	情報源	ラウンドヘイの発言	Remark by Roundhay		
+60	hasPredicate	いかなかった	I did not go		
+60	Who	ラウンドヘイ	Roundhay		
+60	Where	トリジェニス家	Trigenis House		
+61	対象文	モーティマーは牧師館へ説明のために来た	Mortimer came to the pastor to explain		
+61	情報源	ラウンドヘイの発言	Remark by Roundhay		
+61	hasPredicate	来た	Came		
+61	Who	モーティマー	Mortimer		
+61	Where	牧師館へ	To the pastoral hall		
+61	Why	説明のため	For explanation					Why		
+62	対象文	ラウンドヘイはホームズに相談するために来た	Roundhaye came to consult Holmes		
+62	情報源	ラウンドヘイの発言	Remark by Roundhay		
+62	hasPredicate	来た	Came		
+62	Who	ラウンドヘイ	Roundhay		
+62	Whom	ホームズ	Holmes		
+62	Why	相談するために	To consult		
+64	対象文	トリジェニス家はポルドュー湾のコテージから1マイル離れている	The Trigenis are a mile from a cottage in the Gulf of Pordew		
+64	情報源	ラウンドヘイの発言	Remark by Roundhay		
+64	hasPredicate	離れている	is seperated		
+64	Who	トリジェニス家	Trigenis House		
+64	From	ポルドュー湾のコテージ	Cottage in the Bay of Pordeux					From		
+64	How	1マイル	1 mile		
+65	対象文	トリジェニス家はポルドュー湾のコテージより内陸にある	The Turgenis family is inland from a cottage in the Gulf of Pordeux		
+65	情報源	ラウンドヘイの発言	Remark by Roundhay		
+65	hasPredicate	ある	is there		
+65	Who	トリジェニス家	Trigenis House		
+65	Where	ポルドュー湾のコテージより内陸	Inland from the cottages of Pordeux Bay		
+66	対象文	モーティマーは黙っていた	Mortimer was silent		
+66	情報源		
+66	hasPredicate	黙っていた	I was silent		
+66	Who	モーティマー	Mortimer				at the same time 59?		
+67	対象文	ラウンドヘイは感情を前面に出してきた	Roundhay brought emotions to the fore		
+67	情報源		
+67	hasPredicate	出してきた	Came out		
+67	Who	ラウンドヘイ	Roundhay		
+67	What	感情	Emotion		
+67	How	前面に	On the front				at the same time 59?	Howに変更		
+68	対象文	ワトソンは以下を思った	Watson thought the following		
+68	情報源		
+68	hasPredicate	思った	thought		
+68	Who	ワトソン	Watson		
+68	What	69,70	69, 70		
+69	対象文	モーティマーは自制をしていた	Mortimer was in self-control		
+69	情報源	ワトソンの推測	Watson's guess				Idea of Watson		
+69	hasPredicate	自制していた	I was in control		
+69	Who	モーティマー	Mortimer				at the same time 59?		
+70	対象文	モーティマーはラウンドヘイより興奮していた	Mortimer was more excited than Roundhay		
+70	情報源	ワトソンの推測	Watson's guess		
+70	hasPredicate	興奮していた	I was excited		
+70	Who	モーティマー	Mortimer		
+70	How	ラウンドヘイより	From Roundhay				at the same time 59?		
+71	対象文	モーティマーは以下を言った	Mortimer said the following		
+71	情報源		
+71	hasPredicate	言った	Said		
+71	Who	モーティマー	Mortimer		
+71	What	72-105	72-105		
+72	対象文	モーティマーはトリジェニス家で食事をとった	Mortimer had a meal at Trigenis		
+72	情報源	モーティマーの発言	Mortimer's statement		
+72	hasPredicate	食事した	Ate		
+72	Who	モーティマー	Mortimer		
+72	Where	トリジェニス家	Trigenis House		
+73	対象文	ジョージが以下を言った	George said the following		
+73	情報源	モーティマーの発言	Mortimer's statement		
+73	hasPredicate	言った	Said		
+73	Who	ジョージ	George		
+73	What	74	74		
+74	対象文	我々はホイストをやる	We do the hoist		
+74	情報源	ジョージの発言	George's statement				Remark by George		
+74	hasPredicate	やる	do		
+74	Who	我々	we		
+74	What	ホイスト	Hoist				Hoistってゲーム？		
+75	対象文	9時頃に、モーティマーとオーウェンとジョージとブレンダは座った	Around 9 o'clock, Mortimer, Owen, George and Brenda sat down		
+75	情報源	モーティマーの発言	Mortimer's statement		
+75	hasPredicate	座った	Sat down		
+75	Who	ジョージ	George		
+75	Who	ブレンダ	Brenda		
+75	Who	モーティマー	Mortimer		
+75	Who	オーウェン	Owen		
+75	When	9時頃	Around 9 o'clock		
+76	対象文	10時15分過ぎに、モーティマーは立ち上がった	After 10:15, Mortimer stood up		
+76	情報源	モーティマーの発言	Mortimer's statement		
+76	hasPredicate	立ち上がった	Got up		
+76	When	10時15分過ぎ	10:15 past		
+76	Who	モーティマー	Mortimer		
+76	then	77	77		
+77	対象文	モーティマーはオーウェンとジョージとブレンダと別れた	Mortimer broke up with Owen, George and Brenda		
+77	情報源	モーティマーの発言	Mortimer's statement		
+77	hasPredicate	別れた	Broke up		
+77	Who	モーティマー	Mortimer		
+77	What	オーウェン	Owen		
+77	What	ジョージ	George		
+77	What	ブレンダ	Brenda		
+78	対象文	モーティマーとオーウェンとジョージとブレンダは良い雰囲気を持っていた	Mortimer, Owen, George and Brenda had a good atmosphere		
+78	情報源	モーティマーの発言	Mortimer's statement		
+78	hasPredicate	だった	was		
+78	Who	ジョージ	George		
+78	Who	ブレンダ	Brenda		
+78	Who	モーティマー	Mortimer		
+78	Who	オーウェン	Owen		
+78	How	良い雰囲気	good atmosphere		
+79	対象文	ポーターは寝ていた	The porter was sleeping		
+79	情報源	モーティマーの発言	Mortimer's statement		
+79	hasPredicate	寝ていた	was sleeping		
+79	Who	ポーター	Porter		
+80	対象文	モーティマーは一人で広間から出た	Mortimer went out of the hall alone				at the same time 79 ?		
+80	情報源	モーティマーの発言	Mortimer's statement		
+80	hasPredicate	出た	Came out		
+80	Who	モーティマー	Mortimer		
+80	How	一人で	alone					Howに変更		
+80	From	広間から	From the hall					From		
+81	対象文	モーティマーはドアを後ろ手で閉めた	Mortimer closed the door behind				at the same time 79 ?		
+81	情報源	モーティマーの発言	Mortimer's statement		
+81	hasPredicate	閉めた	Closed		
+81	Who	モーティマー	Mortimer		
+81	What	ドア	door			どこのドアなのか区別すべき？		
+81	How	後ろ手で	Behind you					Howに変更		
+82	対象文	窓がオーウェンとジョージの近くにある	Windows are near Owen and George		
+82	情報源	モーティマーの発言	Mortimer's statement		
+82	hasPredicate	ある	is there		
+82	Who	窓	window		
+82	Near	オーウェン	Owen					Near		
+82	Near	ジョージ	George		
+83	対象文	窓は閉まっていた	The window was closed		
+83	情報源	モーティマーの発言	Mortimer's statement		
+83	hasPredicate	閉まっていた	It was closed		
+83	Who	窓	window		
+84	対象文	ブラインドは上がっていた	The blinds were up		
+84	情報源	モーティマーの発言	Mortimer's statement		
+84	hasPredicate	上がっていた	It was up		
+84	Who	ブラインド	blind		
+85	対象文	今朝、窓は閉まっていた	The window was closed this morning		
+85	情報源	モーティマーの発言	Mortimer's statement		
+85	hasPredicate	閉まっていた	It was closed		
+85	Who	窓	window		
+85	When	今朝	this morning		
+86	対象文	今朝、ブラインドは上がっていた	The blind was up this morning		
+86	情報源	モーティマーの発言	Mortimer's statement		
+86	hasPredicate	上がっていた	It was up		
+86	Who	ブラインド	blind		
+86	When	今朝	this morning		
+87	対象文	部外者は出入りしていない	Outsiders are not in and out		
+87	情報源	モーティマーの発言	Mortimer's statement		
+87	hasPredicate	出入りしていない	Not going out		
+87	Who	部外者	Outsider		
+89	対象文	オーウェンとジョージは座っていた	Owen and George sat		
+89	情報源	モーティマーの発言	Mortimer's statement		
+89	hasPredicate	座っていた	Sat		
+89	Who	オーウェン	Owen		
+89	Who	ジョージ	George		
+90	対象文	オーウェンとジョージは恐怖のために狂っていた	Owen and George were crazy for fear		
+90	情報源	モーティマーの発言	Mortimer's statement		
+90	hasPredicate	狂っていた	I was crazy		
+90	Who	オーウェン	Owen		
+90	Who	ジョージ	George		
+90	Why	恐怖のため	For fear					Why		
+91	対象文	ブレンダは首を椅子の肘あてにのせていた	Brenda put his neck on the chair's elbow		
+91	情報源	モーティマーの発言	Mortimer's statement		
+91	hasPredicate	のせていた	It was loaded		
+91	Who	ブレンダ	Brenda		
+91	What	首	neck				「首」＝「モーティマーの首」		
+91	On	椅子の肘あて	Chair elbow					On		
+92	対象文	ブレンダは死んでいた	Brenda was dead		
+92	情報源	モーティマーの発言	Mortimer's statement		
+92	hasPredicate	死んでいた	It was dead		
+92	Who	ブレンダ	Brenda				at the same time 91?		
+93	対象文	犯人は悪魔である	The criminal is a demon		
+93	情報源	モーティマーの発言	Mortimer's statement		
+93	hasProperty	悪魔である	Be a demon		
+93	Who	犯人	Criminal		
+94	対象文	犯人は部屋に入りこんだ	The criminal entered the room		
+94	情報源	モーティマーの発言	Mortimer's statement		
+94	hasPredicate	入りこんだ	Entered		
+94	Who	犯人	Criminal		
+94	To	部屋	room				then 95?		
+95	対象文	犯人はオーウェンとジョージとブレンダの理性を打ち砕いた	The perpetrator shattered Owen and George and Brenda's reason		
+95	情報源	モーティマーの発言	Mortimer's statement		
+95	hasPredicate	打ち砕いた	Crushed		
+95	Who	犯人	Criminal		
+95	What	オーウェンの理性	Owen's Reason		
+95	What	ジョージの理性	George's reason		
+95	What	ブレンダの理性	Brenda's Reason		
+96	対象文	昔、モーティマーはオーウェンとジョージとブレンダと意見を違えた	Once upon a time, Mortimer disagreed with Owen and George and Brenda		
+96	情報源	モーティマーの発言	Mortimer's statement		
+96	hasPredicate	食い違った	Misplaced		
+96	When	昔	Long time ago		
+96	Who	モーティマーの意見	Mortimer's opinion		
+96	What	オーウェンの意見	Owen's opinion		
+96	What	ジョージの意見	George's opinion		
+96	What	ブレンダの意見	Brenda's opinion		
+97	対象文	モーティマーとオーウェンとジョージとブレンダは錫鉱夫の家に生まれた	Mortimer, Owen, George, and Brenda were born to Tin Miners		
+97	情報源	モーティマーの発言	Mortimer's statement		
+97	hasPredicate	生まれた	was born		
+97	Who	ジョージ	George		
+97	Who	ブレンダ	Brenda		
+97	Who	モーティマー	Mortimer		
+97	Who	オーウェン	Owen		
+97	Where	錫鉱夫の家	Tin miner's house		
+98	対象文	錫鉱夫はある会社に事業を売却した	Tin miners sold their business to a company		
+98	情報源	モーティマーの発言	Mortimer's statement		
+99	hasPredicate	売却した	Sold		
+98	Who	錫鉱夫	Tin miner		
+98	To	会社に	To the company				「に」は不要		
+99	What	事業	business				"then 100?		
+IDは「99」ではなく「98」では？"		
+100	対象文	錫鉱夫は十分な資金を得た	Tin miners got enough money		
+100	情報源	モーティマーの発言	Mortimer's statement		
+100	hasPredicate	得た	Obtained		
+100	Who	錫鉱夫	Tin miner		
+100	What	十分な資金	Sufficient funds				then 101?		
+101	対象文	錫鉱夫は引退した	Tin miner retired		
+101	情報源	モーティマーの発言	Mortimer's statement		
+101	hasPredicate	引退した	Retired		
+101	Who	錫鉱夫	Tin miner		
+102	対象文	モーティマーは金銭の配分に不満だった	Mortimer was unhappy with the distribution of money		
+102	情報源	モーティマーの発言	Mortimer's statement		
+102	hasPredicate	不満だった	I was dissatisfied		
+102	Who	モーティマー	Mortimer		
+102	What	金銭の配分に	For the distribution of money				「に」は不要		
+103	対象文	モーティマーは、オーウェンとジョージとブレンダと問題を持った	Mortimer had problems with Owen and George and Brenda		
+103	情報源	モーティマーの発言	Mortimer's statement		
+103	hasPredicate	持った	Had		
+103	Who	モーティマー	Mortimer		
+103	Whom	オーウェン	Owen					Whom		
+103	Whom	ジョージ	George					Whom		
+103	Whom	ブレンダ	Brenda					Whom		
+103	What	問題	problem		
+104	対象文	問題は忘れられた	The problem was forgotten		
+104	情報源	モーティマーの発言	Mortimer's statement		
+104	hasPredicate	忘れられた	Forgotten		
+104	Who	問題	problem		
+105	対象文	現在、モーティマーはオーウェンとジョージとブレンダと友情を持った	Currently, Mortimer has made friendship with Owen, George, and Brenda		
+105	情報源	モーティマーの発言	Mortimer's statement		
+105	hasPredicate	持った	Had		
+105	Who	モーティマー	Mortimer		
+105	Whom	オーウェン	Owen					Whom		
+105	Whom	ジョージ	George					Whom		
+105	Whom	ブレンダ	Brenda					Whom		
+105	What	友情	friendship		
+105	When	現在	Current		
+106	対象文	モーティマーはしばらく考えた	Mortimer thought for a while		
+106	情報源	モーティマーの発言	Mortimer's statement		
+106	hasPredicate	考えた	Thought		
+106	Who	モーティマー	Mortimer		
+106	What	しばらく	for a while				whatは変		
+107	対象文	モーティマーは以下を言った	Mortimer said the following		
+107	情報源		
+107	hasPredicate	言った	Said		
+107	Who	モーティマー	Mortimer		
+107	What	108-141	108-141		
+108	対象文	モーティマーはある事実を思い出した	Mortimer remembered a fact		
+108	情報源	モーティマーの発言	Mortimer's statement		
+108	hasPredicate	思い出した	I remembered		
+108	Who	モーティマー	Mortimer		
+108	What	ある事実	A fact		
+109	対象文	カードの最中、モーティマーは窓に対して背を向けていた	During the card, Mortimer turned his back to the window		
+109	情報源	モーティマーの発言	Mortimer's statement		
+109	hasPredicate	背を向けていた	I was turning my back		
+109	When	カードの最中	In the middle of the card		
+109	Who	モーティマー	Mortimer		
+109	Opposite	窓	window				at the same time 25?	Opposite		
+110	対象文	モーティマーはジョージと向かい合わせに座っていた	Mortimer sat opposite George		
+110	情報源	モーティマーの発言	Mortimer's statement		
+110	hasPredicate	座っていた	Sat		
+110	Who	モーティマー	Mortimer		
+110	What	ジョージ	George		
+110	How	向かい合わせに	Face to face					Howに変更		
+111	対象文	一度、ジョージは窓に険しい視線を送った	Once, George sent a sharp glance at the window		
+111	情報源	モーティマーの発言	Mortimer's statement		
+111	hasPredicate	送った	sent		
+111	Who	ジョージ	George		
+111	To	窓	window		
+111	What	険しい視線	Steep eyes		
+111	then	112	112		
+112	対象文	モーティマーは振りかえった	Mortimer looked back		
+112	情報源	モーティマーの発言	Mortimer's statement		
+112	hasPredicate	振りかえった	I turned around		
+112	Who	モーティマー	Mortimer		
+113	対象文	窓は締まっていた	The window was closed		
+113	情報源	モーティマーの発言	Mortimer's statement		
+113	hasPredicate	締まっていた	I was locked up		
+113	Who	窓	window				at the same time 112?		
+114	対象文	ブラインドはあがっていた	The blind was rising		
+114	情報源	モーティマーの発言	Mortimer's statement		
+114	hasPredicate	あがっていた	It was rising		
+114	Who	ブラインド	blind				at the same time 112?		
+115	対象文	モーティマーは芝生の茂みを見た	Mortimer saw a bush of grass		
+115	情報源	モーティマーの発言	Mortimer's statement		
+115	hasPredicate	見た	saw		
+115	Who	モーティマー	Mortimer				at the same time 112?		
+115	What	芝生の茂み	Bushes of grass			"「芝生」と「芝生の茂み」で「lawn」と「grass」の揺れ		
+そもそも「芝生の茂み」という表現がわかりにくい？"	then 116?		
+116	対象文	モーティマーは以下を感じた	Mortimer felt the following		
+116	情報源	モーティマーの発言	Mortimer's statement		
+116	hasPredicate	感じた	Felt		
+116	Who	モーティマー	Mortimer		
+116	What	117	117		
+117	対象文	何かが茂みの中を動いている	Something is moving in the bush		
+117	情報源	モーティマーの推測	Mortimer's guess		
+117	hasPredicate	動いている	moving		
+117	Who	何か	something		
+117	Where	茂みの中	In the bush		
+118	対象文	ジョージは以下を思った	George thought that		
+118	情報源	モーティマーの発言	Mortimer's statement		
+118	hasPredicate	思った	thought		
+118	Who	ジョージ	George		
+118	What	119	119		
+119	対象文	何かが茂みの中にいる	Something is in the bush		
+119	情報源	ジョージの推測	George's guess		
+119	hasPredicate	いる	Are		
+119	Who	何か	something		
+119	Where	茂みの中	In the bush		
+120	対象文	モーティマーは何かを確かめなかった	Mortimer didn't check something		
+120	情報源	モーティマーの発言	Mortimer's statement		
+120	hasPredicate	確かめなかった	I did not check		
+120	Who	モーティマー	Mortimer		
+120	What	何か	something		
+121	対象文	モーティマーは以下を思った	Mortimer thought that		
+121	情報源	モーティマーの発言	Mortimer's statement		
+121	hasPredicate	思った	thought		
+121	Who	モーティマー	Mortimer		
+121	What	122	122		
+122	対象文	何かは重要ではない	Something is not important		
+122	情報源	モーティマーの考え	Mortimer's thoughts		
+122	hasProperty	重要ではない	It does not matter		
+122	Who	何か	something		
+123	対象文	何かは嫌な気配を持たなかった	Something did not have an unpleasant sign		
+123	情報源	モーティマーの発言	Mortimer's statement		
+123	hasPredicate	持たなかった	I did not have		
+123	Who	何か	something		
+123	What	嫌な気配	Disgusting sign		
+124	対象文	今朝、モーティマーは散歩した	Mortimer took a walk this morning		
+124	情報源	モーティマーの発言	Mortimer's statement		
+124	hasPredicate	散歩した	Took a walk		
+124	Who	モーティマー	Mortimer		
+124	When	今朝	this morning		
+125	対象文	今朝、ドクター・リチャードの四輪馬車に追いつかれた	This morning, I was caught up by Dr. Richard's four-wheeled carriage		
+125	情報源	モーティマーの発言	Mortimer's statement		
+125	hasPredicate	追いつかれた	Caught up		
+125	Who	モーティマー	Mortimer		
+125	What	ドクター・リチャード	Doctor Richard		
+125	When	今朝	this morning		
+125	How	四輪馬車で	In the four-wheeled carriage		
+126	対象文	ドクター・リチャードは以下を言った	Dr. Richard said		
+126	情報源	モーティマーの発言	Mortimer's statement		
+126	hasPredicate	言った	Said		
+126	Who	ドクター・リチャード	Doctor Richard		
+126	What	127	127		
+127	対象文	ポーターはモーティマーに緊急メッセージを伝えた	Porter sent an emergency message to Mortimer		
+127	情報源	ドクターリチャードの発言	Doctor Richard's remark		
+127	hasPredicate	伝えた	I told you		
+127	Who	ポーター	Porter		
+127	Whom	モーティマー	Mortimer		
+127	What	緊急メッセージ	Emergency message		
+128	対象文	モーティマーはトリジェニス家に行った	Mortimer went to Trigenis		
+128	情報源	モーティマーの発言	Mortimer's statement		
+128	hasPredicate	行った	went		
+128	Who	モーティマー	Mortimer		
+128	To	トリジェニス家	Trigenis House		
+129	対象文	モーティマーとドクター・リチャードは部屋を調べた	Mortimer and Doctor Richard examined the room		
+129	情報源	モーティマーの発言	Mortimer's statement		
+129	hasPredicate	調べた	Examined		
+129	Who	モーティマー	Mortimer		
+129	Who	ドクター・リチャード	Doctor Richard		
+129	What	部屋	room		
+130	対象文	何時間も前に、蝋燭と暖炉は燃え尽きた	Candles and fireplaces burned out hours ago		
+130	情報源	モーティマーの発言	Mortimer's statement		
+130	hasPredicate	燃え尽きた	Burned out		
+130	Who	蝋燭	candle		
+130	Who	暖炉	fireplace		
+130	When	何時間も前	Many hours ago		
+131	対象文	夜明けまで、オーウェンとジョージは座っていた	Owen and George sat until dawn		
+131	情報源	モーティマーの発言	Mortimer's statement		
+131	hasPredicate	座っていた	Sat		
+131	Who	オーウェンと	With Owen				"「と」は不要		
+英訳も変更"		
+131	Who	ジョージ	George		
+131	When	夜明けまで	Until dawn		
+132	対象文	ドクター・リチャードは以下を言った	Dr. Richard said		
+132	情報源	モーティマーの発言	Mortimer's statement		
+132	hasPredicate	言った	Said		
+132	Who	ドクター・リチャード	Doctor Richard		
+132	What	以下	Less than				「以下」を具体的に		
+133	対象文	ブレンダの死後、少なくとも6時間が経過している	At least six hours have passed since Brenda's death		
+133	情報源	ドクター・リチャードの発言	Dr. Richard's remark		
+133	hasPredicate	経過している	It has passed		
+133	Who	6時間	6 hours				whoは変		
+133	When	ブレンダの死後	After Brenda's death		
+134	対象文	ブレンダは乱暴されていない	Brenda is not violent		
+134	情報源	モーティマーの発言	Mortimer's statement		
+134	hasPredicate	乱暴されていない	Not violent		
+134	Who	ブレンダ	Brenda		
+135	対象文	ブレンダは恐怖の表情を持っていた	Brenda had a look of fear		
+135	情報源	モーティマーの発言	Mortimer's statement		
+135	hasPredicate	持っていた	had		
+135	Who	ブレンダ	Brenda		
+135	What	恐怖の表情	Expression of fear		
+136	対象文	ジョージとオーウェンは歌を歌っていた	George and Owen were singing a song		
+136	情報源	モーティマーの発言	Mortimer's statement		
+136	hasPredicate	歌っていた	I was singing		
+136	Who	ジョージ	George		
+136	Who	オーウェン	Owen		
+136	What	歌	song		
+137	対象文	ジョージとオーウェンは意味不明なことを喋っていた	George and Owen were talking about something unclear		
+137	情報源	モーティマーの発言	Mortimer's statement		
+137	hasPredicate	喋っていた	I was crawling		
+137	Who	ジョージ	George		
+137	Who	オーウェン	Owen		
+137	What	意味不明なこと	Unintelligible thing		
+138	対象文	オーウェンとジョージは猿に似ていた	Owen and George were like monkeys		
+138	情報源	モーティマーの発言	Mortimer's statement		
+138	hasPredicate	似ていた	It was similar		
+138	Who	オーウェン	Owen		
+138	Who	ジョージ	George		
+138	What	猿	monkey		
+139	対象文	ドクター・リチャードの顔は真っ青だった	Dr. Richard's face was deep blue		
+139	情報源	モーティマーの発言	Mortimer's statement		
+139	hasProperty	真っ青だった	It was deep blue		
+139	Who	ドクター・リチャードの顔	Doctor Richard's face		
+140	対象文	ドクター・リチャードは失神しかけた	Dr. Richard went fainting		
+140	情報源	モーティマーの発言	Mortimer's statement		
+140	hasPredicate	失神しかけた	I was fainting		
+140	Who	ドクター・リチャード	Doctor Richard		
+141	対象文	ドクター・リチャードは椅子に座った	Dr. Richard sat in a chair		
+141	情報源	モーティマーの発言	Mortimer's statement		
+141	hasPredicate	座った	Sat down		
+141	Who	ドクター・リチャード	Doctor Richard		
+141	What	椅子に	In the chair				"「に」は不要		
+英訳も変更"		
+142	対象文	1日目の朝、ホームズとワトソンとモーティマーは四輪馬車の走行音を聞いた	On the morning of the first day, Holmes, Watson and Mortimer heard the running noise of a four-wheeled carriage		
+142	情報源		
+142	hasPredicate	聞いた	heard		
+142	Who	ワトソン	Watson		
+142	Who	モーティマー	Mortimer		
+142	Who	ホームズ	Holmes		
+142	What	四輪馬車の走行音	Running noise of a four-wheeled carriage		
+142	When	1日目の朝	Morning of the first day				then 143?		
+143	対象文	ホームズとワトソンとモーティマーは脇によけた	Holmes, Watson and Mortimer aside		
+143	情報源		
+143	hasPredicate	よけた	Abstained		
+143	Who	ワトソン	Watson		
+143	Who	モーティマー	Mortimer		
+143	Who	ホームズ	Holmes		
+143	To	脇	side				then 144?		
+144	対象文	ホームズとワトソンとモーティマーは馬車の通過を待った	Holmes, Watson and Mortimer waited for the carriage to pass		
+144	情報源		
+144	hasPredicate	待った	waited		
+144	Who	ワトソン	Watson		
+144	Who	モーティマー	Mortimer		
+144	Who	ホームズ	Holmes		
+144	What	馬車の通過	Passing of a carriage				then 145?		
+145	対象文	ホームズとワトソンとモーティマーは馬車とすれ違った	Holmes, Watson and Mortimer passed the carriage		
+145	情報源		
+145	hasPredicate	すれ違った	It was wrong		
+145	Who	ワトソン	Watson		
+145	Who	モーティマー	Mortimer		
+145	Who	ホームズ	Holmes		
+145	What	馬車	Carriage				then 146?		
+146	対象文	ワトソンは窓から視線を感じた	Watson felt the sight from the window		
+146	情報源		
+146	hasPredicate	感じた	Felt		
+146	Who	ワトソン	Watson		
+146	From	窓から	From the window					From		
+146	What	視線	Gaze				at the same time 147,148?		
+147	対象文	窓に、恐怖の顔があった	The window had a face of fear		
+147	情報源		
+147	hasPredicate	あった	there were		
+147	Who	恐怖の顔	Face of fear		
+147	Where	窓に	In the window				"「に」は不要		
+英訳も変更"		
+148	対象文	顔は薄ら笑いを持っていた	The face had a faint smile		
+148	情報源		
+148	hasPredicate	持っていた	had		
+148	Who	顔	face		
+148	What	薄ら笑い	Thin smile		
+149	対象文	モーティマーは以下を言った	Mortimer said the following		
+149	情報源		
+149	hasPredicate	言った	Said		
+149	Who	モーティマー	Mortimer		
+149	What	150	150		
+150	対象文	オーウェンとジョージがヘルストンに連れていかれる	Owen and George are taken to Helston		
+150	情報源	モーティマーの発言	Mortimer's statement		
+150	hasPredicate	連れていかれる	Be taken away		
+150	Who	オーウェン	Owen		
+150	Who	ジョージ	George		
+150	Where	ヘルストン	Hellston		
+151	対象文	トリジェニス家は広い	The Turgenis family is large		
+151	情報源		
+151	hasPredicate	広い	wide				property?		
+151	Who	トリジェニス家	Trigenis House		
+152	対象文	トリジェニス家は快適だ	The Trigenis are comfortable		
+152	情報源		
+152	hasPredicate	快適だ	It is comfortable				property?		
+152	Who	トリジェニス家	Trigenis House		
+153	対象文	トリジェニス家は相当な庭を持つ	The Trigenis have a large garden		
+153	情報源		
+153	hasPredicate	持つ	Have		
+153	Who	トリジェニス家	Trigenis House		
+153	Who	相当な庭	Considerable garden				「相当な」は曖昧？		
+154	対象文	トリジェニス家の庭は草花で埋め尽くされていた	The Garden of the Trigenis was filled with flowers		
+154	情報源		
+154	hasPredicate	埋め尽くされていた	It was filled up		
+154	Who	トリジェニス家の庭	Garden of Trigenis		
+154	What	草花で	With flowers				"「で」は不要		
+英訳も変更"		
+155	対象文	居間の窓は庭に面している	The window in the living room faces the garden		
+155	情報源		
+155	hasPredicate	面している	Face		
+155	Who	居間の窓	Living room window				英訳		
+155	To	庭	garden					To		
+156	対象文	モーティマーは以下を言った	Mortimer said the following		
+156	情報源		
+156	hasPredicate	言った	Said		
+156	Who	モーティマー	Mortimer		
+156	What	157	157		
+157	対象文	邪悪なものが窓から入ってきた	Evil things came in through the window		
+157	情報源	モーティマーの発言	Mortimer's statement		
+157	hasPredicate	入ってきた	Came in		
+157	Who	邪悪なもの	Evil thing		
+157	From	窓	window					From		
+158	対象文	ポーターは以下を言った	The porter said		
+158	情報源		
+158	hasPredicate	言った	Said		
+158	Who	ポーター	Porter		
+158	What	159-175	159-175		
+159	対象文	昨日の夜、ポーターは何も聞こえなかった	The porter did not hear anything yesterday night		
+159	情報源	ポーターの発言	Porter's statement		
+159	hasPredicate	聞こえなかった	I did not hear		
+159	Who	ポーター	Porter		
+159	What	何も	nothing		
+159	When	昨日の夜	Yesterday night		
+160	対象文	オーウェンとジョージとブレンダは良い精神状態を持っていた	Owen and George and Brenda had a good mental state		
+160	情報源	ポーターの発言	Porter's statement		
+160	hasPredicate	持っていた	had		
+160	Who	ジョージ	George		
+160	Who	ブレンダ	Brenda		
+160	Who	オーウェン	Owen		
+160	What	良い精神状態	Good mental condition		
+161	対象文	オーウェンとジョージとブレンダは良い機嫌を持っていた	Owen and George and Brenda had a good mood		
+161	情報源	ポーターの発言	Porter's statement		
+161	hasPredicate	持っていた	had		
+161	Who	ジョージ	George		
+161	Who	ブレンダ	Brenda		
+161	Who	オーウェン	Owen		
+161	What	良い機嫌	Good mood		
+162	対象文	今朝、ポーターは部屋に入った	Porter entered the room this morning		
+162	情報源	ポーターの発言	Porter's statement		
+162	hasPredicate	入った	Has entered		
+162	Who	ポーター	Porter		
+162	To	部屋	room					To		
+162	When	今朝	this morning		
+162	then	163	163		
+163	対象文	ポーターは無惨な光景を見た	Porter saw a disastrous sight		
+163	情報源	ポーターの発言	Porter's statement		
+163	hasPredicate	見た	saw		
+163	Who	ポーター	Porter		
+163	What	無惨な光景	Miserable sight		
+163	then	164	164		
+164	対象文	ポーターは倒れた	The porter fell		
+164	情報源	ポーターの発言	Porter's statement		
+164	hasPredicate	倒れた	collapsed		
+164	Who	ポーター	Porter		
+165	対象文	ポーターは意識を取り戻した	Porter regained consciousness		
+165	情報源	ポーターの発言	Porter's statement		
+165	hasPredicate	取り戻した	Recovered		
+165	Who	ポーター	Porter		
+165	What	意識	Consciousness				after 164?		
+165	then	166	166		
+166	対象文	ポーターは窓を開けた	Porter opened the window		
+166	情報源	ポーターの発言	Porter's statement		
+166	hasPredicate	開けた	Opened		
+166	Who	ポーター	Porter		
+166	What	窓	window		
+166	then	167	167		
+167	対象文	ポーターは小道を駆け下った	The porter ran down the path		
+167	情報源	ポーターの発言	Porter's statement		
+167	hasPredicate	駆け下った	Ran down		
+167	Who	ポーター	Porter		
+167	What	小道	Path		
+167	then	168	168		
+168	対象文	ポーターはドクター・リチャードへ農家の少年を送った	Porter sent a farmer boy to Dr. Richard		
+168	情報源	ポーターの発言	Porter's statement		
+168	hasPredicate	送った	sent		
+168	Who	ポーター	Porter		
+168	Whom	ドクター・リチャード	Doctor Richard					Whom		
+168	What	農家の少年	Farmer boy		
+169	対象文	ブレンダは自分のベッドに寝かせている	Brenda is lying in his bed		
+169	情報源	ポーターの発言	Porter's statement		
+169	hasPredicate	寝かせている	Lying down		
+169	Who	ブレンダ	Brenda		
+169	Where	自分のベッド	My bed				「自分」を「ブレンダ」に変更		
+170	対象文	精神病院の馬車にオーウェンとジョージを乗せた	I put Owen and George on a carriage in a mental hospital		
+170	情報源	ポーターの発言	Porter's statement		
+170	hasPredicate	乗せた	Put on		
+170	Who	ポーター	Porter		
+170	On	精神病院の馬車	Horse carriage in a mental hospital		
+170	What	オーウェン	Owen		
+170	What	ジョージ	George		
+171	対象文	オーウェンとジョージのために4人の男が必要だった	I needed four men for Owen and George		
+171	情報源	ポーターの発言	Porter's statement		
+171	hasPredicate	必要だった	It was necessary		
+171	Who	4人の男	Four men		
+171	Why	オーウェンを運ぶ	Carry owen					Why		
+171	Why	ジョージを運ぶ	Carry george					Why		
+172	対象文	ポーターは1日も家に留まる気を持たない	The porter doesn't feel like staying at home for a day		
+172	情報源	ポーターの発言	Porter's statement		
+172	hasPredicate	留まらない	Do not stay		
+172	Who	ポーター	Porter		
+172	Where	家	House		
+172	When	これから	from now on		
+174	対象文	ポーターはセント・アイヴスに帰る	Porter returns to St Ives		
+174	情報源	ポーターの発言	Porter's statement		
+174	hasPredicate	帰る	Go back		
+174	Who	ポーター	Porter		
+174	To	セント・アイヴス	St Ives					To		
+175	対象文	ホームズとワトソンとモーティマーは階段を上った	Holmes, Watson and Mortimer went up the stairs		
+175	情報源		
+175	hasPredicate	上った	Went up		
+175	Who	ワトソン	Watson		
+175	Who	モーティマー	Mortimer		
+175	Who	ホームズ	Holmes		
+175	What	階段	Stairs				then 176?		
+176	対象文	ホームズとワトソンとモーティマーは死体を見た	Holmes, Watson and Mortimer saw the dead		
+176	情報源		
+176	hasPredicate	見た	saw		
+176	Who	ワトソン	Watson		
+176	Who	モーティマー	Mortimer		
+176	Who	ホームズ	Holmes		
+176	What	死体	cadaver		
+177	対象文	ブレンダは恐怖の表情を持っていた	Brenda had a look of fear		
+177	情報源		
+177	hasPredicate	持っていた	had		
+177	Who	ブレンダ	Brenda		
+177	What	恐怖の表情	Expression of fear		
+178	対象文	ホームズとワトソンとモーティマーは居間に行った	Holmes, Watson and Mortimer went to the living room		
+178	情報源		
+178	hasPredicate	行った	went		
+178	Who	ワトソン	Watson		
+178	Who	モーティマー	Mortimer		
+178	Who	ホームズ	Holmes		
+178	To	居間	Living room					To		
+179	対象文	一晩中、暖炉は焚かれていた	The fireplace was open all night		
+179	情報源		
+179	hasPredicate	焚かれていた	I was scolded		
+179	When	一晩中	All night		
+179	Who	暖炉	fireplace		
+180	対象文	黒焦げの灰が暖炉の中に残っていた	Burnt ashes remained in the fireplace		
+180	情報源		
+180	hasPredicate	残っていた	It was left		
+180	Who	黒焦げの灰	Charred ash		
+180	Where	暖炉の中	Inside the fireplace		
+181	対象文	テーブルに、燃えさしの蝋燭4本があった	At the table there were four burning candle		
+181	情報源		
+181	hasPredicate	あった	there were		
+181	Who	燃えさしの蝋燭4本	Four burning candle		
+181	On	テーブル	table					On		
+182	対象文	テーブルに、カードが散らばっていた	Cards were scattered on the table		
+182	情報源		
+182	hasPredicate	散らばっていた	It was scattered		
+182	On	テーブル	table		
+182	Who	カード	card		
+183	対象文	モーティマーは以下を言った	Mortimer said the following		
+183	情報源		
+183	hasPredicate	言った	Said		
+183	Who	モーティマー	Mortimer		
+183	What	184-187	184-187		
+184	対象文	昨日の晩は寒かった	It was cold yesterday night		
+184	情報源	モーティマーの発言	Mortimer's statement		
+184	hasPredicate	寒かった	it was cold		
+184	Who	昨日の晩	Yesterday evening				「昨日」を具体的にできるのであれば....		
+184	therefore	185	185		
+185	対象文	そのため、暖炉がつけられた	Therefore, the fireplace was turned on					前の文にtherefore		
+185	情報源	モーティマーの発言	Mortimer's statement		
+185	hasPredicate	つけられた	Turned on		
+185	Who	暖炉	fireplace		
+185	after	187	187		
+187	対象文	あとに、モーティマーが到着した	Later, Mortimer arrived					after		
+187	情報源	モーティマーの発言	Mortimer's statement		
+187	hasPredicate	到着した	Arrived		
+187	Who	モーティマー	Mortimer		
+188	対象文	ホームズはポルドュー湾のコテージに帰った	Holmes returned to a cottage in the Gulf of Pordew		
+188	情報源		
+188	hasPredicate	帰った	Went back		
+188	Who	ホームズ	Holmes		
+188	To	ポルドュー湾のコテージ	Cottage in the Bay of Pordeux					To		
+189	対象文	ホームズは沈黙した	Holmes was silent		
+189	情報源		
+189	hasPredicate	沈黙した	Silenced		
+189	Who	ホームズ	Holmes		
+190	対象文	ホームズは以下を推測する	Holmes guesses		
+190	情報源		
+190	hasPredicate	推測する	Infer		
+190	Who	ホームズ	Holmes		
+190	What	191,192,193	191, 192, 193		
+191	対象文	ホームズとワトソンは以下を認めない	Holmes and Watson do not		
+191	情報源	ホームズの推測	Holmes guess				ホームズの考え？		
+191	hasPredicate	認めない	I will not admit it		
+191	Who	ホームズ	Holmes		
+191	Who	ワトソン	Watson		
+191	What	192	192		
+192	対象文	犯人は悪魔である	The criminal is a demon		
+192	情報源	ホームズの推測	Holmes guess		
+192	hasProperty	悪魔である	Be a demon		
+192	Who	犯人	Criminal		
+193	対象文	オーウェンとジョージとブレンダは、人間の故意か過失のため苦しみを味わった	Owen, George, and Brenda have suffered from human intentional or negligence		
+193	情報源	ホームズの推測	Holmes guess		
+193	hasPredicate	味わった	Tasted		
+193	Who	ジョージ	George		
+193	Who	ブレンダ	Brenda		
+193	Who	オーウェン	Owen		
+193	Why	人間の故意	Human intention				OR で繋げては？	Why		
+193	Why	過失	Negligence					Why		
+193	What	苦しみ	suffering		
+194	対象文	ホームズは以下を推測した	Holmes guessed the following		
+194	情報源		
+194	hasPredicate	推測した	Guessed		
+194	Who	ホームズ	Holmes		
+194	What	195-197	195-197		
+195	対象文	モーティマーの話を真実だとする	Make Mortimer's Story True		
+195	情報源	ホームズの推測	Holmes guess				ホームズの考え？		
+195	hasPredicate	する	Do				equalTo?		
+195	What	モーティマーの話	Mortimer's Story		
+195	What	真実だと	It's true				「だと」は不要		
+196	対象文	モーティマーが部屋を出た	Mortimer left the room		
+196	情報源	ホームズの推測	Holmes guess		
+196	hasPredicate	出た	Came out		
+196	Who	モーティマー	Mortimer		
+196	What	部屋	room		
+196	then 	197	197		
+197	対象文	数分以内で、事件が起きた	Within a few minutes, an incident occurred		
+197	情報源	ホームズの推測	Holmes guess		
+197	hasPredicate	起きた	woke up		
+197	Who	事件	Incident				IF 195?		
+197	When	数分以内	Within a few minutes				数分後でもよいかも		
+198	対象文	カードがテーブルに散らばっていた	Cards were scattered on the table		
+198	情報源		
+198	hasPredicate	散らばっていた	It was scattered		
+198	Who	カード	card		
+198	On	テーブル	table		
+199	対象文	オーウェンとジョージとブレンダの就寝時間は越えていた	Owen, George and Brenda's bedtime was over		
+199	情報源		
+199	hasPredicate	越えていた	It was over		
+199	Who	オーウェン	Owen		
+199	Who	ジョージ	George		
+199	Who	ブレンダ	Brenda		
+199	What	就寝時間	Bedtime		
+200	対象文	オーウェンとジョージとブレンダは姿勢を変えなかった	Owen, George, and Brenda did not change attitude		
+200	情報源		
+200	hasPredicate	変えなかった	I did not change		
+200	Who	ジョージ	George		
+200	Who	ブレンダ	Brenda		
+200	Who	オーウェン	Owen		
+200	What	姿勢	posture		
+201	対象文	オーウェンとジョージとブレンダは椅子を引かなかった	Owen, George and Brenda didn't pull the chair		
+201	情報源		
+201	hasPredicate	引かなかった	I did not draw		
+201	Who	ジョージ	George		
+201	Who	ブレンダ	Brenda		
+201	Who	オーウェン	Owen		
+201	What	椅子	Chair		
+202	対象文	ホームズは以下を推測した	Holmes guessed the following		
+202	情報源		
+202	hasPredicate	推測した	Guessed		
+202	Who	ホームズ	Holmes		
+202	What	203	203		
+203	対象文	昨夜11時以前に、事件が起きた	The incident happened before 11:00 last night		
+203	情報源						ホームズの考え		
+203	hasPredicate	起きた	woke up		
+203	Who	事件	Incident		
+203	When	昨夜11時以前	Before 11:00 last night		
+204	対象文	モーティマーは牧師館に歩いてきた	Mortimer has walked to the pastor		
+204	情報源		
+204	hasPredicate	歩いてきた	Walked		
+204	Who	モーティマー	Mortimer		
+204	To	牧師館	Pastor's Hall		
+205	対象文	ポーターは犯人ではない	Porter is not a criminal		
+205	情報源		
+205	hasPredicate	ではない	is not		
+205	Who	ポーター	Porter		
+205	What	犯人	Criminal		
+206	対象文	窓の下の花壇に足跡はない	There is no footprint on the flower bed under the window		
+206	情報源		
+206	hasPredicate	はない	There is no		
+206	Where	窓の下の花壇に	In the flower bed under the window				2文に分けては？		
+206	What	足跡	Footprints				therefore 207?		
+207	対象文	部外者は事件を起こせない	Outsiders can not make an incident		
+207	情報源		
+207	hasPredicate	起こせない	I can not wake up		
+207	Who	部外者	Outsider		
+207	What	事件	Incident		
+208	対象文	部外者は事件の動機を持たない	Outsiders have no motive for the case		
+208	情報源		
+208	hasPredicate	持たない	do not have		
+208	Who	部外者	Outsider		
+208	What	事件の動機	Motive of the case				theは不要		
+209	対象文	午後に、ホームズとワトソンはポルデュー湾のコテージに戻った	In the afternoon, Holmes and Watson returned to the Pordeux Bay cottage		
+209	情報源		
+209	hasPredicate	戻った	Returned		
+209	Who	ホームズ	Holmes		
+209	Who	ワトソン	Watson		
+209	When	午後	afternoon		
+209	Where	ポルデュー湾のコテージに	In a cottage in the Pordeux Bay				"Toではない？		
+「に」は不要"		
+210	対象文	スタンデールがポルデュー湾のコテージにいた	Standale was in a cottage in the Pordeux Bay		
+210	情報源		
+210	hasPredicate	いた	It was		
+210	Who	スタンデール	Standale		
+210	Where	ポルデュー湾のコテージ	Poldew Bay Cottage		
+211	対象文	スタンデールはライオンハンターである	Standale is a lion hunter		
+211	情報源		
+211	hasProperty	ライオンハンターである	I am a lion hunter		
+211	Who	スタンデール	Standale		
+212	対象文	スタンデールは探険家である	Standale is an explorer		
+212	情報源		
+212	hasProperty	探険家である	I'm an explorer		
+212	Who	スタンデール	Standale		
+213	対象文	コーンワルにおいて、スタンデールは隣人とつきあいを持たない	In Cornwall, Standale has no contact with his neighbors		
+213	情報源		
+213	hasPredicate	持たない	do not have		
+213	Who	スタンデール	Standale		
+213	Whom	隣人	neighbor					Whom		
+213	What	つきあい	Get along		
+213	Where	コーンワル	Cornwall		
+214	対象文	コーンワルにおいて、スタンデールは孤立している	Standale is isolated in Cornwall		
+214	情報源		
+214	hasPredicate	孤立している	Is isolated		
+214	Who	スタンデール	Standale		
+214	Where	コーンワル	Cornwall		
+215	対象文	スタンデールがホームズに進展を聞いた	Standale heard Holmes progress		
+215	情報源		
+215	hasPredicate	聞いた	heard		
+215	Who	スタンデール	Standale		
+215	What	ホームズ	Holmes		
+215	What	進展	Progress		
+216	対象文	スタンデールは以下を言った	Standale said		
+216	情報源		
+216	hasPredicate	言った	Said		
+216	Who	スタンデール	Standale		
+216	What	217-226	217-226		
+217	対象文	スタンデールは地方警察を信用しない	Standale does not trust local police		
+217	情報源	スタンデールの発言	Standale's remarks		
+217	hasPredicate	信用しない	Do not trust		
+217	Who	スタンデール	Standale		
+217	What	地方警察	Local police		
+218	対象文	スタンデールはトリジェニス家に何度も滞在した	Standale stayed many times in the Trigemnis family		
+218	情報源	スタンデールの発言	Standale's remarks		
+218	hasPredicate	滞在した	stayed		
+218	Who	スタンデール	Standale		
+218	How	何度も	Many times		
+218	Where	トリジェニス家	Trigenis House		
+219	対象文	スタンデールはトリジェニス家と親しくなった	Standale gets close to the Trigenis family		
+219	情報源	スタンデールの発言	Standale's remarks		
+219	hasPredicate	親しくなった	Became familiar		
+219	Who	スタンデール	Standale		
+219	What	トリジェニス家と	With the House of Trigenis				「と」は不要		
+220	対象文	スタンデールはショックを受けた	Standale was shocked		
+220	情報源	スタンデールの発言	Standale's remarks		
+220	hasPredicate	受けた	Received		
+220	Who	スタンデール	Standale		
+220	What	ショック	shock				whatは変		
+221	対象文	スタンデールはオーウェンとジョージとブレンダの運命を聞いた	Standale heard the fate of Owen and George and Brenda		
+221	情報源	スタンデールの発言	Standale's remarks		
+221	hasPredicate	聞いた	heard		
+221	Who	スタンデール	Standale		
+221	What	オーウェンの運命	Owen's fate		
+221	What	ジョージの運命	George's fate		
+221	What	ブレンダの運命	Brenda's Fate		
+222	対象文	スタンデールはアフリカに向かっていた	Standale was headed for Africa		
+222	情報源	スタンデールの発言	Standale's remarks		
+222	hasPredicate	向かっていた	I was heading		
+222	Who	スタンデール	Standale		
+222	To	アフリカ	Africa					To		
+223	対象文	スタンデールはプリマスまで着いた	Standale has arrived to Plymouth		
+223	情報源	スタンデールの発言	Standale's remarks		
+223	hasPredicate	着いた	arrived		
+223	Who	スタンデール	Standale		
+223	To	プリマス	Plymouth		
+224	対象文	今朝、スタンデールはニュースを聞いた	This morning, Standale heard the news		
+224	情報源	スタンデールの発言	Standale's remarks		
+224	hasPredicate	聞いた	heard		
+224	Who	スタンデール	Standale		
+224	What	ニュース	news		
+224	When	今朝	this morning		
+225	対象文	スタンデールは帰ってきた	Standale is back		
+225	情報源	スタンデールの発言	Standale's remarks		
+225	hasPredicate	帰ってきた	Came back				then 226?		
+225	Who	スタンデール	Standale				because 224?		
+226	対象文	ラウンドヘイがスタンデールに電報を送った	Roundhay telegraphed Standale		
+226	情報源	スタンデールの発言	Standale's remarks		
+226	hasPredicate	送った	sent		
+226	Who	ラウンドヘイ	Roundhay		
+226	Whoｍ	スタンデール	Standale		
+226	What	電報	telegram		
+227	対象文	スタンデールはホームズに容疑者を聞いた	Standale heard Holmes suspect		
+227	情報源		
+227	hasPredicate	聞いた	heard		
+227	Who	スタンデール	Standale		
+227	Whom	ホームズ	Holmes		
+227	What	容疑者	Suspect				then 228?		
+228	対象文	ホームズはスタンデールに答えなかった	Holmes did not answer Standale		
+228	情報源		
+228	hasPredicate	答えなかった	Did not answer		
+228	Who	ホームズ	Holmes		
+228	Whom	スタンデール	Standale					Whom		
+229	対象文	スタンデールはポルデュー湾のコテージから出ていった	Standale got out of a cottage in the Pordeux Bay		
+229	情報源		
+229	hasPredicate	出ていった	Went out		
+229	Who	スタンデール	Standale		
+229	From	ポルデュー湾のコテージから	From the cottages of Pordeux Bay					From		
+229	then 	230	230		
+230	対象文	5分以内に、ホームズはスタンデールを追った	Within 5 minutes, Holmes followed Standale		
+230	情報源		
+230	hasPredicate	追った	pursued		
+230	Who	ホームズ	Holmes		
+230	What	スタンデール	Standale		
+230	When	5分以内	Within 5 minutes				以内は難しいような...		
+231	対象文	ワトソンは以下を思った	Watson thought the following		
+231	情報源		
+231	hasPredicate	思った	thought		
+231	Who	ワトソン	Watson		
+231	What	232	232		
+232	対象文	調査は進展しなかった	Survey did not progress		
+232	情報源	ワトソンの推測	Watson's guess				ワトソンの考え		
+232	hasPredicate	進展しなかった	Did not progress		
+232	Who	調査	Research		
+233	対象文	ホームズは電報を見た	Holmes saw a telegram		
+233	情報源		
+233	hasPredicate	見た	saw		
+233	Who	ホームズ	Holmes		
+233	What	電報	telegram				then 234?		
+234	対象文	ホームズは電報を暖炉に放りこんだ	Holmes threw a telegram into the fireplace		
+234	情報源		
+234	hasPredicate	放りこんだ	Thrown in		
+234	Who	ホームズ	Holmes		
+234	What	電報	telegram		
+234	To	暖炉	fireplace		
+235	対象文	電報がプリマスのホテルから届いた	A telegram arrived from a hotel in Plymouth		
+235	情報源		
+235	hasPredicate	届いた	Arrived		
+235	Who	電報	telegram		
+235	From	プリマスのホテル	Plymouth Hotels		
+236	対象文	ホームズは以下を言った	Holmes said the following		
+236	情報源		
+236	hasPredicate	言った	Said		
+236	Who	ホームズ	Holmes		
+236	What	237-242	237-242		
+237	対象文	ホームズは電報を打った	Holmes sent a telegram		
+237	情報源	ホームズの発言	Holmes's statement		
+237	hasPredicate	打った	hit		
+237	Who	ホームズ	Holmes		
+237	What	電報	telegram		
+238	対象文	ラウンドヘイから名前を聞きだした	I heard my name from Roundhay		
+238	情報源	ホームズの発言	Holmes's statement		
+238	hasPredicate	聞きだした	I heard it		
+238	Who	ホームズ	Holmes		
+238	From	ラウンドヘイ	Roundhay		
+238	What	名前	name		
+239	対象文	ラウンドヘイに以下を聞いた	I heard the following from Roundhay		
+239	情報源	ホームズの発言	Holmes's statement		
+239	hasPredicate	聞いた	heard		
+239	Who	ホームズ	Holmes		
+239	What	ラウンドヘイ	Roundhay		
+239	What	以下	Less than				「以下」を具体的に		
+240	対象文	スタンデールの説明は正しい	Standale's explanation is correct		
+240	情報源	ホームズの発言	Holmes's statement		
+240	hasPredicate	正しい	correct		
+240	Who	スタンデールの説明	Description of Standale		
+241	対象文	昨晩、スタンデールはプリマスにいた	Last night, Standale was in Plymouth		
+241	情報源	ラウンドヘイの電報	Roundhay's Telegram		
+241	hasPredicate	いた	It was		
+241	When	昨晩	Last night		
+241	Who	スタンデール	Standale		
+241	Where	プリマス	Plymouth		
+242	対象文	午後に、スタンデールは荷物をアフリカに送った	In the afternoon, Standale sent luggage to Africa		
+242	情報源	ラウンドヘイの電報	Roundhay's Telegram		
+242	hasPredicate	送った	sent		
+242	When	午後	afternoon		
+242	Who	スタンデール	Standale		
+242	What	荷物	Baggage		
+242	To	アフリカ	Africa		
+242	then 	243	243		
+243	対象文	その朝、ラウンドヘイが庭の小道を駆けてきた	That morning, Roundhay ran down the garden path		
+243	情報源		
+243	hasPredicate	来た	Came		
+243	Who	ラウンドヘイ	Roundhay		
+243	From	庭の小道	Garden path		
+243	When	その朝	That morning		
+244	対象文	ラウンドヘイは以下を言った	Roundhay said the following		
+244	情報源		
+244	hasPredicate	言った	Said		
+244	Who	ラウンドヘイ	Roundhay		
+244	What	以下	Less than				「以下」を具体的に		
+245	対象文	コーンワルには、悪魔がとりついている	The demon is attached to Cornwall		
+245	情報源	ラウンドヘイの発言	Remark by Roundhay		
+245	hasPredicate	とりついている	I'm stuck		
+245	Who	悪魔	Devil		
+245	Where	コーンワル	Cornwall		
+246	対象文	昨晩、モーティマーがブレンダと同じ症状で亡くなった	Last night Mortimer died with the same symptoms as Brenda				同じ症状でモとブが亡くなった，では？		
+246	情報源	ラウンドヘイの発言	Remark by Roundhay		
+246	hasPredicate	亡くなった	Passed away		
+246	When	昨晩	Last night		
+246	Who	モーティマー	Mortimer		
+246	How	ブレンダと同じ症状で	With the same symptoms as Brenda				この表現が難しいため，↑	How		
+247	対象文	モーティマーは、牧師館の２部屋を借りていた	Mortimer had rented two rooms in the pastoral building		
+247	情報源		
+247	hasPredicate	借りていた	I borrowed		
+247	Who	モーティマー	Mortimer		
+247	What	牧師館の２部屋	Two rooms in the pastoral hall				各部屋に対応するエンティティがあるのであれば，それを指すべき？		
+248	対象文	部屋下は居間である	The lower room is the living room				モーティマーの部屋の下に，居間がある，では？		
+248	情報源		
+248	hasProperty	居間である	In the living room		
+248	Who	部屋下	Lower room		
+249	対象文	部屋上は寝室である	The room is a bedroom				モーティマーの部屋の上に，寝室がある，では？		
+249	情報源		
+249	hasProperty	寝室である	It is a bedroom		
+249	Who	部屋上	Above room		
+250	対象文	居間と寝室は窓から芝生を見ることができる	Living room and bedroom can see the lawn from the window				居間と寝室は庭に面している，くらいでは？		
+250	情報源		
+250	hasPredicate	見ることができる	Can see		
+250	Who	居間	Living room		
+250	Who	寝室	Bedroom		
+250	Where	窓から	From the window				"「から」は不要		
+英訳も変更"		
+250	What	芝生	lawn		
+252	対象文	部屋の空気は恐怖と憂鬱に満ちていた	The air in the room was full of fear and melancholy				恐怖と憂鬱が部屋に満ちていた，では？		
+252	情報源		
+252	hasPredicate	満ちていた	It was full		
+252	Who	部屋の空気	Room air		
+252	What	恐怖	Fear		
+252	What	憂鬱	Melancholy		
+253	対象文	事件後、使用人が窓を開けた	After the incident, a servant opened a window		
+253	情報源		
+253	hasPredicate	開けた	Opened		
+253	When	事件後	After the incident				after IDとしては？		
+253	Who	使用人	Servant		
+253	What	窓	window		
+254	対象文	ワトソンは以下を思った	Watson thought the following		
+254	情報源		
+254	hasPredicate	思った	thought		
+254	Who	ワトソン	Watson		
+254	What	以下	Less than				255?		
+255	対象文	空気はもっと悪くなっていた	The air was getting worse		
+255	情報源	ワトソンの推測	Watson's guess		
+255	hasPredicate	悪くなっていた	It was getting worse		
+255	Who	空気	air		
+255	if 	256	256		
+256	対象文	もし窓が開いていない	If the window is not open					ifで繋ぐ		
+256	情報源		
+256	hasPredicate	開いていない	Not open				Closeでは？		
+256	Who	窓	window		
+257	対象文	原因は以下である	The cause is the following		
+257	情報源		
+257	hasProperty	である	Is		
+257	Who	原因	Cause		
+257	What	258,259	258, 259					258,259(複数の場合もある)		
+258	対象文	ランプがテーブルの上にある	The lamp is on the table		
+258	情報源	ワトソンの推測	Watson's guess		
+258	hasPredicate	ある	is there		
+258	Who	ランプ	lamp		
+258	On	テーブル	table					On		
+259	対象文	ランプが炎と煙を上げていた	The lamp was raising fire and smoke		
+259	情報源	ワトソンの推測	Watson's guess		
+259	hasPredicate	上げていた	I was raising				出していた，とか？		
+259	Who	ランプ	lamp		
+259	What	炎	flame		
+259	What	煙	smoke		
+260	対象文	モーティマーはランプの近くに座っていた	Mortimer sat near the ramp		
+260	情報源		
+260	hasPredicate	座っていた	Sat		
+260	Who	モーティマー	Mortimer		
+260	Near	ランプ	lamp					Near		
+261	対象文	モーティマーは椅子にもたれこんでいた	Mortimer was leaning on a chair		
+261	情報源		
+261	hasPredicate	もたれこんでいた	I was reclining				座っていた，では？		
+261	Who	モーティマー	Mortimer		
+261	On	椅子	Chair		
+262	対象文	モーティマーは顎鬚を突き出していた	Mortimer was sticking out the beard		
+262	情報源		
+262	hasPredicate	突き出していた	It was sticking out		
+262	Who	モーティマー	Mortimer		
+262	What	顎鬚	Chin and eyebrow		
+263	対象文	モーティマーは眼鏡を額に押し上げていた	Mortimer was pushing the glasses to the forehead		
+263	情報源		
+263	hasPredicate	押し上げていた	It was pushing up				On 額，置く，では？		
+263	Who	モーティマー	Mortimer		
+263	What	眼鏡	glasses		
+263	To	額に	On the forehead				「に」は不要		
+264	対象文	モーティマーの顔は窓を向いていた	Mortimer's face was facing the window				モーティマーは顔を窓に向けていた，では？		
+264	情報源		
+264	hasPredicate	向いていた	I was facing		
+264	Who	モーティマーの顔	Mortimer's face				of?		
+264	To	窓	window		
+265	対象文	モーティマーは恐怖の表情を持っていた	Mortimer had a look of fear		
+265	情報源		
+265	hasPredicate	持っていた	had		
+265	Who	モーティマー	Mortimer		
+265	What	恐怖の表情	Expression of fear		
+266	対象文	モーティマーの手足は引きつっていた	Mortimer's limbs were pulling		
+266	情報源		
+266	hasPredicate	引きつっていた	I was drawn		
+266	Who	モーティマーの手足	Mortimer's hands and feet				of?		
+267	対象文	モーティマーの指はねじれていた	Mortimer's finger was twisted		
+267	情報源		
+267	hasPredicate	ねじれていた	It was twisted		
+267	Who	モーティマーの指	Mortimer's finger				of?		
+268	対象文	ワトソンは以下を推測した	Watson inferred that		
+268	情報源		
+268	hasPredicate	推測した	Guessed		
+268	Who	ワトソン	Watson		
+268	What	269	269		
+269	対象文	モーティマーは恐怖の発作で死んだ	Mortimer died of a bout of fear		
+269	情報源		
+269	hasPredicate	死んだ	Died		
+269	Who	モーティマー	Mortimer		
+269	Why	恐怖の発作	Attack of fear					Why		
+270	対象文	モーティマーはきちんとしたした服を着ていた	Mortimer was wearing proper clothes		
+270	情報源		
+270	hasPredicate	着ていた	I wore		
+270	Who	モーティマー	Mortimer		
+270	What	きちんとしたした服	Neat clothes		
+272	対象文	モーティマーは急いで服を着た	Mortimer got dressed quickly		
+272	情報源		
+272	hasPredicate	着た	worn		
+272	Who	モーティマー	Mortimer		
+272	How	急いで	Quickly					How		
+272	What	服	clothes		
+273	対象文	モーティマーのベッドは人の形跡を持っていた	Mortimer's bed had a sign of people		
+273	情報源		
+273	hasPredicate	持っていた	had		
+273	What	モーティマーのベッド	Mortimer Bed		
+273	What	人の形跡	Traces of people		
+274	対象文	今朝早く、モーティマーは亡くなった	Mortimer died early this morning		
+274	情報源		
+274	hasPredicate	亡くなった	Passed away		
+274	Who	モーティマー	Mortimer		
+274	When	今朝早く	Early this morning		
+275	対象文	ホームズは芝生に出た	Holmes went out to the grass		
+275	情報源		
+275	hasPredicate	出た	Came out		
+275	Who	ホームズ	Holmes		
+275	To	芝生	lawn				庭では？		
+275	then 	276	276		
+276	対象文	ホームズは窓から居間に入った	Holmes entered the living room through the window		
+276	情報源		
+276	hasPredicate	入った	Has entered		
+276	Who	ホームズ	Holmes		
+276	From	窓	window				厳密には，庭から，か？		
+276	To	居間	Living room		
+276	then 	277	277		
+277	対象文	ホームズは居間を歩き回った	Holmes walked around the living room		
+277	情報源		
+277	hasPredicate	歩き回った	I walked around		
+277	Who	ホームズ	Holmes		
+277	Where	居間	Living room		
+277	then 	278	278		
+278	対象文	ホームズは寝室に行った	Holmes went to the bedroom		
+278	情報源		
+278	hasPredicate	行った	went		
+278	Who	ホームズ	Holmes		
+278	Where	寝室	Bedroom		
+278	then 	279	279		
+279	対象文	ホームズは寝室を見渡した	Holmes overlooked the bedroom		
+279	情報源		
+279	hasPredicate	見渡した	I overlooked		
+279	Who	ホームズ	Holmes		
+279	Where	寝室	Bedroom		
+279	then 	280	280		
+280	対象文	最後に、ホームズは窓を開けた	Finally, Holmes opened the window		
+280	情報源		
+280	hasPredicate	開けた	Opened		
+280	Who	ホームズ	Holmes		
+280	What	窓	window		
+280	When	最後	last				thenで前と繋いでは？		
+281	対象文	ワトソンは以下を思った	Watson thought the following		
+281	情報源		
+281	hasPredicate	思った	thought		
+281	Who	ワトソン	Watson		
+281	What	282	282		
+282	対象文	ホームズは新しい刺激を見つけた	Holmes found a new stimulus		
+282	情報源	ワトソンの推測	Watson's guess		
+282	hasPredicate	見つけた	I found it		
+282	Who	ホームズ	Holmes		
+282	What	新しい刺激	New stimulus		
+283	対象文	ホームズは寝室から出た	Holmes got out of the bedroom		
+283	情報源		
+283	hasPredicate	出た	Came out		
+283	Who	ホームズ	Holmes		
+283	Where	寝室	Bedroom		
+283	then	284	284		
+284	対象文	ホームズは階段を下りた	Holmes went down the stairs		
+284	情報源		
+284	hasPredicate	下りた	Went down		
+284	Who	ホームズ	Holmes		
+284	What	階段	Stairs		
+284	then	285	285		
+285	対象文	ホームズは窓から芝生に出た	Holmes came out of the window to the grass		
+285	情報源		
+285	hasPredicate	出た	Came out		
+285	Who	ホームズ	Holmes		
+285	From	窓	window				室内から，では？	From		
+285	To	芝生	lawn				庭では？	To		
+285	then 	286	286		
+286	対象文	ホームズは顔を芝生にこすりつけた	Holmes rubbed her face on the grass		
+286	情報源		
+286	hasPredicate	こすりつけた	Rubbed		
+286	Who	ホームズ	Holmes		
+286	What	顔	face				of Holmesを付けては？		
+286	To	芝生	lawn					To		
+286	then	287	287		
+287	対象文	ホームズは居間に入った	Holmes entered the living room		
+287	情報源		
+287	hasPredicate	入った	Has entered		
+287	Who	ホームズ	Holmes		
+287	To	居間	Living room				From 庭を付けては？		
+287	then	288	288		
+288	対象文	ランプは既製品だった	The lamp was ready-made		
+288	情報源		
+288	hasProperty	既製品だった	It was ready-made		
+288	Who	ランプ	lamp		
+289	対象文	ホームズはランプを検査した	Holmes inspected the lamp		
+289	情報源		
+289	hasPredicate	検査した	Inspected		
+289	Who	ホームズ	Holmes		
+289	What	ランプ	lamp				then 290?		
+290	対象文	ホームズはオイルの容量を確認した	Holmes confirmed the volume of oil		
+290	情報源		
+290	hasPredicate	確認した	confirmed		
+290	Who	ホームズ	Holmes		
+290	What	オイルの容量	Oil capacity				then 291?		
+291	対象文	ホームズは虫眼鏡で排煙部の外装を調べた	Holmes examined the exterior of the flue with a magnifying glass		
+291	情報源		
+291	hasPredicate	調べた	Examined		
+291	Who	ホームズ	Holmes		
+291	How	虫眼鏡で	With a magnifying glass				By？	How		
+291	What	排煙部の外装	Exhaust part exterior				then 292?		
+292	対象文	ホームズは外装面の灰を落とした	Holmes dropped the ash on the exterior surface		
+292	情報源		
+292	hasPredicate	落とした	Dropped				取った？		
+292	Who	ホームズ	Holmes		
+292	What	外装面の灰	Exterior ash				then 293?		
+293	対象文	ホームズは封筒に納めた	Holmes put in an envelope		
+293	情報源		
+293	hasPredicate	納めた	Paid		
+293	Who	ホームズ	Holmes				What 外装面の灰		
+293	To	封筒	envelope		
+294	対象文	ホームズは以下を頼んだ	Holmes asked for		
+294	情報源		
+294	hasPredicate	頼んだ	Begged		
+294	Who	ホームズ	Holmes		
+294	What	295-297	295-297		
+295	対象文	ラウンドヘイが以下を刑事に言った	Roundhay said the following to the detective		
+295	情報源	ホームズの要求	Holmes' request		
+295	hasPredicate	言った	Said		
+295	Who	ラウンドヘイ	Roundhay		
+295	What	296,297	296, 297		
+295	Whom	刑事	Criminal		
+296	対象文	刑事は窓とランプに注意を向ける	Detective pays attention to windows and lamps		
+296	情報源	ホームズの要求	Holmes' request		
+296	hasPredicate	向ける	Turn				注意した（Whatなし）とか？		
+296	Who	刑事	Criminal		
+296	To	窓	window		
+296	To	ランプ	lamp		
+296	What	注意	Note		
+297	対象文	窓とランプは重要である	Windows and lamps are important		
+297	情報源	ホームズの発言	Holmes's statement		
+297	hasProperty	重要である	is important		
+297	Who	窓	window		
+297	Who	ランプ	lamp		
+298	対象文	ホームズは、ランプの複製品を買ってきた	Holmes has bought a duplicate of the lamp		
+298	情報源		
+298	hasPredicate	買ってきた	I bought it		
+298	Who	ホームズ	Holmes		
+298	What	ランプの複製品	Reproduction of lamp				then 299?		
+299	対象文	ホームズは牧師館と同じオイルを補充した	Holmes refilled with the same oil as the pastor		
+299	情報源		
+299	hasPredicate	補充した	Replenished		
+299	Who	ホームズ	Holmes				then 300?		
+299	What	牧師館と同じオイル	Same oil as the pastor's hall				2文に分けては？オイルいれた，そのオイルは牧師館のオイルである，とか？		
+300	対象文	ホームズは燃焼時間を計った	Holmes measured the burn time		
+300	情報源		
+300	hasPredicate	計った	I measured		
+300	Who	ホームズ	Holmes		
+300	What	燃焼時間	Burning time		
+301	対象文	ホームズは以下を言った	Holmes said the following		
+301	情報源		
+301	hasPredicate	言った	Said		
+301	Who	ホームズ	Holmes		
+301	What	302-314	302-314		
+302	対象文	事件1と事件2の部屋は同じ空気を持つ	Cases 1 and 2 have the same air				事件１の部屋の空気と事件２の部屋の空気はequalTo，では?		
+302	情報源	ホームズの発言	Holmes's statement		
+302	hasPredicate	持つ	Have		
+302	Who	事件1と事件2の部屋	Case 1 and Case 2 room				事件1と事件2はID指定でなくてよいか？		
+302	What	同じ空気	Same air		
+303	対象文	モーティマーは以下を言った	Mortimer said the following		
+303	情報源	ホームズの発言	Holmes's statement		
+303	hasPredicate	言った	Said		
+303	Who	モーティマー	Mortimer		
+303	What	304,305	304, 305		
+304	対象文	ドクター・リチャードが倒れた	Dr. Richard fell		
+304	情報源	モーティマーの発言	Mortimer's statement		
+304	hasPredicate	倒れた	collapsed		
+304	Who	ドクター・リチャード	Doctor Richard		
+304	When	305	305		
+305	対象文	ドクター・リチャードが部屋に入った	Doctor Richard entered the room					whenで上と繋ぐ		
+305	情報源	モーティマーの発言	Mortimer's statement		
+305	hasPredicate	入った	Has entered		
+305	Who	ドクター・リチャード	Doctor Richard		
+305	To	部屋	room		
+306	対象文	ポーターは倒れた	The porter fell		
+306	情報源	ホームズの発言	Holmes's statement		
+306	hasPredicate	倒れた	collapsed		
+306	Who	ポーター	Porter		
+306	When	307	307				then 308?		
+307	対象文	ポーターが部屋に入った	Porter entered the room					whenで上と繋ぐ		
+307	情報源	ホームズの発言	Holmes's statement		
+307	hasPredicate	入った	Has entered		
+307	Who	ポーター	Porter		
+307	To	部屋	room		
+308	対象文	ポーターは窓を開けた	Porter opened the window		
+308	情報源	ホームズの発言	Holmes's statement		
+308	hasPredicate	開けた	Opened		
+308	Who	ポーター	Porter		
+308	What	窓	window		
+309	対象文	事件2において、部屋の空気は淀んでいた	In Case 2, the air in the room was stagnant		
+309	情報源	ホームズの発言	Holmes's statement		
+309	hasPredicate	淀んでいた	I was jealous		
+309	Who	部屋の空気	Room air		
+309	When	事件2	Case 2		
+309	When	310	310		
+310	対象文	ホームズとワトソンが到着した	Holmes and Watson have arrived					whenで上と繋ぐ		
+310	情報源	ホームズの発言	Holmes's statement		
+310	hasPredicate	到着した	Arrived		
+310	Who	ホームズ	Holmes		
+310	Who	ワトソン	Watson		
+311	対象文	事件1と事件2において、毒性の空気がこもっていた	In Case 1 and Case 2, toxic air was trapped		
+311	情報源	ホームズの発言	Holmes's statement		
+311	hasPredicate	こもっていた	I was waiting		
+311	Who	毒性の空気	Toxic air		
+311	When	事件1	Case 1		
+311	When	事件2	Case 2		
+312	対象文	事件1と事件2において、部屋の中でものが燃えていた	In Case 1 and Case 2, things were burning in the room		
+312	情報源	ホームズの発言	Holmes's statement		
+312	hasPredicate	燃えていた	It was burning		
+312	Who	もの	thing		
+312	Where	部屋の中	In the room		
+312	When	事件1	Case 1		
+312	When	事件2	Case 2		
+313	対象文	夜が明けてずいぶん経った後、ランプは火をつけられた	The lamp was lit after a long time after dawn		
+313	情報源	ホームズの発言	Holmes's statement		
+313	hasPredicate	つけられた	Turned on		
+313	Who	ランプ	lamp		
+314	What	火	fire		
+314	When	夜が明けてずいぶん経った後	After the night has come a long time		
+316	対象文	ホームズは以下を推測した	Holmes guessed the following		
+316	情報源		
+316	hasPredicate	推測した	Guessed		
+316	Who	ホームズ	Holmes		
+316	What	317	317		
+317	対象文	燃焼と空気と死と狂気はつながっている	Burning, air, death and madness are connected		
+317	情報源	ホームズの推測	Holmes guess		
+317	hasPredicate	つながっている	linked		
+317	Who	死	death		
+317	Who	狂気	Madness				前半部分のIDと関連付け？		
+317	Who	燃焼	combustion		
+317	Who	空気	air		
+318	対象文	ホームズは以下のように言った	Holmes said:		
+318	情報源		
+318	hasPredicate	考えた	Thought		
+318	Who	ホームズ	Holmes		
+318	What	319-325, 328-330, 333-336	319-325, 328-330, 333-336		
+319	対象文	事件1と事件2において、薬物が燃やされた	Drug was burned in Case 1 and Case 2		
+319	情報源	ホームズの発言	Holmes's statement		
+319	hasPredicate	燃やされた	Burned		
+319	Who	薬物	Drug		
+319	When	事件1	Case 1		
+319	When	事件2	Case 2		
+320	対象文	事件1において、薬物は暖炉にあった	In Case 1, the drug was in the fireplace		
+320	情報源	ホームズの発言	Holmes's statement		
+320	hasPredicate	あった	there were		
+320	Who	薬物	Drug		
+320	Where	暖炉	fireplace		
+320	When	事件1	Case 1		
+321	対象文	窓は締まっていた	The window was closed		
+321	情報源	ホームズの発言	Holmes's statement		
+321	hasPredicate	締まっていた	I was locked up		
+321	Who	窓	window				When 事件１を付けては？		
+322	対象文	毒性の空気は煙突から出た	Toxic air came out of the chimney		
+322	情報源	ホームズの発言	Holmes's statement		
+322	hasPredicate	出た	Came out		
+322	Who	毒性の空気	Toxic air		
+322	From	煙突	chimney				When 事件１を付けては？		
+323	対象文	事件2において、毒性の空気は出なかった	In Incident 2, no toxic air came out		
+323	情報源	ホームズの発言	Holmes's statement		
+323	hasPredicate	出なかった	Did not come out		
+323	Who	毒性の空気	Toxic air		
+323	When	事件2	Case 2		
+324	対象文	事件1において、事件2より毒性の空気は薄い	In Case 1, the air of toxicity is thinner than Case 2		
+324	情報源	ホームズの発言	Holmes's statement		
+324	hasPredicate	薄い	thin		
+324	Who	毒性の空気	Toxic air		
+324	How	事件2の毒性の空気より	Than the air of Toxicity of Incident 2		
+324	When	事件1	Case 1				because 320, 321, 322, 323?		
+325	対象文	事件1において、ブレンダが殺された	Brenda was killed in Case 1		
+325	情報源	ホームズの発言	Holmes's statement		
+325	hasPredicate	殺された	killed		
+325	Who	ブレンダ	Brenda		
+325	When	事件1	Case 1				because 327?		
+326	対象文	ホームズは以下を推測した	Holmes guessed the following		
+326	情報源		
+326	hasPredicate	推測した	Guessed		
+326	Who	ホームズ	Holmes		
+326	What	327	327				325もこちらに含めるほうが自然かも？		
+327	対象文	ブレンダは過敏な体質を持っていた	Brenda had a sensitive constitution		
+327	情報源	ホームズの推測	Holmes guess		
+327	hasPredicate	持っていた	had				hasProperty 過敏である（Whatなし）では？		
+327	Who	ブレンダ	Brenda		
+327	What	過敏な体質	Irritated constitution		
+328	対象文	オーウェンとジョージは狂った	Owen and George went crazy		
+328	情報源	ホームズの発言	Holmes's statement		
+328	hasPredicate	狂った	gone crazy		
+328	Who	オーウェン	Owen		
+328	Who	ジョージ	George		
+329	対象文	狂気は薬物の初期症状である	Madness is an initial symptom of drugs		
+329	情報源	ホームズの発言	Holmes's statement		
+329	hasProperty	薬物の初期症状である	It is an early symptom of the drug				equalTo 初期症状of薬物，とか？		
+329	Who	狂気	Madness		
+330	対象文	事件2において、効果は完璧だった	In Case 2, the effect was perfect		
+330	情報源	ホームズの発言	Holmes's statement		
+330	hasPredicate	完璧だった	It was perfect				predicate? property?		
+330	Who	効果	effect		
+330	When	事件2	Case 2		
+331	対象文	ホームズは以下を推測した	Holmes guessed the following		
+331	情報源		
+331	hasPredicate	推測した	Guessed		
+331	Who	ホームズ	Holmes		
+331	What	332	332		
+332	対象文	薬物は燃焼時に作用する	Drugs act when burning		
+332	情報源	ホームズの推測	Holmes guess		
+332	hasPredicate	作用する	Act		
+332	Who	薬物	Drug		
+332	When	燃焼時	At the time of combustion					When		
+333	対象文	ホームズは牧師館で薬物の残骸を探した	Holmes looked for drug debris at the pastor		
+333	情報源	ホームズの発言	Holmes's statement		
+333	hasPredicate	探した	looked for		
+333	Who	ホームズ	Holmes		
+333	Where	牧師館	Pastor's Hall		
+333	What	薬物の残骸	Drug remnants				then 334?		
+334	対象文	ホームズはランプの防煙部と滑石製の外装を見た	Holmes looked at the lamp's smoke protection and the talc exterior		
+334	情報源	ホームズの発言	Holmes's statement		
+334	hasPredicate	見た	saw		
+334	Who	ホームズ	Holmes		
+334	What	ランプの防煙部	Smoke protection of the lamp				英訳：theは不要		
+334	What	滑石製の外装	Talc sheath				then 335?		
+335	対象文	ランプの防煙部と滑石製の外装に灰があった	There was ash in the smokeproof part of the lamp and the exterior made of talc		
+335	情報源	ホームズの発言	Holmes's statement		
+335	hasPredicate	あった	there were		
+335	Who	灰	Ash		
+335	On	ランプの防煙部	Smoke protection of the lamp				英訳：theは不要		
+335	On	滑石製の外装	Talc sheath		
+336	対象文	縁は燃え残りの粉末を付けていた	The rim was covered with unburned powder		
+336	情報源	ホームズの発言	Holmes's statement		
+336	hasPredicate	付けていた	It was attached		
+336	Who	縁	edge		
+336	What	燃え残りの粉末	Burnt powder		
+338	対象文	薬物をランプの上に置いた	I put the drug on the lamp		
+338	情報源		
+338	hasPredicate	置いた	placed		
+338	What	薬物	Drug		
+338	On	ランプ	lamp					On		
+338	then	339	339		
+339	対象文	そして、ワトソンは麝香の香りをかいだ	And Watson had the smell of musk					then		
+339	情報源		
+339	hasPredicate	かいだ	clean hit		
+339	Who	ワトソン	Watson		
+339	What	麝香の香り	Scent of musk				then 340?		
+340	対象文	ワトソンは吐き気を感じた	Watson felt nausea		
+340	情報源		
+340	hasPredicate	感じた	Felt		
+340	Who	ワトソン	Watson		
+340	What	吐き気	nausea				then 341?		
+341	対象文	ワトソンは脳の自由と想像力を失った	Watson lost his freedom and imagination		
+341	情報源		
+341	hasPredicate	失った	lost		
+341	Who	ワトソン	Watson		
+341	What	脳の自由	Brain freedom			「脳の自由」はわかりにくい		
+341	What	想像力	Imagination				then 342?		
+342	対象文	ワトソンは恐怖を感じた	Watson felt fear		
+342	情報源		
+342	hasPredicate	感じた	Felt		
+342	Who	ワトソン	Watson		
+342	What	恐怖	Fear				then 343?		
+343	対象文	ワトソンは混乱した	Watson was confused		
+343	情報源		
+343	hasPredicate	混乱した	Confused		
+343	Who	ワトソン	Watson				then 344?		
+344	対象文	ホームズの顔は恐怖の表情を持った	Holmes' face had a look of fear		
+344	情報源		
+344	hasPredicate	持った	Had		
+344	Who	ホームズの顔	Holmes face		
+344	What	恐怖の表情	Expression of fear				then 345?		
+345	対象文	ワトソンは椅子から立った	Watson stood out of the chair		
+345	情報源		
+345	hasPredicate	立った	stood		
+345	Who	ワトソン	Watson		
+345	From	椅子	Chair				then 346?		
+346	対象文	ホームズとワトソンは部屋から出た	Holmes and Watson went out of the room		
+346	情報源		
+346	hasPredicate	出た	Came out		
+346	Who	ホームズ	Holmes		
+346	Who	ワトソン	Watson		
+346	From	部屋	room				then 346?	From		
+347	対象文	ホームズとワトソンは草地に寝そべった	Holmes and Watson lay on the grass		
+347	情報源		
+347	hasPredicate	寝そべった	I went to bed		
+347	Who	ホームズ	Holmes		
+347	Who	ワトソン	Watson		
+347	Where	草地	Grassland				庭では？		
+348	対象文	ホームズは以下を言った	Holmes said the following		
+348	情報源		
+348	hasPredicate	言った	Said		
+348	Who	ホームズ	Holmes		
+348	What	349-354,359-364	349-354, 359-364		
+349	対象文	動機は曖昧である	The motive is vague		
+349	情報源	ホームズの発言	Holmes's statement		
+349	hasProperty	曖昧である	Ambiguous		
+349	Who	動機	Motive		
+350	対象文	モーティマーが事件1の犯人である	Mortimer is the perpetrator of Case 1		
+350	情報源	ホームズの発言	Holmes's statement		
+350	hasPredicate	事件1の犯人である	Be the perpetrator of Case 1				equalTo 犯人of事件１？		
+350	Who	モーティマー	Mortimer		
+351	対象文	モーティマーは事件2の被害者である	Mortimer is the victim of Case 2		
+351	情報源	ホームズの発言	Holmes's statement		
+351	hasProperty	事件2の被害者である	I am the victim of Case 2				equalTo 被害者of事件１？		
+351	Who	モーティマー	Mortimer		
+352	対象文	モーティマーは狡猾である	Mortimer is a wolf		
+352	情報源	ホームズの発言	Holmes's statement		
+352	hasProperty	狡猾である	I am jealous		
+352	Who	モーティマー	Mortimer		
+353	対象文	モーティマーは欲深い	Mortimer is greedy		
+353	情報源	ホームズの発言	Holmes's statement		
+353	hasProperty	欲深い	Greedy		
+353	Who	モーティマー	Mortimer		
+354	対象文	モーティマーは寛大でない	Mortimer is not generous		
+354	情報源	ホームズの発言	Holmes's statement		
+354	hasPredicate	寛大でない	Not generous		
+354	Who	モーティマー	Mortimer		
+355	対象文	モーティマーは以下を言った	Mortimer said the following		
+355	情報源		
+355	hasPredicate	言った	Said		
+355	Who	モーティマー	Mortimer		
+355	What	356	356		
+356	対象文	何かが庭で動いていた	Something was moving in the garden		
+356	情報源	モーティマーの発言	Mortimer's statement		
+356	hasPredicate	動いていた	It was moving		
+356	Who	何か	something		
+356	Where	庭	garden		
+357	対象文	モーティマーは以下を望んだ	Mortimer wanted to		
+357	情報源		
+357	hasPredicate	望んだ	Wanted		
+357	Who	モーティマー	Mortimer		
+357	What	358	358		
+358	対象文	モーティマーはホームズとワトソンを誤導する	Mortimer misleads Holmes and Watson		
+358	情報源	モーティマーの願望	Mortimer's wish		
+358	hasPredicate	誤導する	Mislead		
+358	Who	モーティマー	Mortimer		
+358	What	ホームズ	Holmes		
+358	What	ワトソン	Watson		
+359	対象文	モーティマーは暖炉へ毒薬を放り込んだ	Mortimer dumped poison into the fireplace		
+359	情報源	ホームズの発言	Holmes's statement		
+359	hasPredicate	放り込んだ	Dumped		
+359	Who	モーティマー	Mortimer		
+359	To	暖炉	fireplace		
+359	What	毒薬	poison		
+360	対象文	事件1は彼の退出後に起こった	Case 1 happened after his exit		
+360	情報源	ホームズの発言	Holmes's statement		
+360	hasPredicate	起こった	Happened		
+360	Who	事件1	Case 1		
+360	When	彼の退出後	After his exit				2文に分けては？		
+361	対象文	オーウェンとジョージとブレンダはテーブルを立つ	Owen and George and Brenda stand at a table		
+361	情報源	ホームズの発言	Holmes's statement		
+361	hasPredicate	立つ	stand		
+361	Who	ジョージ	George		
+361	Who	ブレンダ	Brenda		
+361	Who	オーウェン	Owen		
+361	What	テーブル	table		
+361	if	362	362		
+362	対象文	もし、他人が部屋に入ってくる	If others come into the room					if		
+362	情報源	ホームズの発言	Holmes's statement		
+362	hasPredicate	入ってくる	Come in		
+362	Who	他人	others		
+362	To	部屋	room		
+363	対象文	コーンワルで、夜10時以降に訪問客は来ない	No visitors at 10 o'clock in Cornwall		
+363	情報源	ホームズの発言	Holmes's statement		
+363	hasPredicate	来ない	do not come		
+363	Who	訪問客	Visitor		
+363	When	10時以降	After 10 o'clock		
+363	Where	コーンワル	Cornwall		
+364	対象文	すべての証拠がモーティマーの犯行を示す	All evidence shows Mortimer's offense				モーティマーが犯人である why 証拠，とか？		
+364	情報源	ホームズの発言	Holmes's statement		
+364	hasPredicate	示す	Show		
+364	Who	すべての証拠	All the evidence		
+364	What	モーティマーの犯行	Mortimer's offense		
+365	対象文	ワトソンは以下を言った	Watson said the following		
+365	情報源		
+365	hasPredicate	言った	Said		
+365	Who	ワトソン	Watson		
+365	What	366	366		
+366	対象文	モーティマーの死因は自殺である	Mortimer's cause of death is suicide		
+366	情報源	ワトソンの発言	Watson's remarks		
+366	hasProperty	自殺である	It is suicide		
+366	Who	モーティマーの死因	Mortimer's cause of death				死因なくてもいいかも？		
+367	対象文	ホームズは以下を言った	Holmes said the following		
+367	情報源		
+367	hasPredicate	言った	Said		
+367	Who	ホームズ	Holmes		
+367	What	368-374	368-374		
+368	対象文	モーティマーの死因は自殺かもしれない	Mortimer's cause of death may be suicide		
+368	情報源	ホームズの発言	Holmes's statement		
+368	hasPredicate	自殺かもしれない	It may be suicide		
+368	Who	モーティマーの死因	Mortimer's cause of death				死因なくてもいいかも？		
+369	対象文	モーティマーは以下に罪悪感を抱いたかもしれない	Mortimer may have felt guilty of		
+369	情報源	ホームズの発言	Holmes's statement		
+369	hasPredicate	抱いたかもしれない	May have held		
+369	Who	モーティマー	Mortimer		
+369	What	370	370					370		
+369	What	罪悪感	Sense of guilt		
+370	対象文	モーティマーは肉親を破滅させた	Mortimer ruined his immediate family		
+370	情報源	ホームズの発言	Holmes's statement		
+370	hasPredicate	破滅させた	Ruined		
+370	Who	モーティマー	Mortimer		
+370	What	肉親	Immediate family		
+371	対象文	モーティマーは後悔によって自殺したかもしれない	Mortimer may have committed suicide due to regret		
+371	情報源	ホームズの発言	Holmes's statement		
+371	hasPredicate	自殺したかもしれない	May have committed suicide		
+371	Who	モーティマー	Mortimer		
+371	Why	後悔によって	By regret					Why		
+371	However	372	372		
+372	対象文	しかし、反対の根拠が存在する	But the opposite ground exists					however		
+372	情報源	ホームズの発言	Holmes's statement		
+372	hasPredicate	存在する	Exist		
+372	Who	反対の根拠	Opposite grounds		
+373	対象文	スタンデールは根拠を知っている	Standale knows the grounds		
+373	情報源	ホームズの発言	Holmes's statement		
+373	hasPredicate	知っている	know		
+373	Who	スタンデール	Standale		
+373	What	根拠	Ground				反対の根拠，で上と合わせては？		
+374	対象文	今日の午後、スタンデールを呼んだ	I called Standale this afternoon		
+374	情報源	ホームズの発言	Holmes's statement		
+374	hasPredicate	呼んだ	called		
+374	What	スタンデール	Standale		
+374	When	今日の午後	This afternoon		
+375	対象文	1時間前に、スタンデールはホームズのメモを受け取った	An hour ago, Standale received Holmes' notes		
+375	情報源		
+375	hasPredicate	受け取った	received		
+375	When	1時間前	1 hour ago		
+375	Who	スタンデール	Standale		
+375	What	ホームズのメモ	Holmes's note		
+376	対象文	ホームズは以下を言った	Holmes said the following		
+376	情報源		
+376	hasPredicate	言った	Said		
+376	Who	ホームズ	Holmes		
+376	What	377-411	377-411		
+377	対象文	スタンデールは所持品をアフリカに送った	Standale sent his belongings to Africa		
+377	情報源	ホームズの発言	Holmes's statement		
+377	hasPredicate	送った	sent		
+377	Who	スタンデール	Standale		
+377	What	所持品	Possession		
+377	To	アフリカ	Africa		
+377	then	378	378		
+378	対象文	そして、スタンデールはプリマスから引き返した	And Standale turned back from Plymouth					then		
+378	情報源	ホームズの発言	Holmes's statement		
+378	hasPredicate	引き返した	Turned back		
+378	Who	スタンデール	Standale		
+378	From	プリマス	Plymouth		
+379	対象文	スタンデールが事件の要素である	Standale is an element of the incident		
+379	情報源	ホームズの発言	Holmes's statement		
+379	hasProperty	事件の要素である	It is an element of the case		
+379	Who	スタンデール	Standale		
+380	対象文	スタンデールはポルデュー湾のコテージに来た	Standale came to a cottage in the Pordeux Bay		
+380	情報源	ホームズの発言	Holmes's statement		
+380	hasPredicate	来た	Came		
+380	Who	スタンデール	Standale		
+380	To	ポルデュー湾のコテージ	Poldew Bay Cottage		
+380	then	381	381		
+381	対象文	スタンデールはホームズに容疑者を尋ねた	Standale asked Holmes for the suspect		
+381	情報源	ホームズの発言	Holmes's statement		
+381	hasPredicate	尋ねた	Asked		
+381	Who	スタンデール	Standale		
+381	Whom	ホームズ	Holmes		
+381	What	容疑者	Suspect		
+381	then	382	382		
+382	対象文	ホームズは容疑者を答えなかった	Holmes did not answer the suspect		
+382	情報源	ホームズの発言	Holmes's statement		
+382	hasPredicate	答えなかった	Did not answer		
+382	Who	ホームズ	Holmes		
+382	What	容疑者	Suspect		
+382	then	383	383		
+383	対象文	そして、スタンデールは牧師館に行った	And Standale went to the pastor					then		
+383	情報源	ホームズの発言	Holmes's statement		
+383	hasPredicate	行った	went		
+383	Who	スタンデール	Standale		
+383	To	牧師館	Pastor's Hall		
+383	then	384	384		
+384	対象文	スタンデールは外で待った	Standale waited outside		
+384	情報源	ホームズの発言	Holmes's statement		
+384	hasPredicate	待った	waited		
+384	Who	スタンデール	Standale		
+384	Where	外	Outside				牧師館のそば，とか？		
+384	then 	385	385		
+385	対象文	スタンデールはコテージに戻った	Standale returned to the cottage		
+385	情報源	ホームズの発言	Holmes's statement		
+385	hasPredicate	戻った	Returned		
+385	Who	スタンデール	Standale		
+385	To	コテージ	Cottage				then 386?		
+386	対象文	スタンデールはコテージで眠れなかった	Standale couldn't sleep in the cottage		
+386	情報源	ホームズの発言	Holmes's statement		
+386	hasPredicate	眠れなかった	I could not sleep		
+386	Who	スタンデール	Standale		
+386	Where	コテージ	Cottage				at the same time 387?		
+387	対象文	スタンデールは計画を練った	Standale made a plan		
+387	情報源	ホームズの発言	Holmes's statement		
+387	hasPredicate	練った	Kneaded		
+387	Who	スタンデール	Standale		
+387	What	計画	plan		
+388	対象文	朝早く、スタンデールは計画を実行した	Early in the morning, Standale implemented the plan		
+388	情報源	ホームズの発言	Holmes's statement		
+388	hasPredicate	実行した	Executed		
+388	Who	スタンデール	Standale		
+388	When	朝早く	early morning		
+388	What	計画	plan		
+390	対象文	日が昇る頃に、スタンデールは部屋を出た	By the time the sun rose, Standale left the room		
+390	情報源	ホームズの発言	Holmes's statement		
+390	hasPredicate	出た	Came out		
+390	When	日が昇る頃	When the sun rises				朝では？		
+390	Who	スタンデール	Standale		
+390	What	部屋	room				then 391?		
+391	対象文	スタンデールはポケットに赤砂利を詰めた	Standale stuffed red gravel in his pocket		
+391	情報源	ホームズの発言	Holmes's statement		
+391	hasPredicate	詰めた	Stuffed		
+391	Who	スタンデール	Standale		
+391	To	ポケット	pocket		
+391	What	赤砂利	Red gravel		
+391	then 	393	393		
+392	対象文	赤砂利は門のそばにあった	Red gravel was by the gate		
+392	情報源	ホームズの発言	Holmes's statement		
+392	hasPredicate	あった	there were		
+392	Who	赤砂利	Red gravel		
+392	Near	門	gate		
+393	対象文	そして、スタンデールは牧師館へ向かった	And then Standale went to the pastor					then		
+393	情報源	ホームズの発言	Holmes's statement		
+393	hasPredicate	向かった	Headed		
+393	Who	スタンデール	Standale		
+393	To	牧師館	Pastor's Hall				then 395?	To		
+394	対象文	スタンデールはテニスシューズをはいていた	Standale wore tennis shoes				at the same time 393?		
+394	情報源	ホームズの発言	Holmes's statement		
+394	hasPredicate	はいていた	It was said		
+394	Who	スタンデール	Standale		
+394	What	テニスシューズ	Tennis shoes		
+395	対象文	スタンデールはモーティマーの窓の下に行った	Standale went under the window of Mortimer		
+395	情報源	ホームズの発言	Holmes's statement		
+395	hasPredicate	行った	went		
+395	Who	スタンデール	Standale				then 397?		
+395	To	モーティマーの窓の下	Under the window of Mortimer				Under？		
+396	対象文	家人は活動していなかった	The family was not active				at the same time 395?		
+396	情報源	ホームズの発言	Holmes's statement		
+396	hasPredicate	活動していなかった	It was not active		
+396	Who	家人	Family				誰を指すのか難しい．．．		
+397	対象文	スタンデールはポケットから砂利を取り出した	Standale took gravel out of his pocket		
+397	情報源	ホームズの発言	Holmes's statement		
+397	hasPredicate	取り出した	Taken out		
+397	Who	スタンデール	Standale		
+397	From	ポケット	pocket		
+397	What	砂利	gravel				then 398?		
+398	対象文	スタンデールは寝室の窓に投げつけた	Standale threw into the bedroom window		
+398	情報源	ホームズの発言	Holmes's statement		
+398	hasPredicate	投げつけた	Threw		
+398	Who	スタンデール	Standale		
+398	To	寝室の窓	Bedroom window				then 399?		
+399	対象文	モーティマーがやってきた	Mortimer came		
+399	情報源	ホームズの発言	Holmes's statement		
+399	hasPredicate	やってきた	came		
+399	Who	モーティマー	Mortimer				then 400?		
+400	対象文	スタンデールは以下を合図した	Standale signaled that		
+400	情報源	ホームズの発言	Holmes's statement		
+400	hasPredicate	合図した	Signaled		
+400	Who	スタンデール	Standale		
+400	What	401	401				then 402?		
+401	対象文	モーティマーが降りてくる	Mortimer comes down		
+401	情報源	スタンデールの合図	Standale's Sign		
+401	hasPredicate	降りてくる	come down		
+401	Who	モーティマー	Mortimer		
+402	対象文	モーティマーは急いで服を着た	Mortimer got dressed quickly		
+402	情報源	ホームズの発言	Holmes's statement		
+402	hasPredicate	着た	worn		
+402	Who	モーティマー	Mortimer		
+402	How	急いで	Quickly					How		
+402	What	服	clothes				then 403?		
+403	対象文	モーティマーは居間に降りた	Mortimer got down into the living room		
+403	情報源	ホームズの発言	Holmes's statement		
+403	hasPredicate	降りた	Got off		
+403	Who	モーティマー	Mortimer		
+403	To	居間	Living room				then 404?		
+404	対象文	スタンデールは窓から入った	Standale came in through the window		
+404	情報源	ホームズの発言	Holmes's statement		
+404	hasPredicate	入った	Has entered		
+404	Who	スタンデール	Standale		
+404	From	窓	window				庭から居間へ？		
+404	then	405	405		
+405	対象文	スタンデールは部屋を徘徊した	Standale looked at the room		
+405	情報源	ホームズの発言	Holmes's statement		
+405	hasPredicate	徘徊した	Jealous		
+405	Who	スタンデール	Standale		
+405	What	部屋	room		
+405	then	406	406		
+406	対象文	それから、スタンデールは部屋を出た	Then Standale left the room					then		
+406	情報源	ホームズの発言	Holmes's statement		
+406	hasPredicate	出た	Came out		
+406	Who	スタンデール	Standale		
+406	What	部屋	room				then 407?		
+407	対象文	スタンデールは窓を閉めた	Standale closed the window		
+407	情報源	ホームズの発言	Holmes's statement		
+407	hasPredicate	閉めた	Closed		
+407	Who	スタンデール	Standale		
+407	What	窓	window				then 408?		
+408	対象文	スタンデールは芝生で立ちつくした	Standale stood on the grass		
+408	情報源	ホームズの発言	Holmes's statement		
+408	hasPredicate	立ちつくした	Stood up		
+408	Who	スタンデール	Standale				then 409?		
+408	Where	芝生	lawn				庭？		
+409	対象文	スタンデールは部屋の中を観察した	Standale observed the room		
+409	情報源	ホームズの発言	Holmes's statement		
+409	hasPredicate	観察した	Observed		
+409	Who	スタンデール	Standale				then 410?		
+409	What	部屋の中	In the room				部屋，では？		
+410	対象文	最後に、スタンデールは引き上げていった	Finally, Standale pulled up		
+410	情報源	ホームズの発言	Holmes's statement		
+410	hasPredicate	引き上げていった	I pulled up		
+410	Who	スタンデール	Standale		
+410	When	最後	last				thenで前と繋いでは？		
+411	対象文	モーティマーが死んだ	Mortimer died					after		
+411	情報源	ホームズの発言	Holmes's statement		
+411	hasPredicate	死んだ	Died		
+411	Who	モーティマー	Mortimer		
+411	after	410	410		
+412	対象文	スタンデールは以下を言った	Standale said		
+412	情報源		
+412	hasPredicate	言った	Said		
+412	Who	スタンデール	Standale		
+412	What	413-427	413-427		
+413	対象文	スタンデールは何年もブレンダを愛してきた	Standale has loved Brenda for years		
+413	情報源	スタンデールの発言	Standale's remarks		
+413	hasPredicate	愛してきた	I have loved		
+413	Who	スタンデール	Standale		
+413	What	ブレンダ	Brenda		
+413	When	何年	What year				何年？		
+413	therefore	415	415		
+414	対象文	ブレンダは何年もスタンデールを愛してきた	Brenda has loved Standale for many years		
+414	情報源	スタンデールの発言	Standale's remarks		
+414	hasPredicate	愛してきた	I have loved		
+414	Who	ブレンダ	Brenda		
+414	What	スタンデール	Standale		
+414	When	何年	What year				何年？		
+414	therefore	415	415		
+415	対象文	そのため、スタンデールはコーンワルで隠遁した	Therefore, Standale was metaphorized in Cornwall					thefore		
+415	情報源	スタンデールの発言	Standale's remarks		
+415	hasPredicate	隠遁した	Metaphorical				住んだ，くらいでは？		
+415	Who	スタンデール	Standale		
+415	Where	コーンワル	Cornwall		
+416	対象文	スタンデールは結婚をできなかった	Standale couldn't get married		
+416	情報源	スタンデールの発言	Standale's remarks		
+416	hasPredicate	できなかった	could not		
+416	Who	スタンデール	Standale		
+416	What	結婚	marriage		
+417	対象文	スタンデールは前妻を持っていた	Standale had a former wife		
+417	情報源	スタンデールの発言	Standale's remarks		
+417	hasPredicate	持っていた	had		
+417	Who	スタンデール	Standale		
+417	What	前妻	Former wife		
+418	対象文	前妻は何年も前に出ていった	My ex-wife came out many years ago		
+418	情報源	スタンデールの発言	Standale's remarks		
+418	hasPredicate	出ていった	Went out		
+418	Who	前妻	Former wife		
+418	When	何年も前	Many years ago		
+419	対象文	イギリスの法律のため、スタンデールは離婚ができない	Standale can not divorce because of English law		
+419	情報源	スタンデールの発言	Standale's remarks		
+419	hasPredicate	離婚できない	I can not divorce		
+419	Who	スタンデール	Standale		
+419	Why	イギリスの法律のため	For the laws of the United Kingdom					Why		
+420	対象文	ブレンダは何年も結婚を待った	Brenda has been waiting for marriage for years		
+420	情報源	スタンデールの発言	Standale's remarks		
+420	hasPredicate	待った	waited		
+420	Who	ブレンダ	Brenda		
+420	What	結婚	marriage		
+420	When	何年	What year		
+421	対象文	スタンデールも何年も結婚を待った	Standale also waited for marriage for years		
+421	情報源	スタンデールの発言	Standale's remarks		
+421	hasPredicate	待った	waited		
+421	Who	スタンデール	Standale		
+421	What	結婚	marriage		
+421	When	何年	What year		
+422	対象文	ラウンドヘイは上記を知っていた	Roundhaye knew above		
+422	情報源	スタンデールの発言	Standale's remarks		
+422	hasPredicate	知っていた	I knew		
+422	Who	ラウンドヘイ	Roundhay		
+422	What	413-421	413-421					文番号		
+423	対象文	スタンデールとブレンダはラウンドヘイを信頼していた	Standale and Brenda trusted Roundhay		
+423	情報源	スタンデールの発言	Standale's remarks		
+423	hasPredicate	信頼していた	I trusted		
+423	Who	スタンデール	Standale		
+423	Who	ブレンダ	Brenda		
+423	What	ラウンドヘイ	Roundhay		
+424	対象文	ラウンドヘイは以下を言った	Roundhay said the following		
+424	情報源	スタンデールの発言	Standale's remarks		
+424	hasPredicate	言った	Said		
+424	Who	ラウンドヘイ	Roundhay		
+424	What	以下	Less than				425?		
+425	対象文	ブレンダは天使である	Brenda is an angel		
+425	情報源	ラウンドヘイの発言	Remark by Roundhay		
+425	hasProperty	天使である	Be an angel		
+425	Who	ブレンダ	Brenda		
+426	対象文	それで、ラウンドヘイはスタンデールに電報を送った	So, Roundhay sent a call to Standale		
+426	情報源	スタンデールの発言	Standale's remarks		
+426	hasPredicate	送った	sent		
+426	Who	ラウンドヘイ	Roundhay		
+426	Whom	スタンデール	Standale		
+426	What	電報	telegram				because 424?		
+427	対象文	スタンデールは帰ってきた	Standale is back		
+427	情報源	スタンデールの発言	Standale's remarks		
+427	hasPredicate	帰ってきた	Came back		
+427	Who	スタンデール	Standale				then 428?		
+428	対象文	スタンデールは紙包みをとりだした	Standale took out the paper packet		
+428	情報源		
+428	hasPredicate	とりだした	Picked up		
+428	Who	スタンデール	Standale		
+428	What	紙包み	Paper package				then 429?		
+429	対象文	スタンデールは紙包みをテーブルの上に置いた	Standale put a paper packet on the table		
+429	情報源		
+429	hasPredicate	置いた	placed		
+429	Who	スタンデール	Standale		
+429	What	紙包み	Paper package		
+429	On	テーブル	table		
+430	対象文	紙包みは、Radix pedis diaboliと書かれていた	Paper parcel was written as Radix pedis diaboli		
+430	情報源		
+430	hasPredicate	書かれていた	Was written		
+430	Who	紙包み	Paper package		
+430	What	Radix pedis diaboli	Radix pedis diaboli		
+431	対象文	紙包みは、毒薬ラベルを貼られていた	Paper parcel was labeled with poison		
+431	情報源		
+431	hasPredicate	貼られていた	It was pasted		
+431	Who	紙包み	Paper package		
+431	What	毒薬ラベル	Poison label		
+432	対象文	薬物は魔足根である	The drug is a magic foot		
+432	情報源	スタンデールの発言	Standale's remarks		
+432	hasProperty	魔足根である	It is a magic foot		
+432	Who	薬物	Drug		
+433	対象文	ヨーロッパには、魔足根の見本はない	In Europe, there is no model of the magic foot		
+433	情報源	スタンデールの発言	Standale's remarks		
+433	hasPredicate	はな	Flower				ない		
+433	Where	ヨーロッパ	Europe		
+433	Who	魔足根の見本	A sample of the magic foot		
+434	対象文	魔足根の見本は薬局や毒物学の文献に出ていない	No demonstrative sample has been published in pharmacy or toxicology literature		
+434	情報源	スタンデールの発言	Standale's remarks		
+434	hasPredicate	出ていない	Not out		
+434	Who	魔足根の見本	A sample of the magic foot		
+434	What	薬局や毒物学の文献に	In the pharmacy and toxicology literature				「に」は不要		
+435	対象文	粉薬が紙包みに入っていた	Powder medicine was in the paper package		
+435	情報源		
+435	hasPredicate	入っていた	It was in		
+435	Who	粉薬	Powder medicine		
+435	How	紙包みの中に	In a paper packet		
+436	対象文	スタンデールはオーウェンとジョージと仲良かった	Standale got along well with Owen and George		
+436	情報源	スタンデールの発言	Standale's remarks		
+436	hasPredicate	仲良しだった	I was good friends		
+436	Who	スタンデール	Standale		
+436	Who	オーウェン	Owen		
+436	Who	ジョージ	George		
+437	対象文	モーティマーは兄弟と仲直りしていた	Mortimer had made up with his brother		
+437	情報源	スタンデールの発言	Standale's remarks		
+437	hasPredicate	仲直りしていた	I had made up my mind		
+437	Who	モーティマー	Mortimer		
+437	Whom	兄弟	Brother		
+437	then	438	438		
+438	対象文	その後、スタンデールはオーウェンとジョージとモーティマーと会っていた	Standale then met with Owen, George and Mortimer		
+438	情報源	スタンデールの発言	Standale's remarks		
+438	hasPredicate	会っていた	Met		
+438	Who	スタンデール	Standale		
+438	Whom	オーウェン	Owen		
+438	Whom	ジョージ	George		
+438	Whom	モーティマー	Mortimer		
+439	対象文	2週間前、モーティマーがスタンデールのコテージにやってきた	Two weeks ago, Mortimer came to a cottage in Standale		
+439	情報源	スタンデールの発言	Standale's remarks		
+439	hasPredicate	やってきた	came		
+439	Who	モーティマー	Mortimer		
+439	To	スタンデールのコテージに	In a cottage in Standale				「に」は不要		
+439	When	2週間前	2 weeks ago		
+440	対象文	スタンデールはアフリカの珍品の一部を見せた	Standale showed off some of Africa's curiosities		
+440	情報源	スタンデールの発言	Standale's remarks		
+440	hasPredicate	見せた	showed		
+440	Who	スタンデール	Standale		
+440	What	アフリカの珍品の一部	Some of Africa's curiosities		
+441	対象文	粉薬はアフリカの珍品の一部だった	Powdered medicine was part of a rarity in Africa		
+441	情報源	スタンデールの発言	Standale's remarks		
+441	hasProperty	だった	was		
+441	Who	粉薬はアフリカの珍品の一部だった	Powdered medicine was part of a rarity in Africa		
+441	What	アフリカの珍品の一部	Some of Africa's curiosities		
+442	対象文	そして、スタンデールはモーティマーに粉薬の性質を教えた	And Standale taught Mortimer the nature of powder medicine		
+442	情報源	スタンデールの発言	Standale's remarks		
+442	hasPredicate	教えた	Taught		
+442	Who	スタンデール	Standale		
+442	Whom	モーティマー	Mortimer		
+442	What	粉薬の性質	Nature of powder medicine		
+443	対象文	スタンデールは以下をモーティマーに教えた	Standale taught Mortimer:		
+443	情報源		
+443	hasPredicate	教えた	Taught		
+443	Who	スタンデール	Standale		
+443	What	以下	Less than				444?		
+443	What	モーティマーに	To Mortimer				"「に」は不要		
+英訳も変更"		
+444	対象文	ヨーロッパ化学は魔足根を検出しない	European chemistry does not detect the magic foot		
+444	情報源	スタンデールの発言	Standale's remarks		
+444	hasPredicate	検出しない	Do not detect		
+444	Who	ヨーロッパ化学	European chemistry		
+444	What	魔足根	Magic foot		
+445	対象文	モーティマーはスタンデールに熱心に質問していた	Mortimer was keen to ask Standale		
+445	情報源	スタンデールの発言	Standale's remarks		
+445	hasPredicate	質問していた	I was asking a question		
+445	Who	モーティマー	Mortimer		
+445	Whom	スタンデール	Standale		
+445	How	熱心に	Eagerly					How		
+446	対象文	電報を受け取るまで、スタンデールは上記を考えなかった	Standale did not think above until he received a telegram		
+446	情報源	スタンデールの発言	Standale's remarks		
+446	hasPredicate	考えなかった	I did not think		
+446	Who	スタンデール	Standale		
+446	When	電報を受け取るまで	Until you receive a telegram				2分に分けては？when 電報を受け取る，スタンデール考えた，とか？		
+446	What	439-445	439-445		
+447	対象文	スタンデールは以下を推測した	Standale guessed that		
+447	情報源		
+447	hasPredicate	推測した	Guessed		
+447	Who	スタンデール	Standale		
+447	What	448	448		
+448	対象文	モーティマーは以下を思った	Mortimer thought that		
+448	情報源	スタンデールの推測	Standale's guess		
+448	hasPredicate	思った	thought		
+448	Who	モーティマー	Mortimer		
+448	What	449-451	449-451		
+449	対象文	スタンデールが海にでた	Standale went to the sea		
+449	情報源	モーティマーの考え	Mortimer's thoughts		
+449	hasPredicate	でた	It was		
+449	Who	スタンデール	Standale		
+449	Where	海	Sea		
+449	before	450	450		
+450	対象文	スタンデールが知らせを受け取る	Standale receives the news					before（受け取る前に）		
+450	情報源	モーティマーの考え	Mortimer's thoughts		
+450	hasPredicate	受け取る	receive		
+450	Who	スタンデール	Standale		
+450	What	知らせ	Information		
+451	対象文	スタンデールは数年間、アフリカをさまよう	Standale wanders Africa for several years		
+451	情報源	スタンデールの発言	Standale's remarks		
+451	hasPredicate	さまよう	Wander		
+451	Who	スタンデール	Standale		
+451	Where	アフリカ	Africa		
+451	When	数年間	For several years		
+452	対象文	スタンデールは以下を思った	Standale thought that		
+452	情報源		
+452	hasPredicate	思った	thought		
+452	Who	スタンデール	Standale		
+452	What	453	453		
+453	対象文	魔足根が使われた	The magic foot was used		
+453	情報源	スタンデールの推測	Standale's guess		
+453	hasPredicate	使われた	was used by		
+453	Who	魔足根	Magic foot		
+454	対象文	スタンデールはポルデュー湾のコテージにきた	Standale came to a cottage in the Pordeux Bay		
+454	情報源	スタンデールの発言	Standale's remarks		
+454	hasPredicate	きた	Came		
+454	Who	スタンデール	Standale		
+454	To	ポルデュー湾のコテージに	In a cottage in the Pordeux Bay				「に」は不要		
+455	対象文	スタンデールはホームズと会った	Standale met Holmes		
+455	情報源	スタンデールの発言	Standale's remarks		
+455	hasPredicate	会った	met		
+455	Who	スタンデール	Standale		
+455	Whom	ホームズ	Holmes		
+456	対象文	スタンデールは別解釈を確かめた	Standale confirmed another interpretation		
+456	情報源	スタンデールの発言	Standale's remarks		
+456	hasPredicate	確かめた	I checked		
+456	Who	スタンデール	Standale		
+456	What	別解釈	Another interpretation		
+456	However	457	457		
+457	対象文	しかし、別解釈はなかった	But there was no other interpretation		
+457	情報源	スタンデールの発言	Standale's remarks		
+457	hasPredicate	なかった	It was not		
+457	Who	別解釈	Another interpretation		
+458	対象文	スタンデールは以下を推測した	Standale guessed that		
+458	情報源	スタンデールの発言	Standale's remarks		
+458	hasPredicate	推測した	Guessed		
+458	Who	スタンデール	Standale		
+458	What	459, 460	459, 460		
+459	対象文	お金のため、モーティマーが殺した	Mortimer killed for money		
+459	情報源	スタンデールの推測	Standale's guess		
+459	hasPredicate	殺した	Killed		
+459	Who	モーティマー	Mortimer		
+459	Why	お金のため	For money					Why		
+460	対象文	モーティマーは以下を思った	Mortimer thought that		
+460	情報源	スタンデールの推測	Standale's guess		
+460	hasPredicate	思った	thought		
+460	Who	モーティマー	Mortimer		
+460	What	461-462	461-462		
+461	対象文	モーティマーは共有財産の独占管理者になる	Mortimer Becomes Exclusive Manager of Shared Property				モーティマーは財産を独占する，では？		
+461	情報源	モーティマーの考え	Mortimer's thoughts		
+461	hasPredicate	なる	Become		
+461	Who	モーティマー	Mortimer		
+461	Whom	共有財産の独占管理者	Exclusive manager of shared property		
+461	if	462	462		
+462	対象文	もし、肉親が精神異常者になる	If your parents become mentally ill					if		
+462	情報源	モーティマーの考え	Mortimer's thoughts		
+462	hasPredicate	なる	Become		
+462	Who	肉親	Immediate family		
+462	Whom	精神異常者に	To the mentally ill				「に」は不要		
+463	対象文	モーティマーは魔足根でオーウェンとジョージの理性を吹き飛ばした	Mortimer blew off Owen and George's reasoning at the foot of the demon		
+463	情報源	スタンデールの発言	Standale's remarks		
+463	hasPredicate	吹き飛ばした	Blown away		
+463	Who	モーティマー	Mortimer		
+463	How	魔足根	Magic foot				By？	How		
+463	What	オーウェンとジョージの理性	Owen and George's Reason		
+464	対象文	モーティマーはブレンダを殺した	Mortimer killed Brenda		
+464	情報源	スタンデールの発言	Standale's remarks		
+464	hasPredicate	殺した	Killed		
+464	Who	モーティマー	Mortimer		
+464	What	ブレンダ	Brenda		
+465	対象文	スタンデールは真相が分かっている	Standale knows the truth		
+465	情報源	スタンデールの発言	Standale's remarks		
+465	hasPredicate	分かっている	I know		
+465	Who	スタンデール	Standale		
+465	Who	真相	truth				What		
+466	対象文	スタンデールは以下を疑った	Standale suspected the following		
+466	情報源	スタンデールの発言	Standale's remarks		
+466	hasPredicate	疑った	Suspected		
+466	Who	スタンデール	Standale		
+466	What	467	467		
+467	対象文	陪審員が空想じみた物語を信じる	I believe in a story that a jury has fancy		
+467	情報源	スタンデールの発言	Standale's remarks		
+467	hasPredicate	信じる	believe		
+467	Who	陪審員	Jury member		
+467	What	空想じみた物語	A fantasy story		
+468	対象文	失敗は困る	Failure is troubled				この文は必要ないかも？		
+468	情報源	スタンデールの発言	Standale's remarks		
+468	hasPredicate	困る	Be troubled		
+468	Who	失敗	Failure		
+469	対象文	スタンデールの心が復讐を叫んでいた	Standale's heart was screaming revenge				スタンデールは復習を望む、くらい？		
+469	情報源	スタンデールの発言	Standale's remarks		
+469	hasPredicate	叫んでいた	Shouted		
+469	Who	スタンデールの心	Standale's heart		
+469	What	復讐	revenge		
+470	対象文	スタンデールは以下を決断した	Standale made the following decisions		
+470	情報源	スタンデールの発言	Standale's remarks		
+470	hasPredicate	決断した	I made a decision		
+470	Who	スタンデール	Standale		
+470	What	471	471				because 466,469?		
+471	対象文	モーティマーはオーウェンとジョージとブレンダと同じ運命になる	Mortimer gets the same fate as Owen, George and Brenda				モとオとジとブは同じ運命を持つ，では？		
+471	情報源	スタンデールの発言	Standale's remarks		
+471	hasPredicate	なる	Become		
+471	Who	モーティマー	Mortimer		
+471	What	オーウェンとジョージとブレンダと同じ運命に	In the same fate as Owen and George and Brenda		
+472	対象文	スタンデールはモーティマーの罪をモーティマーに告げた	Standale told Mortimer the crime of Mortimer		
+472	情報源	スタンデールの発言	Standale's remarks		
+472	hasPredicate	告げた	Told		
+472	Who	スタンデール	Standale		
+472	Whom	モーティマー	Mortimer		
+472	What	モーティマーの罪	Mortimer's Sin		
+473	対象文	スタンデールは以下を言った	Standale said		
+473	情報源		
+473	hasPredicate	言った	Said		
+473	Who	スタンデール	Standale		
+473	What	474-486	474-486		
+474	対象文	スタンデールは裁判官である	Standale is a judge		
+474	情報源	スタンデールの発言	Standale's remarks		
+474	hasProperty	裁判官である	Be a judge		
+474	Who	スタンデール	Standale		
+475	対象文	スタンデールは死刑執行人である	Standale is the executioner		
+475	情報源	スタンデールの発言	Standale's remarks		
+475	hasProperty	死刑執行人である	It is an executioner		
+475	Who	スタンデール	Standale		
+476	対象文	モーティマーはリボルバーを見た	Mortimer saw a revolver		
+476	情報源	スタンデールの発言	Standale's remarks		
+476	hasPredicate	見た	saw		
+476	Who	モーティマー	Mortimer		
+476	What	リボルバー	revolver				then 477?		
+477	対象文	モーティマーは麻痺した	Mortimer was paralyzed		
+477	情報源	スタンデールの発言	Standale's remarks		
+477	hasPredicate	麻痺した	I was paralyzed		
+477	Who	モーティマー	Mortimer				then 478?		
+478	対象文	モーティマーは椅子に崩れ落ちた	Mortimer fell into a chair		
+478	情報源	スタンデールの発言	Standale's remarks		
+478	hasPredicate	崩れ落ちた	Crumbled		
+478	Who	モーティマー	Mortimer		
+478	On	椅子	Chair		
+479	対象文	スタンデールは以下のように脅した	Standale threatened as follows		
+479	情報源	スタンデールの発言	Standale's remarks		
+479	hasPredicate	脅した	Threatened		
+479	Who	スタンデール	Standale		
+479	How	480	480		
+480	対象文	スタンデールはモーティマーを撃つ	Standale shoots Mortimer		
+480	情報源	スタンデールの発言	Standale's remarks		
+480	hasPredicate	撃つ	shoot		
+480	Who	スタンデール	Standale		
+480	What	モーティマー	Mortimer		
+480	if	481	481		
+481	対象文	もし、モーティマーが部屋から出る	If the Mortimer leaves the room		
+481	情報源	スタンデールの発言	Standale's remarks		
+481	hasPredicate	出る	Go out		
+481	Who	モーティマー	Mortimer		
+481	From	部屋	room		
+482	対象文	スタンデールはランプに火をつけた	Standale lit the lamp		
+482	情報源	スタンデールの発言	Standale's remarks		
+482	hasPredicate	つけた	Wearing		
+482	Who	スタンデール	Standale		
+482	To	ランプ	lamp		
+482	What	火	fire				then 483?		
+483	対象文	スタンデールは粉薬を乗せた	Standale loaded powder		
+483	情報源	スタンデールの発言	Standale's remarks		
+483	hasPredicate	乗せた	Put on		
+483	Who	スタンデール	Standale		
+483	What	粉薬	Powder medicine				then 484?		
+484	対象文	スタンデールは窓の外に立った	Standale stood out of the window		
+484	情報源	スタンデールの発言	Standale's remarks		
+484	hasPredicate	立った	stood		
+484	Who	スタンデール	Standale		
+484	Where	窓の外	Out of the window				then 485?		
+485	対象文	スタンデールは銃を構えた	Standale got a gun		
+485	情報源	スタンデールの発言	Standale's remarks		
+485	hasPredicate	構えた	Got ready		
+485	Who	スタンデール	Standale		
+485	What	銃	gun		
+485	then	486	486		
+486	対象文	5分後、モーティマーは死んだ	Five minutes later, Mortimer died		
+486	情報源	スタンデールの発言	Standale's remarks		
+486	hasPredicate	死んだ	Died		
+486	Who	モーティマー	Mortimer		
+486	When	5分後、モーティマーは死んだ	Five minutes later, Mortimer died				モーティマーは死んだ 　の削除		
+487	対象文	捜査の出発点は窓枠の砂利だった	The starting point of the investigation was the gravel on the window frame		
+487	情報源		
+487	hasProperty	砂利だった	It was gravel		
+487	Who	捜査の出発点	Starting point of investigation		
+487	On	窓枠	Window frame		
+488	対象文	牧師館の庭において、砂利はなかった	There was no gravel in the parishion garden		
+488	情報源		
+488	hasPredicate	なかった	It was not		
+488	Who	砂利	gravel		
+488	Where	牧師館の庭	Pastor's Garden		
+489	対象文	スタンデールのコテージの庭で、ホームズは砂利を見つけた	In the yard of the cottage in Standale, Holmes found gravel		
+489	情報源		
+489	hasPredicate	見つけた	I found it		
+489	Who	ホームズ	Holmes		
+489	What	砂利	gravel		
+489	Where	スタンデールのコテージの庭	Cottage garden in Standale		

@@ -1,0 +1,1503 @@
+小説	ID	Property	原文	述語	修正	メモ
+ACaseOfIdentity.tsv	69	hasProperty	5年2ヶ月年上である	5 years 2 months older		hasPropertyへ
+ACaseOfIdentity.tsv	158	hasProperty	ない	Absent	absent	hasPropertyへ？
+SpeckledBand.tsv	135	hasPredicate	承諾した	accept		承諾する
+CrookedMan.tsv	160	hasPredicate	非難した	accuse		
+CrookedMan.tsv	329	hasPredicate	恐れた	afraid		
+ACaseOfIdentity.tsv	326	hasProperty	目ざとい	Aim	aim	hasPropertyへ
+ACaseOfIdentity.tsv	64	hasProperty	立てている	Angree	angree	
+ACaseOfIdentity.tsv	417	hasPredicate	謝る	apologize		
+DancingMen.tsv	40	hasPredicate	現れた	appear		
+DancingMen.tsv	152	hasPredicate	使われている	appear		本文チェック？
+DancingMen.tsv	162	hasPredicate	現れている	appear		
+ACaseOfIdentity.tsv	34	hasPredicate	現れる	appear		
+ACaseOfIdentity.tsv	513	hasPredicate	いる	Are	exist	
+ACaseOfIdentity.tsv	394	hasPredicate	寝ている	Are sleeping	sleeping	sleepにしてよい？
+CrookedMan.tsv	81	hasPredicate	言い争っていた	argue		
+CrookedMan.tsv	86	hasPredicate	言い争っていた	argue		
+CrookedMan.tsv	58	hasPredicate	着く	arrive		
+CrookedMan.tsv	174	hasPredicate	ついた	arrive		
+DancingMen.tsv	41	hasPredicate	頼んだ	ask		頼むと尋ねるを分けなくてよい？
+DancingMen.tsv	144	hasPredicate	頼んだ	ask		
+ACaseOfIdentity.tsv	455	hasPredicate	頼む	ask		
+ACaseOfIdentity.tsv	462	hasPredicate	尋ねる	ask		
+CrookedMan.tsv	200	hasPredicate	頼んだ	ask		
+CrookedMan.tsv	338	hasPredicate	尋ねた	ask		
+CrookedMan.tsv	363	hasPredicate	聞きに行った	ask		
+CrookedMan.tsv	367	hasPredicate	尋ねた	ask		
+ACaseOfIdentity.tsv	306	hasProperty	ついている	Attached	attached	hasPropertyへ
+ACaseOfIdentity.tsv	308	hasProperty	付いている	attached		hasPropertyへ
+ACaseOfIdentity.tsv	309	hasProperty	付いている	attached		hasPropertyへ
+ACaseOfIdentity.tsv	311	hasProperty	付いている	attached		hasPropertyへ
+ACaseOfIdentity.tsv	330	hasProperty	付いている	attached		hasPropertyへ
+CrookedMan.tsv	50	hasPredicate	出席した	attend		
+ACaseOfIdentity.tsv	200	hasProperty	悪い	bad		hasPropertyへ
+ACaseOfIdentity.tsv	358	hasProperty	悪い	bad		hasPropertyへ
+ACaseOfIdentity.tsv	405	hasProperty	悪い	bad		hasPropertyへ
+ACaseOfIdentity.tsv	341	hasPredicate	驚く	Be surprised	beSurprised	
+CrookedMan.tsv	281	hasPredicate	待ち伏せられていた	beAmbushed		
+CrookedMan.tsv	255	hasPredicate	逮捕される	beArrested		対義語の扱い
+CrookedMan.tsv	357	hasPredicate	逮捕される	beArrested		
+CrookedMan.tsv	73	hasPredicate	頼まれた	beAsked		
+CrookedMan.tsv	288	hasPredicate	曲がった	beBent		hasPropertyへ
+CrookedMan.tsv	275	hasPredicate	籠城した	beBesieged		能動態は？
+CrookedMan.tsv	282	hasPredicate	捕まった	beCaught		
+DancingMen.tsv	109	hasPredicate	閉められていた	beClosed		hasPropertyへ
+CrookedMan.tsv	235	hasPredicate	なる	become		
+CrookedMan.tsv	292	hasPredicate	なった	become		
+DancingMen.tsv	5	hasPredicate	踊っている	beDancing		
+DancingMen.tsv	104	hasProperty	死んでいた	beDead	dead	
+CrookedMan.tsv	269	hasProperty	決められていた	beDecided	decided	
+SpeckledBand.tsv	18	hasPredicate	分ける	beDivided		
+DancingMen.tsv	1	hasProperty	書かれていた	beDrawn	drawn	
+DancingMen.tsv	8	hasProperty	描かれていた	beDrawn	drawn	
+DancingMen.tsv	33	hasProperty	描かれた	beDrawn	drawn	
+DancingMen.tsv	47	hasProperty	描かれていた	beDrawn	drawn	
+DancingMen.tsv	49	hasProperty	描かれていた	beDrawn	drawn	
+DancingMen.tsv	50	hasProperty	描かれていた	beDrawn	drawn	
+DancingMen.tsv	61	hasProperty	描かれていた	beDrawn	drawn	
+DancingMen.tsv	62	hasProperty	描かれていた	beDrawn	drawn	
+DancingMen.tsv	62a	hasProperty	描かれていた	beDrawn	drawn	
+DancingMen.tsv	72	hasProperty	描かれていた	beDrawn	drawn	
+DancingMen.tsv	206	hasProperty	婚約していた	beEngaged	engaged	
+DancingMen.tsv	107	hasProperty	充満していた	beFull	full	
+DancingMen.tsv	68	hasPredicate	喜んだ	beHappy		
+CrookedMan.tsv	6	hasPredicate	殺された	beKilled		
+CrookedMan.tsv	102	hasPredicate	殺された	beKilled		
+CrookedMan.tsv	105	hasPredicate	殺された	beKilled		
+CrookedMan.tsv	291	hasPredicate	殺された	beKilled		
+ACaseOfIdentity.tsv	207	hasPredicate	信じる	believe		
+ACaseOfIdentity.tsv	244	hasPredicate	信じる	believe		
+CrookedMan.tsv	34	hasPredicate	信じている	believe		
+CrookedMan.tsv	43	hasPredicate	位置している	beLocated		
+CrookedMan.tsv	44	hasPredicate	位置している	beLocated		
+DancingMen.tsv	110	hasProperty	鍵がかけられていた	beLocked	locked	
+DancingMen.tsv	114	hasProperty	鍵がかけられていた	beLocked	locked	
+CrookedMan.tsv	83	hasProperty	鍵がかかっていた	beLocked	locked	
+CrookedMan.tsv	7	hasPredicate	所属している	belong	belongTo	
+DancingMen.tsv	84	hasPredicate	である	belongTo		要検討 beではだめ？　Property？
+DancingMen.tsv	178	hasPredicate	警察である	belongTo		要検討 beではだめ？　Property？
+DancingMen.tsv	122	hasProperty	乱れていた	beMoved	moved	
+CrookedMan.tsv	101	hasPredicate	移された	beMoved		
+CrookedMan.tsv	182	hasProperty	まげていた	bend		Property?
+CrookedMan.tsv	285	hasPredicate	助かった	beSaved		
+SpeckledBand.tsv	2	hasPredicate	怖がる	beScared		
+SpeckledBand.tsv	117	hasPredicate	ふるえた	beScared		ふるえる
+SpeckledBand.tsv	156	hasPredicate	真っ青になった	beScared		真っ青になる
+DancingMen.tsv	120	hasPredicate	見える	beSeen		look？
+CrookedMan.tsv	66	hasProperty	分けられている	beSeparated	separated	
+DancingMen.tsv	78	hasPredicate	撃たれた	beShoot	beShot	
+DancingMen.tsv	91	hasPredicate	撃ち抜かれている	beShot		
+DancingMen.tsv	123	hasPredicate	撃たれた	beShot		
+DancingMen.tsv	74	hasPredicate	驚いた	beSurprised		
+CrookedMan.tsv	42	hasPredicate	囲まれている	beSurrounded		
+CrookedMan.tsv	276	hasPredicate	囲まれていた	beSurrounded		
+CrookedMan.tsv	252	hasPredicate	疑われている	beSuspected		
+CrookedMan.tsv	330	hasPredicate	疑われる	beSuspected		
+CrookedMan.tsv	286	hasPredicate	連れていかれた	beTaken		
+CrookedMan.tsv	289	hasPredicate	連れていかれた	beTaken		
+CrookedMan.tsv	290	hasPredicate	連れていかれた	beTaken		
+CrookedMan.tsv	287	hasPredicate	拷問された	beTortured		
+SpeckledBand.tsv	76	hasPredicate	震わせる	beTremble		震える？
+SpeckledBand.tsv	3	hasPredicate	動揺する	beUpset		be不要？
+SpeckledBand.tsv	364	hasPredicate	噛む	bite		
+SpeckledBand.tsv	400	hasPredicate	噛む	bite		
+CrookedMan.tsv	316	hasPredicate	非難した	blame		
+ACaseOfIdentity.tsv	111	hasPredicate	赤らめる	blush		青ざめると同じ書き方？
+ACaseOfIdentity.tsv	418	hasPredicate	煩わせる	Bother	bother	
+ACaseOfIdentity.tsv	522	hasPredicate	別れる	break up	breakUp	
+SpeckledBand.tsv	375	hasPredicate	橋渡しする	bridge		
+DancingMen.tsv	137	hasProperty	裂けていた	burst		
+ACaseOfIdentity.tsv	416	hasProperty	忙しい	busy		
+SpeckledBand.tsv	28	hasPredicate	買う	buy		
+SpeckledBand.tsv	377	hasPredicate	取り寄せる	buy		
+SpeckledBand.tsv	143	hasPredicate	計算した	calculate		計算する
+DancingMen.tsv	94	hasPredicate	呼んだ	call		
+CrookedMan.tsv	84	hasPredicate	呼んだ	call		
+CrookedMan.tsv	97	hasPredicate	呼んだ	call		
+CrookedMan.tsv	326	hasPredicate	呼ぶ	call		
+CrookedMan.tsv	350	hasPredicate	呼んでいる	call		
+SpeckledBand.tsv	80	hasPredicate	呼ぶ	call		
+SpeckledBand.tsv	386	hasPredicate	呼び戻す	callBak	callBuck	callBuck?　Callのまま？
+ACaseOfIdentity.tsv	397	hasPredicate	捉えられない	Can not catch	cannotCatch	CANの書き方にする
+ACaseOfIdentity.tsv	150	hasPredicate	来られない	Can not come	cannotCome	CANの書き方にする
+ACaseOfIdentity.tsv	466	hasPredicate	逃げられない	can not escape	cannotEscape	CANの書き方にする
+ACaseOfIdentity.tsv	549	hasPredicate	扱えない	Can not handle	cannotHandle	CANの書き方にする
+ACaseOfIdentity.tsv	270	hasPredicate	会えない	can not meet	cannotMeet	CANの書き方にする
+ACaseOfIdentity.tsv	298	hasPredicate	読み取れない	Can not read	cannotRead	CANの書き方にする
+ACaseOfIdentity.tsv	264	hasPredicate	眠れない	can not sleep	cannotSleep	CANの書き方にする
+ACaseOfIdentity.tsv	123	hasPredicate	止められない	can not stop	cannotStop	CANの書き方にする
+ACaseOfIdentity.tsv	297	hasPredicate	読み取れる	Can read	canRead	CANの書き方にする
+ACaseOfIdentity.tsv	544	hasPredicate	訴えることができる	Can sue	canSue	CANの書き方にする
+CrookedMan.tsv	141	hasPredicate	上ることができる	canClimb		
+CrookedMan.tsv	272	hasPredicate	出世できた	canGetAhead		
+CrookedMan.tsv	63	hasPredicate	行ける	canGo		
+CrookedMan.tsv	274	hasPredicate	結婚できる	canMarry		
+SpeckledBand.tsv	121	hasPredicate	何も見当たらなかった	cannotFind		not存在する
+SpeckledBand.tsv	T186	hasPredicate	通り抜けできない	cannotGo		cannot通り抜ける
+SpeckledBand.tsv	286	hasPredicate	動かせなかった	cannotMove		cannot動かす
+SpeckledBand.tsv	190	hasPredicate	失敗した	cannotOpen		失敗する
+SpeckledBand.tsv	194	hasPredicate	通れない	cannotOpen		not通る
+CrookedMan.tsv	119	hasPredicate	話せなかった	cannotSpeak		
+CrookedMan.tsv	128	hasPredicate	持ち出せない	cannotTake		
+SpeckledBand.tsv	79	hasPredicate	cannotしゃべる	cannotTalk		
+SpeckledBand.tsv	51	hasPredicate	can見る	canSee		
+ACaseOfIdentity.tsv	535	hasPredicate	運ぶ	Carry	carry	
+CrookedMan.tsv	232	hasPredicate	運んできた	carry		
+ACaseOfIdentity.tsv	458	hasPredicate	捕まえる	catch		
+ACaseOfIdentity.tsv	461	hasPredicate	捕まえる	catch		
+CrookedMan.tsv	364	hasPredicate	追いついた	catch		
+DancingMen.tsv	183	hasPredicate	変わった	change		
+SpeckledBand.tsv	122	hasPredicate	着替えた	change		着替える
+ACaseOfIdentity.tsv	505	hasPredicate	追い払う	Chase away	chaseAway	
+ACaseOfIdentity.tsv	571	hasPredicate	確認する	Check	check	
+CrookedMan.tsv	335	hasPredicate	上った	climb		
+DancingMen.tsv	227	hasPredicate	閉める	close		
+ACaseOfIdentity.tsv	36	hasPredicate	閉める	Close	close	
+ACaseOfIdentity.tsv	547	hasProperty	閉めている	Closed	closed	Property
+CrookedMan.tsv	106	hasPredicate	収集していた	collect		
+CrookedMan.tsv	108	hasPredicate	収集した	collect		
+DancingMen.tsv	44	hasPredicate	やってきた	come		
+DancingMen.tsv	45	hasPredicate	訪ねた	come		
+DancingMen.tsv	76	hasPredicate	下車した	come		
+DancingMen.tsv	77	hasPredicate	訪れた	come		
+DancingMen.tsv	100	hasPredicate	行った	come		
+DancingMen.tsv	184	hasPredicate	駆けつけた	come		
+DancingMen.tsv	186	hasPredicate	来る	come		
+DancingMen.tsv	209	hasPredicate	訪れた	come		
+ACaseOfIdentity.tsv	227	hasPredicate	来る	come		
+ACaseOfIdentity.tsv	290	hasPredicate	来る	come		
+ACaseOfIdentity.tsv	349	hasPredicate	来る	come		
+ACaseOfIdentity.tsv	400	hasPredicate	来る	come		
+ACaseOfIdentity.tsv	420	hasPredicate	来る	come		
+SpeckledBand.tsv	1	hasPredicate	来る	come		
+SpeckledBand.tsv	54	hasPredicate	来る	come		
+SpeckledBand.tsv	116	hasPredicate	移った	come		移る
+SpeckledBand.tsv	128	hasPredicate	参る	come		参る
+SpeckledBand.tsv	137	hasPredicate	来た	come		来る
+SpeckledBand.tsv	150	hasPredicate	降りた	come		降りる
+SpeckledBand.tsv	169	hasPredicate	歩き回った	come		歩き回る
+SpeckledBand.tsv	195	hasPredicate	向かった	come		向かう
+SpeckledBand.tsv	376	hasPredicate	使う	come		
+ACaseOfIdentity.tsv	219	hasPredicate	戻ってくる	Come back	comeBack	
+CrookedMan.tsv	204	hasPredicate	落ちぶれた	come down	comeDown	
+ACaseOfIdentity.tsv	32	hasPredicate	入ってくる	Come in	comeIn	
+CrookedMan.tsv	370	hasPredicate	犯す	commit		
+CrookedMan.tsv	371	hasPredicate	犯した	commit		
+CrookedMan.tsv	259	hasPredicate	自殺した	commitSuicide		
+ACaseOfIdentity.tsv	390	hasPredicate	専念する	concentrate on	concentrateOn	
+ACaseOfIdentity.tsv	260	hasPredicate	連絡する	contact		
+CrookedMan.tsv	278	hasPredicate	連絡を取る	contact		
+ACaseOfIdentity.tsv	75	hasPredicate	続けている	continuing		
+DancingMen.tsv	42	hasPredicate	写し取る	copy		
+ACaseOfIdentity.tsv	325	hasProperty	正しい	correct		Property
+ACaseOfIdentity.tsv	215	hasPredicate	対応する	Correspond	correspond	
+ACaseOfIdentity.tsv	13	hasPredicate	渡る	Cross	cross	
+ACaseOfIdentity.tsv	265	hasPredicate	泣く	cry		
+CrookedMan.tsv	224	hasPredicate	唸ったり泣いたりしていた	cry		
+ACaseOfIdentity.tsv	378	hasPredicate	否認する	deny		
+CrookedMan.tsv	78	hasPredicate	死んだ	die		
+CrookedMan.tsv	95	hasPredicate	死んでいた	die		
+CrookedMan.tsv	190	hasPredicate	死んだ	die		
+CrookedMan.tsv	301	hasPredicate	死んだ	die		
+CrookedMan.tsv	366	hasPredicate	死んだ	die		
+SpeckledBand.tsv	14	hasPredicate	死ぬ	die		
+SpeckledBand.tsv	32	hasPredicate	死ぬ	die		
+SpeckledBand.tsv	39	hasPredicate	死ぬ	die		
+SpeckledBand.tsv	86	hasPredicate	死ぬ	die		
+SpeckledBand.tsv	106	hasPredicate	死んだ	die		死ぬ
+SpeckledBand.tsv	282	hasPredicate	亡くなった	die		死ぬ
+SpeckledBand.tsv	358	hasPredicate	死んでいた	die		
+SpeckledBand.tsv	365	hasPredicate	死んだ	die		
+ACaseOfIdentity.tsv	343	hasProperty	異なる	Different	different	
+ACaseOfIdentity.tsv	435	hasProperty	異なる	Different	different	
+ACaseOfIdentity.tsv	355	hasPredicate	失踪する	Disappear	disappear	
+ACaseOfIdentity.tsv	537	hasPredicate	消える	Disappear	disappear	
+SpeckledBand.tsv	309	hasPredicate	消える	disappear		
+ACaseOfIdentity.tsv	497	hasPredicate	変装する	Disguise	disguise	
+CrookedMan.tsv	115	hasPredicate	歪んでいた	distort		Property?
+ACaseOfIdentity.tsv	223	hasPredicate	行う	Do	do	
+ACaseOfIdentity.tsv	224	hasPredicate	行う	Do	do	
+CrookedMan.tsv	216	hasPredicate	する	do		
+ACaseOfIdentity.tsv	471	hasPredicate	訴えない	Do not complain	notComplain	doは不要
+ACaseOfIdentity.tsv	519	hasPredicate	行かない	Do not go	notGo	doは不要
+ACaseOfIdentity.tsv	368	hasPredicate	持たない	do not have	notHave	doは不要
+ACaseOfIdentity.tsv	454	hasPredicate	持たない	do not have	notHave	doは不要
+ACaseOfIdentity.tsv	166	hasPredicate	知らない	Do not know	notKnow	doは不要
+ACaseOfIdentity.tsv	241	hasPredicate	わからない	do not know	notKnow	doは不要
+ACaseOfIdentity.tsv	254	hasPredicate	知らない	Do not know	notKnow	doは不要
+ACaseOfIdentity.tsv	279	hasPredicate	知らない	Do not know	notKnow	doは不要
+ACaseOfIdentity.tsv	542	hasPredicate	知らない	Do not know	notKnow	doは不要
+ACaseOfIdentity.tsv	532	hasPredicate	愛さない	Do not love	notLove	doは不要
+ACaseOfIdentity.tsv	162	hasPredicate	会わない	Do not meet	notMeet	doは不要
+ACaseOfIdentity.tsv	239	hasPredicate	送らない	do not send	notSend	doは不要
+ACaseOfIdentity.tsv	240	hasPredicate	見せない	Do not show	notShow	doは不要
+ACaseOfIdentity.tsv	242	hasPredicate	捨てない	do not throw	notThrow	doは不要
+ACaseOfIdentity.tsv	263	hasPredicate	欲してない	Do not want	notWant	doは不要
+ACaseOfIdentity.tsv	419	hasPredicate	望まない	Do not want	notWant	doは不要
+ACaseOfIdentity.tsv	214	hasPredicate	心配しない	do not worry	notWorry	doは不要
+DancingMen.tsv	30	hasPredicate	描いた	draw		
+DancingMen.tsv	210	hasPredicate	描いた	draw		
+ACaseOfIdentity.tsv	431	hasPredicate	落とす	Drop	drop	
+CrookedMan.tsv	334	hasPredicate	落とした	drop		
+ACaseOfIdentity.tsv	57	hasPredicate	稼ぐ	Earn	earn	
+CrookedMan.tsv	298	hasPredicate	稼いだ	earn		
+CrookedMan.tsv	307	hasPredicate	稼ぐ	earn		
+ACaseOfIdentity.tsv	226	hasPredicate	食べる	eat		
+ACaseOfIdentity.tsv	398	hasPredicate	響く	Echo	echo	
+ACaseOfIdentity.tsv	30	hasPredicate	解ける	EnableSolve	cnaSolve	
+ACaseOfIdentity.tsv	23	hasPredicate	遭う	Encounter	encounter	
+CrookedMan.tsv	57	hasPredicate	終了した	end		
+SpeckledBand.tsv	338	hasPredicate	言う	end		本文チェック
+SpeckledBand.tsv	37	hasPredicate	婚約する	engage		
+ACaseOfIdentity.tsv	524	hasPredicate	刻む	Engrave		
+ACaseOfIdentity.tsv	99	hasProperty	十分である	Enough	enough	Property
+ACaseOfIdentity.tsv	101	hasProperty	十分である	Enough	enough	Property
+ACaseOfIdentity.tsv	107	hasProperty	十分である	Enough	enough	Property
+DancingMen.tsv	188	hasPredicate	入った	enter		
+ACaseOfIdentity.tsv	152	hasPredicate	入る	enter		
+ACaseOfIdentity.tsv	237	hasPredicate	入る	enter		
+CrookedMan.tsv	92	hasPredicate	入った	enter		
+CrookedMan.tsv	129	hasPredicate	入った	enter		
+CrookedMan.tsv	131	hasPredicate	入った	enter		
+CrookedMan.tsv	231	hasPredicate	入った	enter		
+CrookedMan.tsv	320	hasPredicate	入った	enter		
+DancingMen.tsv	10	hasPredicate	である	equalTo		
+DancingMen.tsv	147	hasPredicate	である	equalTo		
+DancingMen.tsv	148	hasPredicate	である	equalTo		
+DancingMen.tsv	151	hasPredicate	である	equalTo		
+DancingMen.tsv	158	hasPredicate	かもしれない	equalTo		
+DancingMen.tsv	159	hasPredicate	である	equalTo		
+DancingMen.tsv	166	hasPredicate	である	equalTo		
+DancingMen.tsv	167	hasPredicate	である	equalTo		
+DancingMen.tsv	169a	hasPredicate	である	equalTo		
+DancingMen.tsv	170	hasPredicate	である	equalTo		
+DancingMen.tsv	171	hasPredicate	である	equalTo		
+DancingMen.tsv	172	hasPredicate	意味する	equalTo		
+DancingMen.tsv	173	hasPredicate	指す	equalTo		
+DancingMen.tsv	173c	hasPredicate	である	equalTo		
+DancingMen.tsv	179	hasPredicate	である	equalTo		
+DancingMen.tsv	203	hasPredicate	だった	equalTo		
+DancingMen.tsv	229	hasPredicate	である	equalTo		
+CrookedMan.tsv	9	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	11	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	15	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	16	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	28	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	65	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	126	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	137	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	138	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	266	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	347	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	349	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	351	hasPredicate	equalTo	equalTo		
+CrookedMan.tsv	369	hasPredicate	equalTo	equalTo		
+SpeckledBand.tsv	9	hasPredicate	equalTo	equalTo		
+SpeckledBand.tsv	13	hasPredicate	equalTo	equalTo		
+SpeckledBand.tsv	25	hasPredicate	仲がよい	equalTo		本文チェック
+SpeckledBand.tsv	339	hasPredicate	equalTo	equalTo		
+SpeckledBand.tsv	363	hasPredicate	equalTo	equalTo		である
+SpeckledBand.tsv	401	hasPredicate		equalTo		本文チェック
+DancingMen.tsv	195	hasPredicate	逃げる	escape		
+ACaseOfIdentity.tsv	557	hasPredicate	逃げる	escape		
+SpeckledBand.tsv	24	hasPredicate	逃げる	escape		
+DancingMen.tsv	67	hasPredicate	調べた	examine		
+ACaseOfIdentity.tsv	267	hasPredicate	調べる	Examine	examine	
+CrookedMan.tsv	5	hasPredicate	調べている	examine		
+DancingMen.tsv	92	hasPredicate	落ちていた	exist		
+DancingMen.tsv	102	hasPredicate	ともっていた	exist		
+DancingMen.tsv	118	hasPredicate	ある	exist		
+DancingMen.tsv	119	hasPredicate	置かれている	exist		
+DancingMen.tsv	124	hasPredicate	あった	exist		
+DancingMen.tsv	131	hasPredicate	いた	exist		
+DancingMen.tsv	135	hasPredicate	あった	exist		
+DancingMen.tsv	136	hasPredicate	入っていた	exist		
+DancingMen.tsv	140	hasPredicate	ある	exist		
+DancingMen.tsv	143	hasPredicate	いる	exist		
+ACaseOfIdentity.tsv	16	hasPredicate	ある	exist		
+ACaseOfIdentity.tsv	89	hasPredicate	いる	Exist	exist	
+CrookedMan.tsv	59	hasPredicate	いる	exist		
+CrookedMan.tsv	69	hasPredicate	いた	exist		
+CrookedMan.tsv	75	hasPredicate	いた	exist		
+CrookedMan.tsv	162	hasPredicate	いた	exist		
+CrookedMan.tsv	263	hasPredicate	いた	exist		
+CrookedMan.tsv	372	hasPredicate	わかる	exist		
+CrookedMan.tsv	373	hasPredicate	ある	exist		
+SpeckledBand.tsv	20	hasPredicate	存在する	exist		
+SpeckledBand.tsv	43	hasPredicate	存在する	exist		
+SpeckledBand.tsv	44	hasPredicate	存在する	exist		
+SpeckledBand.tsv	45	hasPredicate	存在する	exist		
+SpeckledBand.tsv	48	hasPredicate	存在する	exist		
+SpeckledBand.tsv	49	hasPredicate	存在する	exist		
+SpeckledBand.tsv	50	hasPredicate	存在する	exist		
+SpeckledBand.tsv	66	hasPredicate	吹く	exist		
+SpeckledBand.tsv	102	hasPredicate	通してある	exist		通す
+SpeckledBand.tsv	103	hasPredicate	ひとりだった	exist		存在する
+SpeckledBand.tsv	107	hasPredicate	いた	exist		存在する
+SpeckledBand.tsv	126	hasPredicate	ある	exist		存在する
+SpeckledBand.tsv	166	hasPredicate	組んである	exist		組まれる
+SpeckledBand.tsv	172	hasPredicate	端	exist		端
+SpeckledBand.tsv	173	hasPredicate	ある	exist		ある
+SpeckledBand.tsv	174	hasPredicate	母屋に一番近い	exist		母屋に近い
+SpeckledBand.tsv	175	hasPredicate	寝ている	exist		寝る
+SpeckledBand.tsv	179	hasPredicate	ある	exist		存在する
+SpeckledBand.tsv	183	hasPredicate	ある	exist		存在する
+SpeckledBand.tsv	184	hasPredicate	ある	exist		存在する
+SpeckledBand.tsv	185	hasPredicate	ある	exist		存在する
+SpeckledBand.tsv	192	hasPredicate	埋め込んである	exist		埋め込む
+SpeckledBand.tsv	247	hasPredicate	いる	exist		
+SpeckledBand.tsv	248	hasPredicate	いる	exist		
+SpeckledBand.tsv	254	hasPredicate	あった	exist		
+SpeckledBand.tsv	269	hasPredicate	いる	exist		
+SpeckledBand.tsv	276	hasPredicate	あるはず	exist		
+SpeckledBand.tsv	287	hasPredicate	同じ位置関係だった	exist		
+SpeckledBand.tsv	306	hasPredicate	放たれた	exist		
+SpeckledBand.tsv	313	hasPredicate	動く気配がする	exist		動く
+SpeckledBand.tsv	343	hasPredicate	あった	exist		ある
+SpeckledBand.tsv	345	hasPredicate	あった	exist		ある
+SpeckledBand.tsv	350	hasPredicate	あった	exist		ある
+SpeckledBand.tsv	368	hasPredicate	存在する	exist		いる
+SpeckledBand.tsv	390	hasPredicate	存在する	exist		
+SpeckledBand.tsv	71	hasPredicate	出る	exit		
+SpeckledBand.tsv	209	hasPredicate	垂れ下がっている	exit		垂れ下がる
+SpeckledBand.tsv	210	hasPredicate	のっている	exit		のる
+SpeckledBand.tsv	212	hasPredicate	つけた	exit		つく
+SpeckledBand.tsv	281	hasPredicate	つるされた	exit		置かれた
+SpeckledBand.tsv	372	hasPredicate	垂れている	exit		
+SpeckledBand.tsv	274	hasPredicate	予想していた	expect		
+CrookedMan.tsv	61	hasPredicate	面している	face		
+SpeckledBand.tsv	180	hasPredicate	面している	face		面する
+SpeckledBand.tsv	181	hasPredicate	面している	face		面する
+SpeckledBand.tsv	182	hasPredicate	面している	face		面する
+CrookedMan.tsv	94	hasProperty	気を失っていた	faint		Property？
+CrookedMan.tsv	100	hasProperty	気を失っていた	faint		Property？
+CrookedMan.tsv	155	hasProperty	卒倒した	faint		Property？
+CrookedMan.tsv	324	hasProperty	気絶した	faint		Property？
+DancingMen.tsv	7	hasPredicate	卒倒した	fall		Property？
+DancingMen.tsv	36	hasPredicate	卒倒した	fall		Property？
+DancingMen.tsv	103	hasPredicate	倒れていた	fall		Property？
+DancingMen.tsv	121	hasPredicate	倒れていた	fall		Property？
+DancingMen.tsv	226	hasPredicate	倒れた	fall		
+CrookedMan.tsv	185	hasPredicate	倒れ	fall		
+SpeckledBand.tsv	75	hasPredicate	倒れる	fallDown	fall	
+DancingMen.tsv	116	hasPredicate	嗅いだ	feel		
+ACaseOfIdentity.tsv	180	hasPredicate	感じる	feel		
+ACaseOfIdentity.tsv	181	hasPredicate	感じる	feel		
+ACaseOfIdentity.tsv	288	hasPredicate	感じる	feel		
+CrookedMan.tsv	33	hasPredicate	気が滅入る	feel down	feelDown	feelの下位概念
+ACaseOfIdentity.tsv	516	hasPredicate	安心する	feel relieved	feelRelieved	feelの下位概念
+ACaseOfIdentity.tsv	17	hasPredicate	そわそわする	FeelRestless	feelRestless	feelの下位概念
+SpeckledBand.tsv	21	hasPredicate	喧嘩する	fight		
+DancingMen.tsv	95	hasPredicate	第一発見者である	find		
+DancingMen.tsv	142	hasPredicate	拾った	find		
+DancingMen.tsv	204	hasPredicate	気付いた	find		
+ACaseOfIdentity.tsv	429	hasPredicate	見つける	find		
+ACaseOfIdentity.tsv	433	hasPredicate	見つける	find		
+CrookedMan.tsv	130	hasPredicate	見つけた	find		
+CrookedMan.tsv	212	hasPredicate	見つけた	find		
+SpeckledBand.tsv	253	hasPredicate	見つけた	find		
+SpeckledBand.tsv	267	hasPredicate	突き止める	find		
+SpeckledBand.tsv	278	hasPredicate	気づいていたはず	find		
+SpeckledBand.tsv	294	hasPredicate	気づく	find		
+SpeckledBand.tsv	323	hasPredicate	付ける	fire		点火する
+CrookedMan.tsv	233	hasPredicate	逃げた	flee	escape	
+CrookedMan.tsv	293	hasPredicate	逃げた	flee	escape	
+CrookedMan.tsv	332	hasPredicate	逃げた	flee	escape	
+ACaseOfIdentity.tsv	327	hasPredicate	注目する	Focus on it	focus	
+ACaseOfIdentity.tsv	85	hasPredicate	集中している	focusing	focus	
+DancingMen.tsv	26	hasPredicate	従った	follow		
+DancingMen.tsv	198	hasPredicate	つきまとった	follow		
+CrookedMan.tsv	3	hasPredicate	ついていく	follow		
+CrookedMan.tsv	228	hasPredicate	付いていった	follow		
+CrookedMan.tsv	312	hasPredicate	付いていった	follow		
+DancingMen.tsv	200	hasPredicate	追いやった	force		
+ACaseOfIdentity.tsv	269	hasPredicate	忘れる	forget		
+ACaseOfIdentity.tsv	284	hasPredicate	忘れる	forget		
+ACaseOfIdentity.tsv	193	hasProperty	紳士らしい	Gentlemanly	gentlemanly	Property
+ACaseOfIdentity.tsv	93	hasPredicate	貰える	get		
+ACaseOfIdentity.tsv	96	hasPredicate	もらえる	Get	get	
+ACaseOfIdentity.tsv	256	hasPredicate	怒る	Get angry	getAngry	
+ACaseOfIdentity.tsv	556	hasPredicate	近寄る	Get close	getClose	
+ACaseOfIdentity.tsv	167	hasPredicate	婚約する	Get engaged	getEngaged	結婚するは統一する
+ACaseOfIdentity.tsv	518	hasPredicate	婚約する	Get engaged	getEngaged	結婚するは統一する
+ACaseOfIdentity.tsv	211	hasPredicate	結婚する	Get married	getMarried	結婚するは統一する
+ACaseOfIdentity.tsv	475	hasPredicate	結婚する	Get married	getMarried	結婚するは統一する
+ACaseOfIdentity.tsv	486	hasPredicate	結婚する	Get married	getMarried	結婚するは統一する
+ACaseOfIdentity.tsv	72	hasPredicate	再婚する	Get married again	getMarriedAgain	結婚するは統一する
+ACaseOfIdentity.tsv	229	hasPredicate	乗る	get on	getOn	
+ACaseOfIdentity.tsv	289	hasPredicate	出て行く	get out	getOut	
+ACaseOfIdentity.tsv	294	hasPredicate	起きる	Get up	getUp	
+ACaseOfIdentity.tsv	295	hasPredicate	起きる	Get up	getUp	
+DancingMen.tsv	219	hasPredicate	怒った	getAngry		
+SpeckledBand.tsv	22	hasPredicate	怒る	getAngry		
+DancingMen.tsv	106	hasPredicate	怪我を負っていた	getHurt		
+DancingMen.tsv	9	hasPredicate	結婚した	getMarried		
+SpeckledBand.tsv	5	hasPredicate	結婚する	getMarried		結婚するは統一する
+SpeckledBand.tsv	10	hasPredicate	結婚した	getMarried		結婚するは統一する
+SpeckledBand.tsv	19	hasPredicate	結婚する	getMarried		結婚するは統一する
+SpeckledBand.tsv	112	hasPredicate	挙げる	getMarried		挙げる　結婚する？
+SpeckledBand.tsv	148	hasPredicate	嫁ぐと	getMarried		嫁ぐ
+DancingMen.tsv	218	hasPredicate	渡す	give		
+CrookedMan.tsv	226	hasPredicate	渡した	give		
+SpeckledBand.tsv	15	hasPredicate	与える	give		
+SpeckledBand.tsv	84	hasPredicate	与える	give		
+SpeckledBand.tsv	110	hasPredicate	申し込んだ	give		申し込む
+SpeckledBand.tsv	387	hasPredicate	与える	give		
+DancingMen.tsv	115	hasPredicate	出た	go	getOut	
+DancingMen.tsv	205	hasPredicate	逃げた	go	escape	
+DancingMen.tsv	215	hasPredicate	出る	go	getOut	
+ACaseOfIdentity.tsv	116	hasPredicate	行く	go		
+ACaseOfIdentity.tsv	118	hasPredicate	行く	go		
+ACaseOfIdentity.tsv	121	hasPredicate	行く	go		
+ACaseOfIdentity.tsv	132	hasPredicate	行く	go		
+ACaseOfIdentity.tsv	133	hasPredicate	行く	go		
+ACaseOfIdentity.tsv	159	hasPredicate	行く	go		
+ACaseOfIdentity.tsv	391	hasPredicate	行く	go		
+ACaseOfIdentity.tsv	560	hasPredicate	行く	go		
+CrookedMan.tsv	4	hasPredicate	行く	go		
+CrookedMan.tsv	52	hasPredicate	行く	go		
+CrookedMan.tsv	55	hasPredicate	行った	go		
+CrookedMan.tsv	90	hasPredicate	行った	go		
+CrookedMan.tsv	175	hasPredicate	行った	go		
+CrookedMan.tsv	239	hasPredicate	ついた	go		
+CrookedMan.tsv	280	hasPredicate	出た	go		
+CrookedMan.tsv	294	hasPredicate	行った	go		
+CrookedMan.tsv	296	hasPredicate	行った	go		
+CrookedMan.tsv	304	hasPredicate	行った	go		
+SpeckledBand.tsv	34	hasPredicate	行く	go		
+SpeckledBand.tsv	52	hasPredicate	行く	go		
+SpeckledBand.tsv	57	hasPredicate	行く	go		
+SpeckledBand.tsv	123	hasPredicate	抜け出した	go		抜け出す
+SpeckledBand.tsv	127	hasPredicate	駆けつけた	go		駆けつける
+SpeckledBand.tsv	132	hasPredicate	出向く	go		出向く
+SpeckledBand.tsv	133	hasPredicate	出る	go		出る
+SpeckledBand.tsv	136	hasPredicate	退室した	go		退室する
+SpeckledBand.tsv	141	hasPredicate	出ていった	go		出た
+SpeckledBand.tsv	151	hasPredicate	引き返した	go		引き返す
+SpeckledBand.tsv	153	hasPredicate	出た	go		出る
+SpeckledBand.tsv	178	hasPredicate	移動した	go		移動した
+SpeckledBand.tsv	186	hasPredicate	入った	go		入る
+SpeckledBand.tsv	211	hasPredicate	通じている	go		通じる
+SpeckledBand.tsv	221	hasPredicate	ある	go		
+SpeckledBand.tsv	262	hasPredicate	行く	go		
+SpeckledBand.tsv	263	hasPredicate	引く	go		行く
+SpeckledBand.tsv	265	hasPredicate	行く	go		
+SpeckledBand.tsv	290	hasPredicate	行った	go		
+SpeckledBand.tsv	341	hasPredicate	行く	go		
+SpeckledBand.tsv	360	hasPredicate	近づいた	go		
+SpeckledBand.tsv	398	hasPredicate	行く	go		
+ACaseOfIdentity.tsv	120	hasPredicate	狂う	Go crazy	goCrazy	
+ACaseOfIdentity.tsv	119	hasPredicate	外出する	go out	goOut	
+ACaseOfIdentity.tsv	137	hasPredicate	出る	Go out	goOut	
+ACaseOfIdentity.tsv	538	hasPredicate	出る	Go out	goOut	
+SpeckledBand.tsv	385	hasPredicate	降りる	goDown		
+ACaseOfIdentity.tsv	199	hasProperty	よい	Good	good	Property
+ACaseOfIdentity.tsv	357	hasProperty	よい	Good	good	Property
+ACaseOfIdentity.tsv	401	hasProperty	いい	Good	good	Property
+ACaseOfIdentity.tsv	483	hasProperty	良い	good		
+SpeckledBand.tsv	388	hasPredicate	上がる	goUp		
+ACaseOfIdentity.tsv	452	hasPredicate	つかむ	Grab	grab	
+ACaseOfIdentity.tsv	410	hasPredicate	挨拶する	Greet	greet	
+ACaseOfIdentity.tsv	62	hasPredicate	渡す	hand over	handOver	
+ACaseOfIdentity.tsv	106	hasPredicate	渡す	hand over	handOver	
+ACaseOfIdentity.tsv	275	hasPredicate	渡す	hand over	handOver	
+ACaseOfIdentity.tsv	276	hasPredicate	渡す	hand over	handOver	
+ACaseOfIdentity.tsv	315	hasPredicate	ぶら下げている	Hanging	hanging	
+CrookedMan.tsv	8	hasPredicate	起こった	happen		
+CrookedMan.tsv	48	hasPredicate	起こった	happen		
+ACaseOfIdentity.tsv	139	hasProperty	嬉しい	happy		
+ACaseOfIdentity.tsv	40	hasProperty	つらい	Hard	hard	Property
+ACaseOfIdentity.tsv	42	hasProperty	つらい	Hard	hard	Property
+ACaseOfIdentity.tsv	354	hasPredicate	書かれている	has been written	beWritten	
+ACaseOfIdentity.tsv	372	hasPredicate	書かれている	has been written	beWritten	
+CrookedMan.tsv	161	hasPredicate	嫌いになった	hate		
+DancingMen.tsv	17	hasPredicate	持つ	have		
+DancingMen.tsv	21	hasPredicate	持っていた	have		
+DancingMen.tsv	108	hasPredicate	持つ	have		
+DancingMen.tsv	141	hasPredicate	ついていた	have		
+DancingMen.tsv	153	hasPredicate	含む	have		
+DancingMen.tsv	156	hasPredicate	持つ	have		
+DancingMen.tsv	160	hasPredicate	持つ	have		
+DancingMen.tsv	161	hasPredicate	持つ	have		
+DancingMen.tsv	167a	hasPredicate	持つ	have		
+DancingMen.tsv	169a	hasPredicate	持つ	have		
+DancingMen.tsv	173b	hasPredicate	持つ	have		
+DancingMen.tsv	194	hasPredicate	持つ	have		
+ACaseOfIdentity.tsv	97	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	98	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	197	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	201	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	262	hasPredicate	持っている	have		
+ACaseOfIdentity.tsv	337	hasPredicate	持っている	have		
+ACaseOfIdentity.tsv	351	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	352	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	361	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	362	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	374	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	439	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	441	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	450	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	469	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	482	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	484	hasPredicate	持っている	have		
+ACaseOfIdentity.tsv	552	hasPredicate	持つ	Have	have	
+ACaseOfIdentity.tsv	561	hasPredicate	持っている	have		
+CrookedMan.tsv	47	hasPredicate	持たない	have		
+CrookedMan.tsv	60	hasPredicate	持つ	have		
+CrookedMan.tsv	62	hasPredicate	もっている	have		
+CrookedMan.tsv	67	hasPredicate	持つ	have		
+CrookedMan.tsv	103	hasPredicate	持っていた	have		
+CrookedMan.tsv	134	hasPredicate	もっていた	have		
+CrookedMan.tsv	135	hasPredicate	もっていた	have		
+CrookedMan.tsv	136	hasPredicate	もっている	have		
+CrookedMan.tsv	139	hasPredicate	もっている	have		
+CrookedMan.tsv	140	hasPredicate	もっている	have		
+CrookedMan.tsv	169	hasPredicate	持つ	have		
+CrookedMan.tsv	180	hasPredicate	持っている	have		
+CrookedMan.tsv	195	hasPredicate	持つ	have		
+CrookedMan.tsv	245	hasPredicate	多かった	have		
+CrookedMan.tsv	260	hasPredicate	持っていた	have		
+CrookedMan.tsv	343	hasPredicate	持っている	have		
+SpeckledBand.tsv	12	hasPredicate	持つ	have		
+SpeckledBand.tsv	63	hasPredicate	吹く	have		
+SpeckledBand.tsv	87	hasPredicate	着ていた	have		着る
+SpeckledBand.tsv	88	hasPredicate	持っていた	have		持つ
+SpeckledBand.tsv	89	hasPredicate	持っていた	have		持つ
+SpeckledBand.tsv	95	hasPredicate	付いている	have		付く
+SpeckledBand.tsv	108	hasPredicate	巻いている	have		巻く
+SpeckledBand.tsv	124	hasPredicate	頼んだ	have		頼む
+SpeckledBand.tsv	129	hasPredicate	残されていた	have		残される
+SpeckledBand.tsv	146	hasPredicate	受け取れる	have		受け取る
+SpeckledBand.tsv	149	hasPredicate	動機がある	have		持つ
+SpeckledBand.tsv	159	hasPredicate	ある	have		存在する
+SpeckledBand.tsv	177	hasPredicate	作った	have		作る
+SpeckledBand.tsv	193	hasPredicate	かかっている	have		かかる
+SpeckledBand.tsv	197	hasPredicate	低い	have		低い
+SpeckledBand.tsv	198	hasPredicate	ある	have		存在する
+SpeckledBand.tsv	199	hasPredicate	ある	have		存在する
+SpeckledBand.tsv	200	hasPredicate	ある	have		存在する
+SpeckledBand.tsv	201	hasPredicate	かかっている	have		かかる
+SpeckledBand.tsv	202	hasPredicate	ある	have		存在する
+SpeckledBand.tsv	203	hasPredicate	ある	have		存在する
+SpeckledBand.tsv	204	hasPredicate	敷かれていた	have		存在する
+SpeckledBand.tsv	220	hasPredicate	ある	have		
+SpeckledBand.tsv	227	hasPredicate	ある	have		
+SpeckledBand.tsv	235	hasPredicate	あった	have		
+SpeckledBand.tsv	236	hasPredicate	あった	have		
+SpeckledBand.tsv	237	hasPredicate	あった	have		
+SpeckledBand.tsv	238	hasPredicate	あった	have		
+SpeckledBand.tsv	239	hasPredicate	あった	have		
+SpeckledBand.tsv	240	hasPredicate	あった	have		
+SpeckledBand.tsv	243	hasPredicate	ある	have		
+SpeckledBand.tsv	255	hasPredicate	結んであった	have		
+SpeckledBand.tsv	257	hasPredicate	計画を立てた	have		
+SpeckledBand.tsv	340	hasPredicate	持つ	have		
+SpeckledBand.tsv	348	hasPredicate	着ていた	have		着る
+SpeckledBand.tsv	349	hasPredicate	つけていた	have		履く
+SpeckledBand.tsv	393	hasPredicate	出す	have		
+DancingMen.tsv	97	hasPredicate	聞こえた	hear		
+CrookedMan.tsv	51	hasPredicate	聞いた	hear		
+CrookedMan.tsv	80	hasPredicate	聞いた	hear		
+CrookedMan.tsv	85	hasPredicate	聞いた	hear		
+CrookedMan.tsv	112	hasPredicate	聞いた	hear		
+CrookedMan.tsv	170	hasPredicate	聞いた	hear		
+CrookedMan.tsv	234	hasPredicate	聞く	hear		
+CrookedMan.tsv	283	hasPredicate	聞いた	hear		
+SpeckledBand.tsv	58	hasPredicate	聞く	hear		
+SpeckledBand.tsv	62	hasPredicate	聞く	hear		
+SpeckledBand.tsv	67	hasPredicate	聞く	hear		
+SpeckledBand.tsv	68	hasPredicate	聞く	hear		
+SpeckledBand.tsv	69	hasPredicate	聞く	hear		
+SpeckledBand.tsv	118	hasPredicate	聞いた	hear		聞く
+SpeckledBand.tsv	305	hasPredicate	聞こえた	hear		
+SpeckledBand.tsv	307	hasPredicate	聞こえる	hear		
+SpeckledBand.tsv	317	hasPredicate	聞く	hear		
+SpeckledBand.tsv	327	hasPredicate	聞いた	hear		
+SpeckledBand.tsv	333	hasPredicate	聞く	hear		
+SpeckledBand.tsv	394	hasPredicate	聞く	hear		
+SpeckledBand.tsv	395	hasPredicate	聞く	hear		
+CrookedMan.tsv	356	hasPredicate	助ける	help		
+CrookedMan.tsv	156	hasPredicate	打ったかもしれない	hit		
+SpeckledBand.tsv	242	hasPredicate	叩いた	hit		
+SpeckledBand.tsv	324	hasPredicate	叩く	hit		
+SpeckledBand.tsv	396	hasPredicate	叩く	hit		
+ACaseOfIdentity.tsv	112	hasPredicate	つまむ	Hold	hold	
+ACaseOfIdentity.tsv	205	hasPredicate	持たせる	Hold	hold	
+CrookedMan.tsv	299	hasPredicate	願った	hope		
+CrookedMan.tsv	352	hasPredicate	捕まえる	hunt		
+CrookedMan.tsv	353	hasPredicate	捕まえている	hunt		
+ACaseOfIdentity.tsv	208	hasPredicate	賛成だ	I agree	agree	I は省く
+ACaseOfIdentity.tsv	318	hasProperty	おっとりしている	I am relaxed	relaxed	I は省く
+ACaseOfIdentity.tsv	287	hasPredicate	信じている	I believe	believe	I は省く
+ACaseOfIdentity.tsv	520	hasPredicate	騙せない	I can not lose weight	cannotLoseWeight	I は省く
+ACaseOfIdentity.tsv	235	hasPredicate	分からない	I do not understand	notUnderstand	I は省く
+ACaseOfIdentity.tsv	179	hasPredicate	受け取りたくない	I do not want to receive	notWantToReceive	I は省く　wantどうする？
+ACaseOfIdentity.tsv	314	hasPredicate	見ていない	I have not seen	notSee	I は省く
+ACaseOfIdentity.tsv	183	hasPredicate	愛している	I love you	love	I は省く
+ACaseOfIdentity.tsv	209	hasPredicate	愛している	I love you	love	I は省く
+ACaseOfIdentity.tsv	425	hasPredicate	避けたい	I want to avoid	wantToAvoid	I は省く
+ACaseOfIdentity.tsv	216	hasPredicate	報告したい	I want to report	wantToReport	I は省く
+ACaseOfIdentity.tsv	29	hasProperty	暮れている	I'm dead	dead	I は省く
+ACaseOfIdentity.tsv	136	hasProperty	不満だ	I'm dissatisfied	dissatisfied	I は省く
+ACaseOfIdentity.tsv	126	hasPredicate	参加している	I'm joining	joining	I は省く
+ACaseOfIdentity.tsv	528	hasPredicate	ほのめかす	imply		
+ACaseOfIdentity.tsv	323	hasPredicate	上達する	improve		
+DancingMen.tsv	165	hasPredicate	含む	include		
+DancingMen.tsv	168	hasPredicate	含む	include		
+SpeckledBand.tsv	11	hasPredicate	含む	include		
+SpeckledBand.tsv	29	hasPredicate	含む	include		
+SpeckledBand.tsv	30	hasPredicate	含む	include		
+SpeckledBand.tsv	35	hasPredicate	含む	include		
+ACaseOfIdentity.tsv	514	hasPredicate	増す	Increase	increase	
+ACaseOfIdentity.tsv	456	hasPredicate	知らせる	Inform	inform	
+ACaseOfIdentity.tsv	494	hasPredicate	主張する	Insist	insist	
+ACaseOfIdentity.tsv	95	hasProperty	興味深い	Interesting	interesting	Property?
+ACaseOfIdentity.tsv	292	hasProperty	興味深い	Interesting	interesting	Property?
+SpeckledBand.tsv	85	hasPredicate	診る	investigate		
+SpeckledBand.tsv	90	hasPredicate	取り調べをした	investigate		取り調べる
+SpeckledBand.tsv	97	hasPredicate	調べた	investigate		調べる
+SpeckledBand.tsv	99	hasPredicate	調べた	investigate		調べる
+SpeckledBand.tsv	142	hasPredicate	見てきた	investigate		見る
+SpeckledBand.tsv	171	hasPredicate	調べた	investigate		調べる
+SpeckledBand.tsv	189	hasPredicate	調べた	investigate		調べる
+SpeckledBand.tsv	208	hasPredicate	見回した	investigate		見回す
+SpeckledBand.tsv	213	hasPredicate	確認した	investigate		確認する
+SpeckledBand.tsv	232	hasPredicate	調べた	investigate		
+SpeckledBand.tsv	241	hasPredicate	調べてた	investigate		調べる
+SpeckledBand.tsv	251	hasPredicate	考えた	investigate		
+SpeckledBand.tsv	252	hasPredicate	調べた	investigate		
+SpeckledBand.tsv	256	hasPredicate	疑った	investigate		
+CrookedMan.tsv	49	hasPredicate	関わっていた	involve		
+ACaseOfIdentity.tsv	446	hasProperty	関係している	Involved	involved	
+ACaseOfIdentity.tsv	84	hasProperty	いらだっている	Irritated	irritated	
+ACaseOfIdentity.tsv	33-1	hasPredicate	告げる	Is	tell	
+ACaseOfIdentity.tsv	172	hasPredicate	ある	is there	exist	
+ACaseOfIdentity.tsv	360	hasPredicate	ある	is there	exist	
+ACaseOfIdentity.tsv	369	hasPredicate	ある	is there	exist	
+ACaseOfIdentity.tsv	217	hasPredicate	働いている	is working	working	
+ACaseOfIdentity.tsv	367	hasPredicate	働いている	is working	working	
+ACaseOfIdentity.tsv	447	hasPredicate	書かれている	is written	beWritten	
+ACaseOfIdentity.tsv	31	hasPredicate	叩かれる	IsBeaten	beBeaten	
+ACaseOfIdentity.tsv	55	hasPredicate	断定している	IsConvinced	beConvinced	
+ACaseOfIdentity.tsv	8	hasPredicate	向けられている	IsDirected	beDirected	
+ACaseOfIdentity.tsv	18	hasProperty	色恋沙汰である	Romance		
+ACaseOfIdentity.tsv	45	hasPredicate	驚く	isSurprised	beSurprised	
+ACaseOfIdentity.tsv	476	hasPredicate	使える	It can be used	canBeUsed	
+ACaseOfIdentity.tsv	563	hasPredicate	現れない	It does not appear	notAppear	
+ACaseOfIdentity.tsv	63	hasPredicate	飛び出す	Jump out	jumpOut	
+ACaseOfIdentity.tsv	451	hasPredicate	跳び上がる	Jump up	jumpUp	
+ACaseOfIdentity.tsv	12	hasPredicate	飛び出す	JumpOut	jumpOut	
+SpeckledBand.tsv	322	hasPredicate	飛び上がる	jumpUp		
+ACaseOfIdentity.tsv	103	hasPredicate	預けている	keep		
+CrookedMan.tsv	217	hasPredicate	飼っている	keep		
+DancingMen.tsv	199	hasPredicate	殺した	kill		
+CrookedMan.tsv	153	hasPredicate	殺したかもしれない	kill		
+CrookedMan.tsv	322	hasPredicate	殺した	kill		
+CrookedMan.tsv	207	hasPredicate	接吻した	kiss		
+ACaseOfIdentity.tsv	48	hasPredicate	知っている	know		
+ACaseOfIdentity.tsv	171	hasPredicate	知っている	know		
+ACaseOfIdentity.tsv	250	hasPredicate	知っている	know		
+ACaseOfIdentity.tsv	293	hasPredicate	知っている	know		
+ACaseOfIdentity.tsv	566	hasPredicate	知っている	know		
+ACaseOfIdentity.tsv	569	hasPredicate	知っている	know		
+ACaseOfIdentity.tsv	572	hasPredicate	気づいている	know		
+CrookedMan.tsv	163	hasPredicate	知っている	know		
+CrookedMan.tsv	359	hasPredicate	知った	know		
+SpeckledBand.tsv	268	hasPredicate	見当が付いている	know		
+ACaseOfIdentity.tsv	141	hasPredicate	笑う	laugh		
+ACaseOfIdentity.tsv	321	hasPredicate	笑う	laugh		
+ACaseOfIdentity.tsv	540	hasPredicate	冷笑する	Laugh at	laugh	
+ACaseOfIdentity.tsv	303	hasPredicate	導く	Lead	lead	
+CrookedMan.tsv	10	hasPredicate	率いていた	lead		
+DancingMen.tsv	217	hasPredicate	立ち去る	leave		
+ACaseOfIdentity.tsv	74	hasPredicate	残す	leave		
+ACaseOfIdentity.tsv	247	hasPredicate	離れる	Leave	leave	
+CrookedMan.tsv	337	hasPredicate	離れた	leave		
+CrookedMan.tsv	237	hasPredicate	させた	let		
+SpeckledBand.tsv	27	hasPredicate	好む	like		
+ACaseOfIdentity.tsv	14	hasPredicate	聞く	listen		
+ACaseOfIdentity.tsv	53	hasPredicate	聞く	listen		
+ACaseOfIdentity.tsv	110	hasPredicate	聞く	listen		
+SpeckledBand.tsv	316	hasPredicate	耳を澄ませる	listen		
+DancingMen.tsv	13	hasPredicate	住んでいる	live		
+ACaseOfIdentity.tsv	170	hasPredicate	住んでいる	live		
+ACaseOfIdentity.tsv	478	hasPredicate	住んでいる	live		
+CrookedMan.tsv	45	hasPredicate	住んでいる	live		
+CrookedMan.tsv	54	hasPredicate	住んでいる	live		
+CrookedMan.tsv	213	hasPredicate	住んでいる	live		
+CrookedMan.tsv	297	hasPredicate	暮らした	live		
+SpeckledBand.tsv	8	hasPredicate	住む	live		
+SpeckledBand.tsv	17	hasPredicate	住む	live		
+SpeckledBand.tsv	26	hasPredicate	住む	live		
+SpeckledBand.tsv	33	hasPredicate	住む	live		
+SpeckledBand.tsv	40	hasPredicate	住む	live		
+SpeckledBand.tsv	41	hasPredicate	住む	live		
+SpeckledBand.tsv	42	hasPredicate	住む	live		
+SpeckledBand.tsv	111	hasPredicate	住んでいる	live		住む
+ACaseOfIdentity.tsv	54	hasPredicate	見つける	locate		
+ACaseOfIdentity.tsv	60	hasPredicate	見つける	locate		
+ACaseOfIdentity.tsv	459	hasPredicate	ロックする	Lock	lock	
+SpeckledBand.tsv	64	hasPredicate	ロックする	lock		
+SpeckledBand.tsv	187	hasPredicate	閉めた	lock		閉める
+SpeckledBand.tsv	188	hasPredicate	鍵をかける	lock		鍵をかける
+SpeckledBand.tsv	392	hasPredicate	ロックする	lock		
+ACaseOfIdentity.tsv	38	hasPredicate	ながめ回す	Look around	lookAround	
+ACaseOfIdentity.tsv	464	hasPredicate	見まわす	Look around	lookAround	
+ACaseOfIdentity.tsv	233	hasPredicate	覗く	look in	lookIn	
+CrookedMan.tsv	181	hasPredicate	うつむいていた	lookDown		
+ACaseOfIdentity.tsv	488	hasPredicate	失う	lose		
+SpeckledBand.tsv	83	hasPredicate	失う	lose		
+SpeckledBand.tsv	147	hasPredicate	うま味が少しだけになる	lose		損をする
+ACaseOfIdentity.tsv	507	hasPredicate	愛する	love		
+ACaseOfIdentity.tsv	511	hasPredicate	愛する	love		
+CrookedMan.tsv	24	hasPredicate	愛していた	love		
+CrookedMan.tsv	267	hasPredicate	愛していた	love		
+CrookedMan.tsv	268	hasPredicate	愛していた	love		
+ACaseOfIdentity.tsv	564	hasPredicate	思わせる	Make me think	makeThink	
+CrookedMan.tsv	14	hasPredicate	結婚した	marry	getMarried	
+ACaseOfIdentity.tsv	575	hasPredicate	一致する	Match	match	
+ACaseOfIdentity.tsv	114	hasPredicate	出会う	meet		
+ACaseOfIdentity.tsv	134	hasPredicate	会う	meet		
+ACaseOfIdentity.tsv	145	hasPredicate	出会う	meet		
+ACaseOfIdentity.tsv	147	hasPredicate	会う	meet		
+ACaseOfIdentity.tsv	474	hasPredicate	会う	meet		
+ACaseOfIdentity.tsv	515	hasPredicate	会う	meet		
+CrookedMan.tsv	77	hasPredicate	会った	meet		
+CrookedMan.tsv	178	hasPredicate	会った	meet		
+CrookedMan.tsv	238	hasPredicate	会う	meet		
+CrookedMan.tsv	240	hasPredicate	会った	meet		
+SpeckledBand.tsv	36	hasPredicate	会う	meet		
+SpeckledBand.tsv	81	hasPredicate	会う	meet		
+SpeckledBand.tsv	152	hasPredicate	会った	meet		会う
+ACaseOfIdentity.tsv	148	hasPredicate	会っている	meeting		
+ACaseOfIdentity.tsv	11	hasPredicate	いじっている	Mess	mess	
+ACaseOfIdentity.tsv	438	hasPredicate	欠けている	Missing	missing	
+ACaseOfIdentity.tsv	449	hasPredicate	欠けている	Missing	missing	
+DancingMen.tsv	57	hasPredicate	動いた	move		
+ACaseOfIdentity.tsv	10	hasPredicate	動く	Move	move	
+ACaseOfIdentity.tsv	422	hasPredicate	動く	Move	move	
+DancingMen.tsv	181	hasPredicate	必要である	need		
+ACaseOfIdentity.tsv	117	hasPredicate	承知しない	not accept	notAccept	
+ACaseOfIdentity.tsv	27	hasProperty	怒っていない	Not angry	notAngry	
+ACaseOfIdentity.tsv	578	hasPredicate	信じない	not believe	notBelieve	
+ACaseOfIdentity.tsv	543	hasPredicate	破っていない	Not broken	notBrake	
+ACaseOfIdentity.tsv	492	hasPredicate	続かない	not continue	notContinue	
+ACaseOfIdentity.tsv	427	hasPredicate	見つけられない	Not found	notFound	
+ACaseOfIdentity.tsv	125	hasPredicate	持たない	Not Have	notHave	
+ACaseOfIdentity.tsv	129	hasPredicate	持たない	not have	notHave	
+ACaseOfIdentity.tsv	396	hasPredicate	持たない	not have	notHave	
+ACaseOfIdentity.tsv	404	hasPredicate	持たない	not have	notHave	
+ACaseOfIdentity.tsv	382	hasPredicate	はない	not important	notImportant	
+ACaseOfIdentity.tsv	230	hasPredicate	いない	Not in	notExist	
+ACaseOfIdentity.tsv	232	hasPredicate	いない	Not in	notExist	
+ACaseOfIdentity.tsv	234	hasPredicate	いない	Not in	notExist	
+ACaseOfIdentity.tsv	393	hasPredicate	間に合わない	Not in time	notBeInTime	
+ACaseOfIdentity.tsv	490	hasPredicate	出さない	Not issued	notIssue	
+SpeckledBand.tsv	70	hasPredicate	notロックする	not Lock	notLock	
+ACaseOfIdentity.tsv	525	hasPredicate	愛さない	not love	notLove	
+ACaseOfIdentity.tsv	220	hasPredicate	届かない	Not reach	notReach	
+ACaseOfIdentity.tsv	102	hasPredicate	頼らない	not rely on	notRelyOn	
+ACaseOfIdentity.tsv	508	hasPredicate	思わない	not think	notThink	
+CrookedMan.tsv	331	hasPredicate	明かしたくなかった	not want to reveal	notWantToReveal	
+SpeckledBand.tsv	140	hasPredicate	はぐらかした	notAnswer		はぐらかす
+CrookedMan.tsv	23	hasPredicate	言い争わなかった	notArgue		
+CrookedMan.tsv	70	hasPredicate	使われない	notBeUsed		
+CrookedMan.tsv	328	hasPredicate	呼ばなかった	notCall		
+SpeckledBand.tsv	154	hasPredicate	帰ってこない	notCome		not帰る
+SpeckledBand.tsv	370	hasPredicate	not入る	notCome		
+CrookedMan.tsv	118	hasPredicate	矛盾しない	notContradict		
+DancingMen.tsv	62b	hasPredicate	異なる	notEqualTo		
+DancingMen.tsv	129	hasPredicate	ない	notExist		
+CrookedMan.tsv	96	hasPredicate	なかった	notExist		
+SpeckledBand.tsv	31	hasPredicate	not存在する	notExist		
+SpeckledBand.tsv	46	hasPredicate	not存在する	notExist		
+SpeckledBand.tsv	47	hasPredicate	not存在する	notExist		
+SpeckledBand.tsv	134	hasPredicate	留守にしている	notExist		留守にする
+SpeckledBand.tsv	168	hasPredicate	いない	notExist		not存在する
+SpeckledBand.tsv	246	hasPredicate	いない	notExist		notいる
+SpeckledBand.tsv	105	hasPredicate	見つからなかった	notFind		not存在する
+SpeckledBand.tsv	382	hasPredicate	not気づく	notFind		
+DancingMen.tsv	39	hasPredicate	強要しなかった	notForce		
+SpeckledBand.tsv	222	hasPredicate	外気が入る	notGo		
+SpeckledBand.tsv	231	hasPredicate	風の入らない	notGo		
+SpeckledBand.tsv	273	hasPredicate	通れない	notGo		not通る
+CrookedMan.tsv	46	hasPredicate	もっていない	notHave		
+CrookedMan.tsv	111	hasPredicate	持っていなかった	notHave		
+CrookedMan.tsv	165	hasPredicate	持たない	notHave		
+SpeckledBand.tsv	4	hasPredicate	not持つ	notHave		
+SpeckledBand.tsv	104	hasPredicate	ない	notHave		not存在する
+SpeckledBand.tsv	60	hasPredicate	not聞く	notHear		
+ACaseOfIdentity.tsv	24	hasPredicate	ためらわない	NotHesitate	notHesitate	
+DancingMen.tsv	224	hasPredicate	外れた	notHit		
+ACaseOfIdentity.tsv	44	hasPredicate	気づく	notice		
+ACaseOfIdentity.tsv	348	hasPredicate	気づく	notice		
+ACaseOfIdentity.tsv	568	hasPredicate	気づく	notice		
+DancingMen.tsv	2	hasPredicate	知りたい	notKnow		
+DancingMen.tsv	14	hasPredicate	知らない	notKnow		
+DancingMen.tsv	32	hasPredicate	知らない	notKnow		
+ACaseOfIdentity.tsv	169	hasPredicate	知らない	NotKnow	notKnow	
+CrookedMan.tsv	109	hasPredicate	知らなかった	notKnow		
+CrookedMan.tsv	35	hasPredicate	嫌がる	notLike		
+CrookedMan.tsv	25	hasPredicate	愛していなかった	notLove		
+CrookedMan.tsv	208	hasPredicate	会っていない	notMeet		
+DancingMen.tsv	113	hasPredicate	動かされていなかった	notMoved		
+SpeckledBand.tsv	38	hasPredicate	not反対する	notOppose		
+SpeckledBand.tsv	113	hasPredicate	反対しない	notOppose		not反対する
+CrookedMan.tsv	82	hasPredicate	反応しなかった	notRespond		
+SpeckledBand.tsv	250	hasPredicate	満足しない	notSatisfied		not満足する
+DancingMen.tsv	18	hasPredicate	言わない	notSay		
+DancingMen.tsv	90	hasPredicate	述べない	notSay		
+CrookedMan.tsv	218	hasPredicate	見ていない	notSee		
+SpeckledBand.tsv	326	hasPredicate	見えなかった	notSee		not見る
+SpeckledBand.tsv	328	hasPredicate	わからなかった	notSee		
+DancingMen.tsv	208	hasPredicate	しなかった	notSend		
+SpeckledBand.tsv	65	hasPredicate	not寝る	notSleep		
+SpeckledBand.tsv	295	hasPredicate	眠らない	notSleep		not眠る
+CrookedMan.tsv	71	hasPredicate	日よけしていなかった	notSunshaded		
+ACaseOfIdentity.tsv	258	hasPredicate	話さない	NotTalk	notTalk	
+CrookedMan.tsv	201	hasPredicate	言わない	notTell		
+CrookedMan.tsv	123	hasPredicate	わからない	notUnderstand		
+CrookedMan.tsv	302	hasPredicate	復讐したくない	notWant to revenge	notWantToRevenge	
+ACaseOfIdentity.tsv	67	hasPredicate	訪ねたくない	NotWantToVisit	notWantToVisit	
+SpeckledBand.tsv	215	hasPredicate	ならなかった	notWork		not鳴る
+SpeckledBand.tsv	217	hasPredicate	動かない	notWork		not動く
+ACaseOfIdentity.tsv	108	hasPredicate	得る	obtain		
+ACaseOfIdentity.tsv	496	hasPredicate	得る	obtain		
+ACaseOfIdentity.tsv	562	hasPredicate	得る	obtain		
+SpeckledBand.tsv	6	hasPredicate	得る	obtain		
+ACaseOfIdentity.tsv	529	hasPredicate	起こる	Occur	occur	
+CrookedMan.tsv	277	hasPredicate	申し出た	offer		
+DancingMen.tsv	101	hasPredicate	開いていた	open		
+DancingMen.tsv	126	hasPredicate	開いていた	open		
+DancingMen.tsv	127	hasPredicate	開いていた	open		
+DancingMen.tsv	130	hasPredicate	開いていた	open		
+ACaseOfIdentity.tsv	550	hasPredicate	開ける	Open	open	
+CrookedMan.tsv	91	hasPredicate	開いていた	open		
+SpeckledBand.tsv	223	hasPredicate	最近のもの	open		
+SpeckledBand.tsv	224	hasPredicate	言った	open		言う
+SpeckledBand.tsv	225	hasPredicate		open		できた
+SpeckledBand.tsv	280	hasPredicate	作られた	open		
+SpeckledBand.tsv	344	hasPredicate	開いていた	open		開く
+SpeckledBand.tsv	354	hasPredicate	拓いていた	open		開く
+CrookedMan.tsv	110	hasPredicate	見落としている	overlook		
+ACaseOfIdentity.tsv	300	hasPredicate	見落としている	Overlooked	overlook	
+ACaseOfIdentity.tsv	324	hasPredicate	見落としている	Overlooked	overlook	
+SpeckledBand.tsv	7	hasPredicate	支払う	pay		
+ACaseOfIdentity.tsv	184	hasPredicate	気を配る	Pay attention	payAttention	
+DancingMen.tsv	87	hasPredicate	許した	permit		
+CrookedMan.tsv	358	hasPredicate	卑劣な行いをした	play foul	playFoul	
+CrookedMan.tsv	355	hasPredicate	喜ばせている	please		
+DancingMen.tsv	189	hasPredicate	向けた	point		
+SpeckledBand.tsv	78	hasPredicate	指す	point		
+SpeckledBand.tsv	297	hasPredicate	準備する	prepare		
+ACaseOfIdentity.tsv	109	hasPredicate	処理する	Process	process	
+ACaseOfIdentity.tsv	491	hasPredicate	禁じる	Prohibit	prohibit	
+CrookedMan.tsv	13	hasPredicate	昇進した	promote		
+SpeckledBand.tsv	131	hasPredicate	提案した	propose		提案する
+DancingMen.tsv	220	hasPredicate	引きずり落そうとした	pull		
+SpeckledBand.tsv	214	hasPredicate	引っ張った	pull		引っ張る
+SpeckledBand.tsv	219	hasPredicate	引っ張る	pull		引く
+ACaseOfIdentity.tsv	105	hasPredicate	引き出す	Pull out	pullOut	
+ACaseOfIdentity.tsv	553	hasPredicate	懲らしめる	punish		
+DancingMen.tsv	24	hasPredicate	入れた	put		
+DancingMen.tsv	190	hasPredicate	はめた	put		
+ACaseOfIdentity.tsv	409	hasPredicate	置く	Put	put	
+CrookedMan.tsv	220	hasPredicate	入れている	put		
+SpeckledBand.tsv	300	hasPredicate	置いた	put		
+SpeckledBand.tsv	301	hasPredicate	置いた	put		
+SpeckledBand.tsv	302	hasPredicate	置いた	put		
+SpeckledBand.tsv	367	hasPredicate	閉じ込めた	put		
+SpeckledBand.tsv	384	hasPredicate	入れる	put		
+SpeckledBand.tsv	391	hasPredicate	入れる	put		
+CrookedMan.tsv	336	hasPredicate	入れた	put into	putInto	
+ACaseOfIdentity.tsv	228	hasPredicate	乗せる	Put on	putOn	
+ACaseOfIdentity.tsv	331	hasPredicate	つける	Put on	putOn	
+ACaseOfIdentity.tsv	274	hasPredicate	出す	put out	putOut	
+CrookedMan.tsv	339	hasPredicate	出した	put out	putOut	
+ACaseOfIdentity.tsv	28	hasPredicate	戸惑っている	Puzzled	puzzled	
+SpeckledBand.tsv	139	hasPredicate	聞いた	query		聞く
+ACaseOfIdentity.tsv	176	hasPredicate	届く	reach		
+ACaseOfIdentity.tsv	221	hasPredicate	着く	Reach	reach	
+ACaseOfIdentity.tsv	231	hasPredicate	着く	Reach	reach	
+SpeckledBand.tsv	389	hasPredicate	届く	reach		
+DancingMen.tsv	23	hasPredicate	読んだ	read		
+ACaseOfIdentity.tsv	493	hasPredicate	反抗する	Rebel	rebel	
+DancingMen.tsv	20	hasPredicate	受け取った	receive		
+DancingMen.tsv	43	hasPredicate	受け取った	receive		
+DancingMen.tsv	71	hasPredicate	受け取った	receive		
+ACaseOfIdentity.tsv	165	hasPredicate	受け取る	receive		
+ACaseOfIdentity.tsv	380	hasPredicate	受ける	receive		
+ACaseOfIdentity.tsv	22	hasPredicate	わかる	Recognize	recognize	
+ACaseOfIdentity.tsv	43	hasPredicate	わかる	Recognize	recognize	
+ACaseOfIdentity.tsv	51	hasPredicate	わかる	Recognize	recognize	
+ACaseOfIdentity.tsv	37	hasPredicate	勧める	recommend		
+ACaseOfIdentity.tsv	423	hasPredicate	喜ぶ	Rejoice	rejoice	
+ACaseOfIdentity.tsv	432	hasPredicate	喜ぶ	Rejoice	rejoice	
+CrookedMan.tsv	147	hasPredicate	関係している	relate		
+CrookedMan.tsv	206	hasPredicate	言わない	notSay		
+ACaseOfIdentity.tsv	570	hasPredicate	取り除く	remove		
+CrookedMan.tsv	40	hasPredicate	借りていた	rent		
+ACaseOfIdentity.tsv	559	hasPredicate	重ねる	repeat		
+DancingMen.tsv	56	hasPredicate	帰る	return		
+DancingMen.tsv	66	hasPredicate	帰宅する	return		
+ACaseOfIdentity.tsv	149	hasPredicate	戻る	Return	return	
+SpeckledBand.tsv	82	hasPredicate	戻る	return		
+SpeckledBand.tsv	399	hasPredicate	行く	return		
+ACaseOfIdentity.tsv	509	hasPredicate	奪う	rob		
+CrookedMan.tsv	244	hasPredicate	丸めていた	round		
+CrookedMan.tsv	133	hasPredicate	走った	run		
+DancingMen.tsv	15	hasPredicate	言った	say		
+DancingMen.tsv	31	hasPredicate	言った	say		
+DancingMen.tsv	55	hasPredicate	言った	say		
+DancingMen.tsv	63	hasPredicate	言った	say		
+DancingMen.tsv	65	hasPredicate	言った	say		
+DancingMen.tsv	79	hasPredicate	言った	say		
+DancingMen.tsv	88	hasPredicate	降りてきた	say		
+DancingMen.tsv	164	hasPredicate	言った	say		
+DancingMen.tsv	185	hasPredicate	言った	say		
+DancingMen.tsv	191	hasPredicate	言った	say		
+DancingMen.tsv	213	hasPredicate	言った	say		
+DancingMen.tsv	216	hasPredicate	話す	say		
+ACaseOfIdentity.tsv	15	hasPredicate	言う	Say	say	
+ACaseOfIdentity.tsv	39	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	41	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	49	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	52	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	86	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	100	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	113	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	122	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	124	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	127	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	130	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	140	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	142	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	144	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	155	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	156	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	160	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	163	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	174	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	182	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	185	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	187	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	202	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	210	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	213	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	243	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	252	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	253	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	257	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	259	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	261	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	266	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	273	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	277	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	282	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	285	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	291	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	296	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	299	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	304	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	322	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	342	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	353	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	371	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	377	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	381	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	395	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	399	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	412	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	414	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	428	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	434	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	440	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	444	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	453	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	460	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	465	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	470	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	472	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	510	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	541	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	548	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	551	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	554	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	558	hasPredicate	言う	say		
+ACaseOfIdentity.tsv	576	hasPredicate	言う	say		
+CrookedMan.tsv	113	hasPredicate	言った	say		
+CrookedMan.tsv	122	hasPredicate	言った	say		
+CrookedMan.tsv	171	hasPredicate	言った	say		
+CrookedMan.tsv	202	hasPredicate	言った	say		
+CrookedMan.tsv	309	hasPredicate	言った	say		
+CrookedMan.tsv	346	hasPredicate	言った	say		
+CrookedMan.tsv	348	hasPredicate	言った	say		
+CrookedMan.tsv	365	hasPredicate	言った	say		
+CrookedMan.tsv	368	hasPredicate	言った	say		
+SpeckledBand.tsv	77	hasPredicate	言う	say		
+SpeckledBand.tsv	261	hasPredicate	言う	say		
+SpeckledBand.tsv	359	hasPredicate	言う	say		
+SpeckledBand.tsv	362	hasPredicate	言う	say		
+SpeckledBand.tsv	369	hasPredicate	言う	say		
+CrookedMan.tsv	191	hasPredicate	恐ろしい	scare		
+CrookedMan.tsv	249	hasPredicate	怯えていた	scare		
+CrookedMan.tsv	89	hasPredicate	悲鳴あげた	scream		
+DancingMen.tsv	6	hasPredicate	見た	see		
+DancingMen.tsv	19	hasPredicate	見た	see		
+DancingMen.tsv	28	hasPredicate	見た	see		
+DancingMen.tsv	34	hasPredicate	見た	see		
+DancingMen.tsv	46	hasPredicate	見た	see		
+DancingMen.tsv	73	hasPredicate	見た	see		
+ACaseOfIdentity.tsv	408	hasPredicate	見る	see		
+CrookedMan.tsv	76	hasPredicate	見た	see		
+CrookedMan.tsv	93	hasPredicate	見た	see		
+CrookedMan.tsv	114	hasPredicate	見た	see		
+CrookedMan.tsv	149	hasPredicate	見ていた	see		
+CrookedMan.tsv	229	hasPredicate	見た	see		
+CrookedMan.tsv	313	hasPredicate	見た	see		
+CrookedMan.tsv	315	hasPredicate	見た	see		
+CrookedMan.tsv	321	hasPredicate	見た	see		
+SpeckledBand.tsv	260	hasPredicate	見える	see		
+SpeckledBand.tsv	270	hasPredicate	見える	see		
+SpeckledBand.tsv	308	hasPredicate	見える	see		
+SpeckledBand.tsv	325	hasPredicate	叫ぶ	see		
+SpeckledBand.tsv	329	hasPredicate	見た	see		
+SpeckledBand.tsv	332	hasPredicate	見る	see		
+SpeckledBand.tsv	352	hasPredicate	見た	see		見る
+SpeckledBand.tsv	353	hasPredicate	上向きだった	see		
+SpeckledBand.tsv	361	hasPredicate	頭を上げた	see		動く
+ACaseOfIdentity.tsv	77	hasPredicate	売らせる	Sell	sell	
+ACaseOfIdentity.tsv	79	hasPredicate	売れる	sell		
+CrookedMan.tsv	284	hasPredicate	売った	sell		
+CrookedMan.tsv	317	hasPredicate	売った	sell		
+DancingMen.tsv	37	hasPredicate	書いた	send		
+DancingMen.tsv	70	hasPredicate	打った	send		
+DancingMen.tsv	177	hasPredicate	打った	send		
+DancingMen.tsv	180	hasPredicate	送った	send		
+DancingMen.tsv	207	hasPredicate	出した	send		
+ACaseOfIdentity.tsv	115	hasPredicate	送っている	Send	send	
+ACaseOfIdentity.tsv	173	hasPredicate	送る	send		
+ACaseOfIdentity.tsv	218	hasPredicate	送る	send		
+ACaseOfIdentity.tsv	386	hasPredicate	送る	send		
+ACaseOfIdentity.tsv	387	hasPredicate	送る	send		
+ACaseOfIdentity.tsv	573	hasPredicate	送る	send		
+SpeckledBand.tsv	264	hasPredicate	合図する	send		
+SpeckledBand.tsv	289	hasPredicate	合図した	send		
+DancingMen.tsv	38	hasPredicate	送った	sent		
+ACaseOfIdentity.tsv	407	hasPredicate	鋭い	sharp		
+DancingMen.tsv	80	hasPredicate	撃った	shoot		
+DancingMen.tsv	81	hasPredicate	撃った	shoot		
+DancingMen.tsv	132	hasPredicate	発砲した	shoot		
+DancingMen.tsv	133	hasPredicate	撃った	shoot		
+DancingMen.tsv	134	hasPredicate	当たった	shoot		
+DancingMen.tsv	192	hasPredicate	撃った	shoot		
+DancingMen.tsv	222	hasPredicate	撃った	shoot		
+DancingMen.tsv	225	hasPredicate	撃った	shoot		
+CrookedMan.tsv	87	hasPredicate	叫んだ	shout		
+CrookedMan.tsv	88	hasPredicate	叫んだ	shout		
+CrookedMan.tsv	183	hasPredicate	叫んだ	shout		
+DancingMen.tsv	35	hasPredicate	見せた	show		
+CrookedMan.tsv	306	hasPredicate	見せる	show		
+DancingMen.tsv	25	hasPredicate	黙っている	shutUp		
+DancingMen.tsv	27	hasPredicate	黙っている	shutUp		
+DancingMen.tsv	52	hasPredicate	腰かけていた	sit		
+DancingMen.tsv	105	hasPredicate	うずくまっていた	sit		
+ACaseOfIdentity.tsv	411	hasPredicate	座る	sit		
+ACaseOfIdentity.tsv	467	hasPredicate	座る	sit		
+CrookedMan.tsv	243	hasPredicate	座っていた	sit		
+SpeckledBand.tsv	207	hasPredicate	座った	sit		座る
+SpeckledBand.tsv	298	hasPredicate	座る	sit		
+SpeckledBand.tsv	299	hasPredicate	座る	sit		
+SpeckledBand.tsv	347	hasPredicate	腰をかけていた	sit		座る
+SpeckledBand.tsv	61	hasPredicate	寝る	sleep		
+SpeckledBand.tsv	283	hasPredicate	寝ていた	sleep		
+SpeckledBand.tsv	55	hasPredicate	嗅ぐ	smell		
+SpeckledBand.tsv	275	hasPredicate	匂った	smell		
+SpeckledBand.tsv	310	hasPredicate	匂う	smell		
+SpeckledBand.tsv	315	hasPredicate	匂いがする	smell		匂う
+CrookedMan.tsv	12	hasPredicate	一兵卒だった	soldier		
+ACaseOfIdentity.tsv	268	hasPredicate	解決できる	Solvable	canSolve	
+ACaseOfIdentity.tsv	383	hasPredicate	解決する	Solve		
+ACaseOfIdentity.tsv	198	hasPredicate	話す	speak		
+ACaseOfIdentity.tsv	421	hasPredicate	話す	speak		
+CrookedMan.tsv	223	hasPredicate	話す	speak		
+CrookedMan.tsv	250	hasPredicate	話しかけた	speak		
+DancingMen.tsv	154	hasPredicate	区切る	split		
+DancingMen.tsv	51	hasPredicate	立てかけてあった	stand		
+ACaseOfIdentity.tsv	1	hasPredicate	立つ	Stand	stand	
+ACaseOfIdentity.tsv	2	hasPredicate	立つ	Stand	stand	
+ACaseOfIdentity.tsv	7	hasPredicate	立っている	Stand	stand	
+ACaseOfIdentity.tsv	539	hasPredicate	立つ	stand		
+SpeckledBand.tsv	336	hasPredicate	立ちすくむ	standUp		
+CrookedMan.tsv	56	hasPredicate	開始した	start		
+CrookedMan.tsv	39	hasPredicate	駐留している	station		
+DancingMen.tsv	211	hasPredicate	泊まり始めた	stay		
+SpeckledBand.tsv	259	hasPredicate	夜を明かす．	stay		過ごす
+SpeckledBand.tsv	266	hasPredicate	一夜を明かす	stay		過ごす
+SpeckledBand.tsv	291	hasPredicate	静かにした	stay		
+DancingMen.tsv	59	hasPredicate	止めた	stop		
+DancingMen.tsv	64	hasPredicate	抑えた	stop		
+SpeckledBand.tsv	314	hasPredicate	動く気配が静まる	stop		止まる
+SpeckledBand.tsv	331	hasPredicate	やめる	stop		
+CrookedMan.tsv	360	hasPredicate	苦しんだ	suffer		
+ACaseOfIdentity.tsv	195	hasPredicate	患う	Suffer from	sufferFrom	
+CrookedMan.tsv	186	hasPredicate	支えた	support		
+SpeckledBand.tsv	74	hasPredicate	支える	support		
+CrookedMan.tsv	333	hasPredicate	抑えた	suppress		
+ACaseOfIdentity.tsv	339	hasPredicate	驚かせる	surprise		
+SpeckledBand.tsv	271	hasPredicate	不自然と思う	suspect		疑う
+ACaseOfIdentity.tsv	206	hasPredicate	誓わせる	Swear	swear	
+ACaseOfIdentity.tsv	245	hasPredicate	誓う	swear		
+ACaseOfIdentity.tsv	527	hasPredicate	誓わせる	Swear	swear	
+CrookedMan.tsv	205	hasPredicate	誓った	swear		
+DancingMen.tsv	58	hasPredicate	持った	take		
+DancingMen.tsv	145	hasPredicate	持っていく	take		
+CrookedMan.tsv	79	hasPredicate	持って行った	take		
+CrookedMan.tsv	127	hasPredicate	持ち去られた	take		
+CrookedMan.tsv	157	hasPredicate	持って行った	take		
+CrookedMan.tsv	327	hasPredicate	取った	take		
+SpeckledBand.tsv	16	hasPredicate		take		
+SpeckledBand.tsv	244	hasPredicate	下した	take		
+SpeckledBand.tsv	366	hasPredicate	持った	take		
+CrookedMan.tsv	173	hasPredicate	行われた	take place	takePlace	
+ACaseOfIdentity.tsv	302	hasPredicate	語る	talk		
+CrookedMan.tsv	187	hasPredicate	話した	talk		
+CrookedMan.tsv	196	hasPredicate	話した	talk		
+CrookedMan.tsv	310	hasPredicate	話をした	talk		
+SpeckledBand.tsv	56	hasPredicate	話す	talk		
+SpeckledBand.tsv	155	hasPredicate	説明した	talk		説明する
+SpeckledBand.tsv	258	hasPredicate	指示した	talk		
+ACaseOfIdentity.tsv	25	hasPredicate	引きちぎる	TearOff	tearOff	
+ACaseOfIdentity.tsv	178	hasPredicate	からかわれる	Teased	beTeased	
+ACaseOfIdentity.tsv	33	hasPredicate	告げる	Tell	tell	
+ACaseOfIdentity.tsv	255	hasPredicate	伝える	Tell	tell	
+ACaseOfIdentity.tsv	580	hasPredicate	伝える	Tell	tell	
+CrookedMan.tsv	22	hasPredicate	言った	tell		
+CrookedMan.tsv	209	hasPredicate	言った	tell		
+CrookedMan.tsv	210	hasPredicate	言った	tell		
+CrookedMan.tsv	214	hasPredicate	言った	tell		
+CrookedMan.tsv	251	hasPredicate	伝えた	tell		
+CrookedMan.tsv	254	hasPredicate	伝えた	tell		
+CrookedMan.tsv	256	hasPredicate	言った	tell		
+CrookedMan.tsv	279	hasPredicate	教えた	tell		
+SpeckledBand.tsv	94	hasPredicate	証言した	testified	testify	証言する
+ACaseOfIdentity.tsv	194	hasPredicate	細い	thin		
+DancingMen.tsv	29	hasPredicate	思った	think		
+DancingMen.tsv	230	hasPredicate	思っていた	think		
+ACaseOfIdentity.tsv	47	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	80	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	81	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	83	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	94	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	135	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	138	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	153	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	249	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	392	hasPredicate	思う	think		
+ACaseOfIdentity.tsv	426	hasPredicate	思う	think		
+CrookedMan.tsv	98	hasPredicate	思った	think		
+CrookedMan.tsv	104	hasPredicate	思った	think		
+CrookedMan.tsv	107	hasPredicate	思った	think		
+CrookedMan.tsv	117	hasPredicate	思った	think		
+CrookedMan.tsv	125	hasPredicate	思った	think		
+CrookedMan.tsv	148	hasPredicate	思った	think		
+CrookedMan.tsv	152	hasPredicate	思った	think		
+CrookedMan.tsv	164	hasPredicate	思った	think		
+CrookedMan.tsv	189	hasPredicate	思っていた	think		
+CrookedMan.tsv	227	hasPredicate	思った	think		
+CrookedMan.tsv	273	hasPredicate	思っていた	think		
+CrookedMan.tsv	300	hasPredicate	思っている	think		
+CrookedMan.tsv	325	hasPredicate	思った	think		
+ACaseOfIdentity.tsv	512	hasPredicate	思っている	thinking		
+ACaseOfIdentity.tsv	531	hasPredicate	縛られる	tied up	beTiedUp	
+SpeckledBand.tsv	356	hasPredicate	きつくしめつけていた	tighten		締める
+ACaseOfIdentity.tsv	345	hasProperty	きっちりしている	Tightly	tightly	
+ACaseOfIdentity.tsv	236	hasPredicate	見る	to see	see	
+ACaseOfIdentity.tsv	328	hasPredicate	見る	to see	see	
+ACaseOfIdentity.tsv	329	hasPredicate	見る	to see	see	
+ACaseOfIdentity.tsv	248	hasPredicate	理解する	to understand	understand	
+SpeckledBand.tsv	138	hasPredicate	つけてきた	trace		つけてくる
+SpeckledBand.tsv	383	hasPredicate	訓練する	train		
+CrookedMan.tsv	144	hasPredicate	試した	try		
+CrookedMan.tsv	318	hasPredicate	止めようとした	try to stop	tryToStop	
+CrookedMan.tsv	72	hasPredicate	つけた	turn on	turnOn	
+SpeckledBand.tsv	292	hasPredicate	消した	turnOff		
+SpeckledBand.tsv	303	hasPredicate	消した	turnOff		
+SpeckledBand.tsv	120	hasPredicate	つけた	turnOn		点ける
+SpeckledBand.tsv	312	hasPredicate	火をつけた	turnOn		
+ACaseOfIdentity.tsv	565	hasPredicate	タイプである	typeed	beTypeed	
+CrookedMan.tsv	311	hasPredicate	気づいた	understand		
+ACaseOfIdentity.tsv	286	hasPredicate	忘れられない	Unforgettable	unforgettable	
+ACaseOfIdentity.tsv	66	hasPredicate	行きたくない	UnwillingToGo	unwillingToGo	
+CrookedMan.tsv	221	hasPredicate	使う	use		
+DancingMen.tsv	93	hasPredicate	訪れた	visit		
+ACaseOfIdentity.tsv	146	hasPredicate	訪ねる	visit		
+CrookedMan.tsv	1	hasPredicate	訪れた	visit		
+CrookedMan.tsv	2	hasPredicate	頼んだ	visit		
+CrookedMan.tsv	197	hasPredicate	待っていた	wait		
+DancingMen.tsv	96	hasPredicate	起きた	wake		
+SpeckledBand.tsv	53	hasPredicate	起きている	wakeUp		
+SpeckledBand.tsv	59	hasPredicate	起きる	wakeUp		
+SpeckledBand.tsv	119	hasPredicate	飛び起きた	wakeUp		飛び起きる
+DancingMen.tsv	69	hasPredicate	歩き回った	walk		
+CrookedMan.tsv	362	hasPredicate	歩いている	walk		
+CrookedMan.tsv	295	hasPredicate	放浪した	wander		
+ACaseOfIdentity.tsv	19	hasPredicate	欲しい	Want	want	
+ACaseOfIdentity.tsv	157	hasPredicate	欲しい	Want	want	
+ACaseOfIdentity.tsv	271	hasPredicate	欲しい	Want	want	
+ACaseOfIdentity.tsv	272	hasPredicate	欲しい	Want	want	
+ACaseOfIdentity.tsv	480	hasPredicate	欲しい	Want	want	
+ACaseOfIdentity.tsv	203	hasPredicate	結婚したい	Want to get married	wantToGetMarried	
+ACaseOfIdentity.tsv	495	hasPredicate	行きたい	want to go	wantToGo	
+CrookedMan.tsv	172	hasPredicate	助けたい	want to help	wantToHelp	
+CrookedMan.tsv	211	hasPredicate	助けたい	want to help	wantToHelp	
+ACaseOfIdentity.tsv	389	hasPredicate	会いたい	want to meet	wantToMeet	
+CrookedMan.tsv	303	hasPredicate	帰りたかった	want to return	wantToReturn	
+ACaseOfIdentity.tsv	555	hasPredicate	試したい	want to try	wantToTry	
+ACaseOfIdentity.tsv	21	hasPredicate	相談したい	WantToTalk	WantToTalk	
+CrookedMan.tsv	241	hasPredicate	あたっていた	warm		
+SpeckledBand.tsv	371	hasPredicate	注意する	warn		
+DancingMen.tsv	54	hasPredicate	着ていた	wear		
+DancingMen.tsv	111	hasPredicate	着ていた	wear		
+DancingMen.tsv	112	hasPredicate	着ていた	wear		
+ACaseOfIdentity.tsv	5	hasPredicate	かぶっている	Wear	wear	
+ACaseOfIdentity.tsv	6	hasPredicate	つけている	Wear	wear	
+ACaseOfIdentity.tsv	131	hasPredicate	着る	Wear	wear	
+ACaseOfIdentity.tsv	498	hasPredicate	着ける	wear		
+ACaseOfIdentity.tsv	499	hasPredicate	着ける	wear		
+ACaseOfIdentity.tsv	443	hasPredicate	摩滅する	Wear out	wearOut	
+ACaseOfIdentity.tsv	305	hasPredicate	かぶっている	Wearing	wearing	
+ACaseOfIdentity.tsv	346	hasPredicate	履いている	Wearing	wearing	
+ACaseOfIdentity.tsv	35	hasPredicate	迎える	Welcome	welcome	
+ACaseOfIdentity.tsv	500	hasPredicate	ささやく	Whisper	whisper	
+ACaseOfIdentity.tsv	283	hasPredicate	忘れない	will not forget	notForget	
+ACaseOfIdentity.tsv	530	hasPredicate	望む	Wish	wish	
+SpeckledBand.tsv	379	hasPredicate	働く	work		
+ACaseOfIdentity.tsv	313	hasPredicate	すり切れている	Worn	worn	
+ACaseOfIdentity.tsv	20	hasPredicate	悩んでいる	Worried	beWorried	
+ACaseOfIdentity.tsv	212	hasPredicate	心配する	worry		
+ACaseOfIdentity.tsv	415	hasPredicate	心配する	worry		
+ACaseOfIdentity.tsv	4	hasPredicate	巻いている	Wrap	wrap	
+DancingMen.tsv	231	hasPredicate	書いた	write		
+ACaseOfIdentity.tsv	164	hasPredicate	書く	write		
+ACaseOfIdentity.tsv	350	hasPredicate	書く	write		
+ACaseOfIdentity.tsv	385	hasPredicate	書く	write		
+ACaseOfIdentity.tsv	388	hasPredicate	書く	write		
+ACaseOfIdentity.tsv	445	hasPredicate	書いている	writing		
+ACaseOfIdentity.tsv	370	hasPredicate	書かれている	written	beWritten	
+CrookedMan.tsv	41	hasPredicate	equalTo			
+CrookedMan.tsv	151	hasPredicate	いた		exist	
+SpeckledBand.tsv	230	hasPredicate				
+SpeckledBand.tsv	k001	hasPredicate				
+SpeckledBand.tsv	279	hasPredicate				equalTo
+SpeckledBand.tsv	288	hasPredicate				
+SpeckledBand.tsv	293	hasPredicate	じっとした		notMove	
+SpeckledBand.tsv	320	hasPredicate				
+SpeckledBand.tsv	321	hasPredicate				
+SpeckledBand.tsv	335	hasPredicate	equalTo			
+SpeckledBand.tsv	342	hasPredicate				
+SpeckledBand.tsv	355	hasPredicate	みていた		see	見る
+SpeckledBand.tsv	23	hasProperty	持つ	strengthened		
+SpeckledBand.tsv	72	hasProperty	真っ青	turnPale	blue	blue または述語に？
+SpeckledBand.tsv	73	hasProperty	ふらふら	beDizzy	dizzy	
+SpeckledBand.tsv	91	hasProperty	悪い	have	本文チェック	悪い
+SpeckledBand.tsv	92	hasProperty	不明	notKnown		不明
+SpeckledBand.tsv	93	hasProperty	鍵がかかっていた	lock	beLocked？	施錠
+SpeckledBand.tsv	96	hasProperty	閉ざしている	close		閉じる
+SpeckledBand.tsv	98	hasProperty	堅い	hard		堅い
+SpeckledBand.tsv	100	hasProperty	堅い	hard		堅い
+SpeckledBand.tsv	101	hasProperty	太い	thick		太い
+SpeckledBand.tsv	109	hasProperty	水玉の模様	speckled		水玉の模様
+SpeckledBand.tsv	114	hasProperty		repair		
+SpeckledBand.tsv	115	hasProperty	穴が空いた	beBroken		穴
+SpeckledBand.tsv	125	hasProperty	旅館	hotel		旅館
+SpeckledBand.tsv	130	hasProperty	すぐに手の出る人	getAnger	英語検討	すぐに手の出る人
+SpeckledBand.tsv	144	hasProperty	1100ポンド	1100 GBP		1100ポンド
+SpeckledBand.tsv	145	hasProperty	750ポンド	750 GBP		750ポンド
+SpeckledBand.tsv	157	hasProperty	苔むした石造り	madeByMossyStone		苔むした石造り
+SpeckledBand.tsv	158	hasProperty	灰色	gray		灰色
+SpeckledBand.tsv	160	hasProperty	打ち付けてある	beBroken		打ち付けられる
+SpeckledBand.tsv	161	hasProperty	へこんでいる	beBroken		へこむ
+SpeckledBand.tsv	162	hasProperty	廃墟の体	ruined		廃墟
+SpeckledBand.tsv	163	hasProperty	手入れ不足	beBroken		手入れ不足
+SpeckledBand.tsv	164	hasProperty	新しい	new		新しい
+SpeckledBand.tsv	165	hasProperty	居住区	live		居住区
+SpeckledBand.tsv	167	hasProperty	崩れている	beBroken		崩れる
+SpeckledBand.tsv	170	hasProperty	手入れが行き届いていない	beBroken		手入れ不足
+SpeckledBand.tsv	176	hasProperty	改修中	beBroken		改修中
+SpeckledBand.tsv	191	hasProperty	鉄製	madeByIron		鉄製
+SpeckledBand.tsv	196	hasProperty	質素AND小さい	simple AND small		質素AND小さい
+SpeckledBand.tsv	205	hasProperty	虫の食った褐色の樫材	brown oak of insect holes	brown oak with insect holes	虫の食った褐色の樫材
+SpeckledBand.tsv	206	hasProperty	虫の食った褐色の樫材	madeByBrownOakWithInsectHoles	※統一が必要	虫の食った褐色の樫材
+SpeckledBand.tsv	216	hasProperty	結ばれている	beTied		結ぶ
+SpeckledBand.tsv	218	hasProperty	妙だ	beStrange	strange	
+SpeckledBand.tsv	226	hasProperty	いくつもある	modified		本文チェック
+SpeckledBand.tsv	228	hasProperty	ある	fake		本文チェック
+SpeckledBand.tsv	229	hasProperty	飾りだけの	decorated		
+SpeckledBand.tsv	233	hasProperty	広かった	wider		
+SpeckledBand.tsv	234	hasProperty	家具は同様に質素なものだった	simple		
+SpeckledBand.tsv	245	hasProperty	入った	filledWith		withの対象がどうなってるか
+SpeckledBand.tsv	249	hasProperty	一種	subClassOf		SubClassOf
+SpeckledBand.tsv	272	hasProperty	小さい	small		
+SpeckledBand.tsv	277	hasProperty	小さい	beSmall	small	
+SpeckledBand.tsv	284	hasProperty	固定してあった	fixed		
+SpeckledBand.tsv	285	hasProperty	固定されない	notFixed		not固定
+SpeckledBand.tsv	296	hasProperty	命に関わる	beDanger	danger	
+SpeckledBand.tsv	304	hasProperty	真っ暗	getDark	dark	
+SpeckledBand.tsv	311	hasProperty		burned		
+SpeckledBand.tsv	318	hasProperty		beSoftly	softly	
+SpeckledBand.tsv	319	hasProperty		beFaint	faint	
+SpeckledBand.tsv	330	hasProperty		beScared		
+SpeckledBand.tsv	334	hasProperty	大きくなる	louder		
+SpeckledBand.tsv	337	hasProperty	消える	disappeared		
+SpeckledBand.tsv	346	hasProperty	開いていた	opened	beOpened	
+SpeckledBand.tsv	351	hasProperty		strapped		
+SpeckledBand.tsv	357	hasProperty		speckled		
+SpeckledBand.tsv	373	hasProperty	飾り	beFake	fake	
+SpeckledBand.tsv	374	hasProperty	固定される	beFixed		
+SpeckledBand.tsv	378	hasProperty	検出されない	notFind		
+SpeckledBand.tsv	380	hasProperty	即効性	effected	effect	英語チェック
+SpeckledBand.tsv	381	hasProperty	目立たない	beUnobservable	unobservable	
+SpeckledBand.tsv	397	hasProperty	怒る	getAngry		述語？
+SpeckledBand.tsv	T184	hasProperty	狭い	narrow		狭い
+ACaseOfIdentity.tsv	26	hasProperty	色恋沙汰である	isRomance	romance	
+ACaseOfIdentity.tsv	56	hasProperty	裕福ではない	Not rich		
+ACaseOfIdentity.tsv	58	hasProperty	タイプ打ちである	Type	typist	
+ACaseOfIdentity.tsv	65	hasProperty	呑気である	Nausea	nausea	
+ACaseOfIdentity.tsv	68	hasPredicate	サザランドの義理の父である	Sutherland's father-in-law		元データをequalToに変更（88と統一必要？　本文チェック）
+ACaseOfIdentity.tsv	70	hasProperty	元気である	I am fine	fine	
+ACaseOfIdentity.tsv	71	hasProperty	丈夫である	strong		
+ACaseOfIdentity.tsv	73	hasProperty	配管業である	plumbing business		
+ACaseOfIdentity.tsv	76	hasProperty	現場頭である	It is a field head	field head	
+ACaseOfIdentity.tsv	78	hasProperty	ワインの外商である	It is a foreign trade of wine	foreign trade of wine	
+ACaseOfIdentity.tsv	82	hasProperty	少額である	It is small	small	
+ACaseOfIdentity.tsv	87	hasProperty	ネッドの遺産である	It is a heritage of Ned	heritage of Ned	
+ACaseOfIdentity.tsv	88	hasPredicate	サザランドの伯父である	Sutherland's uncle		元データをequalToに変更
+ACaseOfIdentity.tsv	90	hasProperty	ニュージーランド株である	New Zealand shares		
+ACaseOfIdentity.tsv	91	hasProperty	四分五厘である	It is a quarter five	quarter five	
+ACaseOfIdentity.tsv	92	hasProperty	2500ポンドである	It is 2500 pounds	2500 pounds	
+ACaseOfIdentity.tsv	143	hasProperty	自由である	Free	free	
+ACaseOfIdentity.tsv	151	hasPredicate	嫌いである	Dislike	dislike	述語にすべき？
+ACaseOfIdentity.tsv	154	hasProperty	幸せである	Happy	happy	
+ACaseOfIdentity.tsv	168	hasProperty	レドンホール街の事務所の出納係である	She is the teller of Redon Hall Street office	teller of Redon Hall Street office	
+ACaseOfIdentity.tsv	186	hasProperty	無限である	Is infinite	infinite	
+ACaseOfIdentity.tsv	189	hasProperty	恥ずかしがり屋である	I am shy	shy	
+ACaseOfIdentity.tsv	192	hasProperty	内気である	IsShy	shy	
+ACaseOfIdentity.tsv	204	hasProperty	熱心だ	I am enthusiastic	enthusiastic	
+ACaseOfIdentity.tsv	278	hasProperty	キャンバウェルである	I'm Camberwell	Camberwell	
+ACaseOfIdentity.tsv	280	hasProperty	ウェストハウス＆マーバンクの外商である	foreign business of West House&Marbank		
+ACaseOfIdentity.tsv	281	hasProperty	最大のクラレット輸入業者である	largest claret importer		
+ACaseOfIdentity.tsv	301	hasProperty	重要である	is important	important	
+ACaseOfIdentity.tsv	307	hasProperty	黒だ	it's black	black	
+ACaseOfIdentity.tsv	310	hasProperty	茶褐色だ	It is brown	brown	
+ACaseOfIdentity.tsv	312		鼠色だ	It is dark blue	dark blue	
+ACaseOfIdentity.tsv	316	hasProperty	裕福である	Rich	rich	
+ACaseOfIdentity.tsv	317	hasProperty	のんきである	It is easygoing	easygoing	
+ACaseOfIdentity.tsv	319	hasProperty	町娘である	I am a town girl	town girl	
+ACaseOfIdentity.tsv	332	hasProperty	高価な生地である	It is expensive cloth	expensive cloth	
+ACaseOfIdentity.tsv	333	hasProperty	タイプの跡である	It is a trace of the type	trace of the type	
+ACaseOfIdentity.tsv	334	hasProperty	手動ミシンの跡である	It is a mark of a manual sewing machine	mark of a manual sewing machine	
+ACaseOfIdentity.tsv	335	hasProperty	手動ミシンの跡である	It is a mark of a manual sewing machine	mark of a manual sewing machine	
+ACaseOfIdentity.tsv	336	hasProperty	タイプの跡である	It is a trace of the type	trace of the type	
+ACaseOfIdentity.tsv	356	hasProperty	5フィート7インチである	5 feet 7 inches		
+ACaseOfIdentity.tsv	359	hasProperty	黒である	It is black	black	
+ACaseOfIdentity.tsv	363	hasProperty	訥々である	Be jealous	jealous	
+ACaseOfIdentity.tsv	364	hasProperty	黒のフロックコートである	It is a black frock coat	black frock coat	
+ACaseOfIdentity.tsv	365	hasProperty	黒のベストである	Black is the best	black best	
+ACaseOfIdentity.tsv	366	hasProperty	金のアルバート鎖である	Albert chain of gold	albert chain of gold	
+ACaseOfIdentity.tsv	373	hasProperty	ホズマ・エインジェルである	Hozma Eingel		
+ACaseOfIdentity.tsv	375	hasProperty	レドンホール街である	Redon Hall street		
+ACaseOfIdentity.tsv	376	hasProperty	重要である	important		
+ACaseOfIdentity.tsv	402	hasProperty	中背である	Medium height	ｍedium height	
+ACaseOfIdentity.tsv	403	hasProperty	30歳前後である	Around 30 years old	around 30 years old	
+ACaseOfIdentity.tsv	406	hasProperty	穏やかである	calm		
+ACaseOfIdentity.tsv	413	hasProperty	ウィンディバンクの手紙である	Windy Bank letter	letter from Windy Bank	
+ACaseOfIdentity.tsv	424	hasProperty	警察官憲ではない	Not a police officer	not police officer	NOTの扱い検討
+ACaseOfIdentity.tsv	436	hasProperty	不鮮明である	Blurred	blurred	大文字使わない
+ACaseOfIdentity.tsv	448	hasProperty	不鮮明である	Blurred	blurred	
+ACaseOfIdentity.tsv	463	hasProperty	真っ青だ	Blue	blue	
+ACaseOfIdentity.tsv	468	hasProperty	死んだようだ	Seems to be dead	seem	見える＋死んだ（What）に変更
+ACaseOfIdentity.tsv	473	hasProperty	残念である	It is a pity	pity	it is を取る
+ACaseOfIdentity.tsv	479	hasProperty	大金である	It is a lot of money	lot of money	it is を取る
+ACaseOfIdentity.tsv	481	hasProperty	お人好しである	Be friendly	friendly	状態を表すときbeは不要？
+ACaseOfIdentity.tsv	501	hasProperty	安全である	safe		
+ACaseOfIdentity.tsv	503	hasProperty	近眼である	close eye		
+ACaseOfIdentity.tsv	504	hasProperty	ホズマである	Hozma	Hozma Eingel	固有名詞もOK?
+ACaseOfIdentity.tsv	504	hasProperty	ホズマである	is	Hozma Eingel	
+ACaseOfIdentity.tsv	521	hasProperty	必要である	is necessary	necessary	
+ACaseOfIdentity.tsv	534	hasProperty	不明である	Unknown	unknown	
+ACaseOfIdentity.tsv	574	hasProperty	タイプ打ちだ	typing	typist	
+CrookedMan.tsv	17	hasProperty	人付き合いをできなかった	notSociable		
+CrookedMan.tsv	18	hasProperty	人気者である	popular		
+CrookedMan.tsv	19	hasProperty	美人である	beauty	beautiful	
+CrookedMan.tsv	20	hasProperty	美人である	beauty	beautiful	
+CrookedMan.tsv	21	hasProperty	幸福	happy		
+CrookedMan.tsv	26	hasProperty	中年夫婦の理想像であった	ideal image of middle-aged couple		
+CrookedMan.tsv	27	hasProperty	変わっている	unusual		
+CrookedMan.tsv	29	hasProperty	凶暴になる	violent		
+CrookedMan.tsv	30	hasProperty	執念深くなる	obsessive		
+CrookedMan.tsv	31	hasProperty	凶暴にならない	notViolent		
+CrookedMan.tsv	32	hasProperty	執念深くない	notObsessive		
+CrookedMan.tsv	36	hasProperty	一人である	alone		
+CrookedMan.tsv	37	hasProperty	雄々しい性格となよなよした性格	heroic personallity AND supple personality		
+CrookedMan.tsv	53	hasProperty	若い女性である	young woman		young woman is-a youngとする？ 
+CrookedMan.tsv	68	hasProperty	低い	low		
+CrookedMan.tsv	74	hasProperty	習慣ではない	notHabit		
+CrookedMan.tsv	99	hasProperty	近い	close		
+CrookedMan.tsv	121	hasProperty	心神喪失であった	criminal irresponsibility		
+CrookedMan.tsv	124	hasProperty	不機嫌であった	bad mood		空白どうする？
+CrookedMan.tsv	143	hasProperty	肉食である	carnivorous		
+CrookedMan.tsv	145	hasProperty	である			
+CrookedMan.tsv	146	hasProperty	より大きい	larger than		比較対象は？
+CrookedMan.tsv	158	hasProperty	不機嫌ではなかった	not bad mood		
+CrookedMan.tsv	159	hasProperty	仲良かった	close		
+CrookedMan.tsv	166	hasProperty	細身である	slender		
+CrookedMan.tsv	167	hasProperty	ブロンド	blonde		
+CrookedMan.tsv	168	hasProperty	頭いい	smart		
+CrookedMan.tsv	177	hasProperty	静か	quiet		
+CrookedMan.tsv	179	hasProperty	猫背	stoop		
+CrookedMan.tsv	184	hasProperty	真っ青だった	turnPale		
+CrookedMan.tsv	188	hasProperty	震えていた	shaky		
+CrookedMan.tsv	192	hasProperty	黒い	black		
+CrookedMan.tsv	193	hasProperty	ぎらぎらしている	glaringly		
+CrookedMan.tsv	194	hasProperty	白い	white		
+CrookedMan.tsv	198	hasProperty	怒った	angry		述語？
+CrookedMan.tsv	199	hasProperty	怒った	angry		
+CrookedMan.tsv	203	hasProperty	昔なじみである	old friend		
+CrookedMan.tsv	215	hasProperty	手品師と芸人	magician AND entertainer		
+CrookedMan.tsv	222	hasProperty	曲がっている	bent		
+CrookedMan.tsv	236	hasProperty	少年団の一人	boy scout		
+CrookedMan.tsv	242	hasProperty	蒸し暑い	humid		
+CrookedMan.tsv	246	hasProperty	汚れていた	dirty		
+CrookedMan.tsv	247	hasProperty	美男であった	handsome man	handsome	
+CrookedMan.tsv	248	hasProperty	気難しい	grumpy		
+CrookedMan.tsv	253	hasProperty	震えた	shiver		
+CrookedMan.tsv	257	hasProperty	犯人ではない	notCriminal		
+CrookedMan.tsv	258	hasProperty	犯人ではない	notCriminal		
+CrookedMan.tsv	262	hasProperty	一番の美男だった	handsome		manいる？
+CrookedMan.tsv	264	hasProperty	軍曹だった	sergeant		
+CrookedMan.tsv	265	hasProperty	一番の美女だった	beautiful		womanいる？
+CrookedMan.tsv	270	hasProperty	無鉄砲だった	reckless		
+CrookedMan.tsv	271	hasProperty	教養がある	well‐educated	wellEducated	
+CrookedMan.tsv	340	hasProperty	reddish brown	reddish brown		
+CrookedMan.tsv	341	hasProperty	細い	thin		
+CrookedMan.tsv	342	hasProperty	しなやかである	supple		
+CrookedMan.tsv	344	hasProperty	長細い	long		
+CrookedMan.tsv	345	hasProperty	真っ赤な目	red		
+CrookedMan.tsv	361	hasProperty	満足している	happy		
+DancingMen.tsv	3	hasProperty	高い	tall		
+DancingMen.tsv	4	hasProperty	紳士である	gentle		
+DancingMen.tsv	11	hasProperty	アメリカ人である	American		
+DancingMen.tsv	16	hasProperty	真面目である	serious		
+DancingMen.tsv	22	hasProperty	真っ青だった	blue		
+DancingMen.tsv	53	hasProperty	月明かりだけである	moonlighted		
+DancingMen.tsv	82	hasProperty	小柄である	small		
+DancingMen.tsv	86	hasProperty	物分かり良い	wellUnderstood		
+DancingMen.tsv	89	hasProperty	死んでいない	notDead		
+DancingMen.tsv	117	hasProperty	小さい	small		
+DancingMen.tsv	149	hasProperty	解くことができる	understandable		
+DancingMen.tsv	169	hasProperty	短い	beShort	short	
+DancingMen.tsv	174	hasProperty	アメリカ人である	American		
+DancingMen.tsv	201	hasProperty	幼なじみだった	beChildhood	childhood	状態を表すときbeは不要？
+DancingMen.tsv	173a	hasProperty	意味が通じる	The meaningful	meaningful	

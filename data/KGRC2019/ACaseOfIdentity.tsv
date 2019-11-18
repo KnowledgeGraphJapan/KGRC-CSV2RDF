@@ -1,0 +1,2738 @@
+ID	Property	原文	英訳	絶対時間	Type	RDF用コメント	修正コメント	修正作業		
+1	対象文	ホームズは椅子から立った	Holmes stood out of a chair					少し作業例を入れましたので，それらに倣って全体を見直してください（川村）		
+1	情報源						赤字：松下		
+1	hasPredicate	立つ	stand					「立った」→「立つ」		#ORG:hasPredicate:Stand
+1	Who	ホームズ	Holmes		Person		
+1	From	椅子	Chair		Object			Fromに変更、"から"トル		参考：Propertyの種類		
+1	When			1891-09-01T10			then 2?			参考：Propertyの種類		
+1	then		2		
+2	対象文	ホームズは窓掛けの合わせ目の間に立った	Holmes stood between the windowed seams							対象文		
+2	情報源									情報源		
+2	hasPredicate	立つ	stand					「立った」→「立つ」		hasPredicate|hasProperty		#ORG:hasPredicate:Stand
+3	Who	ホームズ	Holmes		Person					Why（なぜ）		
+3	Where	窓掛けの合わせ目の間	Between the windowed seams		Place		「窓掛けの合わせ目」は物体としては存在しないので「Object」ではない？			What（何を）		
+4	対象文	サザランドが向かいの舗道で襟巻きを巻いている	Sutherland wraps around on the opposite pavement							How（どのように）		
+4	情報源									When（いつ）		
+4	hasPredicate	巻いている	wrap							Where（どこで）		#ORG:hasPredicate:Wrap
+4	Who	サザランド	Sutherland		Person					From（どこから）		
+4	Where	向かいの舗道	Pavement opposite		Place					To（どこへ）		
+4	What	襟巻き	Scarf		Object					On		
+5	対象文	サザランドが帽子をかぶっている	Sutherland is wearing a hat							Under		
+5	情報源									Left		
+5	hasPredicate	かぶっている	wear							Right		#ORG:hasPredicate:Wear
+5	Who	サザランド	Sutherland		Person					Near		
+5	What	帽子	hat		Object		at the same time 4?			NextTo		
+5	at the same time		4		
+6	対象文	サザランドが赤い羽根をつけている	Sutherland has red feathers							MiddleOf		
+6	情報源									Opposite		
+6	hasPredicate	つけている	wear							then（値はID）		#ORG:hasPredicate:Wear
+6	Who	サザランド	Sutherland		Person					if（値はID）		
+6	What	赤い羽根	Red feather		Object		at the same time 4?			because（値はID）		
+6	at the same time		4		
+7	対象文	サザランドが立っている	Sutherland stands							therefore（値はID）		
+7	情報源									at the same time（値はID）		
+7	hasPredicate	立っている	stand							otherwise（値はID）		#ORG:hasPredicate:Stand
+7	Who	サザランド	Sutherland		Person		at the same time 4?			after （値はID）		
+7	at the same time		4		
+8	対象文	サザランドの視線が窓へ向けられている	Sutherland's gaze is directed at the window		
+8	情報源		
+8	hasPredicate	向けられている	beDirected		#ORG:hasPredicate:IsDirected
+8	What	サザランドの視線	Sazaar's gaze		Object		「Who->サザランドの視線」は変		
+8	To	窓	window		Object			Toへ変更		
+8	at the same time	10	Ten		
+10	対象文	サザランドが前後に動く	Sutherland moves back and forth		
+10	情報源		
+10	hasPredicate	動く	move		#ORG:hasPredicate:Move
+10	Who	サザランド	Sutherland		Person		
+10	How	前後に	Back and forth					How		
+11	対象文	サザランドは手袋の釦をいじっている	Sutherland is tinkering with the glove button		
+11	情報源		
+11	hasPredicate	いじっている	mess		#ORG:hasPredicate:Mess
+11	Who	サザランド	Sutherland		Person		
+11	What	手袋の釦	Glove button		Object		then 12?		
+11	then		12		
+12	対象文	サザランドは道を飛び出す	Sutherland jumps the road		
+12	情報源		
+12	hasPredicate	飛び出す	jumpOut		#ORG:hasPredicate:JumpOut
+12	Who	サザランド	Sutherland		Person		
+12	From	道	road		Object		then 13?	From		
+12	then		13		
+13	対象文	サザランドは道を渡る	Sutherland crosses the way		
+13	情報源		
+13	hasPredicate	渡る	cross		#ORG:hasPredicate:Cross
+13	Who	サザランド	Sutherland		Person		
+13	What	道	road		Object		
+14	対象文	ホームズは呼び鈴を聞く	Holmes hears a call bell		
+14	情報源		
+14	hasPredicate	聞く	listen		
+14	Who	ホームズ	Holmes		Person		
+14	What	呼び鈴	bell		Object		
+15	対象文	ホームズは以下を言った	Holmes said the following		
+15	情報源		
+15	hasPredicate	言う	say					「言った」→「言う」		#ORG:hasPredicate:Say
+15	Who	ホームズ	Holmes		Person		
+15	What	16-21	16,17,18,19,20,21		Object		ハイフンでの範囲指定についてRDF化スクリプトで対応が必要？	以下や上記は文番号に変える（複数の場合あり）．対応する文に情報源を入れる		
+16	対象文	今の素振りは以前にもあった	The present movement has been before				Remark by Holmes (以下同様のもの全て)		
+16	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+16	hasPredicate	ある	exist					「あった」→「ある」		
+16	What	今の素振り	The present swing		Object		「who->今の素振り」は変		
+16	When	以前	Before				居間の素振り->対応するIDに変更？		
+17	対象文	女性が舗道でそわそわする	Women are thrilled at the pavement		
+17	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+17	hasPredicate	そわそわする	feelRestless		#ORG:hasPredicate:FeelRestless
+17	Who	女性	Woman		Person		
+17	Where	舗道	pavement		Object		Place?		
+18	対象文	上記は色恋沙汰である	The above is color love Saya		
+18	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+18	hasPredicate	色恋沙汰である	isRomance		
+18	What	17	17				whoに変更？	IDに変更		
+19	対象文	サザランドは助言を欲しい	Sutherland wants advice		
+19	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+19	hasPredicate	欲しい	want		#ORG:hasPredicate:Want
+19	Who	サザランド	Sutherland		Person		
+19	What	助言	advice		Object		
+20	対象文	サザランドは以下を悩んでいる	Sutherland suffers from		
+20	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+20	hasPredicate	悩んでいる	beWorried		#ORG:hasPredicate:Worried
+20	Who	サザランド	Sutherland		Person		
+20	What	21	twenty one		Object			IDに変更		
+21	対象文	サザランドは人に相談したい	Sutherland wants to consult people		
+21	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+21	hasPredicate	相談したい	WantToTalk		
+21	Who	サザランド	Sutherland		Person		
+21	Whom	人	Someone		Object		Someone?	Whom		
+22	対象文	ホームズは以下をわかった	Holmes found that		
+22	情報源		
+22	hasPredicate	わかる	recognize					「わかった」→「わかる」		#ORG:hasPredicate:Recognize
+22	Who	ホームズ	Holmes		Person		
+22	What	23-30	23,24,25,26,27,28,29,30		Object		
+23	対象文	女性は男からひどい目に遭う	Women encounter awful eyes from men		
+23	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+23	hasPredicate	遭う	encounter		#ORG:hasPredicate:Encounter
+23	Who	女性	Woman		Person		
+23	From	男	Man		Person			From		
+23	What	ひどい目に	Terrible things		Object		
+24	対象文	女性はためらわない	Women do not hesitate				「女性は以下をためらわない」に変更し、		
+24	情報源	ホームズの発言	Remark by Holmes				以下をWhat 25?	ホームズの発言		
+24	hasPredicate	ためらわない	notHesitate				IF 23?		#ORG:hasPredicate:NotHesitate
+24	Who	女性	Woman		Person		
+24	What		25		
+25	対象文	女性は呼び鈴の紐を引きちぎる	Woman tears off the string of the doorbell		
+25	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+25	hasPredicate	引きちぎる	tearOff		#ORG:hasPredicate:TearOff
+25	Who	女性	Woman		Person		
+25	What	呼び鈴の紐	String of call bell		Object		
+26	対象文	解釈は色恋沙汰である	Interpretation is color love Saya				「ホームズは以下を解釈した？」		
+26	情報源	ホームズの発言	Remark by Holmes				以下をWhat 18?	ホームズの発言		
+26	hasProperty	色恋沙汰である	romance		#ORG:hasProperty:isRomance
+26	Who	解釈	Interpretation		Object		「who->解釈」は変		
+26	What		27,28,29,30		
+27	対象文	女性は怒っていない	The woman is not angry		
+27	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+27	hasProperty	怒っていない	notAngry		#ORG:hasPredicate:Not angry
+27	Who	女性	Woman		Person		
+28	対象文	女性は戸惑っている	Women are puzzled		
+28	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+28	hasPredicate	戸惑っている	puzzled		#ORG:hasPredicate:Puzzled
+28	Who	女性	Woman		Person		
+29	対象文	女性は悲嘆に暮れている	The woman is in distress		
+29	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+29	hasProperty	悲嘆に暮れている	dead		#ORG:hasPredicate:inDistress
+29	Who	女性	Woman		Person		
+30	対象文	女性の悩みはすぐに解ける	Women's troubles can be solved quickly		
+30	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+30	hasPredicate	解ける	cnaSolve		#ORG:hasPredicate:EnableSolve
+30	Who	女性の悩み	Women's troubles		Object		「who->女性の悩み」は変		
+30	How	すぐに	Immediately					Howに変更		
+31	対象文	部屋の扉が叩かれる	The door of the room is struck		
+31	情報源						then 32?		
+31	hasPredicate	叩かれる	beBeaten				beBeaten? 以降も受動態はbe~		#ORG:hasPredicate:IsBeaten
+31	What	部屋の扉	Room door		Object		「who->部屋の扉」は変		
+31	then		32		
+32	対象文	給仕服の少年が入ってきた	A boy in charge of service came in		
+32	情報源		
+32	hasPredicate	入ってくる	comeIn				then 33?	「入ってきた」→「入ってくる」		#ORG:hasPredicate:Come in
+32	Who	給仕服の少年	Boy serving		Object		typeはpersonだと思われる		
+32	then		33		
+33	対象文	給仕服の少年が告げる	A boy at the service uniform tells Sutherland		
+33	情報源						2文に分ける？		
+33	hasPredicate	告げる	tell				少年はホームズに以下を告げる/女はサザランドである		#ORG:hasPredicate:Tell
+33	What		33-1		
+33	Who	給仕服の少年	Service Boy		
+33-1	対象文	女がサザランドである	A boy at the service uniform tells Sutherland		
+33-1	情報源						2文に分ける？		
+33-1	hasPredicate	告げる	tell				少年はホームズに以下を告げる/女はサザランドである		#ORG:hasPredicate:Is
+33-1	Who	Woman	Woman		Person		typeはPersonだと思われる		
+33-1	Whom	サザランド	Sutherland		Person		then 34?		
+33-1	then		34		
+34	対象文	サザランドが現れる	Sutherland appears		
+34	情報源		
+34	hasPredicate	現れる	appear		
+34	Who	サザランド	Sutherland		Person		then 35?		
+34	then		35		
+35	対象文	ホームズはサザランドを迎える	Holmes welcomes Sutherland		
+35	情報源		
+35	hasPredicate	迎える	welcome		#ORG:hasPredicate:Welcome
+35	Who	ホームズ	Holmes		Person		
+35	What	サザランド	Sutherland		Person		then 36?		
+35	then		36		
+36	対象文	ホームズは扉を閉める	Holmes shuts the door		
+36	情報源		
+36	hasPredicate	閉める	close		#ORG:hasPredicate:Close
+36	Who	ホームズ	Holmes		Person		
+36	What	扉	door		Object		then 37?		
+37	対象文	ホームズは肘掛け椅子を勧める	Holmes recommends an armchair		
+37	情報源		
+37	hasPredicate	勧める	recommend		
+37	Who	ホームズ	Holmes		Person		then 38?		
+37	What	肘掛け椅子	Armchair		Object		"椅子の扱いにばらつきがある(ID1参照)		
+ WhereならtargetのtypeはPlaceにするなど固定したい		
+ 変更するならWhere->what?"		
+37	then		38		
+38	対象文	ホームズはサザランドをながめ回す	Holmes looks over Sutherland		
+38	情報源		
+38	hasPredicate	ながめ回す	lookAround		#ORG:hasPredicate:Look around
+38	Who	ホームズ	Holmes		Person		
+38	What	サザランド	Sutherland		Person		then 39?		
+38	then		39		
+39	対象文	ホームズは以下を言った	Holmes said the following		
+39	情報源		
+39	hasPredicate	言う	say					「言った」→「言う」		
+39	Who	ホームズ	Holmes		Person		
+39	What	40	40		
+40	対象文	近眼はタイプ打ちにつらい	Myopia is hard to type		
+40	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+40	hasProperty	つらい	hard		#ORG:hasPredicate:Hard
+40	What	近眼	Near sight		Object		「who->近眼」は変		
+40	When	タイプ打ち	Typing					whenに変更		
+41	対象文	サザランドは以下を言った	Sutherland said the following		
+41	情報源		
+41	hasPredicate	言う	say					「言った」→「言う」		
+41	Who	サザランド	Sutherland		Person		
+41	What	42,43	42		Object		then 44?		
+42	対象文	近眼はつらい	Myopia is hard		
+42	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+42	hasProperty	つらい	hard		#ORG:hasPredicate:Hard
+42	Who	近眼	Near sight		Object		「who->近眼」は変		
+43	対象文	サザランドは文字の位置がわかる	Sutherland knows the position of the character		
+43	情報源	ホームズの発言	Remark by Holmes		
+43	hasPredicate	わかる	recognize		#ORG:hasPredicate:Recognize
+43	Who	サザランド	Sutherland		Person		
+43	What	文字の位置	Character position		Object			whatに変更		
+44	対象文	サザランドはホームズの言葉の意味に気づく	Sutherland notices the meaning of the words of Holmes		
+44	情報源		
+44	hasPredicate	気づく	notice		
+44	Who	サザランド	Sutherland		Person		
+44	What	ホームズの言葉の意味に	meaning of the words of Holmes		Object		then 45?		
+44	then		45		
+45	対象文	サザランドは驚いた	Sutherland was surprised		
+45	情報源		
+45	hasPredicate	驚く	beSurprised					「驚いた」→「驚く」		#ORG:hasPredicate:isSurprised
+45	Who	サザランド	Sutherland		Person		
+47	対象文	サザランドは以下を思った	Sutherland thought that		
+47	情報源		
+47	hasPredicate	思う	think					「思った」→「思う」		
+47	Who	サザランド	Sutherland		Person		
+47	What	48	48		Object		
+48	対象文	ホームズはサザランドをすでに知っている	Holmes already knows Sutherland		
+48	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+48	hasPredicate	知っている	know		
+48	Who	ホームズ	Holmes		Person		
+48	What	サザランド	Sutherland		Person		
+49	対象文	ホームズは以下を言った	Holmes said the following		
+49	情報源		
+49	hasPredicate	言う	say					「言った」→「言う」		
+49	Who	ホームズ	Holmes		Person		
+49	What	50,51	51		Object		
+51	対象文	ホームズは他人の見落としがわかる	Holmes finds out that others overlook		
+51	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+51	hasPredicate	わかる	recognize		#ORG:hasPredicate:Recognize
+51	Who	ホームズ	Holmes		Person		
+51	What	他人の見落とし	Oversight of others		Object		
+52	対象文	サザランドは以下を言った	Sutherland said the following		
+52	情報源		
+52	hasPredicate	言う	say					「言った」→「言う」		
+52	Who	サザランド	Sutherland		Person		
+52	What	53-79	53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79		Object		
+53	対象文	サザランドはホームズをエサリッジから聞いた	Sutherland heard Holmes from Esaridge		
+53	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+53	hasPredicate	聞く	Hear					「聞いた」→「聞く」		
+53	Who	サザランド	Sutherland		Person		
+53	What	ホームズ	Holmes		Person		
+53	From	エサリッジ	Etheridge		Person	byが必要？	Whom?	From		
+54	対象文	ホームズはエサリッジの夫を簡単に見つけた	Holmes easily found Heraridge's husband		
+54	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+54	hasPredicate	見つける	locate					「見つけた」→「見つける」		
+54	Who	ホームズ	Holmes		Person		
+54	What	エサリッジの夫	Esaridge's husband		Person	対応する人物名が登場しないか要確認		
+54	How	簡単に	simply					Howに変更		
+55	対象文	警察はエサリッジの夫の死亡を断定していた	Police had ruled that Esridge's husband had died		
+55	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+55	hasPredicate	断定している	beConvinced					「断定していた」→「断定している」		#ORG:hasPredicate:IsConvinced
+55	Who	警察	police		Person	この場合の警察は人として扱うか，組織として扱うか（もしくは両方？）	who? person?		
+55	What	エサリッジの夫の死亡	Esalid's husband's death		Object		
+56	対象文	サザランドは裕福ではない	Sutherland is not rich		
+56	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+56	hasProperty	裕福ではない	Not rich		
+56	Who	サザランド	Sutherland		Person		
+57	対象文	サザランドは一年に百ドルを稼ぐ	Sutherland earns one hundred dollars a year		
+57	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+57	hasPredicate	稼ぐ	earn		#ORG:hasPredicate:Earn
+57	Who	サザランド	Sutherland		Person		
+57	What	百ドル	One hundred dollars		Object		
+57	When	一年	one year		
+58	対象文	サザランドはタイプ打ちである	Sutherland is a typing		
+58	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+58	hasProperty	タイプ打ちである	typist		#ORG:hasProperty:Type
+58	Who	サザランド	Sutherland		Person		
+60	対象文	ホームズがホズマを見つける	Holmes find Hozma		
+60	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+60	hasPredicate	見つける	locate		
+60	Who	ホームズ	Holmes		Person		
+60	What	ホズマ	Hozma		Person		
+62	対象文	サザランドは稼ぎをホームズに渡す	Sutherland hands over to Holmes		
+62	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+62	hasPredicate	渡す	handOver		#ORG:hasPredicate:hand over
+62	Who	サザランド	Sutherland		Person		
+62	What	稼ぎ	Earning		Object		
+62	What	ホームズ	Holmes		Object		
+62	if	60	60				「に」は不要．それに伴い，what, objectも変更		
+63	対象文	サザランドは家を飛び出した	Sutherland jumped out of the house		
+63	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+63	hasPredicate	飛び出す	jumpOut					「飛び出した」→「飛び出す」		#ORG:hasPredicate:Jump out
+63	Who	サザランド	Sutherland		Person		
+63	From	家	Sutherland's House		Object		Place?サザランドの家としたほうが良いか?	From		
+64	対象文	サザランドは腹を立てている	Sutherland is angry		
+64	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+64	hasProperty	腹を立てている	angree				怒っている　くらいでよいか？		#ORG:hasPredicate:Angree
+64	Who	サザランド	Sutherland		Person		
+65	対象文	ウィンディバンクは呑気である	Windy Bank is naive		
+65	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+65	hasProperty	呑気である	nausea					hasPredicate ⇒ hasProperty		#ORG:hasProperty:Nausea
+65	Who	ウィンディバンク	Windy bank		Person		
+66	対象文	ウィンディバンクは警察に行きたくない	Windy Bank does not want to go to the police		
+66	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+66	hasPredicate	行きたくない	unwillingToGo		#ORG:hasPredicate:UnwillingToGo
+66	Who	ウィンディバンク	Windy bank		Person		
+66	Where	警察	police		Object		「警察」が人や場所の意で出てくるので区別したい	Whereに変更		
+67	対象文	ウィンディバンクはホームズを訪ねたくない	Windy Bank does not want to visit Holmes		
+67	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+67	hasPredicate	訪ねたくない	notWantToVisit		#ORG:hasPredicate:NotWantToVisit
+67	Who	ウィンディバンク	Windy bank		Person		
+67	Whom	ホームズ	Holmes		Person		whereは変，typeも変	Whereに変更		
+68	対象文	ウィンディバンクはサザランドの義理の父である	Windy Bank is Sutherland's father-in-law		
+68	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+68	hasProperty	である	equalTo		
+68	Who	ウィンディバンク	Windy bank		Person		
+68	What	サザランドの義理の父	Sutherland's father-in-law		Person		2019/08/24古崎修正		
+69	対象文	ウィンディバンクはサザランドより5年2ヶ月年上である	Windy Bank is 5 years and 2 months older than Sutherland		
+69	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+69	hasPredicate	5年2ヶ月年上である	5 years 2 months older				分けてHowで5 years 2months?		
+69	Who	ウィンディバンク	Windy bank		Person		
+69	Whom	サザランド	Sutherland		Object		「より」は不要，typeなども変更		
+70	対象文	サザランドの母は元気である	Sutherland's mother is fine		
+70	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+70	hasProperty	元気である	fine		#ORG:hasProperty:Fine
+70	Who	サザランドの母	Sutherland's mother		Person	対応する人物名がないか要確認		
+71	対象文	サザランドの母は丈夫である	Sutherland's mother is strong		
+71	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+71	hasProperty	丈夫である	strong				である/It isの削除（以降も同様）		
+71	Who	サザランドの母	Sutherland's mother		Person	対応する人物名がないか要確認		
+72	対象文	サザランドの母はサザランドの父の死後に再婚した	Sutherland's mother remarried after Sutherland&#39;s father&#39;s death		
+72	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+72	hasPredicate	再婚する	getMarriedAgain					「再婚した」→「再婚する」		#ORG:hasPredicate:Get married again
+72	Who	サザランドの母	Sutherland's mother		Person		
+72	When	サザランドの父の死後	After the death of Sutherland's father		
+73	対象文	サザランドの父はトテナム・コート通りで配管業である	Sutherland's father is a plumber in Totenham Court		
+73	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+73	hasProperty	配管業である	plumbing business		
+73	Who	サザランドの父	Sutherland's father		Person	対応する人物名がないか要確認		
+73	Where	トテナム・コート通り	Totenham Court street		Place		
+74	対象文	サザランドの父は店を残した	Sutherland's father left a store		
+74	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+74	hasPredicate	残す	leave					「残した」→「残す」		
+74	Who	サザランドの父	Sutherland's father		Person		
+74	What	店	Sutherland's father's shop		Object	意味的には「サザランドの父の店」		
+75	対象文	サザランドの母はハーディと続けていた	Sutherland's mother continued with Hardy					意味変わってないか？→修正済み		
+75	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+75	hasPredicate	続けている	continuing					「続けていた」→「続けている」		
+75	Who	サザランドの母	Sutherland's mother		Person		
+75	Whom	ハーディ	Hardy		Person			Whom		
+75	What	店を	Sutherland's father's shop		Object			Whatに変更		
+76	対象文	ハーディは現場頭である	Hardy is the head of the scene		
+76	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+76	hasProperty	現場頭である	field head		#ORG:hasProperty:Field head
+76	Who	ハーディ	Hardy		Person		
+77	対象文	ウィンディバンクはサザランドの父の店を売らせた	Windy Bank sold her father's shop in Sutherland		
+77	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+77	hasPredicate	売らせる	sell					「売らせた」→「売らせる」		#ORG:hasPredicate:Sell
+77	Who	ウィンディバンク	Windy bank		Person		
+77	What	サザランドの父の店	Sutherland's father's shop		Object	「店」と「サザランドの父の店」が混ざって存在		
+78	対象文	ウィンディバンクはワインの外商である	Windy Bank is a wine commerce		
+78	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+78	hasProperty	ワインの外商である	foreign trade of wine		#ORG:hasProperty:Foreign trade of wine
+78	Who	ウィンディバンク	Windy bank		Person		
+79	対象文	サザランドの父の店は4700ポンドで売れた	Sutherland's father';s store sold for ｡・4700		
+79	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+79	hasPredicate	売れる	sell					「売れた」→「売れる」		
+79	Who	サザランドの父の店	Sutherland's father's shop		Object		whoは変		
+79	What	4700ポンド	4700 pounds		Object		「で」は不要		
+80	対象文	サザランドは以下を思う	Sutherland thinks the following		
+80	情報源		
+80	hasPredicate	思う	think		
+80	Who	サザランド	Sutherland		Person		
+80	What	81	81		Object		
+81	対象文	サザランドの父が以下を思う	Sutherland's father thinks of		
+81	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+81	hasPredicate	思う	think		
+81	Who	サザランドの父	Sutherland's father		Person	対応する人物確認		
+81	What	82	82		Object		
+82	対象文	4700ポンドは少額である	4700 pounds is small		
+82	情報源	サザランドの父の考え	Sutherland's Father's Thoughts					サザランドの父の考え		
+82	hasProperty	少額である	small		#ORG:hasProperty:It is small
+82	Who	4700ポンド	4700 pounds		Object		
+83	対象文	ワトソンは以下を思う	Watson thinks that		
+83	情報源		
+83	hasPredicate	思う	think		
+83	Who	ワトソン	Watson		Person		
+83	What	84,85	84		Object		
+84	対象文	ホームズはサザランドの話にいらだっている	Holmes is annoyed with Sutherland's story		
+84	情報源	ワトソンの考え	Watson's thoughts					ワトソンの考え		
+84	hasProperty	いらだっている	irritated		#ORG:hasPredicate:Irritated
+84	Who	ホームズ	Holmes		Person		
+84	What	サザランドの話	Sutherland's story		Object		whomは変	Whom		
+85	対象文	ホームズはサザランドの話に集中している	Holmes are concentrating on Sutherland's story		
+85	情報源	ワトソンの考え	Watson's thoughts					ワトソンの考え		
+85	hasPredicate	集中している	focus		#ORG:hasPredicate:focusing
+85	Who	ホームズ	Holmes		Person		
+85	What	サザランドの話	Sutherland's story		Object		whomは変	Whom		
+86	対象文	サザランドが以下を言った	Sutherland said the following		
+86	情報源		
+86	hasPredicate	言う	say					「言った」→「言う」		
+86	Who	サザランド	Sutherland		Person		
+86	What	87,88,89,90,91,92,93	87-93		Object		
+87	対象文	サザランドの収入はネッドの遺産である	Sutherland's income is Ned&#39;s heritage		
+87	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+87	hasProperty	ネッドの遺産である	heritage of Ned		#ORG:hasProperty:It is a heritage of Ned
+87	What	サザランドの収入	Sutherland's income		Object		whoは変		
+88	対象文	ネッドはサザランドの伯父である	Ned is Sutherland's uncle		
+88	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+88	hasProperty	である	equalTo		
+88	Who	ネッド	Ned		Person		
+88	What	サザランドの伯父	Sutherland's uncle		Person		
+89	対象文	ネッドはオークランドにいる	Ned is in Auckland		
+89	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+89	hasPredicate	いる	exist		#ORG:hasPredicate:Exist
+89	Who	ネッド	Ned		Person		
+89	Where	オークランド	Auckland		Place		Object->Place		
+90	対象文	遺産はニュージーランド株である	Heritage is a New Zealand strain		
+90	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+90	hasProperty	ニュージーランド株である	New Zealand shares		
+90	What	遺産	heritage		Object		whoは変		
+91	対象文	遺産の配当は四分五厘である	The dividend of the heritage is quarter and five o'clock		
+91	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+91	hasProperty	四分五厘である	quarter five					hasPredicate ⇒ hasProperty		#ORG:hasProperty:It is a quarter five
+91	What	遺産の配当	Heritage dividend		Object		whoは変		
+92	対象文	遺産の額面は2500ポンドである	The face value of the heritage is ｡・2500		
+92	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+92	hasProperty	2500ポンドである	2500 pounds		#ORG:hasProperty:It is 2500 pounds
+92	What	遺産の額面	Face value of heritage		Object		whoは変		
+93	対象文	サザランドは利回りを貰える	Sutherland gives yield		
+93	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+93	hasPredicate	貰える	get		
+93	Who	サザランド	Sutherland		Person		
+93	What	利回り	yield		Object		
+94	対象文	ホームズは以下を思った	Holmes thought the following		
+94	情報源		
+94	hasPredicate	思う	think					「思った」→「思う」		
+94	Who	ホームズ	Holmes		Person		
+94	What	95,96,97,98,99	95,96,97,98,99		Object		
+95	対象文	サザランドは興味深い	Sutherland is interesting		
+95	情報源	ホームズの考え	Remark by Holmes					ホームズの考え		
+95	hasProperty	興味深い	interesting		#ORG:hasPredicate:Interesting
+95	Who	サザランド	Sutherland		Person		
+96	対象文	サザランドは一年に100ポンドをもらえる	Sutherland gets 100 pounds a year		
+96	情報源	ホームズの考え	Remark by Holmes					ホームズの考え		
+96	hasPredicate	もらえる	get		#ORG:hasPredicate:Get
+96	Who	サザランド	Sutherland		Person		
+96	What	100ポンド	100 pounds		Object		
+96	When	一年	one year		
+97	対象文	サザランドは稼ぎを持つ	Sutherland makes money		
+97	情報源	ホームズの考え	Remark by Holmes					ホームズの考え		
+97	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+97	Who	サザランド	Sutherland		Person		
+97	What	稼ぎ	Earning		Object		
+98	対象文	サザランドは余裕を持つ	Sutherland has room		
+98	情報源	ホームズの考え	Remark by Holmes					ホームズの考え		
+98	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+98	Who	サザランド	Sutherland		Person		
+98	What	余裕	margin		Object		bacause 96,99?		
+99	対象文	独身女性は60ポンドで十分である	60 pounds is enough for single women		
+99	情報源	ホームズの考え	Remark by Holmes					ホームズの考え		
+99	hasProperty	十分である	enough		#ORG:hasPredicate:Enough
+99	Who	独身女性	Single women		Person		「女性」はpersonで「独身女性」はobjectになっているので統一		
+99	What	60ポンド	60 pounds		Object		「で」は不要		
+100	対象文	サザランドは以下を言った	Sutherland said the following		
+100	情報源		
+100	hasPredicate	言う	say					「言った」→「言う」		
+100	Who	サザランド	Sutherland		Person		
+100	What	101-109	101,102,103,104,105,106,107,108,109		Object		
+101	対象文	サザランドは60ポンド以下の収入で十分である	Sutherland earns less than ｡・60		
+101	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+101	hasProperty	十分である	enough		#ORG:hasPredicate:Enough
+101	Who	サザランド	Sutherland		Person		
+101	What	60ポンド以下の収入で	less than 60 pounds		Object		「で」は不要		
+102	対象文	サザランドは親に頼らない	Sutherland does not rely on parents		
+102	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+102	hasPredicate	頼らない	notRelyOn		#ORG:hasPredicate:not rely on
+102	Who	サザランド	Sutherland		Person		
+102	What	親	parents		Object		「に」は不要		
+103	対象文	サザランドは親といる間は親にお金を預けている	Sutherland keeps money with her parents while she is with them		
+103	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+103	hasPredicate	預けている	keep		
+103	Who	サザランド	Sutherland		Person		
+104	What	お金	money		Object		
+103	Whom	親	parent		Person			Whom		
+104	When	親といる間	living with my parents		
+105	対象文	ウィンディバンクは利回りから四分の一を引き出す	Windy Bank draws a quarter from the yield		
+105	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+105	hasPredicate	引き出す	pullOut		#ORG:hasPredicate:Pull out
+105	Who	ウィンディバンク	Windy bank		Person		
+105	From	利回り	yield		Object		fromは変，もしくは「利回り」を書き換えるべき	From		
+105	What	四分の一	one quarter		Object		「四分の一」では意味が通らない		
+106	対象文	ウィンディバンクはサザランドの母に渡す	Windy Bank passes to Sutherland's mother		
+106	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+106	hasPredicate	渡す	handOver		#ORG:hasPredicate:hand over
+106	Who	ウィンディバンク	Windy bank		Person		
+106	Whom	サザランドの母	Sutherland's mother		Person	人物名がないか確認		Whom		
+107	対象文	サザランドはサザランドの稼ぎで十分である	Sutherland earns enough for Sutherland		
+107	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+107	hasProperty	十分である	enough		#ORG:hasPredicate:Enough
+107	Who	サザランド	Sutherland		Person		
+107	What	サザランドの稼ぎで	Sutherland's earning		Object		「で」は不要		
+108	対象文	サザランドは1枚で2ペンスを得る	Sutherland gets 2 pence with one		
+108	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+108	hasPredicate	得る	obtain		
+108	Who	サザランド	Sutherland		Person		
+108	What	1枚で	one sheet		Object		「で」は不要		
+108	What	2ペンス	2 pence		Object		
+109	対象文	サザランドは１日で最大20枚を処理する	Sutherland processes up to 20 cards in a day		
+109	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+109	hasPredicate	処理する	process		#ORG:hasPredicate:Process
+109	Who	サザランド	Sutherland		Person		
+109	What	最大20枚	Up to 20 sheets		Object		
+109	When	１日	1 day		
+110	対象文	ホームズはサザランドとホズマとの関係をサザランドに聞く	Holmes listens to Sutherland about the relationship between Sutherland and Hosma		
+110	情報源		
+110	hasPredicate	聞く	listen		
+110	Who	ホームズ	Holmes		Person		
+110	What	サザランドとホズマとの関係	relationship between Sutherland and Hosma		Object	betweenを語彙として追加する必要がある？あるいはofにする？		
+110	Whom	サザランド	Sutherland		Person			Whom		
+111	対象文	サザランドは顔を赤らめる	Sutherland blushes		
+111	情報源		
+111	hasPredicate	赤らめる	blush		
+111	Who	サザランド	Sutherland		Person		
+111	What	顔	face		Object		
+112	対象文	サザランドは上着の袖をつまむ	Sutherland pinches the sleeves of the jacket		
+112	情報源		
+112	hasPredicate	つまむ	hold		#ORG:hasPredicate:Hold
+112	Who	サザランド	Sutherland		Person		
+112	What	上着の袖	Jacket sleeve		Object		
+113	対象文	サザランドは以下を言った	Sutherland said the following		
+113	情報源		
+113	hasPredicate	言う	say					「言った」→「言う」		
+113	Who	サザランド	Sutherland		Person		
+113	What	114-124,126	114,115,116,117,118,119,120,121,122,123,124,126		
+114	対象文	サザランドはガス工組合の舞踏会でホズマと出会う	Sutherland Meets Hozma at the Gas Industry Association Ball		
+114	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+114	hasPredicate	出会う	meet		
+114	Who	サザランド	Sutherland		Person		
+114	Where	ガス工組合の舞踏会	Gas Industry Association Ball		Object		where?		
+114	What	ホズマ	Hozma		Person		「と」は不要		
+115	対象文	サザランドの父はガス工組合の舞踏会の招待状をサザランドに送っていた	Sutherland's father had sent an invitation to the Gas Association&#39;s ball to Sutherland		
+115	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+115	hasPredicate	送っている	send					「送っていた」→「送っている」		#ORG:hasPredicate:Send
+115	Who	サザランドの父	Sutherland's father		Person	対応する人物名がないか確認		
+115	What	ガス工組合の舞踏会の招待状	Gas Engineering Union Ball Invitation		Object		ofで繋げる		
+115	Whom	サザランド	Sutherland		Person			Whom		
+116	対象文	サザランドとサザランドの母はサザランドの父の死後も舞踏会に行った	Sutherland's and Sutherland&#39;s mother went to the ball after Sutherland&#39;s father&#39;s death		
+116	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+116	hasPredicate	行く	go					「行った」→「行く」		
+116	Who	サザランド	Sutherland		Person		
+116	Who	サザランドの母	Sutherland's mother		Person			2名を分割		
+116	When	サザランドの父の死後	After the death of Sutherland's father		
+116	To	舞踏会	Ball		Object		「に」は不要	To		
+117	対象文	ウィンディバンクは以下を承知しない	Windy Bank does not know		
+117	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+117	hasPredicate	承知しない	notAccept		#ORG:hasPredicate:not accept
+117	Who	ウィンディバンク	Windy bank		Person		
+117	What	118	118		Object			IDに変更		
+118	対象文	サザランドとサザランドの母が舞踏会に行く	Sutherland and Sutherland's mother go to a ball		
+118	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+118	hasPredicate	行く	go		
+118	Who	サザランド	Sutherland		Person		
+118	Who	サザランドの母	Sutherland's mother		Person	対応する人物名がいないか確認		2名を分割		
+118	To	舞踏会に	To the ball		Object			To		
+119	対象文	サザランドとサザランドの母が外出する	Sutherland and Sutherland's mother go out		
+119	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+119	hasPredicate	外出する	goOut		#ORG:hasPredicate:go out
+119	Who	サザランド	Sutherland		Person		
+119	Who	サザランドの母	Sutherland's mother		Person	対応する人物名がいないか確認		2名を分割		
+120	対象文	ウィンディバンクは以下で狂う	Windy Bank goes mad below		
+120	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+120	hasPredicate	狂う	goCrazy		#ORG:hasPredicate:Go crazy
+120	Who	ウィンディバンク	Windy bank		Person		
+120	What	121	121		Object		because 121に変更	IDに変更		
+121	対象文	サザランドが日曜学校の催しに行く	Sutherland goes to Sunday school event		
+121	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+121	hasPredicate	行く	go		
+121	Who	サザランド	Sutherland		Person		
+121	To	日曜学校の催し	Sunday school events		Object			To		
+122	対象文	サザランドは舞踏会参加を言った	Sutherland told the ball to join		
+122	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+122	hasPredicate	言う	say					「言った」→「言う」		
+122	Who	サザランド	Sutherland		Person		
+122	What	舞踏会参加	Ball participation		Object	分割したほうが良いのでは？		
+123	対象文	ウィンディバンクはサザランドを止められない	Windy Bank can not stop Sutherland		
+123	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+123	hasPredicate	止められない	cannotStop		#ORG:hasPredicate:can not stop
+123	Who	ウィンディバンク	Windy bank		Person		
+123	What	サザランド	Sutherland		Person		
+124	対象文	ウィンディバンクは以下を言う	Windy Bank says		
+124	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+124	hasPredicate	言う	say		
+124	Who	ウィンディバンク	Windy bank		Person		
+124	What	125	125		Object		
+125	対象文	舞踏会の人は価値を持たない	People in the ball have no value		
+125	情報源	ウィンディバンクの発言	Remark by Windybank					ウィンディバンクの発言		
+125	hasPredicate	持たない	notHave		#ORG:hasPredicate:Not Have
+125	Who	舞踏会の人	Ball people		Object		
+125	What	価値	value		Object		
+126	対象文	サザランドの父の友人は舞踏会に参加している	Sutherland's father&#39;s friend participates in a ball		
+126	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+126	hasPredicate	参加している	joining		#ORG:hasPredicate:I'm joining
+126	Who	サザランドの父の友人	Sutherland's father's friend		Object		
+126	Where	舞踏会	Dance		Object		
+127	対象文	ウィンディバンクは以下を言った	Windy Bank said		
+127	情報源		
+127	hasPredicate	言う	say					「言った」→「言う」		
+127	Who	ウィンディバンク	Windy bank		Person		
+127	What	128	128		Object		
+128	対象文	サザランドは着る服を持たない	Sutherland has no clothes to wear		
+128	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+129	hasPredicate	持たない	notHave		#ORG:hasPredicate:not have
+128	Who	サザランド	Sutherland		Person		
+128	What	着る服	Clothes to wear		Object		
+130	対象文	サザランドは以下を言った	Sutherland said the following		
+130	情報源		
+130	hasPredicate	言う	say					「言った」→「言う」		
+130	Who	サザランド	Sutherland		Person		
+130	What	131-134	131,132,133,134		Object		
+131	対象文	サザランドは紫のフラシ天を着た	Sutherland wore purple plush		
+131	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+131	hasPredicate	着る	wear					「着た」→「着る」		#ORG:hasPredicate:Wear
+131	Who	サザランド	Sutherland		Person		
+131	What	紫のフラシ天	Purple plush		Object		
+132	対象文	ウィンディバンクは所用のためフランスへ行った	Windy Bank went to France for work.		
+132	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+132	hasPredicate	行く	go					「行った」→「行く」		
+132	Who	ウィンディバンク	Windy bank		Person		
+132	Why	所用	Required					Whyへ変更		
+132	Where	フランス	France		Place		
+133	対象文	サザランドとサザランドの母とハーディは舞踏会に行った	Sutherland and her mother and Hardy went to the ball		
+133	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+133	hasPredicate	行く	go					「行った」→「行く」		
+133	Who	サザランド	Sutherland		Person		
+133	Who	サザランドの母	Sutherland's mother		Person	人物名チェック		2名を分割		
+133	Who	ハーディ	Hardy		Person		
+133	Where	舞踏会	Dance		Object		because 132?		
+134	対象文	サザランドは舞踏会でホズマに会った	Sutherland met Hozma at the ball		
+134	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+134	hasPredicate	会う	meet					「会った」→「会う」		
+134	Who	サザランド	Sutherland		Person		
+134	Where	舞踏会	Dance		Object		
+134	Whom	ホズマ	Hozma		Person			Whom		
+135	対象文	ホームズは以下を思った	Holmes thought the following		
+135	情報源		
+135	hasPredicate	思う	think					「思った」→「思う」		
+135	Who	ホームズ	Holmes		Person		
+135	What	136,137	136,138		Object		
+136	対象文	ウィンディバンクは以下を不満だった	Windy Bank complained of		
+136	情報源	ホームズの考え	Remark by Holmes					ホームズの考え		
+136	hasProperty	不満だ	dissatisfied					「不満だった」→「不満だ」		#ORG:hasPredicate:I'm dissatisfied
+136	Who	ウィンディバンク	Windy bank		Person		
+136	What	137	137		Object			IDに変更		
+137	対象文	サザランドが舞踏会に出た	Sutherland went to a ball		
+137	情報源	ホームズの考え	Remark by Holmes					ホームズの考え		
+137	hasPredicate	出る	goOut					「出た」→「出る」		#ORG:hasPredicate:Go out
+137	Who	サザランド	Sutherland		Person		
+137	Where	舞踏会	Dance		Object		WhereかToかあいまいな気がする		
+138	対象文	サザランドは以下を思った	Sutherland thought that		
+138	情報源		
+138	hasPredicate	思う	think					「思った」→「思う」		
+138	Who	サザランド	Sutherland		Person		
+138	What	139	139		Object		
+139	対象文	ウィンディバンクは嬉しい	Windy Bank is happy		
+139	情報源	サザランドの考え	Sutherland's thoughts					サザランドの考え		
+139	hasPredicate	嬉しい	happy		
+139	Who	ウィンディバンク	Windy bank		Person		
+140	対象文	サザランドは以下を言った	Sutherland said the following		
+140	情報源		
+140	hasPredicate	言う	say					「言った」→「言う」		
+140	Who	サザランド	Sutherland		Person		
+140	What	141	141		Object		
+141	対象文	ウィンディバンクは笑った	Windy Bank laughed		
+141	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+141	hasPredicate	笑う	laugh					「笑った」		
+141	Who	ウィンディバンク	Windy bank		Person		
+142	対象文	ウィンディバンクは以下を言った	Windy Bank said		
+142	情報源		
+142	hasPredicate	言う	say					「言った」→「言う」		
+142	Who	ウィンディバンク	Windy bank		Person		
+142	What	143	143		Object		
+143	対象文	女は自由である	Woman is free		
+143	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+143	hasProperty	自由である	free		#ORG:hasProperty:Free
+143	Who	女	woman		Object		
+144	対象文	サザランドは以下を言った	Sutherland said the following		
+144	情報源		
+144	hasPredicate	言う	say					「言った」→「言う」		
+144	Who	サザランド	Sutherland		Person		
+144	What	145-152	145,146,1467,148,149,150,151,152		Object		
+145	対象文	サザランドは舞踏会でホズマに出会った	Sutherland met Hozma at a ball		
+145	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+145	hasPredicate	出会う	meet					「出会った」→「出会う」		
+145	Who	サザランド	Sutherland		Person		
+145	Where	舞踏会	Ball		Object		
+145	Whom	ホズマ	Hozma		Person		afterの意味が逆では？	Whom		
+145	after	146	146				before 146?	追加した		
+146	対象文	ホズマは舞踏会の翌日にサザランドの家を訪ねる	Hozma visits Sutherland's house the day after the ball					after		
+146	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+146	hasPredicate	訪ねる	visit		
+146	Who	ホズマ	Hozma		Person		
+146	Where	サザランドの家	Sutherland House		Object		
+146	When	舞踏会の翌日	The day after the ball				then 147?		
+146	after	147	147				after 145?	追加した		
+147	対象文	サザランドは舞踏会の後もホズマに会う	Sutherland meets Hozma after the ball					after		
+147	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+147	hasPredicate	会う	meet		
+147	Who	サザランド	Sutherland		Person		
+147	When	舞踏会の後	After the ball			「舞踏会」にdanceとballの表現が混在		
+147	Whom	ホズマ	Hozma		Person			Whom		
+147	after	149	149				削除		
+148	対象文	サザランドはホズマと二度会っている	Sutherland has met Hozma twice		
+148	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+148	hasPredicate	会っている	meeting		
+148	Who	サザランド	Sutherland		Person		
+148	Whom	ホズマ	Hozma		Person			Whom		
+148	When	二度	twice				when?		
+149	対象文	ウィンディバンクは家に戻った	Windy Bank returned home					after		
+149	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+149	hasPredicate	戻る	return					「戻った」→「戻る」		#ORG:hasPredicate:Return
+149	Who	ウィンディバンク	Windy bank		Person		after 147?		
+149	Where	家	Windy bank's House		Object	意味的には「ウィンディバンクの家」	Where?To?		
+149	after	150	150				before 150?	追加した		
+150	対象文	ホズマは家に来られない	Hozma can not come home					after		
+150	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+150	hasPredicate	来られない	cannotCome		#ORG:hasPredicate:Can not come
+150	Who	ホズマ	Hozma		Person		
+150	Where	家	Sutherland House		Object	ウィンディバンクの家？	after 149?		
+151	対象文	ウィンディバンクは以下が嫌いである	Windy Bank dislikes		
+151	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+151	hasPredicate	嫌いである	dislike		#ORG:hasProperty:Dislike
+151	Who	ウィンディバンク	Windy bank		Person		
+151	What	152	152		Object			IDに変更		
+152	対象文	客が家に入る	The customer enters the house		
+152	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+152	hasPredicate	入る	enter		
+152	Who	客	Customer		Object		家->サザランドの家?		
+152	Where	家	Sutherland's House		Object		where?to?		
+153	対象文	ウィンディバンクは以下を思った	Windy Bank thought that		
+153	情報源		
+153	hasPredicate	思う	think					「思った」→「思う」		
+153	Who	ウィンディバンク	Windy bank		Person		
+153	What	154	154		Object		
+154	対象文	家庭内で女性は幸せである	Women are happy at home		
+154	情報源	ウィンディバンクの考え	Windy Bank's Thoughts					ウィンディバンクの考え		
+154	hasProperty	幸せである	happy		#ORG:hasProperty:Happy
+154	Who	女性	Woman		Person		
+154	Where	家庭内	At home		Object		where?		
+155	対象文	サザランドは以下を言った	Sutherland said the following		
+155	情報源		
+155	hasPredicate	言う	say					「言った」→「言う」		
+155	Who	サザランド	Sutherland		Person		
+155	What	156-160	156,157,158,159,160		Object	156の内容を言ったはおかしい		
+156	対象文	サザランドは母に言った	Sutherland told her mother		
+156	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+156	hasPredicate	言う	say					「言った」→「言う」		
+156	Who	サザランド	Sutherland		Person		
+156	Whom	母	mother		Object			Whom		
+157	対象文	女性は家庭が欲しい	Women want a home		
+157	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+157	hasPredicate	欲しい	want		#ORG:hasPredicate:Want
+157	Who	女性	Woman		Person		
+157	What	家庭	home		Object	意味合い的には家族？		What		
+158	対象文	サザランドは家庭がない	Sutherland has no home		
+158	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+158	hasProperty	ない	absent		#ORG:hasPredicate:Absent
+158	Who	サザランド	Sutherland		Person		
+158	What	家庭	home		Object			What		
+159	対象文	ウィンディバンクは一週間後にフランスへ行く	Windy Bank goes to France a week later		
+159	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+159	hasPredicate	行く	go		
+159	Who	ウィンディバンク	Windy bank		Person		
+159	Where	フランス	France		Place		where?to?		
+159	When	一週間後	After a week		
+160	対象文	ホズマは以下を言った	Hozma said the following		
+160	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+160	hasPredicate	言う	say					「言った」→「言う」		
+160	Who	ホズマ	Hozma		Person		
+160	What	161	161		Object		
+161	対象文	ホズマはウィンディバンクがいる間にサザランドと会わない	Hozma does not meet Sutherland while Windy Bank is		
+161	情報源	ホズマの発言	Hozma's statement					ホズマの発言		
+162	hasPredicate	会わない	notMeet					161と162混ざってる？		#ORG:hasPredicate:not meet
+161	Who	ホズマ	Hozma		Person		
+161	Whom	サザランド	Sutherland		Person			Whom		
+162	When	ウィンディバンクがいる間	there is Windy Bank		
+163	対象文	サザランドは以下を言った	Sutherland said the following		
+163	情報源		
+163	hasPredicate	言う	say					「言った」→「言う」		
+163	Who	サザランド	Sutherland		Person		
+163	What	164-173	164,165,166,167,168,169,170,171,172,173		Object		
+164	対象文	サザランドとホズマは毎日、手紙を書いた	Sutherland and Hozma wrote a letter every day		
+164	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+164	hasPredicate	書く	write					「書いた」→「書く」		
+164	Who	サザランド	Sutherland		Person		
+164	Who	ホズマ	Hozma		Person		
+164	What	手紙	letter		Object		
+164	When	毎日	every day		
+165	対象文	サザランドは手紙を朝受け取った	Sutherland received a letter in the morning		
+165	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+165	hasPredicate	受け取る	receive					「受け取った」→「受け取る」		
+165	Who	サザランド	Sutherland		Person		
+165	What	手紙	letter		Object		
+165	When	朝	Morning		
+166	対象文	ウィンディバンクは手紙を知らない	Windy Bank does not know the letter		
+166	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+166	hasPredicate	知らない	notKnow		#ORG:hasPredicate:Do not know
+166	Who	ウィンディバンク	Windy bank		Person		
+166	What	手紙	letter		Object		
+167	対象文	サザランドは初散歩の時にホズマと婚約した	Sutherland was engaged to Hozma at the first walk		
+167	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+167	hasPredicate	婚約する	getEngaged					「婚約した」→「婚約する」		#ORG:hasPredicate:Get engaged with
+167	Who	サザランド	Sutherland		Person		
+167	Whom	ホズマ	Hozma		Object		「と」は不要		
+167	When	初散歩	First walk		
+168	対象文	ホズマはレドンホール街の事務所の出納係である	Hozma is the teller of Redon Hall Street office		
+168	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+168	hasProperty	レドンホール街の事務所の出納係である	teller of Redon Hall Street office				分割すべきでは？		#ORG:hasProperty:She is the teller of Redon Hall Street office
+168	Who	ホズマ	Hozma		Person		
+169	対象文	サザランドはホズマの業種を知らない	Sutherland does not know the industry of Hozma		
+169	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+169	hasPredicate	知らない	notKnow		#ORG:hasPredicate:NotKnow
+169	Who	サザランド	Sutherland		Person		
+169	What	ホズマの業種	Industries of Hozma		Object		
+170	対象文	ホズマはレドンホール街の事務所に住んでいる	Hozma lives in the office of Redon Hall Street		
+170	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+170	hasPredicate	住んでいる	live		
+170	Who	ホズマ	Hozma		Person		
+170	Where	レドンホール街の事務所	Office of Redon Hall Street		Object		
+171	対象文	サザランドは以下を知っている	Sutherland knows the following		
+171	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+171	hasPredicate	知っている	know		
+171	Who	サザランド	Sutherland		Person		
+171	What	172,173	172,173		Object		
+172	対象文	ホズマの住所はレドンホール街にある	Hozma's address is on Redon Hall Street		
+172	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+172	hasPredicate	ある	exist		#ORG:hasPredicate:is there
+172	Who	ホズマの住所	Hozma's Address		Object		
+172	Where	レドンホール街	Redon Hall Street		Place		
+173	対象文	サザランドは手紙をレドンホール街郵便局へ送った	Sutherland sent a letter to Redon Hall Street Post Office		
+173	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+173	hasPredicate	送る	send					「送った」→「送る」		
+173	Who	サザランド	Sutherland		Person		
+173	What	手紙	letter		Object		
+173	To	レドンホール街郵便局	Redon Hall Street Post Office		Object			To		
+174	対象文	ホズマは以下を言った	Hozma said the following		
+174	情報源		
+174	hasPredicate	言う	say					「言った」→「言う」		
+174	Who	ホズマ	Hozma		Person		
+174	What	176-181	177,178,179,180,181		Object		
+176	対象文	サザランドの手紙が事務所に届く	Sutherland's letter arrives at the office		
+176	情報源	ホズマの発言	Hozma's statement					ホズマの発言		
+176	hasPredicate	届く	reach		
+176	Who	サザランドの手紙	Sutherland's letter		Object		
+176	To	事務所	Office		Object		「に」は不要	To		
+178	対象文	ホズマは同僚にからかわれる	Hozma is teased by colleagues		
+178	情報源	ホズマの発言	Hozma's statement					ホズマの発言		
+178	hasPredicate	からかわれる	beTeased		#ORG:hasPredicate:Teased
+178	Who	ホズマ	Hozma		Person		
+178	Whom	同僚	Coworker		Object			Whom		
+178	if	176	176					ifを追加		
+179	対象文	ホズマはタイプ打ちの手紙を受け取りたくない	Hozma does not want to receive typing letters		
+179	情報源	ホズマの発言	Hozma's statement					ホズマの発言		
+179	hasPredicate	受け取りたくない	notWantToReceive		#ORG:hasPredicate:not want to receive
+179	Who	ホズマ	Hozma		Person		
+179	What	タイプ打ちの手紙	Typing letter		Object		
+180	対象文	手書きの手紙はサザランドを感じる	Handwritten letter feels Sutherland				主語をホズマに，手紙からサザランドを感じる？		
+180	情報源	ホズマの発言	Hozma's statement					ホズマの発言		
+180	hasPredicate	感じる	feel		
+180	What	手書きの手紙	Handwritten letter		Object		
+180	Who	サザランド	Sutherland		Person		
+181	対象文	タイプ打ちの手紙は機械を感じる	Typing letter feels machine			意味を表現できている？	主語をホズマに，手紙からサザランドを感じる？		
+181	情報源	ホズマの発言	Hozma's statement					ホズマの発言		
+181	hasPredicate	感じる	feel		
+181	What	タイプ打ちの手紙	Typing letter		Object		
+181	What	機械	machine		Object		
+182	対象文	サザランドは以下を言った	Sutherland said the following		
+182	情報源		
+182	hasPredicate	言う	say					「言った」→「言う」		
+182	Who	サザランド	Sutherland		Person		
+182	What	183,184	183,184		Object		
+183	対象文	ホズマはサザランドを愛している	Hozma loves Sutherland		
+183	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+183	hasPredicate	愛している	love		#ORG:hasPredicate:I love you
+183	Who	ホズマ	Hozma		Person		
+183	Whom	サザランド	Sutherland		Person		
+184	対象文	ホズマは気を配る	Hozma pays attention			意味を表現できている？		
+184	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+184	hasPredicate	気を配る	payAttention		#ORG:hasPredicate:Pay attention
+184	Who	ホズマ	Hozma		Person		
+185	対象文	ホームズは座右（以下）の銘を言った	Holmes said the inscription of Zayedomo (below)		
+185	情報源		
+185	hasPredicate	言う	say					「言った」→「言う」		
+185	Who	ホームズ	Holmes		Person		
+185	What	座右の銘	Inscription		Object	「座右の銘」と186が同じであると表現したい		
+185	What	186	186		Object			IDに変更		
+186	対象文	細事の大事は無限である	The importance of minor matters is infinite				細かいことが大事，くらいでは？		
+186	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+186	hasProperty	無限である	infinite					hasPredicate ⇒ hasProperty		#ORG:hasProperty:Is infinite
+186	What	細事の大事	Important of the minor		Object		whoは変		
+187	対象文	サザランドは以下を言った	Sutherland said the following		
+187	情報源		
+187	hasPredicate	言う	say					「言った」→「言う」		
+187	Who	サザランド	Sutherland		Person		
+187	What	188-201,204-209,212-236,239-248	188,189,190,191,192,193,194,195,196,197,198,199,200,201,204,205,206,207,208,209,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236,239,240,241,242,243,244,245,246,247,248		Object		この書き方ありでしたっけ？		
+188	対象文	ホズマは恥ずかしがり屋である	Hozma is shy		
+189	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+189	hasProperty	恥ずかしがり屋である	shy					hasPredicate ⇒ hasProperty		#ORG:hasProperty:I am shy
+189	Who	ホズマ	Hozma		Person		
+192	対象文	ホズマは内気である	Hozma is shy		
+192	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+192	hasProperty	内気である	shy		#ORG:hasProperty:IsShy
+192	Who	ホズマ	Hozma		Person		
+193	対象文	ホズマは紳士らしい	Hozma is a gentleman		
+193	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+193	hasProperty	紳士らしい	gentlemanly				equalTo 紳士か，hasPropertyでgentle？		#ORG:hasPredicate:Gentlemanly
+193	Who	ホズマ	Hozma		Person		
+194	対象文	ホズマの声が細い	Hozma's voice is thin		
+194	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+194	hasPredicate	細い	thin		
+194	What	ホズマの声	Hozma's voice		Object		whoは変		
+195	対象文	ホズマは若いときに扁桃炎を患った	Hozma suffered tonsillitis when he was young		
+195	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+195	hasPredicate	患う	sufferFrom					「患った」→「患う」		#ORG:hasPredicate:Suffer from
+195	Who	ホズマ	Hozma		Person		
+195	When	若い	young		
+195	What	扁桃炎	Tonsillitis		Object		
+196	then	197	197					thenを挿入		
+197	対象文	ホズマは弱い喉を持つ	Hozma has a weak throat		
+197	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+197	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+197	Who	ホズマ	Hozma		Person		
+197	What	弱い喉	Weak throat		Object		
+198	対象文	ホズマはささやくように話す	Hozma speaks whisperly		
+198	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+198	hasPredicate	話す	speak		
+198	Who	ホズマ	Hozma		Person		
+198	How	ささやくように	As whisper					How		
+199	対象文	ホズマの身だしなみはよい	The appearance of Hozma is good		
+199	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+199	hasProperty	よい	good		#ORG:hasPredicate:Good
+199	What	ホズマの身だしなみ	Hozma's appearance		Object		whoは変		
+200	対象文	ホズマの目は悪い	Hozma's eyes are bad		
+200	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+200	hasPredicate	悪い	bad		
+200	What	ホズマの目	Eyes of hozma		Object		whoは変		
+201	対象文	ホズマは色眼鏡を持つ	Hozma has colored glasses		
+201	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+201	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+201	Who	ホズマ	Hozma		Person		
+201	What	色眼鏡	Color glasses		Object		
+202	対象文	ホズマは以下を言った	Hozma said the following		
+202	情報源		
+202	hasPredicate	言う	say					「言った」→「言う」		
+202	Who	ホズマ	Hozma		Person		
+202	What	203	203		Object		
+203	対象文	ホズマはサザランドの父の帰国前にサザランドと結婚したい	Hozma wants to marry Sutherland before his father's return home				二文に分ける？		
+203	情報源	ホズマの考え	Hozma's thoughts					ホズマの考え		
+203	hasPredicate	結婚したい	wantToGetMarried		#ORG:hasPredicate:Want to get married
+203	Who	ホズマ	Hozma		Person		
+203	When	サザランドの父の帰国前	Before returning home from Sutherland's father		
+203	Whom	サザランド	Sutherland		Object		「と」は不要		
+204	対象文	ホズマは熱心だった	Hozma was keen		
+204	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+204	hasProperty	熱心だ	enthusiastic					「熱心だった」→「熱心だ」		#ORG:hasProperty:I am enthusiastic
+204	Who	ホズマ	Hozma		Person		
+205	対象文	ホズマはサザランドに聖書を持たせた	Hozma gave the Bible to Sutherland		
+205	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+205	hasPredicate	持たせる	hold					「持たせた」→「持たせる」		#ORG:hasPredicate:Hold
+205	Who	ホズマ	Hozma		Person		
+205	Whom	サザランド	Sutherland		Person			Whom		
+205	What	聖書	Bible		Object		
+206	対象文	ホズマは以下をサザランドに誓わせた	Hozma has made Sutherland vow:				二文に分けては？		
+206	情報源	サザランドの発言	Remark by Sutherland				ホズマはサザランドに以下を強制する	サザランドの発言		
+206	hasPredicate	誓わせる	swear				サザランドが以下を誓う	「誓わせた」→「誓わせる」		#ORG:hasPredicate:Swear
+206	Who	ホズマ	Hozma		Person		
+206	What	以下	Less than		Object		「以下」を具体的に示すべき		
+206	Whom	サザランド	Sutherland		Person			Whom		
+207	対象文	サザランドはホズマを信じる	Sutherland believes in Hozma		
+207	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+207	hasPredicate	信じる	believe		
+207	Who	サザランド	Sutherland		Person		
+207	What	ホズマ	Hozma		Person		
+208	対象文	サザランドの母は上記に賛成だった	Sutherland's mother agreed with the above		
+208	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+208	hasPredicate	賛成だ	agree					「賛成だった」→「賛成だ」		#ORG:hasPredicate:I agree
+208	Who	サザランドの母	Sutherland's mother		Person	人物名チェック		
+208	Whom	207	207		Object		What?	Whom		
+209	対象文	サザランドの母はホズマをサザランドより愛していた	Sutherland's mother loved Hozma more than Sutherland		
+209	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+209	hasPredicate	愛している	love					「愛していた」→「愛している」		#ORG:hasPredicate:I love you
+209	Who	サザランドの母	Sutherland's mother		Person	人物名チェック		
+209	Whom	ホズマ	Hozma		Person		
+209	How	サザランド	more than Sutherland		Object	「より」で比較を判断するのは....	Howでサザランド以上に，とか？		
+210	対象文	ホズマは以下を言った	Hozma said the following		
+210	情報源		
+210	hasPredicate	言う	say					「言った」→「言う」		
+210	Who	ホズマ	Hozma		Person		
+210	What	211	211		Object		
+211	対象文	ホズマは今週、サザランドと結婚する	Hozma will marry Sutherland this week		
+211	情報源	ホズマの発言	Hozma's statement					ホズマの発言		
+211	hasPredicate	結婚する	getMarried		#ORG:hasPredicate:Get married
+211	Who	ホズマ	Hozma		Person		
+211	Whom	サザランドと	Sutherland		Object		「と」は不要，object->person		
+211	When	今週	this week		
+211	after	215	215				before?	追加した		
+212	対象文	サザランドはウィンディバンクを心配した	Sutherland worried about Windy Bank		
+212	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+212	hasPredicate	心配する	worry					「心配した」→「心配する」		
+212	Who	サザランド	Sutherland		Person		
+212	What	ウィンディバンク	Windy bank		Person		
+213	対象文	サザランドの母とホズマは以下を言った	Sutherland's mother and Hozma said		
+213	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+213	hasPredicate	言う	say					「言った」→「言う」		
+213	Who	サザランドの母	Sutherland's mother		Person	人物名チェック		
+213	Who	ホズマ	Hozma		Person		
+213	What	以下	Less than		Object		「以下」を具体的に		
+214	対象文	サザランドはウィンディバンクを心配しない	Sutherland Worries About Windy Bank		
+214	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+214	hasPredicate	心配しない	notWorry		#ORG:hasPredicate:do not worry
+214	Who	サザランド	Sutherland		Person		
+214	What	ウィンディバンク	Windy bank		Person		
+215	対象文	サザランドの母はウィンディバンクに対応する	Sutherland's mother corresponds to Windy Bank				対応する->話す	after		
+215	情報源	サザランドの発言	Remark by Sutherland				what 211?	サザランドの発言		
+215	hasPredicate	対応する	correspond				あるいはサザランドとホズマの結婚		#ORG:hasPredicate:Correspond
+215	Who	サザランドの母	Sutherland's mother		Person	人物名チェック		
+215	Whom	ウィンディバンク	Windy bank		Person			Whom		
+216	対象文	サザランドは結婚式前にウィンディバンクに報告したい	Sutherland wants to report to Windy Bank before the wedding		
+216	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+216	hasPredicate	報告したい	wantToReport		#ORG:hasPredicate:I want to report
+216	Who	サザランド	Sutherland		Person		
+216	When	結婚式前	Before the wedding		
+216	What	ウィンディバンクに	To Windy Bank		Object		「に」は不要		
+217	対象文	ウィンディバンクはボルドーの会社のフランス事務所で働いている	Windy Bank works at the French office of the Bordeaux company		
+217	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+217	hasPredicate	働いている	working		#ORG:hasPredicate:is working
+217	Who	ウィンディバンク	Windy bank		Person		
+217	Where	ボルドーの会社のフランス事務所	Bordeaux company France office		Object		
+218	対象文	サザランドはウィンディバンクに手紙を送った	Sutherland sent a letter to Windy Bank		
+218	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+218	hasPredicate	送る	send					「送った」→「送る」		
+218	Who	サザランド	Sutherland		Person		
+218	To	ウィンディバンク	Windy bank		Person			To		
+218	What	手紙	letter		Object		
+219	対象文	手紙は結婚式当日の朝にサザランドに戻ってきた	The letter came back to Sutherland on the morning of the wedding day		
+219	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+219	hasPredicate	戻ってくる	comeBack					「戻ってきた」→「戻ってくる」		#ORG:hasPredicate:Come back
+219	What	手紙	letter		Object		whoは変		
+219	To	サザランド	Sutherland		Person			To		
+219	When	結婚式当日の朝	Morning of the wedding day				after 218?		
+220	対象文	手紙はウィンディバンクに届かなかった	The letter did not reach Windy Bank		
+220	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+220	hasPredicate	届かない	notReach					「届かなかった」→「届かない」		#ORG:hasPredicate:Not reach
+220	What	手紙	letter		Object		whoは変		
+220	What	ウィンディバンクに	To Windy Bank		Object		「に」は不要，object->person		
+221	対象文	ウィンディバンクは手紙が着く直前にイングランドへ発った	Windy Bank left for England just before the letter arrived		
+221	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+221	hasPredicate	着く	reach		#ORG:hasPredicate:Reach
+221	Who	ウィンディバンク	Windy bank		Person		
+221	When	手紙が着く直前	Just before the letter arrives				after 218, before 219?		
+222	To	イングランド	England		Place			To		
+223	対象文	結婚式は金曜日に行う	Wedding will be on friday		
+223	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+223	hasPredicate	行う	do		#ORG:hasPredicate:Do
+223	What	結婚式	wedding		Object		whoは変		
+223	When	金曜日	Friday	1891-08-28		
+224	対象文	結婚式は聖セントセイヴィア教会で行う	Weddings will take place at St. Savior Church		
+224	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+224	hasPredicate	行う	do		#ORG:hasPredicate:Do
+224	Who	結婚式	wedding		Object		whoは変		
+224	Where	聖セントセイヴィア教会	Saint St. Savior Church		Object		
+224	then	226	226					既にthenがあるのでafterは追加せず		
+226	対象文	サザランドとホズマは聖セントパンクラス・ホテルで朝食を食べる	Sutherland and Hozma eat breakfast at Saint St Pancras Hotel		
+226	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+226	hasPredicate	食べる	eat		
+226	Who	サザランド	Sutherland		Person		
+226	Who	ホズマ	Hozma		Person		
+226	What	朝食	breakfast		Object		
+226	Where	聖セントパンクラス・ホテル	Saint St Pancras Hotel		Place		
+227	対象文	先週の金曜日、ホズマはハンソム馬車で来た	Last Friday		
+227	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+227	hasPredicate	来る	come					「来た」→「来る」		
+227	Who	ホズマ	Hozma		Person		
+227	How	ハンソム馬車で	By hansom carriage				「で」は不要，Byでは？	How		
+227	When	先週金曜日	Last Friday	1891-08-28				以降、しばらく先週金曜日の話		
+228	対象文	ホズマはサザランドとサザランドの母をハンソム馬車に乗せた	Hozma put Sutherland's mother and Sutherland&#39;s mother on a Hansom carriage		
+228	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+228	hasPredicate	乗せる	putOn					「乗せた」→「乗せる」		#ORG:hasPredicate:Put on
+228	Who	ホズマ	Hozma		Person		
+228	What	サザランド	Sutherland		Person		
+228	What	サザランドの母	Sutherland's mother		Person		
+228	Where	ハンソム馬車	Hansom horse carriage		Object		where?	Where		
+229	対象文	ホズマは辻馬車に乗った	Hozma got on a carriage		
+229	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+229	hasPredicate	乗る	getOn					「乗った」→「乗る」		#ORG:hasPredicate:get on
+229	Who	ホズマ	Hozma		Person		
+229	Where	辻馬車	Horse carriage		Object		where?	Where		
+230	対象文	通りには他の馬車はいなかった	There were no other carriages in the street		
+230	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+230	hasPredicate	いない	notExist					「いなかった」→「いない」		#ORG:hasPredicate:Not in
+230	Who	他の馬車	Other carriages		Object	何に対して「他」なのかわからない	whoは変		
+230	Where	通り	Street		Object		
+231	対象文	サザランドとサザランドの母はホズマより先に教会に着いた	Sutherland and Sutherland's mother arrived at the church before Hozma				2文に分けて，beforeで連結？		
+231	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+231	hasPredicate	着く	reach					「着いた」→「着く」		#ORG:hasPredicate:Reach
+231	Who	サザランド	Sutherland		Person		
+231	Who	サザランドの母	Sutherland's mother		Person		
+231	When	ホズマより先	Beyond Hozma		
+231	Where	教会	Church		Object		
+232	対象文	ホズマは辻馬車にいなかった	Hozma wasn't in a cart		
+232	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+232	hasPredicate	いない	notExist					「いなかった」→「いない」		#ORG:hasPredicate:Not in
+232	Who	ホズマ	Hozma		Person		
+232	Where	辻馬車	Horse carriage		Object		where?	Where		
+233	対象文	辻馬車の御者が辻馬車の下を覗いた	A chariot wandered under the chariot		
+233	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+233	hasPredicate	覗く	lookIn					「覗いた」→「覗く」		#ORG:hasPredicate:look in
+233	Who	辻馬車の御者	The Horseman		Object		
+233	Where	辻馬車の下	Under the marsoon		Object		
+234	対象文	辻馬車の下には誰もいなかった	There was no one under the cart		
+234	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+234	hasPredicate	いない	notExist					「いなかった」→「いない」		#ORG:hasPredicate:Not in
+234	Who	誰も	nobody		Object		
+234	Where	辻馬車の下	Under the marsoon		Object			Where		
+235	対象文	御者はホズマの居場所が分からない	He does not know where Hozma is				Under？		
+235	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+235	hasPredicate	分からない	notUnderstand		#ORG:hasPredicate:I do not understand
+235	Who	御者	The god		Object		
+235	What	ホズマの居場所	Where is he located?		Object		what?	What		
+236	対象文	御者は以下を見た	He saw the following		
+236	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+236	hasPredicate	見る	see					「見た」→「見る」		#ORG:hasPredicate:to see
+236	Who	御者	The god		Object		
+236	What	237	237		Object		
+237	対象文	ホズマが辻馬車に入る	Hozma gets into the cart		
+237	情報源	御者の発言	The speaker's statement					御者の発言		
+237	hasPredicate	入る	enter		
+237	Who	ホズマ	Hozma		Person		
+237	Where	辻馬車	Horse carriage		Object		where?		
+237	then	239	239		
+239	対象文	ホズマは手紙を送らない	Hozma does not send letters		
+239	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+239	hasPredicate	送らない	notSend		#ORG:hasPredicate:do not send
+239	Who	ホズマ	Hozma		Person		
+239	What	手紙	letter		Object		
+240	対象文	ホズマは姿を見せない	Hozma does not show up		
+240	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+240	hasPredicate	見せない	notShow		#ORG:hasPredicate:Do not show
+240	Who	ホズマ	Hozma		Person		
+240	What	姿	Appearance		Object		
+241	対象文	サザランドはホズマの行方をわからない	Sutherland does not know where Hozma is		
+241	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+241	hasPredicate	わからない	notKnow		#ORG:hasPredicate:do not know
+241	Who	サザランド	Sutherland		Person		
+241	What	ホズマの行方	Whereabouts of Hozma		Object		
+242	対象文	ホズマはサザランドを捨てない	Hozma does not throw away Sutherland		
+242	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+242	hasPredicate	捨てない	notThrow		#ORG:hasPredicate:do not throw
+242	Who	ホズマ	Hozma		Person		
+242	What	サザランド	Sutherland		Person		
+243	対象文	先週の金曜日の朝、ホズマはサザランドに以下を言った	Last Friday morning		
+243	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+243	hasPredicate	言う	say					「言った」→「言う」		
+243	Who	ホズマ	Hozma		Person		
+243	Whom	サザランド	Sutherland		Person			Whom		
+243	What	244	244		Object			IDに変更		
+243	When	先週金曜日	Last Friday	1891-08-28		
+244	対象文	サザランドはホズマを信じる	Sutherland believes in Hozma		
+244	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+244	hasPredicate	信じる	believe		
+244	Who	サザランド	Sutherland		Person		
+244	Whom	ホズマ	Hozma		Person			Whom		
+244	if	247	247		
+245	対象文	サザランドは上記を誓った	Sutherland swore the above		
+245	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+245	hasPredicate	誓う	swear					「誓った」→「誓う」		
+245	Who	サザランド	Sutherland		Person		
+245	What	上記	the above		Object		「上記」を具体的に		
+247	対象文	サザランドがホズマと離れる	Sutherland leaves with Hozma		
+247	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+247	hasPredicate	離れる	leave		#ORG:hasPredicate:Leave
+247	Who	サザランド	Sutherland		Person		
+247	What	ホズマと	With hozma		Object		「と」は不要		
+248	対象文	現在、サザランドはホズマの言葉を理解した	Sutherland now understands the language of Hozma		
+248	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+248	hasPredicate	理解する	understand					「理解した」→「理解する」		#ORG:hasPredicate:to understand
+248	Who	サザランド	Sutherland		Person		
+248	What	ホズマの言葉	Words of hozma		Object		
+248	When	現在	Current				絶対時間を追加したほうがよい？		
+249	対象文	サザランドは以下を思う	Sutherland thinks the following		
+249	情報源		
+249	hasPredicate	思う	think		
+249	Who	サザランド	Sutherland		Person		
+249	What	250,252	250		Object		
+250	対象文	ホズマは危険を知っていた	Hozma knew about the danger		
+250	情報源	サザランドの考え	Sutherland's thoughts					サザランドの考え		
+250	hasPredicate	知っている	know					「知っていた」→「知っている」		
+250	Who	ホズマ	Hozma		Person		
+250	What	危険	Danger		Object		
+250	therefore	252	252					thereforeを挿入		
+252	対象文	ホズマは上記を言った	Hozma said above		
+252	情報源	サザランドの考え	Sutherland's thoughts					サザランドの考え		
+252	hasPredicate	言う	say					「言った」→「言う」		
+252	Who	ホズマ	Hozma		Person		
+252	What	244	244		Object			IDに変更		
+253	対象文	サザランドは以下を言った	Sutherland said the following		
+253	情報源		
+253	hasPredicate	言う	say					「言った」→「言う」		
+253	Who	サザランド	Sutherland		Person		
+253	What	254-256	254-256		Object		
+254	対象文	サザランドはホズマの危険を知らない	Sutherland does not know the danger of Hozma		
+254	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+254	hasPredicate	知らない	notKnow		#ORG:hasPredicate:Do not know
+254	Who	サザランド	Sutherland		Person		
+254	What	ホズマの危険	The danger of hozma		Object		
+255	対象文	サザランドはサザランドの母とウィンディバンクにホズマ失踪を伝えた	Sutherland reported Hozma's disappearance to Sutherland&#39;s mother and Windy Bank		
+255	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+255	hasPredicate	伝える	tell					「伝えた」→「伝える」		#ORG:hasPredicate:Tell
+255	Who	サザランド	Sutherland		Person		
+255	Whom	サザランドの母	Sutherland's mother		Person	人物名チェック		Whom		
+255	Whom	ウィンディバンク	Windy bank		Person			Whom		
+255	What	ホズマ失踪	Hozma lost		Object		ホズマの疾走としたほうが良い？あるいは文とする		
+256	対象文	サザランドの母はホズマ失踪に怒った	Sutherland's mother got mad at Hozma&#39;s disappearance		
+256	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+256	hasPredicate	怒る	getAngry					「怒った」→「怒る」		#ORG:hasPredicate:Get angry
+256	Who	サザランドの母	Sutherland's mother		Person	人物名チェック		
+256	What	ホズマ失踪に	Hozma's disappearance		Object		「に」は不要		
+257	対象文	サザランドの母はサザランドに以下を言った	Sutherland's mother said to Sutherland:		
+257	情報源		
+257	hasPredicate	言う	say					「言った」→「言う」		
+257	Who	サザランドの母	Sutherland's mother		Person	人物名チェック		
+257	Whom	サザランド	Sutherland		Person			Whom		
+257	What	258	258		Object		
+258	対象文	サザランドはホズマ失踪を話さない	Sutherland does not speak Hozma's disappearance		
+258	情報源	サザランドの母の発言	Sutherland's mother&#39;s remark					サザランドの母の発言		
+258	hasPredicate	話さない	notTalk		#ORG:hasPredicate:NotTalk
+258	Who	サザランド	Sutherland		Person		
+258	What	ホズマ失踪	Hozma lost		Object		
+259	対象文	ウィンディバンクは以下を言った	Windy Bank said		
+259	情報源		
+259	hasPredicate	言う	say					「言った」→「言う」		
+259	Who	ウィンディバンク	Windy bank		Person		
+259	What	260	260		Object		
+260	対象文	ホズマはサザランドに連絡する	Hozma will contact Sutherland		
+260	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+260	hasPredicate	連絡する	contact		
+260	Who	ホズマ	Hozma		Person		
+260	Whom	サザランド	Sutherland		Person			Whom		
+261	対象文	サザランドは以下を言った	Sutherland said the following		
+261	情報源		
+261	hasPredicate	言う	say					「言った」→「言う」		
+261	Who	サザランド	Sutherland		Person		
+261	What	262-265	262-265		Object		
+262	対象文	ホズマは自分の財産を持っている	Hozma owns his property		
+262	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+262	hasPredicate	持っている	have		
+262	Who	ホズマ	Hozma		Person		
+262	What	自分の財産	My property		Object	「自分の」は人物名に置き換えたほうがよいのでは？		
+263	対象文	ホズマはサザランドのお金を欲してない	Hozma does not want Sutherland's money		
+263	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+263	hasPredicate	欲してない	notWant		#ORG:hasPredicate:Do not want
+263	Who	ホズマ	Hozma		Person		
+263	What	サザランドのお金	Sutherland's money		Object		
+264	対象文	サザランドは眠れない	Sutherland can not sleep		
+264	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+264	hasPredicate	眠れない	cannotSleep		#ORG:hasPredicate:can not sleep
+264	Who	サザランド	Sutherland		Person		
+265	対象文	サザランドは泣いた	Sutherland cried		
+265	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+265	hasPredicate	泣く	cry					「泣いた」→「泣く」		
+265	Who	サザランド	Sutherland		Person		
+266	対象文	ホームズは以下を言った	Holmes said the following		
+266	情報源		
+266	hasPredicate	言う	say					「言った」→「言う」		
+266	Who	ホームズ	Holmes		Person		
+266	What	267-272	267-272		Object		
+267	対象文	ホームズはホズマ失踪を調べる	Holmes examines Hozma's disappearance		
+267	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+267	hasPredicate	調べる	examine		#ORG:hasPredicate:Examine
+267	Who	ホームズ	Holmes		Person		
+267	What	ホズマ失踪	Hozma lost		Object		
+268	対象文	ホームズはホズマ失踪を解決できる	Holmes can solve Hozma's disappearance			「失踪を解決」というと「失踪した人物を探し出して連れてこれる」の意味にとれる		
+268	情報源	ホームズの発言	Remark by Holmes				この失踪問題を解決とか？	ホームズの発言		
+268	hasPredicate	解決できる	canSolve		#ORG:hasPredicate:Solvable
+268	Who	ホームズ	Holmes		Person		
+268	What	ホズマ失踪	Hozma lost		Object		
+269	対象文	サザランドはホズマを忘れる	Sutherland forgets Hozma				忘れたほうが的な？		
+269	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+269	hasPredicate	忘れる	forget		
+269	Who	サザランド	Sutherland		Person		
+269	What	ホズマ	Hozma		Person		
+270	対象文	サザランドはホズマに会えない	Sutherland can not see Hozma		
+270	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+270	hasPredicate	会えない	cannotMeet		#ORG:hasPredicate:can not meet
+270	Who	サザランド	Sutherland		Person		
+270	Whom	ホズマ	Hozma		Person			Whom		
+271	対象文	ホームズはホズマの人相書きを欲しい	Holmes wants Hozma's personalities		
+271	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+271	hasPredicate	欲しい	want		#ORG:hasPredicate:Want
+271	Who	ホームズ	Holmes		Person		
+271	What	ホズマの人相書き	Hozma's personalities		Object		
+272	対象文	ホームズはホズマの手紙を欲しい	Holmes wants a letter from Hozma		
+272	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+272	hasPredicate	欲しい	want		#ORG:hasPredicate:Want
+272	Who	ホームズ	Holmes		Person		
+272	What	ホズマの手紙	Hosma's letter		Object		
+273	対象文	サザランドは以下を言った	Sutherland said the following		
+273	情報源		
+273	hasPredicate	言う	say					「言った」→「言う」		
+273	Who	サザランド	Sutherland		Person		
+273	What	274	274		Object		
+274	対象文	先週の土曜に、サザランドは新聞に尋ね人広告を出した	Last Saturday		
+274	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+274	hasPredicate	出す	putOut					「出した」→「出す」		#ORG:hasPredicate:put out
+274	Who	サザランド	Sutherland		Person		
+274	To	新聞	newspaper		Object			To		
+274	What	尋ね人広告	Inquirer advertisement		Object		
+274	When	先週土曜日	Lst Satuaday	1891-08-29		
+275	対象文	サザランドはホームズに尋ね人広告を渡した	Sutherland asked Holmes to give adverts		
+275	情報源		
+275	hasPredicate	渡す	handOver					「渡した」→「渡す」		#ORG:hasPredicate:hand over
+275	Who	サザランド	Sutherland		Person		
+275	Whom	ホームズ	Holmes		Person			Whom		
+275	What	尋ね人広告	Inquirer advertisement		Object		
+276	対象文	サザランドはホームズにホズマの手紙を渡した	Sutherland gave Hozma a letter to Holmes		
+276	情報源		
+276	hasPredicate	渡す	handOver					「渡した」→「渡す」		#ORG:hasPredicate:hand over
+276	Who	サザランド	Sutherland		Person		
+276	Whom	ホームズ	Holmes		Person			Whom		
+276	What	ホズマの手紙	Hosma's letter		Object		
+277	対象文	サザランドは以下を言った	Sutherland said the following		
+277	情報源		
+277	hasPredicate	言う	say					「言った」→「言う」		
+277	Who	サザランド	Sutherland		Person		
+277	What	278-281	278-281		Object		
+278	対象文	サザランドの住所はキャンバウェルである	Sutherland's address is Camberwell		
+278	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+278	hasProperty	キャンバウェルである	Camberwell				equalTo で結んでは？		#ORG:hasProperty:I'm Camberwell
+278	Who	サザランドの住所	Sutherland Address		Object		whoは変		
+279	対象文	サザランドはホズマの住所を知らない	Sutherland does not know Hozma's address		
+279	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+279	hasPredicate	知らない	notKnow		#ORG:hasPredicate:Do not know
+279	Who	サザランド	Sutherland		Person		
+279	What	ホズマの住所	Hozma's Address		Object		
+280	対象文	ホズマはウェストハウス＆マーバンクの外商である	Hozma is a foreign company in West House &amp; Marbank		
+280	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+280	hasProperty	ウェストハウス＆マーバンクの外商である	foreign business of West House&Marbank			分割すべきでは？	equalTo で結んでは？		
+280	Who	ホズマ	Hozma		Person		
+281	対象文	フェンチャーチ街で、ウェストハウス＆マーバンクは最大のクラレット輸入業者である	West House &amp; Marbank is the largest claret importer on Fenchurch Street		
+281	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+281	hasProperty	最大のクラレット輸入業者である	largest claret importer			分割すべきでは？	equalTo で結んでは？		
+281	Who	ウェストハウス＆マーバンク	West House&Marbank		Object		
+281	Where	フェンチャーチ街	Fengchurch Street		Place		
+282	対象文	ホームズは以下を言った	Holmes said the following		
+282	情報源		
+282	hasPredicate	言う	say					「言った」→「言う」		
+282	Who	ホームズ	Holmes		Person		
+282	What	283,284	283		Object		
+283	対象文	サザランドはホームズの助言を忘れない	Sutherland will not forget Holmes' advice		
+283	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+283	hasPredicate	忘れない	notForget		#ORG:hasPredicate:will not forget
+283	Who	サザランド	Sutherland		Person		
+283	What	ホームズの助言	Holmes' advice		Object		
+284	対象文	サザランドはホズマ失踪を忘れる	Sutherland forgets Hozma's disappearance		
+284	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+284	hasPredicate	忘れる	forget		
+284	Who	サザランド	Sutherland		Person		
+284	What	ホズマ失踪	Hozma lost		Object		
+285	対象文	サザランドは以下を言った	Sutherland said the following		
+285	情報源		
+285	hasPredicate	言う	say					「言った」→「言う」		
+285	Who	サザランド	Sutherland		Person		
+285	What	286,287	286		Object		
+286	対象文	サザランドはホズマを忘れられない	Sutherland can not forget Hozma		
+286	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+286	hasPredicate	忘れられない	unforgettable		#ORG:hasPredicate:Unforgettable
+286	Who	サザランド	Sutherland		Person		
+286	Whom	ホズマ	Hozma		Person		
+287	対象文	サザランドはホズマを信じている	Sutherland believes in Hozma		
+287	情報源	サザランドの発言	Remark by Sutherland					サザランドの発言		
+287	hasPredicate	信じている	believe		#ORG:hasPredicate:I believe
+287	Who	サザランド	Sutherland		Person		
+287	Whom	ホズマ	Hozma		Person		
+288	対象文	ワトソンはサザランドに気品と敬意を感じた	Watson felt noble and respect for Sutherland		
+288	情報源		
+288	hasPredicate	感じる	feel					「感じた」→「感じる」		
+288	Who	ワトソン	Watson		Person		
+288	Whom	サザランド	Sutherland		Person		
+288	What	気品	Class		Object			残っている助詞"と"トル		
+288	What	敬意	respect		Object		
+289	対象文	サザランドはホームズから出て行った	Sutherland went out of Holmes			意味が分からない		
+289	情報源		
+289	hasPredicate	出て行く	getOut					「出て行った」→「出て行く」		#ORG:hasPredicate:get out
+289	Who	サザランド	Sutherland		Person		
+289	From	ホームズ	Holmes		Person		ホームズ家 Place	From		
+290	対象文	サザランドは呼ばれたらホームズに来る	Sutherland will come to Holmes when called			意味が分からない		
+290	情報源		
+290	hasPredicate	来る	come		
+290	Who	サザランド	Sutherland		Person		
+290	When	呼ばれる	be called		
+290	Where	ホームズ	Holmes		Object		ホームズ家 Place		
+291	対象文	ホームズは以下を言った	Holmes said the following		
+291	情報源		
+291	hasPredicate	言う	say					「言った」→「言う」		
+291	Who	ホームズ	Holmes		Person		
+291	What	292-295	292-295		Object		
+292	対象文	サザランドは興味深い	Sutherland is interesting			意味を表現できている？		
+292	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+292	hasProperty	興味深い	interesting				equalTo intesting person とか？		#ORG:hasPredicate:Interesting
+292	Who	サザランド	Sutherland		Person		
+293	対象文	同一の事件をホームズは知っている	Holmes knows the same case		
+293	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+293	hasPredicate	知っている	know		
+293	Who	ホームズ	Holmes		Person		
+293	What	同一の事件	Same incident		Object	何と同一なのか表現すべき？		
+294	対象文	77年に、同一の事件がアンドーヴァで起きた	The same incident happened in Andova in 1977		
+294	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+294	hasPredicate	起きる	getUp					「起きた」→「起きる」		#ORG:hasPredicate:Get up
+294	What	同一の事件	Same incident		Object		whoは変		
+294	Where	アンドーヴァ	Andova		Place		
+294	When	77年	77 years				絶対時間追加？		
+295	対象文	昨年、同一の事件がハーグで起きた	The same incident happened in The Hague last year				-- 07/14ここまで --		
+295	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+295	hasPredicate	起きる	getUp					「起きた」→「起きる」		#ORG:hasPredicate:Get up
+295	What	同一の事件	Same incident		Object	何と同一？	whoは変		
+295	Where	ハーグ	The Hague		Place		
+295	When	昨年	last year		
+296	対象文	ワトソンは以下を言った	Watson said the following		
+296	情報源		
+296	hasPredicate	言う	say					「言った」→「言う」		
+296	Who	ワトソン	Watson		Person		
+296	What	297,298	297		Object		
+297	対象文	ホームズはサザランドを読み取れる	Holmes can read Sutherland			いまいち意味が分からない		
+297	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+297	hasPredicate	読み取れる	canRead				理解できる，とか？		#ORG:hasPredicate:Can read
+297	Who	ホームズ	Holmes		Person		
+297	Who	サザランド	Sutherland		Person		
+298	対象文	ワトソンはサザランドを読み取れない	Watson can not read Sutherland			297と矛盾する		
+298	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+298	hasPredicate	読み取れない	cannotRead				理解できない，とか？		#ORG:hasPredicate:Can not read
+298	Who	ワトソン	Watson		Person		
+298	Who	サザランド	Sutherland		Person		
+299	対象文	ホームズは以下を言った	Holmes said the following		
+299	情報源		
+299	hasPredicate	言う	say					「言った」→「言う」		
+299	Who	ホームズ	Holmes		Person		
+299	What	300-303	300-303		Object		
+300	対象文	ワトソンは大事な点を見落としている	Watson overlooks an important point		
+300	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+300	hasPredicate	見落としている	overlook		#ORG:hasPredicate:Overlooked
+300	Who	ワトソン	Watson		Person		
+300	What	大事な点	Important point		Object	「大事な点」へのリンクが欲しい		
+301	対象文	袖は重要である	Sleeves are important		
+301	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+301	hasProperty	重要である	important		#ORG:hasProperty:is important
+301	What	袖	sleeve		Object		whoは変		
+302	対象文	親指の爪は語る	Thumb nail talks			比喩は直した方がいいのでは？		
+302	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+302	hasPredicate	語る	talk		
+302	What	親指の爪	Thumb nail		Object		whoは変		
+303	対象文	靴ひもは大問題を導く	Shoe laces lead to major problems		
+303	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+303	hasPredicate	導く	lead		#ORG:hasPredicate:Lead
+303	What	靴ひも	Shoelaces		Object	主語がどちらかわからない		
+303	What	大問題	Big problem		Object	主語がどちらかわからない		
+304	対象文	ワトソンは以下を言った	Watson said the following		
+304	情報源		
+304	hasPredicate	言う	say					「言った」→「言う」		
+304	Who	ワトソン	Watson		Person		
+304	What	305-319	305-319		Object		
+305	対象文	サザランドは黒板色の鍔広麦わら帽子をかぶっていた	Sutherland wore a straw hat with a blackboard color		
+305	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+305	hasPredicate	かぶっている	wearing					「かぶっていた」→「かぶっている」		#ORG:hasPredicate:Wearing
+305	Who	サザランド	Sutherland		Person		
+305	What	黒板色の鍔広麦わら帽子	Blackboard colored straw hat with straw hat		Object		
+306	対象文	赤煉瓦色の羽根が黒板色の鍔広麦わら帽子についていた	A red-brick feather was on a blackboard-colored straw hat		
+306	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+306	hasProperty	ついている	attached					「ついていた」→「ついている」		#ORG:hasPredicate:Attached
+306	What	赤煉瓦色の羽根	Red brick feather		Object		whoは変		
+306	On	黒板色の鍔広麦わら帽子に	Blackboard colored straw hat with straw hat				「に」は不要	On		
+307	対象文	サザランドの上着は黒だった	Sutherland's jacket was black		
+307	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+307	hasProperty	黒だ	black					「黒だった」→「黒だ」		#ORG:hasProperty:it's black
+307	What	サザランドの上着	Sutherland coat		Object		whoは変		
+308	対象文	黒のビーズがサザランドの上着には付いていた	Black beads were attached to the jacket of Sutherland		
+308	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+308	hasPredicate	付いている	attached					「付いていた」→「付いている」		
+308	What	黒のビーズ	Black beads		Object		whoは変		
+308	On	サザランドの上着	Sutherland coat					On		
+309	対象文	小粒の黒玉の飾りが裾のふさ縁に付いている	A small black beaded ornament is attached to the hem border edge		
+309	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+309	hasPredicate	付いている	attached		
+309	What	小粒の黒玉の飾り	Small black ball ornament		Object		whoは変		
+309	On	裾のふさ縁に	At the edge of the hem				「に」は不要	On		
+310	対象文	衣服は茶褐色だった	The clothes were brown		
+310	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+310	hasProperty	茶褐色だ	brown					「茶褐色だった」→「茶褐色だ」		#ORG:hasProperty:It is brown
+310	What	衣服	clothes		Object		whoは変		
+311	対象文	紫色のフラシ天が衣服の首元と袖に付いている	A purple plush is attached to the neck and sleeves of the garment		
+311	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+311	hasPredicate	付いている	attached		
+311	What	紫色のフラシ天	Purple plush		Object		whoは変		
+311	On	衣服の首元	With the neck of clothes				「と」は不要	On		
+311	On	袖	On the sleeve				「に」は不要	On		
+312	対象文	手袋は鼠色だった	The gloves were scarlet		
+312	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+312		鼠色だ	dark blue					「鼠色だった」→「鼠色だ」		#ORG:hasProperty:It is dark blue
+312	What	手袋	gloves		Object		whoは変		
+313	対象文	右手袋の親指がすり切れている	The thumb of the right glove is worn		
+313	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+313	hasPredicate	すり切れている	worn		#ORG:hasPredicate:Worn
+313	What	右手袋の親指	Right glove thumb		Object		whoは変		
+314	対象文	ワトソンはサザランドの靴を見ていない	Watson has not seen Sutherland shoes		
+314	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+314	hasPredicate	見ていない	notSee		#ORG:hasPredicate:I have not seen
+314	Who	ワトソン	Watson		Person		
+314	What	サザランドの靴	Sutherland shoes		Object		
+315	対象文	サザランドは小振りの丸い金の耳飾りをぶら下げていた	Sutherland was hanging a small round gold earring		
+315	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+315	hasPredicate	ぶら下げている	hanging					「ぶら下げていた」→「ぶら下げている」		#ORG:hasPredicate:Hanging
+315	Who	サザランド	Sutherland		Person		
+315	What	小振りの丸い金の耳飾り	Small round gold earring		Object		
+316	対象文	サザランドは裕福である	Sutherland is rich		
+316	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+316	hasProperty	裕福である	rich		#ORG:hasProperty:Rich
+316	Who	サザランド	Sutherland		Person		
+317	対象文	サザランドはのんきである	Sutherland is a leisure		
+317	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+317	hasProperty	のんきである	easygoing		#ORG:hasProperty:It is easygoing
+317	Who	サザランド	Sutherland		Person		
+318	対象文	サザランドはおっとりしている	Sutherland is warm		
+318	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+318	hasProperty	おっとりしている	relaxed		#ORG:hasPredicate:I am relaxed
+318	Who	サザランド	Sutherland		Person		
+319	対象文	サザランドは町娘である	Sutherland is a town girl		
+319	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+319	hasProperty	町娘である	town girl		#ORG:hasProperty:I am a town girl
+319	Who	サザランド	Sutherland		Person		
+319	then	321	321					thenを挿入		
+321	対象文	ホームズは笑った	Holmes laughed		
+321	情報源		
+321	hasPredicate	笑う	laugh					「笑った」→「笑う」		
+321	Who	ホームズ	Holmes		Person		
+322	対象文	ホームズは以下を言った	Holmes said the following		
+322	情報源		
+322	hasPredicate	言う	say					「言った」→「言う」		
+322	Who	ホームズ	Holmes		Person		
+322	What	323-339	323-339		Object		
+323	対象文	ワトソンは上達した	Watson improved		
+323	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+323	hasPredicate	上達する	improve				成長した，とか？	「上達した」→「上達する」		
+323	Who	ワトソン	Watson		Person		
+324	対象文	ワトソンは大事な点を見落としている	Watson overlooks an important point		
+324	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+324	hasPredicate	見落としている	overlook		#ORG:hasPredicate:Overlooked
+324	Who	ワトソン	Watson		Person		
+324	What	大事な点	Important point		Object		「大事な点」を具体的に		
+325	対象文	方法は正しい	The way is right		
+325	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+325	hasPredicate	正しい	correct		
+325	What	方法	Method		Object		whoは変		
+326	対象文	ワトソンは色に目ざとい	Watson looks at the color		
+326	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+326	hasProperty	目ざとい	aim				注意深い，とか？		#ORG:hasPredicate:Aim
+326	Who	ワトソン	Watson		Person		
+326	What	色に	In color		Object		「に」は不要		
+327	対象文	ワトソンは細部に注目する	Watson pays attention to details		
+327	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+327	hasPredicate	注目する	focus		#ORG:hasPredicate:Focus on it
+327	Who	ワトソン	Watson		Person		
+327	How	細部に	In detail				How?「に」は不要	How		
+328	対象文	ホームズは女の袖を見る	Holmes look at a woman's sleeve		
+328	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+328	hasPredicate	見る	see		#ORG:hasPredicate:to see
+328	Who	ホームズ	Holmes		Person		
+328	What	女の袖	Woman's sleeve		Object	「女」は誰なのか明確にした方がよいのでは？		
+329	対象文	ホームズは男のズボンの膝を見る	Holmes looks at the knee of a man's pants		
+329	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+329	hasPredicate	見る	see		#ORG:hasPredicate:to see
+329	Who	ホームズ	Holmes		Person		
+329	What	男のズボンの膝	Man's trousers knee		Object	「男」誰なのか明確にした方がいいのでは？		
+330	対象文	フラシ織がサザランドの袖口に付いている	A plush weave is attached to the cuffs of Sutherland		
+330	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+330	hasPredicate	付いている	attached		
+330	What	フラシ織	Plush weave		Object		whoは変		
+330	On	サザランドの袖口に	In the cuffs of Sutherland					On		
+331	対象文	フラシ織は跡をつける	The plush weave marks		
+331	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+331	hasPredicate	つける	putOn		#ORG:hasPredicate:Put on
+331	What	フラシ織	Plush weave		Object		whoは変		
+331	What	跡	Trace		Object			What		
+332	対象文	フラシ織は高価な生地である	Plush weave is an expensive fabric				である equalTo 全体的に見直し		
+332	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+332	hasProperty	高価な生地である	expensive cloth		#ORG:hasProperty:It is expensive cloth
+332	What	フラシ織	Plush weave		Object		whoは変		
+333	対象文	手首の二重線はタイプの跡である	The double line on the wrist is a trace of the type		
+333	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+333	hasProperty	タイプの跡である	trace of the type		#ORG:hasProperty:It is a trace of the type
+333	What	手首の二重線	Wrist double wire		Object		whoは変，On 手首にしては？		
+334	対象文	手首の二重線は手動ミシンの跡である	The double wire on the wrist is the mark of a manual sewing machine		
+334	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+334	hasProperty	手動ミシンの跡である	mark of a manual sewing machine		#ORG:hasProperty:It is a mark of a manual sewing machine
+334	What	手首の二重線	Wrist double wire		Object		whoは変		
+335	対象文	左の手首の二重線は手動ミシンの跡である	The double line on the left wrist is the mark of a manual sewing machine		
+335	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+335	hasProperty	手動ミシンの跡である	mark of a manual sewing machine		#ORG:hasProperty:It is a mark of a manual sewing machine
+335	What	左の手首の二重線	Left wrist double line		Object		whoは変		
+336	対象文	右の手首の二重線はタイプの跡である	The right wrist double line is a trace of type		
+336	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+336	hasProperty	タイプの跡である	trace of the type		#ORG:hasProperty:It is a trace of the type
+336	What	右の手首の二重線	Right wrist double wire		Object		whoは変		
+337	対象文	サザランドは鼻眼鏡の跡を持っている	Sutherland has a trace of nose glasses		
+337	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+337	hasPredicate	持っている	have		
+337	Who	サザランド	Sutherland		Person		
+337	What	鼻眼鏡の跡	Trace of nose glasses		Object		
+337	therefore	339	339					thereforeを挿入		
+339	対象文	ホームズは近眼とタイプでサザランドを驚かせた	Holmes surprised Sutherland with myopia and type				文を分けて，because ホームズが近眼とタイプを見抜いた，とか？		
+339	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+339	hasPredicate	驚かせる	surprise					「驚かせた」→「驚かせる」		
+339	Who	ホームズ	Holmes		Person		
+339	What	近眼	Near sight		Object	文の意味を再現できる？		
+339	What	タイプで	By type		Object	文の意味を再現できる？	「で」は不要		
+339	What	サザランド	Sutherland		Person	文の意味を再現できる？		
+339	at the same time	341	341					at the same timeを挿入		
+341	対象文	ワトソンは驚いた	Watson was surprised		
+341	情報源		
+341	hasPredicate	驚く	beSurprised					「驚いた」→「驚く」		#ORG:hasPredicate:Be surprised
+341	Who	ワトソン	Watson		Person		
+342	対象文	ホームズは以下を言った	Holmes said the following		
+342	情報源		
+342	hasPredicate	言う	say					「言った」→「言う」		
+342	Who	ホームズ	Holmes		Person		
+342	What	343-346	343-346		Object		
+343	対象文	サザランドの左右の靴は異なる	Sutherland's left and right shoes are different					つま先の釦の話がカットされているので不要？		
+343	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+343	hasProperty	異なる	different		#ORG:hasPredicate:Different
+343	What	サザランドの左右の靴	Sutherland's left and right shoes		Object		whoは変		
+345	対象文	サザランドの身なりはきっちりしている	Sutherland's appearance is tight		
+345	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+345	hasProperty	きっちりしている	tightly				hasProperty?		#ORG:hasPredicate:Tightly
+345	What	サザランドの身なり	Sutherland's appearance		Object		whoは変		
+346	対象文	サザランドは左右別の靴を履いている	Sutherland wears different left and right shoes				サザランドの右の靴と左の靴は異なる，とか？		
+346	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+346	hasPredicate	履いている	wearing		#ORG:hasPredicate:Wearing
+346	Who	サザランド	Sutherland		Person		
+346	What	左右別の靴	Left and right separate shoes		Object	左右別であることはRDF上で表現されなくてもよい情報？		
+346	therefore	348	348					thereforeを挿入		
+348	対象文	ホームズは以下に気づいた	Holmes noticed the following		
+348	情報源		
+348	hasPredicate	気づく	notice					「気づいた」→「気づく」		
+348	Who	ホームズ	Holmes		Person		
+348	What	349-352	349-352		Object		
+349	対象文	今朝、サザランドが急いでホームズに来た	This morning			「ホームズに来た」は変		
+349	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+349	hasPredicate	来る	come					「来た」→「来る」		
+349	Who	サザランド	Sutherland		Person		
+349	How	急いで	Quickly					How		
+349	Where	ホームズ	Holmes		Object		ホームズ？Place？	Where		
+349	When	今朝	this morning		
+350	対象文	今朝、サザランドはメモを書いた	This morning Sutherland wrote a note		
+350	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+350	hasPredicate	書く	write					「書いた」→「書く」		
+350	Who	サザランド	Sutherland		Person		
+350	What	メモ	Note		Object		
+350	When	今朝	this morning		
+351	対象文	サザランドの手袋はすみれ色のインクを持つ	Sutherland gloves have violet ink		
+351	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+351	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+351	What	サザランドの手袋	Sutherland gloves		Object		whoは変		
+351	What	すみれ色のインク	Violet ink		Object		
+352	対象文	サザランドの指はすみれ色のインクを持つ	Sutherland's finger has violet ink		
+352	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+352	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+352	What	サザランドの指	Sutherland's finger		Object		whoは変		
+352	What	すみれ色のインク	Violet ink		Object		
+353	対象文	ワトソンは以下を言った	Watson said the following		
+353	情報源		
+353	hasPredicate	言う	say					「言った」→「言う」		
+353	Who	ワトソン	Watson		Person		
+353	What	354-370	354-370		Object		354のWhatとの重複を避ける		
+354	対象文	尋ね人広告は以下を書かれている	Inquirer ad is written below		
+354	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+354	hasPredicate	書かれている	beWritten				示している，とか？		#ORG:hasPredicate:has been written
+354	What	尋ね人広告	Inquirer advertisement		Object		whoは変		
+354	What	355-367	355-367		Object			IDに変更		
+355	対象文	ホズマは14日朝失踪した	Hozma disappeared on the morning of the 14th		
+355	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+355	hasPredicate	失踪する	disappear					「失踪した」→「失踪する」		#ORG:hasPredicate:Disappear
+355	Who	ホズマ	Hozma		Person		
+355	When	14日朝	14th Monday	1891-08-14T09		
+356	対象文	ホズマの身長は5フィート7インチである	Hozma's height is 5 feet 7 inches		
+356	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+356	hasProperty	5フィート7インチである	5 feet 7 inches		
+356	What	ホズマの身長	Hozma's height		Object		whoは変		
+357	対象文	ホズマの体格はよい	Hozuma's physique is good		
+357	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+357	hasProperty	よい	good		#ORG:hasPredicate:Good
+357	What	ホズマの体格	Hozma's build		Object		whoは変		
+358	対象文	ホズマの顔色は悪い	The color of hozma is bad		
+358	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+358	hasPredicate	悪い	bad		
+358	What	ホズマの顔色	The color of hozma		Object		whoは変		
+359	対象文	ホズマの髪は黒である	Hozma's hair is black		
+359	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+359	hasProperty	黒である	black		#ORG:hasProperty:It is black
+359	What	ホズマの髪	Hozma's Hair		Object		whoは変		
+360	対象文	ホズマの頭頂には小禿がある	There is a small boat on the top of Hozma's head		
+360	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+360	hasPredicate	ある	exist		#ORG:hasPredicate:is there
+360	What	小禿	Gavel		Object		whoは変		
+360	Where	ホズマの頭頂	Head of Hozma		Object		
+361	対象文	ホズマは黒い頬髯口髭を持つ	Hozma has a black cheek and mouth		
+361	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+361	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+361	Who	ホズマ	Hozma		Person		
+361	What	黒い頬髯口髭	Black cheek and mouth		Object		
+362	対象文	ホズマは色眼鏡を持つ	Hozma has colored glasses		
+362	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+362	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+362	Who	ホズマ	Hozma		Person		
+362	What	色眼鏡	Color glasses		Object		
+363	対象文	ホズマの話し方は訥々である	Hozma's way of speaking is jealous		
+363	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+363	hasProperty	訥々である	jealous		#ORG:hasProperty:Be jealous
+363	What	ホズマの話し方	How to speak hozma		Object		whoは変		
+364	対象文	失踪時の服装は黒のフロックコートである	At the time of disappearance is a black frock coat		
+364	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+364	hasProperty	黒のフロックコートである	black frock coat		#ORG:hasProperty:It is a black frock coat
+364	What	失踪時の服装	At the time of disappearance		Object		whoは変		
+365	対象文	失踪時の服装は黒のベストである	At the time of disappearance is a black vest		
+365	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+365	hasProperty	黒のベストである	black best		#ORG:hasProperty:Black is the best
+365	What	失踪時の服装	At the time of disappearance		Object		whoは変		
+366	対象文	失踪時の服装は金のアルバート鎖である	Dress at the time of disappearance is the Albert chain of gold		
+366	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+366	hasProperty	金のアルバート鎖である	albert chain of gold		#ORG:hasProperty:Albert chain of gold
+366	What	失踪時の服装	At the time of disappearance		Object		whoは変		
+367	対象文	過去に、ホズマはレドンホール街の事務所で働いていた	In the past		
+367	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+367	hasPredicate	働いている	working					「働いていた」→「働いている」		#ORG:hasPredicate:is working
+367	Who	ホズマ	Hozma		Person		
+367	Where	レドンホール街の事務所	Office of Redon Hall Street		Object		
+367	When	過去	past		
+368	対象文	手紙はホズマの手がかりを持たない	Letters have no clues to Hozma		
+368	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+368	hasPredicate	持たない	notHave		#ORG:hasPredicate:do not have
+368	What	手紙	letter		Object		whoは変		
+368	What	ホズマの手がかり	Hozma's clues		Object		
+369	対象文	手紙には、バルザックからの引用がある	The letter has a quote from Balzac		
+369	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+369	hasPredicate	ある	exist		#ORG:hasPredicate:is there
+369	What	バルザックからの引用	Quotation from Balzac		Object		From バツザックで分けては？	What		
+369	On	手紙	letter				on?	On		
+370	対象文	手紙はタイプで書かれている	The letter is written in type		
+370	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+370	hasPredicate	書かれている	beWritten		#ORG:hasPredicate:written
+370	What	手紙	letter		Object		whoは変		
+370	How	タイプで	typewritter			タイプライタにした方がいいのでは？	「で」は不要，how? By?	How		
+371	対象文	ホームズは以下を言った	Holmes said the following		
+371	情報源		
+371	hasPredicate	言う	say					「言った」→「言う」		
+371	Who	ホームズ	Holmes		Person		
+371	What	372-376	372,373,374,375,376		Object		
+372	対象文	署名はタイプで書かれている	Signature is written in type		
+372	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+372	hasPredicate	書かれている	beWritten		#ORG:hasPredicate:has been written
+372	What	署名	signature		Object		whoは変		
+372	How	タイプ	typewriter			タイプライタにした方がいいのでは？	「で」は不要 By?	How		
+373	対象文	署名はホズマ・エインジェルである	Signature is Hozma Aingel		
+373	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+373	hasProperty	ホズマ・エインジェルである	Hozma Eingel		
+373	What	署名	signature		Object		whoは変		
+374	対象文	手紙は日付を持つ	Letter has a date		
+374	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+374	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+374	What	手紙	letter		Object		whoは変		
+374	What	日付	date		Object		
+375	対象文	差出人の住所はレドンホール街である	The sender's address is Redon Hall Street		
+375	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+375	hasProperty	レドンホール街である	Redon Hall street		Place		
+375	What	差出人の住所	Sender's address		Object		whoは変		
+376	対象文	署名は重要である	Signature is important		
+376	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+376	hasProperty	重要である	important		
+376	What	署名	signature		Object		whoは変		
+377	対象文	ワトソンは以下を言った	Watson said the following		
+377	情報源		
+377	hasPredicate	言う	say					「言った」→「言う」		
+377	Who	ワトソン	Watson		Person		
+377	What	378,380	378		Object		
+378	対象文	署名は誓約を否認する	Signature repeals vow		
+378	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+378	hasPredicate	否認する	deny		
+378	What	署名	signature		Object		whoは変		
+378	What	誓約	Pledge		Object		
+378	when	380	380					whenを挿入		
+380	対象文	ホズマが誓約不履行の訴えを受けた	Hosma received an appeal against breach of covenants		
+380	情報源	ワトソンの発言	Watson's remarks					ワトソンの発言		
+380	hasPredicate	受ける	receive					「受けた」→「受ける」		
+380	Who	ホズマ	Hozma		Person		
+380	What	誓約不履行の訴え	Appeal for breach of pledge		Object		
+381	対象文	ホームズは以下を言った	Holmes said the following		
+381	情報源		
+381	hasPredicate	言う	say					「言った」→「言う」		
+381	Who	ホームズ	Holmes		Person		
+381	What	382-389	382,383,384,385,386,387,388,389		Object		
+382	対象文	上記は重要ではない	The above is not important		
+382	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+382	hasPredicate	はない	notImportant			「重要ではない」では？		#ORG:hasPredicate:not important
+382	What	上記	378,380		Object		whoは変，「上記」を具体的に		
+383	対象文	ホズマ失踪は解決する	Hozma's disappearance resolves		
+383	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+383	hasPredicate	解決する	Solve				解決されるか，ホームズを主語に？		
+383	What	ホズマ失踪	Hozma lost		Object		whoは変		
+383	if	385	385		
+385	対象文	ホームズとワトソンが二通手紙を書く	Holmes and Watson write two letters		
+385	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+385	hasPredicate	書く	write		
+385	Who	ホームズ	Holmes		Person		
+385	Who	ワトソン	Watson		Person		
+385	What	二通手紙	Two letters		Object	「二通の手紙」の方がよいのでは？		
+386	対象文	手紙1は中心区シティの会社へ送る	Letter 1 is sent to a company in Central City		
+386	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+386	hasPredicate	送る	send		
+386	What	手紙1	Letter 1		Object		whoは変		
+386	To	中心区シティの会社	Central District City Company		Object			To		
+387	対象文	手紙2はウィンディバンクへ送る	Letter 2 sent to Windy Bank		
+387	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+387	hasPredicate	送る	send		
+387	What	手紙2	Letter 2		Object		whoは変		
+387	To	ウィンディバンク	Windy bank		Person			To		
+388	対象文	ホームズは手紙2に以下を書く	Holmes writes the following to letter 2		
+388	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+388	hasPredicate	書く	write		
+388	Who	ホームズ	Holmes		Person		
+388	What	手紙2に	In letter 2		Object		
+388	What	389	389		Object			IDに変更		
+389	対象文	明晩六時に、ホームズがウィンディバンクに会いたい	Holmes wants to see Windy Bank at 6 o'clock in the evening		
+389	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+389	hasPredicate	会いたい	wantToMeet		#ORG:hasPredicate:want to meet
+389	Who	ホームズ	Holmes		Person		
+389	Whom	ウィンディバンク	Windy bank		Person			Whom		
+389	When	明晩六時	Tommorw's evening 6 o'clock	1891-09-02T18		
+390	対象文	ワトソンは重篤な患者の治療に専念した	Watson dedicated to the treatment of critically ill patients		
+390	情報源		
+390	hasPredicate	専念する	concentrateOn					「専念した」→「専念する」		#ORG:hasPredicate:concentrate on
+390	Who	ワトソン	Watson		Person		
+390	Whom	重篤な患者の治療	Treatment of serious patients		Object		whomは変，患者の治療でいいかも？	Whom		
+391	対象文	六時に、ワトソンはホームズへ行った	At six o'clock		
+391	情報源		
+391	hasPredicate	行く	go					「行った」→「行く」		
+391	Who	ワトソン	Watson		Person		
+391	To	ホームズ	Holmes		Person			To		
+391	When	六時	Six O'clock	1891-09-02T18		
+392	対象文	ワトソンは以下を思った	Watson thought the following		
+392	情報源		
+392	hasPredicate	思う	think					「思った」→「思う」		
+392	Who	ワトソン	Watson		Person		
+392	What	393	393		Object		
+393	対象文	ワトソンは解決に間に合わない	Watson is not in time for a solution		
+393	情報源	ワトソンの考え	Watson's thoughts					ワトソンの考え		
+393	hasPredicate	間に合わない	notBeInTime		#ORG:hasPredicate:Not in time
+393	Who	ワトソン	Watson		Person		
+393	Whom	解決	Solution		Object		whomは変	Whom		
+394	対象文	ホームズは肘掛椅子で寝ていた	Holmes was sleeping in an armchair		
+394	情報源		
+394	hasPredicate	寝ている	sleeping					「寝ていた」→「寝ている」		#ORG:hasPredicate:Are sleeping
+394	Who	ホームズ	Holmes		Person		
+394	Where	肘掛椅子	Armchair		Object		where?		
+395	対象文	ホームズは以下を言った	Holmes said the following		
+395	情報源		
+395	hasPredicate	言う	say					「言った」→「言う」		
+395	Who	ホームズ	Holmes		Person		
+395	What	396,397	396,397		Object		
+396	対象文	事件は謎を持たない	The incident has no mystery		
+396	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+396	hasPredicate	持たない	notHave		#ORG:hasPredicate:not have
+396	What	事件	Incident		Object		whoは変		
+396	What	謎	Mystery		Object		
+397	対象文	ホームズは悪党を捉えられない	Holmes can not catch the villain		
+397	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+397	hasPredicate	捉えられない	cannotCatch		#ORG:hasPredicate:Can not catch
+397	Who	ホームズ	Holmes		Person		
+397	What	悪党	Villain		Object		
+398	対象文	足音が廊下で響く	Footsteps echo in the corridor		
+398	情報源		
+398	hasPredicate	響く	echo		#ORG:hasPredicate:Echo
+398	What	足音	footsteps		Object		whoは変		
+398	Where	廊下	Corridor		Object			Where		
+399	対象文	ホームズは以下を言った	Holmes said the following		
+399	情報源		
+399	hasPredicate	言う	say					「言った」→「言う」		
+399	Who	ホームズ	Holmes		Person		
+399	What	400	400		Object		
+400	対象文	ウィンディバンクが来た	Windy Bank came			どこに来たのかを追加したほうが良いと思う		
+400	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+400	hasPredicate	来る	come					「来た」→「来る」		
+400	Who	ウィンディバンク	Windy bank		Person		
+400	Where		Holmes		Person		
+401	対象文	ウィンディバンクの体格はいい	Windy Bank's physique is good		
+401	情報源		
+401	hasProperty	いい	good		#ORG:hasPredicate:Good
+401	What	ウィンディバンクの体格	Windy Bank physique		Object		whoは変		
+402	対象文	ウィンディバンクは中背である	Windy Bank is medium-sized		
+402	情報源		
+402	hasProperty	中背である	ｍedium height		#ORG:hasProperty:Medium height
+402	Who	ウィンディバンク	Windy bank		Person		
+403	対象文	ウィンディバンクの年は30歳前後である	The age of Windy Bank is around 30 years old		
+403	情報源		
+403	hasProperty	30歳前後である	around 30 years old					hasPredicate ⇒ hasProperty		#ORG:hasProperty:Around 30 years old
+403	What	ウィンディバンクの年	Windy bank year		Object		whoは変		
+404	対象文	ウィンディバンクは髯を持たない	Windy Bank has no bribe		
+404	情報源		
+404	hasPredicate	持たない	notHave		#ORG:hasPredicate:not have
+404	Who	ウィンディバンク	Windy bank		Person		
+404	What	髯	Moth		Object		
+405	対象文	ウィンディバンクの顔色は悪い	The color of Windy Bank is bad		
+405	情報源		
+405	hasPredicate	悪い	bad		
+405	What	ウィンディバンクの顔色	Windy bank complexion		Object		whoは変		
+406	対象文	ウィンディバンクの物腰は穏やかである	Windy Bank's behavior is calm		
+406	情報源		
+406	hasProperty	穏やかである	calm		
+406	What	ウィンディバンクの物腰	Windy bank		Object		whoは変		
+407	対象文	ウィンディバンクの灰色の瞳は鋭い	Windybank's gray eyes are sharp		
+407	情報源		
+407	hasPredicate	鋭い	sharp		
+407	What	ウィンディバンクの灰色の瞳	Windy bank gray eyes		Object		whoは変		
+408	対象文	ウィンディバンクはホームズとワトソンを見た	Windy Bank saw Holmes and Watson		
+408	情報源		
+408	hasPredicate	見る	see					「見た」→「見る」		
+408	Who	ウィンディバンク	Windy bank		Person		
+408	Whom	ホームズ	Holmes		Person		
+408	Whom	ワトソン	Watson		Person		
+409	対象文	ウィンディバンクは山高帽を横棚に置いた	Windy Bank put a bowler hat on the side shelf		
+409	情報源		
+409	hasPredicate	置く	put					「置いた」→「置く」		#ORG:hasPredicate:Put
+409	Who	ウィンディバンク	Windy bank		Person		
+409	What	山高帽	Bowler hat		Object		
+409	Where	横棚	Horizontal shelf		Object			Where		
+410	対象文	ウィンディバンクはホームズに挨拶した	Windy Bank greets Holmes		
+410	情報源		
+410	hasPredicate	挨拶する	greet					「挨拶した」→「挨拶する」		#ORG:hasPredicate:Greet
+410	Who	ウィンディバンク	Windy bank		Person		
+410	Whom	ホームズ	Holmes		Person			Whom		
+411	対象文	ウィンディバンクは椅子に座った	Windy Bank sat in a chair		
+411	情報源		
+411	hasPredicate	座る	sit					「座った」→「座る」		
+411	Who	ウィンディバンク	Windy bank		Person		
+411	What	椅子	chair		Object		「に」は不要．ここは椅子に対してwhatだが，他ではwhereもある		
+412	対象文	ホームズは以下を言った	Holmes said the following		
+412	情報源		
+412	hasPredicate	言う	say					「言った」→「言う」		
+412	Who	ホームズ	Holmes		Person		
+412	What	413	413		Object		
+413	対象文	タイプの手紙はウィンディバンクの手紙である	The type letter is a Windy Bank letter		
+413	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+413	hasProperty	ウィンディバンクの手紙である	letter from Windy Bank		#ORG:hasProperty:Windy Bank letter
+413	What	タイプの手紙	Typed letter		Object	「タイプライタで打たれた？手紙」などにすべきでは？	whoは変		
+414	対象文	ウィンディバンクは以下を言った	Windy Bank said		
+414	情報源		
+414	hasPredicate	言う	say					「言った」→「言う」		
+414	Who	ウィンディバンク	Windy bank		Person		
+414	What	415-425	415-425		Object		
+415	対象文	ウィンディバンクは遅刻を心配した	Windy Bank worried about being late		
+415	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+415	hasPredicate	心配する	worry					「心配した」→「心配する」		
+415	Who	ウィンディバンク	Windy bank		Person		
+415	What	遅刻	Late		Object		
+416	対象文	ウィンディバンクは忙しい	Windy Bank is busy		
+416	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+416	hasPredicate	忙しい	busy		
+416	Who	ウィンディバンク	Windy bank		Person		
+417	対象文	ウィンディバンクは以下を謝る	Windy Bank apologizes for		
+417	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+417	hasPredicate	謝る	apologize		
+417	Who	ウィンディバンク	Windy bank		Person		
+417	What	418	418		Object		
+418	対象文	サザランドがホームズを煩わせる	Sutherland bothers Holmes		
+418	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+418	hasPredicate	煩わせる	bother		#ORG:hasPredicate:Bother
+418	Who	サザランド	Sutherland		Person		
+418	What	ホームズ	Holmes		Person		
+419	対象文	ウィンディバンクは以下を望まない	Windy Bank does not want		
+419	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+419	hasPredicate	望まない	notWant		#ORG:hasPredicate:Do not want
+419	Who	ウィンディバンク	Windy bank		Person		
+419	What	420	420		Object		
+420	対象文	サザランドがホームズに来る	Sutherland comes to Holmes			「ホームズに来る」は変		
+420	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+420	hasPredicate	来る	come		
+420	Who	サザランド	Sutherland		Person		
+420	Where	ホームズ	Holmes		Person			Where		
+421	対象文	サザランドが家庭の災難を話す	Sutherland talks about family misfortune		
+421	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+421	hasPredicate	話す	speak		
+421	Who	サザランド	Sutherland		Person		
+421	What	家庭の災難	Family calamity		Object	「家庭の災難」が具体的にできるならしたい		
+422	対象文	サザランドはすぐに動く	Sutherland moves quickly		
+422	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+422	hasPredicate	動く	move		#ORG:hasPredicate:Move
+422	Who	サザランド	Sutherland		Person		
+422	How	すぐに	Immediately					How		
+423	対象文	ウィンディバンクは以下に喜ぶ	Windy Bank is pleased to		
+423	情報源	ウィンディバンクの発言	Remarks by Windybank					ウィンディバンクの発言		
+423	hasPredicate	喜ぶ	rejoice		#ORG:hasPredicate:Rejoice
+423	Who	ウィンディバンク	Windy bank		Person		
+423	What	424	424		Object		
+424	対象文	ホームズは警察官憲ではない	Holmes is not a police officer		
+424	情報源	ウィンディバンクの発言	Remarks by Windybank					ウィンディバンクの発言		
+424	hasProperty	警察官憲ではない	not police officer				警察だけではどうか？		#ORG:hasProperty:Not a police officer
+424	Who	ホームズ	Holmes		Person		
+425	対象文	ウィンディバンクは無用の出費を避けたい	Windy Bank wants to avoid unnecessary expenses		
+425	情報源	ウィンディバンクの発言	Remarks by Windybank					ウィンディバンクの発言		
+425	hasPredicate	避けたい	wantToAvoid		#ORG:hasPredicate:I want to avoid
+425	Who	ウィンディバンク	Windy bank		Person		
+425	What	無用の出費	Useless spending		Object		
+426	対象文	ウィンディバンクは以下を思う	Windy Bank thinks the following		
+426	情報源		
+426	hasPredicate	思う	think		
+426	Who	ウィンディバンク	Windy bank		Person		
+426	What	427	427		Object		
+427	対象文	ホームズはホズマを見つけられない	Holmes can not find Hozma		
+427	情報源		
+427	hasPredicate	見つけられない	notFound		#ORG:hasPredicate:Not found
+427	Who	ホームズ	Holmes		Person		
+427	What	ホズマ	Hozma		Person		
+428	対象文	ホームズは以下を言った	Holmes said the following		
+428	情報源		
+428	hasPredicate	言う	say					「言った」→「言う」		
+428	Who	ホームズ	Holmes		Person		
+428	What	429	429		Object		
+429	対象文	ホームズはホズマを見つける	Holmes find Hozma		
+429	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+429	hasPredicate	見つける	find		
+429	Who	ホームズ	Holmes		Person		
+429	What	ホズマ	Hozma		Person		
+430	対象文	ウィンディバンクは驚いて手袋を落とした	Windy Bank dropped her gloves in surprise		
+430	情報源		
+431	hasPredicate	落とす	drop					「落とした」→「落とす」		#ORG:hasPredicate:Drop
+430	Who	ウィンディバンク	Windy bank		Person		
+430	What	手袋	gloves		Object		
+431	How	驚いて	Surprised					How		
+432	対象文	ウィンディバンクは以下を喜んだ	Windy Bank was pleased with		
+432	情報源		
+432	hasPredicate	喜ぶ	rejoice					「喜んだ」→「喜ぶ」		#ORG:hasPredicate:Rejoice
+432	Who	ウィンディバンク	Windy bank		Person		
+432	What	433	433		Object		
+433	対象文	ホームズがホズマを見つける	Holmes find Hozma		
+433	情報源		
+433	hasPredicate	見つける	find		
+433	Who	ホームズ	Holmes		Person		
+433	Whom	ホズマ	Hozma		Person		
+434	対象文	ホームズが以下を言った	Holmes said the following		
+434	情報源		
+434	hasPredicate	言う	say					「言った」→「言う」		
+434	Who	ホームズ	Holmes		Person		
+434	What	435-439	435,436,437,438,439		Object		
+435	対象文	タイプの手紙は筆跡のように異なる	Type letters differ like handwriting		
+435	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+435	hasProperty	異なる	different		#ORG:hasPredicate:Different
+435	What	タイプの手紙	Type letter		Object	「タイプライタで打たれた？手紙」などにすべきでは？		
+435	How	筆跡のように	Like a handwriting					How		
+436	対象文	ウィンディバンクの手紙では、eが不鮮明である	In the Windybank letter		
+436	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+436	hasProperty	不鮮明である	blurred		#ORG:hasProperty:Blurred
+436	What	e	e		Object		whoは変		
+436	Where	ウィンディバンクの手紙	Windy Bank Letter		Object		where?		
+436	and	438	438					andの挿入		
+438	対象文	ウィンディバンクの手紙では、rが欠けている	In the Windybank letter		
+438	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+438	hasPredicate	欠けている	missing		#ORG:hasPredicate:Missing
+438	What	r	r		Object		whoは変		
+438	Where	ウィンディバンクの手紙	Windy Bank Letter		Object		where?		
+439	対象文	ウィンディバンクの手紙は14の特徴を持つ	Windy Bank's letter has 14 features		
+439	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+439	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+439	What	ウィンディバンクの手紙	Windy Bank Letter		Object		whoは変		
+439	What	14の特徴	14 features		Object		
+440	対象文	ウィンディバンクは以下を言った	Windy Bank said		
+440	情報源		
+440	hasPredicate	言う	say					「言った」→「言う」		
+440	Who	ウィンディバンク	Windy bank		Person		
+440	What	441,443	441		Object		
+441	対象文	ウィンディバンクの職場は１つの機械を持つ	Windy Bank's workplace has one machine		
+441	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+441	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+441	What	ウィンディバンクの職場	Windy Bank workplace		Object		whoは変		
+441	What	１つの機械	One machine		Object	"「機械」はおおそらく「ウィンディバンクが手紙を書くときに使ったタイプライタ」だと思うので， それを具体的に書いたほうがいいのでは？"		
+441	therefore	443	443					thereforeを挿入		
+443	対象文	文字が摩滅する	Letters wear out		
+443	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+443	hasPredicate	摩滅する	wearOut		#ORG:hasPredicate:Wear out
+443	What	文字	characters		Object	具体的にした方がいいのでは？	whoは変		
+444	対象文	ホームズは以下を言った	Holmes said the following		
+444	情報源		
+444	hasPredicate	言う	say					「言った」→「言う」		
+444	Who	ホームズ	Holmes		Person		
+444	What	445-450	445,446,447,448,449,450		Object		
+445	対象文	ホームズは論文（以下）を書いている	Holmes is writing a dissertation (below)		
+445	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+445	hasPredicate	書いている	writing		
+445	Who	ホームズ	Holmes		Person		
+445	What	論文	paper		Object		
+445	What	446	446		Object		
+446	対象文	タイプライターは犯罪と関係している	Typewriters are involved in crime		
+446	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+446	hasProperty	関係している	involved		#ORG:hasPredicate:Involved
+446	What	タイプライター	Typewriter		Object		whoは変		
+446	What	犯罪	Crime and		Object		「と」は不要		
+447	対象文	ホズマの手紙はタイプで書かれている	Hosma's letter is written in type		
+447	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+447	hasPredicate	書かれている	beWritten		#ORG:hasPredicate:is written
+447	What	ホズマの手紙	Hosma's letter		Object		whoは変		
+447	How	タイプ	typewriter				How？	How		
+448	対象文	ホズマの手紙では、eが不鮮明である	In Hosma's letter		
+448	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+448	hasProperty	不鮮明である	blurred		#ORG:hasProperty:Blurred
+448	What	e	e		Object		whoは変		
+448	Where	ホズマの手紙	Hosma's letter		Object		where？		
+449	対象文	ホズマの手紙では、rが欠けている	In the letter of hozma r is missing		
+449	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+449	hasPredicate	欠けている	missing		#ORG:hasPredicate:Missing
+449	What	r	r		Object		whoは変		
+449	Where	ホズマの手紙	Hosma's letter		Object		where？		
+450	対象文	ホズマの手紙は14の特徴を持つ	Hosma's letter has 14 features		
+450	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+450	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+450	What	ホズマの手紙	Hosma's letter		Object		whoは変		
+450	What	14の特徴	14 features		Object		
+451	対象文	ウィンディバンクは椅子から跳び上がった	Windybank jumped out of the chair		
+451	情報源		
+451	hasPredicate	跳び上がる	jumpUp					「跳び上がった」→「跳び上がる」		#ORG:hasPredicate:Jump up
+451	Who	ウィンディバンク	Windy bank		Person		
+451	From	椅子	Chair		Object		
+452	対象文	ウィンディバンクは帽子をつかんだ	Windy Bank grabbed a hat		
+452	情報源		
+452	hasPredicate	つかむ	grab					「つかんだ」→「つかむ」		#ORG:hasPredicate:Grab
+452	Who	ウィンディバンク	Windy bank		Person		
+452	What	帽子	hat		Object		
+453	対象文	ウィンディバンクは以下を言った	Windy Bank said		
+453	情報源		
+453	hasPredicate	言う	say					「言った」→「言う」		
+453	Who	ウィンディバンク	Windy bank		Person		
+453	What	454	454		Object		
+454	対象文	ウィンディバンクは無駄な時間を持たない	Windy Bank has no wasted time		
+454	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+454	hasPredicate	持たない	notHave		#ORG:hasPredicate:do not have
+454	Who	ウィンディバンク	Windy bank		Person		
+454	What	無駄な時間	Time wasted		Object		
+455	対象文	ウィンディバンクは以下をホームズに頼む	Windy Bank asks Holmes:		
+455	情報源		
+455	hasPredicate	頼む	ask		
+455	Who	ウィンディバンク	Windy bank		Person		
+455	What	456	456		Object			IDに変更		
+455	Whom	ホームズ	Holmes		Person			Whom		
+456	対象文	ホームズがウィンディバンクに知らせる	Holmes Tells Windy Bank		
+456	情報源		
+456	hasPredicate	知らせる	inform		#ORG:hasPredicate:Inform
+456	Who	ホームズ	Holmes		Person		
+456	Whom	ウィンディバンク	Windy bank		Person			Whom		
+456	When	458	458					whenを挿入		
+458	対象文	ホームズがホズマを捕まえる	Holmes catches Hozma		
+458	情報源		
+458	hasPredicate	捕まえる	catch		
+458	Who	ホームズ	Holmes		Person		
+458	Whom	ホズマ	Hozma		Person		
+459	対象文	ホームズは扉をロックした	Holmes locked the door		
+459	情報源		
+459	hasPredicate	ロックする	lock					「ロックした」→「ロックする」		#ORG:hasPredicate:Lock
+459	Who	ホームズ	Holmes		Person		
+459	What	扉	door		Object		
+460	対象文	ホームズは以下を言った	Holmes said the following		
+460	情報源		
+460	hasPredicate	言う	say					「言った」→「言う」		
+460	Who	ホームズ	Holmes		Person		
+460	What	461	461		Object		
+461	対象文	ホームズはホズマを捕まえた	Holmes caught Hozma		
+461	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+461	hasPredicate	捕まえる	catch					「捕まえた」→「捕まえる」		
+461	Who	ホームズ	Holmes		Person		
+461	What	ホズマ	Hozma		Person		
+462	対象文	ウィンディバンクはホズマの居場所をホームズに尋ねた	Windy Bank asked Holmes where Hozma was		
+462	情報源		
+462	hasPredicate	尋ねる	ask					「尋ねた」→「尋ねる」		
+462	Who	ウィンディバンク	Windy bank		Person		
+462	What	ホズマの居場所	Place		Object		
+462	Whom	ホームズ	Holmes		Person			Whom		
+463	対象文	ウィンディバンクの唇は真っ青だった	Windy Bank's lips were deep blue		
+463	情報源		
+463	hasProperty	真っ青だ	blue					「真っ青だった」→「真っ青だ」		#ORG:hasProperty:Blue
+463	Who	ウィンディバンクの唇	Windy bank lips		Object		whoは変		
+464	対象文	ウィンディバンクは回りを見まわした	Windy Bank looked around		
+464	情報源		
+464	hasPredicate	見まわす	lookAround					「見まわした」→「見まわす」		#ORG:hasPredicate:Look around
+464	Who	ウィンディバンク	Windy bank		Person		
+464	What	回り	Around		Object		
+465	対象文	ホームズは以下を言った	Holmes said the following		
+465	情報源		
+465	hasPredicate	言う	say					「言った」→「言う」		
+465	Who	ホームズ	Holmes		Person		
+465	What	466	466		Object		
+466	対象文	ウィンディバンクはホームズから逃げられない	Windy Bank can not escape from Holmes		
+466	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+466	hasPredicate	逃げられない	cannotEscape		#ORG:hasPredicate:can not escape
+466	Who	ウィンディバンク	Windy bank		Person		
+466	From	ホームズ	Holmes		Person			From		
+467	対象文	ウィンディバンクは椅子に座った	Windy Bank sat in a chair		
+467	情報源		
+467	hasPredicate	座る	sit					「座った」→「座る」		
+467	Who	ウィンディバンク	Windy bank		Person		
+467	On	椅子	Chair		
+468	対象文	ウィンディバンクの顔は死んだようだった	Windy Bank's face seemed dead		
+468	情報源		
+468	hasProperty	みえる	seem			2019/8/24 古崎修正		「死んだようだった」→「死んだようだ」		#ORG:hasProperty:Seems to
+468	Who	ウィンディバンクの顔	Windy bank face		Object		whoは変		
+468	What	死んだよう	dead		
+469	対象文	ウィンディバンクの額は冷や汗を持つ	Windy Bank's forehead has cold sweat		
+469	情報源		
+469	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+469	What	ウィンディバンクの額	Windy bank amount		Object		whoは変		
+469	What	冷や汗	cold sweat		Object		
+470	対象文	ウィンディバンクは以下を言った	Windy Bank said		
+470	情報源		
+470	hasPredicate	言う	say					「言った」→「言う」		
+470	Who	ウィンディバンク	Windy bank		Person		
+470	What	471	471		Object		
+471	対象文	ホームズはウィンディバンクを訴えない	Holmes does not sue Windy Bank		
+471	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+471	hasPredicate	訴えない	notComplain		#ORG:hasPredicate:Do not complain
+471	Who	ホームズ	Holmes		Person		
+471	What	ウィンディバンク	Windy bank		Person		
+472	対象文	ホームズは以下を言った	Holmes said the following		
+472	情報源		
+472	hasPredicate	言う	say					「言った」→「言う」		
+472	Who	ホームズ	Holmes		Person		
+472	What	473-507	473-507		Object		
+473	対象文	ホームズは残念である	Holmes is sorry		
+473	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+473	hasProperty	残念である	pity		#ORG:hasProperty:It is a pity
+473	Who	ホームズ	Holmes		Person		
+474	対象文	ホームズは初めて残酷で身勝手なごまかしに会った	Holmes first met a cruel and selfish treat		
+474	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+474	hasPredicate	会う	meet					「会った」→「会う」		
+474	Who	ホームズ	Holmes		Person		
+474	How	残酷で	Cruel				「で」は不要，残酷はごまかしに係るのでHowではないのでは？省略しては？	How		
+474	What	身勝手なごまかしに	For selfish treats		Object		「に」は不要		
+475	対象文	ウィンディバンクはサザランドの母とお金のために結婚した	Windy Bank married for money with Sutherland's mother		
+475	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+475	hasPredicate	結婚する	getMarried					「結婚した」→「結婚する」		#ORG:hasPredicate:Get married
+475	Who	ウィンディバンク	Windy bank		Person		
+475	What	サザランドの母	Sutherland's mother		Person	人物名チェック		
+475	Why	お金	money				what?	Why		
+476	対象文	ウィンディバンクはサザランドの金が使える	Windy Bank can use Sutherland gold		
+476	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+476	hasPredicate	使える	canBeUsed		#ORG:hasPredicate:It can be used
+476	Who	ウィンディバンク	Windy bank		Person		
+476	What	サザランドの金	Sutherland Gold		Object			What		
+476	When	478	478				at the same time?	whenを挿入		
+478	対象文	ウィンディバンクがサザランドと住んでいる	Windy Bank lives with Sutherland		
+478	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+478	hasPredicate	住んでいる	live		
+478	Who	ウィンディバンク	Windy bank		Person		
+478	What	サザランドと	With Sutherland		Object		what?，「と」は不要		
+479	対象文	サザランドの金は大金である	Sutherland's money is big money		
+479	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+479	hasProperty	大金である	lot of money		#ORG:hasProperty:It is a lot of money
+479	Who	サザランドの金	Sutherland Gold		Object		whoは変		
+480	対象文	ウィンディバンクはサザランドの金が欲しい	Windy Bank Wants Sutherland Gold		
+480	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+480	hasPredicate	欲しい	want		#ORG:hasPredicate:Want
+480	Who	ウィンディバンク	Windy bank		Person		
+480	What	サザランドの金	Sutherland Gold		Object			What		
+481	対象文	サザランドはお人好しである	Sutherland is funny		
+481	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+481	hasProperty	お人好しである	friendly		#ORG:hasProperty:Be friendly
+481	Who	サザランド	Sutherland		Person		
+482	対象文	サザランドは情と思いやりを持つ	Sutherland has emotions and compassion		
+482	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+482	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+482	Who	サザランド	Sutherland		Person		
+482	What	情	Love		Object		
+482	What	思いやり	Compassion		Object		
+483	対象文	サザランドの性格は良い	The character of Sutherland is good		
+483	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+483	hasPredicate	良い	good		
+483	Who	サザランドの性格	Sutherland's character		Object		whoは変		
+484	対象文	サザランドは金を持っている	Sutherland has money		
+484	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+484	hasPredicate	持っている	have		
+484	Who	サザランド	Sutherland		Person		
+484	What	金	Money		Object		
+484	therefore	486	486					thereforeを挿入		
+486	対象文	サザランドはすぐに結婚する	Sutherland gets married soon			主語に当たる「サザランド」がない		
+486	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+486	hasPredicate	結婚する	getMarried		#ORG:hasPredicate:Get married
+486	How	すぐに	Immediately					How		
+486	then	488	488					thenを挿入		
+488	対象文	ウィンディバンクは1年で100ポンドを失う	Windy Bank loses 100 pounds in a year		
+488	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+488	hasPredicate	失う	lose		
+488	Who	ウィンディバンク	Windy bank		Person			Who		
+488	What	100ポンド	100 pounds		Object		
+488	When	1年	1 year		
+488	therefore	490	490					thereforeを挿入		
+490	対象文	ウィンディバンクはサザランドを家から出さない	Windy Bank will not leave Sutherland from home		
+490	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+490	hasPredicate	出さない	notIssue		#ORG:hasPredicate:Not issued
+490	Who	ウィンディバンク	Windy bank		Person		
+490	What	サザランド	Sutherland		Person		
+490	From	家	House		Object			From		
+491	対象文	ウィンディバンクはサザランドに同年代の人間との交際を禁じる	Windy Bank prohibits Sutherland from dating with people of the same age				2文に分けてはどうか？		
+491	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+491	hasPredicate	禁じる	prohibit		#ORG:hasPredicate:Prohibit
+491	Who	ウィンディバンク	Windy bank		Person		
+491	Whom	サザランド	Sutherland		Person			Whom		
+491	What	同年代の人間との交際	Relationship with human beings of the same age		Object		
+492	対象文	上記は続かない	The above does not continue		
+492	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+492	hasPredicate	続かない	notContinue		#ORG:hasPredicate:not continue
+492	Who	491	491		Object		whoは変	IDに変更		
+493	対象文	サザランドはウィンディバンクに反抗する	Sutherland defy Windybank		
+493	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+493	hasPredicate	反抗する	rebel		#ORG:hasPredicate:Rebel
+493	Who	サザランド	Sutherland		Person		
+493	Whom	ウィンディバンク	Windy bank		Person			Whom		
+494	対象文	サザランドは権利を主張する	Sutherland claims rights		
+494	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+494	hasPredicate	主張する	insist		#ORG:hasPredicate:Insist
+494	Who	サザランド	Sutherland		Person		
+494	What	権利	right		Object		
+495	対象文	サザランドは舞踏会に行きたい	Sutherland wants to go to a ball		
+495	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+495	hasPredicate	行きたい	wantToGo		#ORG:hasPredicate:want to go
+495	Who	サザランド	Sutherland		Person		
+495	Where	舞踏会	Dance		Object		舞踏会の英語表記は統一すべき（danceとball）		
+496	対象文	ウィンディバンクはサザランドの母の助けを得る	Windy Bank gets the help of Sutherland's mother		
+496	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+496	hasPredicate	得る	obtain		
+496	Who	ウィンディバンク	Windy bank		Person		
+496	What	サザランドの母の助け	Sutherland's mother's help		Object		
+497	対象文	ウィンディバンクは変装する	Windy Bank disguises		
+497	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+497	hasPredicate	変装する	disguise		#ORG:hasPredicate:Disguise
+497	Who	ウィンディバンク	Windy bank		Person		
+498	対象文	ウィンディバンクは色眼鏡を着けた	Windy Bank wore colored glasses		
+498	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+498	hasPredicate	着ける	wear					「着けた」→「着ける」		
+498	Who	ウィンディバンク	Windy bank		Person		
+498	What	色眼鏡	Color glasses		Object		
+499	対象文	ウィンディバンクは口髭頬髯を着けた	Windy Bank wore a mustache		
+499	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+499	hasPredicate	着ける	wear					「着けた」→「着ける」		
+499	Who	ウィンディバンク	Windy bank		Person		
+499	What	口髭	Whistle cheek brow		Object	分割すべきでは？		
+499	What	頬髯	cheek brow		Object	分割すべきでは？		
+500	対象文	ウィンディバンクはささやいた	Windy Bank whispered		
+500	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+500	hasPredicate	ささやく	whisper					「ささやいた」→「ささやく」		#ORG:hasPredicate:Whisper
+500	Who	ウィンディバンク	Windy bank		Person		
+501	対象文	変装は安全である	Disguise is safe		
+501	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+501	hasProperty	安全である	safe		
+501	Who	変装	disguise		Object		whoは変		
+501	because	503	503					becauseを挿入		
+503	対象文	サザランドは近眼である	Sutherland is nearsighted		
+503	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+503	hasProperty	近眼である	close eye		
+503	Who	サザランド	Sutherland		Person		
+504	対象文	ウィンディバンクはホズマである	Windy Bank is Hozma		
+504	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+504	hasProperty	ホズマである	Hozma Eingel				equalTo		#ORG:hasProperty:is
+504	hasProperty	ホズマである	Hozma Eingel		Person		equalTo		#ORG:hasProperty:Hozma
+504	Who	ウィンディバンク	Windy bank		Person		
+505	対象文	ウィンディバンクはサザランドから他人を追い払う	Windy Bank chases others from Sutherland		
+505	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+505	hasPredicate	追い払う	chaseAway		#ORG:hasPredicate:Chase away
+505	Who	ウィンディバンク	Windy bank		Person		
+505	From	サザランド	Sutherland		Person			From		
+505	What	他人	others		Object		
+505	because	507	507					becauseを挿入		
+507	対象文	サザランドがウィンディバンクを愛する	Sutherland loves Windy Bank		
+507	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+507	hasPredicate	愛する	love		
+507	Who	サザランド	Sutherland		Person		
+507	What	ウィンディバンク	Windy bank		Person		
+508	対象文	ウィンディバンクは以下を思わなかった	Windy Bank did not think of		
+508	情報源		
+508	hasPredicate	思わない	notThink					「思わなかった」→「思わない」		#ORG:hasPredicate:not think
+508	Who	ウィンディバンク	Windy bank		Person		
+508	What	509	509		Object			IDに変更		
+509	対象文	ウィンディバンクはサザランドの心を奪う	Windy Bank robs Sutherland			意味を表現できている？		
+509	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+509	hasPredicate	奪う	rob		
+509	Who	ウィンディバンク	Windy bank		Person		
+509	What	サザランドの心	Sutherland's heart		Object		
+510	対象文	ホームズは以下を言った	Holmes said the following		
+510	情報源		
+510	hasPredicate	言う	say					「言った」→「言う」		
+510	Who	ホームズ	Holmes		Person		
+510	What	511-512,514-538	511,512		Object		和訳と英訳合わせる		
+511	対象文	サザランドはホズマを愛した	Sutherland loved Hozma		
+511	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+511	hasPredicate	愛する	love					「愛した」→「愛する」		
+511	Who	サザランド	Sutherland		Person		
+511	What	ホズマ	Hozma		Person		
+512	対象文	サザランドは以下を思っている	Sutherland thinks that		
+512	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+512	hasPredicate	思っている	thinking		
+512	Who	サザランド	Sutherland		Person		
+512	What	513	513		Object		
+513	対象文	ウィンディバンクはフランスにいる	Windy Bank is in France		
+513	情報源	サザランドの考え	Sutherland's thoughts					サザランドの考え		
+513	hasPredicate	いる	exist		#ORG:hasPredicate:Are
+513	Who	ウィンディバンク	Windy bank		Person		
+513	Where	フランス	France		Place		
+514	対象文	サザランドの思いはサザランドの母の賞賛で増す	Sutherland's thoughts grow with Sutherland&#39;s mother&#39;s praise				2文に分けてはどうか？		
+514	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+514	hasPredicate	増す	increase		#ORG:hasPredicate:Increase
+514	Who	サザランドの思い	Sutherland's thoughts		Object		
+514	Why	サザランドの母の賞賛	praise of Sutherland's mother				「で」は不要	Why		
+515	対象文	ホズマはサザランドと何度も会った	Hozma met Sutherland many times		
+515	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+515	hasPredicate	会う	meet					「会った」→「会う」		
+515	Who	ホズマ	Hozma		Person		
+515	What	サザランドと	With Sutherland		Object		「と」は不要，typeはperson		
+515	How	何度も	Many times					How		
+516	対象文	ウィンディバンクは安心した	Windy Bank was relieved		
+516	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+516	hasPredicate	安心する	feelRelieved					「安心した」→「安心する」		#ORG:hasPredicate:feel relieved
+516	Who	ウィンディバンク	Windy bank		Person		
+516	when	518	518				at the same time	whenを挿入		
+518	対象文	ウィンディバンクはサザランドと婚約する	Windy Bank gets engaged with Sutherland		
+518	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+518	hasPredicate	婚約する	getEngaged		#ORG:hasPredicate:Get engaged
+518	Who	ウィンディバンク	Windy bank		Person		
+518	What	サザランドと	With Sutherland		Object		「と」は不要，typeはperson		
+519	対象文	サザランドの愛は他人に行かない	Sutherland's love does not go to others			「他人に行かない」は表現を変えたほうが良いのでは？		
+519	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+519	hasPredicate	行かない	notGo		#ORG:hasPredicate:Do not go
+519	Who	サザランドの愛	Sutherland's love		Object		whoは変		
+519	To	他人	others		Object			To		
+520	対象文	永遠に、ウィンディバンクはサザランドを騙せない	Forever		
+520	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+520	hasPredicate	騙せない	cannotLoseWeight		#ORG:hasPredicate:I can not lose weight
+520	When	永遠	Forever		
+520	Who	ウィンディバンク	Windy bank		Person		
+520	What	サザランド	Sutherland		Person		
+521	対象文	ウィンディバンクは以下が必要である	Windy Bank needs:		
+521	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+521	hasProperty	必要である	necessary		#ORG:hasProperty:is necessary
+521	Who	ウィンディバンク	Windy bank		Person		
+521	What	522	522		Object		whoは変	IDに変更		
+522	対象文	ウィンディバンクは劇的にサザランドと別れる	Windy Bank breaks up with Sutherland dramatically		
+522	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+522	hasPredicate	別れる	breakUp		#ORG:hasPredicate:break up
+522	Who	ウィンディバンク	Windy bank		Person		
+522	What	サザランドと	With Sutherland		Object		「と」は不要，typeはperson		
+522	How	劇的に	Dramatically				「に」は不要	How		
+522	then	524	524					thenを挿入		
+524	対象文	永遠に、サザランドの心はウィンディバンクを刻む	Forever				永遠にサザランドはウィンディバンクを愛する，くらいでは？		
+524	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+524	hasPredicate	刻む	Engrave		
+524	Who	サザランドの心	Sutherland's heart		Object		whoは変		
+524	When	永遠	Forever		
+524	What	ウィンディバンク	Windy bank		Person		
+525	対象文	当分の間、サザランドは他人を愛さない	For the time being		
+525	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+525	hasPredicate	愛さない	notLove		#ORG:hasPredicate:not love
+525	Who	サザランド	Sutherland		Person		
+525	What	他人	others		Object		
+525	When	当分の間	For the time being		
+525	therefore	526	526					thereforeを挿入		
+527	対象文	ウィンディバンクはサザランドに聖書で誓わせた	Windy Bank made Sutherland swear in the Bible		
+527	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+527	hasPredicate	誓わせる	swear					「誓わせた」→「誓わせる」		#ORG:hasPredicate:Swear
+527	Who	ウィンディバンク	Windy bank		Person		
+527	Whom	サザランド	Sutherland		Person			Whom		
+527	How	聖書で	In the bible				How?	How		
+528	対象文	ウィンディバンクは以下をほのめかした	Windy Bank hints at		
+528	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+528	hasPredicate	ほのめかす	imply					「ほのめかした」→「ほのめかす」		
+528	Who	ウィンディバンク	Windy bank		Person		
+528	What	529	529		Object			IDに変更		
+529	対象文	結婚式の当日の朝に事件が起こる	An incident occurs on the morning of the wedding day		
+529	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+529	hasPredicate	起こる	occur		#ORG:hasPredicate:Occur
+529	What	事件	Incident		Object		whoは変		
+529	When	結婚式の当日の朝	The morning of the wedding day		
+530	対象文	ウィンディバンクは以下を望んだ	Windy Bank wanted to		
+530	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+530	hasPredicate	望む	wish					「望んだ」→「望む」		#ORG:hasPredicate:Wish
+530	Who	ウィンディバンク	Windy bank		Person		
+530	What	531	531		Object			IDに変更		
+531	対象文	サザランドがホズマに縛られる	Sutherland tied to Hosma		
+531	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+531	hasPredicate	縛られる	beTiedUp		#ORG:hasPredicate:tied up
+531	Who	サザランド	Sutherland		Person		
+531	Whom	ホズマ	Hozma		Person			Whom		
+532	対象文	サザランドが他人を愛さない	Sutherland does not love others		
+532	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+532	hasPredicate	愛さない	notLove		#ORG:hasPredicate:Do not love
+532	Who	サザランド	Sutherland		Person		
+532	What	他人	others		Object		
+532	because	534	534					becauseを挿入		
+534	対象文	ホズマの生死が不明である	Life and death of Hozma is unknown		
+534	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+534	hasProperty	不明である	unknown		#ORG:hasProperty:Unknown
+534	Who	ホズマの生死	Life and death of Hozma		Object		whoは変		
+535	対象文	ウィンディバンクは教会にサザランドを運んだ	Windy Bank carried Sutherland to the church		
+535	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+535	hasPredicate	運ぶ	carry					「運んだ」→「運ぶ」		#ORG:hasPredicate:Carry
+535	Who	ウィンディバンク	Windy bank		Person		
+535	To	教会	Church		Object			To		
+535	What	サザランド	Sutherland		Person		
+535	then	537	537					thenを挿入		
+537	対象文	ウィンディバンクは消えた	Windy Bank has disappeared		
+537	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+537	hasPredicate	消える	disappear					「消えた」→「消える」		#ORG:hasPredicate:Disappear
+537	Who	ウィンディバンク	Windy bank		Person		
+538	対象文	ウィンディバンクは反対の戸から出た	Windy Bank came out of the opposite door		
+538	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+538	hasPredicate	出る	goOut					「出た」→「出る」		#ORG:hasPredicate:Go out
+538	Who	ウィンディバンク	Windy bank		Person		
+538	From	反対の戸	Opposite door		Object	何に対して「反対」？		From		
+539	対象文	ウィンディバンクは椅子から立った	Windy Bank stood out of the chair		
+539	情報源		
+539	hasPredicate	立つ	stand					「立った」→「立つ」		
+539	Who	ウィンディバンク	Windy bank		Person		
+539	From	椅子	Chair		Object			From		
+540	対象文	ウィンディバンクは冷笑した	Windy Bank laughed		
+540	情報源		
+540	hasPredicate	冷笑する	laugh					「冷笑した」→「冷笑する」		#ORG:hasPredicate:Laugh at
+540	Who	ウィンディバンク	Windy bank		Person		
+541	対象文	ウィンディバンクは以下を言った	Windy Bank said		
+541	情報源		
+541	hasPredicate	言う	say					「言った」→「言う」		
+541	Who	ウィンディバンク	Windy bank		Person		
+541	What	542-547	542,543,544,545,546,547		Object		
+542	対象文	ウィンディバンクは事実を知らない	Windy Bank does not know the facts		
+542	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+542	hasPredicate	知らない	notKnow		#ORG:hasPredicate:Do not know
+542	Who	ウィンディバンク	Windy bank		Person		
+542	What	事実	truth		Object	「事実」は具体的に示せるならそうしたほうがいい		
+543	対象文	ウィンディバンクは法律を破っていない	Windy Bank has not beat the law		
+543	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+543	hasPredicate	破っていない	notBrake			「破る」で意味が正確に伝わる？		#ORG:hasPredicate:Not broken
+543	Who	ウィンディバンク	Windy bank		Person		
+543	What	法律	law		Object		
+544	対象文	ウィンディバンクはホームズを暴行の脅迫と不法拘束で訴えることができる	Windy Bank can sue Holmes for beating threat and illegal detention		
+544	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+544	hasPredicate	訴えることができる	canSue		#ORG:hasPredicate:Can sue
+544	Who	ウィンディバンク	Windy bank		Person		
+544	What	ホームズ	Holmes		Person		
+544	Why	暴行の脅迫	Assault threat					Why		
+544	Why	不法拘束で	Illegally				「で」は不要	Why		
+544	when	547	547			547とのつながりがよくわからない	at the same time?		
+547	対象文	ホームズは扉を閉めている	Holmes is closing the door		
+547	情報源	ウィンディバンクの発言	Windybank's remarks					ウィンディバンクの発言		
+547	hasProperty	閉めている	closed		#ORG:hasPredicate:Closed
+547	Who	ホームズ	Holmes		Person		
+547	What	扉	door		Object		
+548	対象文	ホームズは以下を言った	Holmes said the following		
+548	情報源		
+548	hasPredicate	言う	say					「言った」→「言う」		
+548	Who	ホームズ	Holmes		Person		
+548	What	549	549		Object		
+549	対象文	法律はウィンディバンクを扱えない	Law can not handle Windy Bank		
+549	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+549	hasPredicate	扱えない	cannotHandle		#ORG:hasPredicate:Can not handle
+549	Who	法律	law		Object		
+549	What	ウィンディバンク	Windy bank		Person		
+550	対象文	ホームズは扉を開けた	Holmes opened the door		
+550	情報源		
+550	hasPredicate	開ける	open					「開けた」→「開ける」		#ORG:hasPredicate:Open
+550	Who	ホームズ	Holmes		Person		
+550	What	扉	door		Object		
+551	対象文	ホームズは以下を言った	Holmes said the following		
+551	情報源		
+551	hasPredicate	言う	say					「言った」→「言う」		
+551	Who	ホームズ	Holmes		Person		
+551	What	552,553	552		Object		原文と英訳合わせる		
+552	対象文	ウィンディバンクは罪を持つ	Windy Bank has sins		
+552	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+552	hasPredicate	持つ	have		#ORG:hasPredicate:Have
+552	Who	ウィンディバンク	Windy bank		Person		
+552	What	罪	sin		Object		
+553	対象文	サザランドの兄弟親友がウィンディバンクを懲らしめる	Sutherland brothers best friend wins Windy Bank		
+553	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+553	hasPredicate	懲らしめる	punish		
+553	Who	サザランドの兄弟親友	Sutherland's brothers best friend		Object		
+553	What	ウィンディバンク	Windy bank		Person		
+554	対象文	ワトソンは以下を言った	Watson said the following		
+554	情報源		
+554	hasPredicate	言う	say					「言った」→「言う」		
+554	Who	ワトソン	Watson		Person		
+554	What	555	555		Object		
+555	対象文	ワトソンは狩猟鞭を試したい	Watson wants to try a hunting whistle		
+555	情報源	ワトソンの発言	Remark by Watson					ワトソンの発言		
+555	hasPredicate	試したい	wantToTry		#ORG:hasPredicate:want to try
+555	Who	ワトソン	Watson		Person		
+555	What	狩猟鞭	Hunting whistle		Object		
+556	対象文	ワトソンは鞭へ近寄った	Watson got close to the wolf		
+556	情報源		
+556	hasPredicate	近寄る	getClose					「近寄った」→「近寄る」		#ORG:hasPredicate:Get close
+556	Who	ワトソン	Watson		Person		
+556	To	鞭	Moth		Object			To		
+557	対象文	ウィンディバンクは全速力で逃げた	Windy Bank ran away at full speed		
+557	情報源		
+557	hasPredicate	逃げる	escape					「逃げた」→「逃げる」		
+557	Who	ウィンディバンク	Windy bank		Person		
+557	How	全速力で	At full speed					Howに変更		
+558	対象文	ホームズは以下を言った	Holmes said the following		
+558	情報源		
+558	hasPredicate	言う	say					「言った」→「言う」		
+558	Who	ホームズ	Holmes		Person		
+558	What	559-576,578-580	559,560,561,562,563,564,565,566,567,568,569,570,571,572,573,574,575,576,578,579,580		Object		
+559	対象文	ウィンディバンクは罪を重ねる	Windy Bank Overlaps Sin		
+559	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+559	hasPredicate	重ねる	repeat			「重ねる」は良い表現？		
+559	Who	ウィンディバンク	Windy bank		Person		
+559	What	罪	sin		Object		
+560	対象文	最後に、ウィンディバンクは絞首台に行く	Finally		
+560	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+560	hasPredicate	行く	go		
+560	Who	ウィンディバンク	Windy bank		Person		
+560	To	絞首台	Gallow		Object			To		
+560	When	最後	At last			「最後」とは？		
+561	対象文	ホズマの振る舞いは深い動機を持っていた	The behavior of Hozma had a deep motive		
+561	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+561	hasPredicate	持っている	have					「持っていた」→「持っている」		
+561	What	ホズマの振る舞い	Hozma's behavior		Object		
+561	What	深い動機	Deep motive		Object		
+562	対象文	ウィンディバンクがお金を得る	Windy Bank Gets Money		
+562	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+562	hasPredicate	得る	obtain		
+562	Who	ウィンディバンク	Windy bank		Person		
+562	What	お金	Money		Object		「を」は不要		
+563	対象文	ウィンディバンクとホズマは一緒に現れない	Windy Bank and Hozuma do not appear together		
+563	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+563	hasPredicate	現れない	notAppear		#ORG:hasPredicate:It does not appear
+563	Who	ウィンディバンク	Windy bank		Person		
+563	Who	ホズマ	Hozma		Person		
+563	How	一緒に	together				「に」は不要？	Howに変更		
+564	対象文	色眼鏡と声と髯は変装を思わせる	Colored glasses and voices and whistles reminiscent of disguise				変装である，とか？		
+564	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+564	hasPredicate	思わせる	makeThink		#ORG:hasPredicate:Make me think
+564	What	声	With voice		Object		whoは変		
+564	What	髯	Moth		Object		whoは変		
+564	What	色眼鏡	Color glasses		Object		whoは変		
+564	What	変装	disguise		Object		
+565	対象文	署名がタイプであった	The signature was a type			タイプライタで書かれた署名であることが表現できている？		
+565	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+565	hasPredicate	タイプである	beTypeed					「タイプであった」→「タイプである」		#ORG:hasPredicate:typeed
+565	What	署名	signature		Object		
+566	対象文	サザランドはウィンディバンクの筆跡を知っている	Sutherland knows Windy Bank handwriting				whoは変		
+566	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+566	hasPredicate	知っている	know		
+566	Who	サザランド	Sutherland		Person		
+566	What	ウィンディバンクの筆跡	Windy bank handwriting		Object		
+566	therefore	568	568					thereforeを挿入		
+568	対象文	サザランドはウィンディバンクの筆跡に気づく	Sutherland notices Windybank handwriting		
+568	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+568	hasPredicate	気づく	notice		
+568	Who	サザランド	Sutherland		Person		「に」は不要		
+568	What	ウィンディバンクの筆跡に	To the handwriting of Windy Bank		Object		
+569	対象文	ホームズはウィンディバンクの会社を知っている	Holmes knows the company of Windy Bank		
+569	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+569	hasPredicate	知っている	know		
+569	Who	ホームズ	Holmes		Person		
+569	What	ウィンディバンクの会社	Windy Bank company		Object		
+570	対象文	ホームズは人相書から髯、眼鏡、声を取り除いた	Holmes removed eyebrows		
+570	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+570	hasPredicate	取り除く	remove					「取り除いた」→「取り除く」		
+570	Who	ホームズ	Holmes		Person		
+570	From	人相書	Personal statement		Object			From		
+570	What	髯	Moth		Object		
+570	What	眼鏡	glasses		Object		
+570	What	声	voice		Object		
+571	対象文	ホームズは人相書を会社に確認した	Holmes confirmed with the company		
+571	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+571	hasPredicate	確認する	check					「確認した」→「確認する」		#ORG:hasPredicate:Check
+571	Who	ホームズ	Holmes		Person		
+571	What	人相書	Personal statement		Object		
+571	Where	会社	Company		Object			Where		
+572	対象文	ホームズはタイプの特徴に気づいていた	Holmes was aware of the features of the type		
+572	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+572	hasPredicate	気づいている	know					「気づいていた」→「気づいている」		
+572	Who	ホームズ	Holmes		Person		
+572	What	タイプの特徴	characteristics of the type		Object		「に」は不要		
+573	対象文	ホームズはウィンディバンクに手紙を送った	Holmes sent a letter to Windy Bank		
+573	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+573	hasPredicate	送る	send					「送った」→「送る」		
+573	Who	ホームズ	Holmes		Person		
+573	Whom	ウィンディバンク	Windy bank		Person			Whom		
+573	What	手紙	letter		Object		
+574	対象文	返事はタイプ打ちだった	The reply was a typing		
+574	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+574	hasProperty	タイプ打ちだ	typist					「タイプ打ちだった」→「タイプ打ちだ」		#ORG:hasProperty:typing
+574	Who	返事	reply		Object		whoは変		
+575	対象文	タイプの特徴がホズマと一致した	The characteristics of the type matched Hozma			"この文については意味が抜けすぎている 誰と誰のタイプライタで書かれた手紙の特徴が一致したのか書かれるべき"		
+575	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+575	hasPredicate	一致する	match					「一致した」→「一致する」		#ORG:hasPredicate:Match
+575	Who	タイプの特徴	Type features		Object		whoは変		
+575	What	ホズマと	With hozma		Object		「と」は不要		
+576	対象文	会社は以下を言った	The company said the following		
+576	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+576	hasPredicate	言う	say					"""行った""を""言った""に修正 「言った」→「言う」"		
+576	Who	会社	someone of Company				whoは変		
+576	What	577	577					IDに変更		
+577	対象文	人相書はウィンディバンクである	The document is Windy Bank		
+577	情報源	会社の発言	Remark by someone of Company			「会社の発言」？？？？		会社の発言		
+577	hasProperty	ウィンディバンクである	is		
+577	What		windy bank		
+577	Who	人相書	Personal statement				whoは変		
+578	対象文	サザランドはホームズを信じない	Sutherland does not believe in Holmes		
+578	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+578	hasPredicate	信じない	notBelieve		#ORG:hasPredicate:not believe
+578	Who	サザランド	Sutherland		
+578	What	ホームズ	Holmes		
+579	if	580	580		
+580	対象文	ホームズが真相をサザランドに伝える	Holmes tell the truth to Sutherland		
+580	情報源	ホームズの発言	Remark by Holmes					ホームズの発言		
+580	hasPredicate	伝える	tell		#ORG:hasPredicate:Tell
+580	Who	ホームズ	Holmes		
+580	What	真相	truth		
+580	Whom	サザランド	Sutherland					Whom		
