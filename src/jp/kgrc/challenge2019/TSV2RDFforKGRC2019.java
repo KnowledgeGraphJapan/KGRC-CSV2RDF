@@ -323,8 +323,22 @@ public class TSV2RDFforKGRC2019 {
 	            			}
 	            			if(!eng_lbl.equals("NO_ENG_LABEL")) {
 		            			objdata.addObjData(obj_base, obj_source, prop, obj, obj_lbl, eng_lbl, type_lbl);
-		            			sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
 		            			//bwlog.write(uri+","+obj_source+","+prop+","+obj+","+obj_lbl+","+eng_lbl+","+type_lbl+"\n");
+		            			
+		            			//ANDの処理
+		            			String objid = info[3].trim();
+		            			if(objid.indexOf("AND")>0) {
+		            				System.out.println("AND処理");
+		            				String[] obj_ids = objid.split("AND");
+		            				for(int i=0;i<obj_ids.length;i++) {
+		            					obj = base + obj_ids[i].trim();
+		            					sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
+		            				}
+		            			}
+		            			else {
+		            				obj = base+objid;
+		            				sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
+		            			}
 	            			}
 	            		}
 
@@ -349,22 +363,6 @@ public class TSV2RDFforKGRC2019 {
 
             			sdata.addTriple("kgc:time  \""+tdata+"\"^^xsd:dateTime");
 	            	}
-
-            		if(!"".equals(info[4].trim()) ) {
-            			String objid = info[4].trim();
-            			if(objid.indexOf("AND")>0) {
-            				System.out.println("AND処理");
-            				String[] obj_ids = objid.split("AND");
-            				for(int i=0;i<obj_ids.length;i++) {
-            					obj = base + obj_ids[i].trim();
-            					sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
-            				}
-            			}
-            			else {
-	            			obj = base+objid;
-	            			sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
-            			}
-            		}
 
         		}
 
