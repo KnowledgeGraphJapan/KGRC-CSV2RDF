@@ -1,16 +1,23 @@
 関連：2
 関連：3
+==> Holmes , Watson
 関連：6
 関連：13
+==> Berkeley , Nancy
 関連：15
+==> Berkeley , Nancy
 関連：23,24,25,26,27,28
 【未処理】infoSource
+==> Berkeley , Nancy
 【未処理】infoSource
 【未処理】infoSource
 【未処理】infoSource
+==> Berkeley , Nancy
 【未処理】infoSource
 【未処理】infoSource
 関連：36
+==> heroic personallity , supple personality
+==> Berkeley , Nancy , coachman , Jane , cook
 関連：52
 【未処理】infoSource
 関連：21:15
@@ -21,14 +28,23 @@
 関連：21:25
 関連：81
 【未処理】infoSource
+==> Berkeley , Nancy
+==> Berkeley , Nancy
+==> Jane , cook , coachman
 関連：86,87,88,89
+==> Berkeley , Nancy
 関連：94,95
+==> police , doctor
 関連：99
 【未処理】infoSource
 関連：105
 【未処理】infoSource
 関連：108
+==> Jane , coachman , cook
+==> Jane , coachman , cook
+==> Berkeley , Nancy
 関連：113
+==> police , coachman , Jane , cook
 関連：115
 関連：118
 関連：123
@@ -36,32 +52,53 @@
 関連：126
 【未処理】infoSource
 関連：127,128,129
+==> Berkeley , Nancy
+==> footprint of man , footprint of beast
 関連：149
 関連：86
 関連：153,155,156
+==> Berkeley , Nancy
+==> Morrison , Nancy
 関連：165
+==> Berkeley , Morrison
 関連：172,173,174,175,177,178,179,180,182,183,184,185,186,187,188,189,191,192,193,194,195,196,197,198,199,200,202,205,207,208,209,210,211
+==> Morrison , Nancy
 関連：20:45
+==> Morrison , Nancy
+==> Morrison , Nancy
 関連：190
+==> Nancy , Henry
 関連：198
 関連：197
 関連：200
 関連：199
 関連：201
 関連：203,204
+==> Nancy , Henry
 関連：206
 関連：211
 関連：215,216,217,218,220,221,222,223,224
+==> magician , entertainer
+==> Monday night , Tuesday night
+==> Monday night , Tuesday night
 関連：228,229,231,232,233
+==> Morrison , Nancy
 関連：81
+==> witness of Henry , witness of Holmes
+==> Holmes , Watson
+==> Holmes , Watson
+==> Holmes , Watson
 関連：252
 関連：255
 関連：257,258,259,260,262,263,264,265,266,267,268,269,270,271,272,273,275,276,277,279,280,281,282,283,285,286,287,288,289,290,291,292,293,294,295,296,297,298,299,302,303,304,306,307
 関連：264
+==> Berkeley , Henry
 関連：265
 関連：267
+==> Berkeley , Henry
 関連：268
 関連：269
+==> Nancy , Berkeley
 関連：270
 関連：271
 関連：272
@@ -93,6 +130,7 @@
 関連：298
 関連：300
 【未処理】infoSource
+==> Nancy , old friends of Henry
 関連：301
 【未処理】infoSource
 【未処理】infoSource
@@ -103,6 +141,7 @@
 【未処理】infoSource
 関連：310,311,312,313,315,318,320,321,322,324,325,327,328,329,331,332,333,334,335,336,337
 関連：311
+==> Nancy , Henry
 関連：284
 関連：313
 関連：86
@@ -126,5 +165,6 @@
 関連：357
 関連：360
 関連：359
+==> Holmes , Watson
 関連：366
 関連：369,370,371,372,373
