@@ -21,6 +21,7 @@ import java.util.regex.Pattern;
 
 public class TSV2RDFforKGRC2019 {
     String dataFolder = "data/KGRC2019";
+//	String dataFolder = "D:\\works\\daily\\2020\\12\\18\\data\\KGRC2019\\test";
     File saveFile;
 
     String license="https://creativecommons.org/licenses/by/4.0/";
@@ -299,8 +300,16 @@ public class TSV2RDFforKGRC2019 {
 	            				bwlog.write("==> "+obj_lbl+"\n");
 	            			}
 
+	            			// ANDを処理する 2021/01/05
+            				if (obj_lbl.contains("AND")) {
+	            				System.out.println("要処理："+obj_lbl);
+            					obj_lbl = obj_lbl.replaceAll("AND", ",");
+	            				bwlog.write("==> "+obj_lbl+"\n");
+            				}
+
             				bwlog.write("関連："+obj_lbl+"\n");
             				System.out.println("関連："+obj_lbl);
+
             				String[] rt = obj_lbl.trim().split(",");
             				for(int i=0;i<rt.length;i++) {
             					String num = rt[i].trim() ;
@@ -313,31 +322,31 @@ public class TSV2RDFforKGRC2019 {
             			}
 	            		else {//subject, hasPredicate, その他の処理
 	            			String obj_base;
-	            			if((prop.indexOf("hasPredicate")>=0)||(prop.indexOf("hasProperty")>=0)) {
-	            				obj = Propbase + sdata.checkIRI(eng_lbl.trim());//IRIの禁則処理 eng_lbl.replaceAll(" ", "_");
-	            				obj_base = Propbase;
-	            			}
-	            			else {
-	            				obj = Objbase + sdata.checkIRI(eng_lbl.trim());//IRIの禁則処理 eng_lbl.replaceAll(" ", "_");//IRIの禁則処理が必要
-	            				obj_base = Objbase;
-	            			}
-	            			if(!eng_lbl.equals("NO_ENG_LABEL")) {
-		            			objdata.addObjData(obj_base, obj_source, prop, obj, obj_lbl, eng_lbl, type_lbl);
-		            			//bwlog.write(uri+","+obj_source+","+prop+","+obj+","+obj_lbl+","+eng_lbl+","+type_lbl+"\n");
-		            			
-		            			//ANDの処理
-		            			String objid = info[3].trim();
-		            			if(objid.indexOf("AND")>0) {
-		            				System.out.println("AND処理");
-		            				String[] obj_ids = objid.split("AND");
-		            				for(int i=0;i<obj_ids.length;i++) {
-		            					obj = base + obj_ids[i].trim();
-		            					sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
-		            				}
+
+	            			String[] eng_lbls;
+	            			// ANDを処理する 2021/01/05
+            				if (eng_lbl.contains("AND")) {
+	            				System.out.println("要処理："+eng_lbl);
+	            				eng_lbls = eng_lbl.split("AND");
+	            				bwlog.write("==> "+String.join(",", eng_lbls)+"\n");
+            				} else {
+            					eng_lbls = new String[]{eng_lbl};
+            				}
+
+	            			for (String eng_lbl_ : eng_lbls) {
+		            			if((prop.indexOf("hasPredicate")>=0)||(prop.indexOf("hasProperty")>=0)) {
+		            				obj = Propbase + sdata.checkIRI(eng_lbl_.trim());//IRIの禁則処理 eng_lbl.replaceAll(" ", "_");
+		            				obj_base = Propbase;
 		            			}
 		            			else {
-		            				obj = base+objid;
-		            				sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
+		            				obj = Objbase + sdata.checkIRI(eng_lbl_.trim());//IRIの禁則処理 eng_lbl.replaceAll(" ", "_");//IRIの禁則処理が必要
+		            				obj_base = Objbase;
+		            			}
+		            			if(!eng_lbl_.equals("NO_ENG_LABEL")) {
+
+			            			objdata.addObjData(obj_base, obj_source, prop, obj, obj_lbl, eng_lbl_, type_lbl);
+			            			sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
+			            			//bwlog.write(uri+","+obj_source+","+prop+","+obj+","+obj_lbl+","+eng_lbl+","+type_lbl+"\n");
 		            			}
 	            			}
 	            		}
@@ -363,6 +372,22 @@ public class TSV2RDFforKGRC2019 {
 
             			sdata.addTriple("kgc:time  \""+tdata+"\"^^xsd:dateTime");
 	            	}
+
+            		if(!"".equals(info[4].trim()) ) {
+            			String objid = info[4].trim();
+            			if(objid.indexOf("AND")>0) {
+            				System.out.println("AND処理");
+            				String[] obj_ids = objid.split("AND");
+            				for(int i=0;i<obj_ids.length;i++) {
+            					obj = base + obj_ids[i].trim();
+            					sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
+            				}
+            			}
+            			else {
+	            			obj = base+objid;
+	            			sdata.addTriple("kgc:"+prop+"   <"+obj+ ">");
+            			}
+            		}
 
         		}
 
@@ -849,7 +874,7 @@ public class TSV2RDFforKGRC2019 {
 
 	 /*
 	  * Turtleを別のフォーマットに変換する用メソッド（調整中）
-	  * 
+	  *
 	 void changeRdfFormat(){
 		 Model model = ModelFactory.createDefaultModel() ;
 
@@ -1076,6 +1101,7 @@ class ObjData {
 		String base = baseOrg;
 		String obj = objOrg;
 		//目的語のObjectが大文字で始まるとき，小説をまたいで統一IRIにする処理
+		/* todo 2020/12/18 この処理はまずいので無効とする
 		if(!baseOrg.endsWith("data")&&!baseOrg.endsWith("property/")) {
 			if( Character.isUpperCase( eng_lbl.charAt( 0 ) ) ) {
 				//System.out.println("baseOrg::"+baseOrg);
@@ -1086,7 +1112,7 @@ class ObjData {
 				obj = obj.replace(filename, "");
 				//System.out.println("===>base::"+base);
 			}
-		}
+		}*/
 		if(prop.equals("hasPredicate")) {
 			addObj(obj, "(type)Action");
 			if(eng_lbl.startsWith("cannot")) {
@@ -1317,5 +1343,6 @@ class ObjData {
 	}
 
 }
+
 
 
